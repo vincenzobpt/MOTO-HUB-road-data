@@ -5603,66 +5603,66 @@
     },
     {
       "id": "gb-1",
-      "name": "Kirkwall area",
+      "name": "Derry/Londonderry area",
       "country": "GB",
       "bounds": {
-        "south": 58.8171858,
-        "west": -6.4215525,
-        "north": 61.93858,
-        "east": 2.523672
+        "south": 54.6292775,
+        "west": -10.6937525,
+        "north": 56.87553,
+        "east": -5.049265
       },
-      "downloadBytes": 2727406,
-      "graphBytes": 4667352,
-      "sha256": "496ab6a547113cb10d4455c2791172ad9b64cdb0eb47b44e3304ce9797945f01",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-great-britain/gb-1.graph.gz",
+      "downloadBytes": 26185277,
+      "graphBytes": 45365999,
+      "sha256": "020a432a3d87679b0ae3c484e26ea2ce4dff18e12551418ef942e10003d99a9b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-1.graph.gz",
       "rev": "2026-10-24"
     },
     {
       "id": "gb-2",
-      "name": "United Kingdom 2",
+      "name": "Omagh area",
       "country": "GB",
       "bounds": {
-        "south": 55.7157915,
-        "west": -15.346777,
-        "north": 61.93858,
-        "east": -6.4015525
+        "south": 54.0727144,
+        "west": -7.8815088,
+        "north": 54.6492775,
+        "east": -6.4553869
       },
-      "downloadBytes": 2263914,
-      "graphBytes": 3881434,
-      "sha256": "ab770636642f1bc01cd498a9cb59297494dc7502f77f78befb01bac7fa443ade",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-great-britain/gb-2.graph.gz",
+      "downloadBytes": 15043842,
+      "graphBytes": 26228870,
+      "sha256": "de239cb75c6c60bc3e4ca5bb02d3343be624714d83a2b9ae550abedebe49df76",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-2.graph.gz",
       "rev": "2026-10-24"
     },
     {
       "id": "gb-3",
-      "name": "Inverness area",
+      "name": "Belfast area",
       "country": "GB",
       "bounds": {
-        "south": 57.2664886,
-        "west": -6.4215525,
-        "north": 58.8371857,
-        "east": -1.9389402
+        "south": 53.5161513,
+        "west": -6.4753869,
+        "north": 54.6492775,
+        "east": -5.049265
       },
-      "downloadBytes": 14149747,
-      "graphBytes": 24251936,
-      "sha256": "f16e6a8732ac55c6f335c4a6d18e84b938987fec8b30e873fa51fbb70a9d9c5f",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-great-britain/gb-3.graph.gz",
+      "downloadBytes": 22394194,
+      "graphBytes": 38453221,
+      "sha256": "dab5317a5f4560c9d6bb1a3ee2a3feb3cfa160323b61ef14df82c8e0eae3ce87",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-3.graph.gz",
       "rev": "2026-10-24"
     },
     {
       "id": "gb-4",
-      "name": "Peterhead area",
+      "name": "Wexford area",
       "country": "GB",
       "bounds": {
-        "south": 55.7157915,
-        "west": -1.9589402,
-        "north": 58.8371857,
-        "east": 2.523672
+        "south": 50.1767725,
+        "west": -7.8815088,
+        "north": 52.423025,
+        "east": -5.049265
       },
-      "downloadBytes": 576823,
-      "graphBytes": 979354,
-      "sha256": "642b5d0493bdac887b367332765038bf8d99f9aa43a3af52cd8a3ed2cef2f824",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-great-britain/gb-4.graph.gz",
+      "downloadBytes": 9375964,
+      "graphBytes": 16106069,
+      "sha256": "613428108eb4ab9acdc3fd05766bb98e7fd72ea092b4ebb2929254a19f97f0ce",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-4.graph.gz",
       "rev": "2026-10-24"
     },
     {
@@ -6767,182 +6767,6 @@
       "graphBytes": 25661336,
       "sha256": "8061232f82c8906956703f54ca9f341059793436847d6b644c28bb514b644711",
       "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-iceland/is-1.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "gb-1",
-      "name": "Derry/Londonderry area",
-      "country": "GB",
-      "bounds": {
-        "south": 54.6292775,
-        "west": -10.6937525,
-        "north": 56.87553,
-        "east": -5.049265
-      },
-      "downloadBytes": 26185277,
-      "graphBytes": 45365999,
-      "sha256": "020a432a3d87679b0ae3c484e26ea2ce4dff18e12551418ef942e10003d99a9b",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-1.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "gb-2",
-      "name": "Omagh area",
-      "country": "GB",
-      "bounds": {
-        "south": 54.0727144,
-        "west": -7.8815088,
-        "north": 54.6492775,
-        "east": -6.4553869
-      },
-      "downloadBytes": 15043842,
-      "graphBytes": 26228870,
-      "sha256": "de239cb75c6c60bc3e4ca5bb02d3343be624714d83a2b9ae550abedebe49df76",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-2.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-1",
-      "name": "Sligo area",
-      "country": "IE",
-      "bounds": {
-        "south": 53.5161513,
-        "west": -10.6937525,
-        "north": 54.6492775,
-        "east": -7.8615088
-      },
-      "downloadBytes": 22600941,
-      "graphBytes": 39884944,
-      "sha256": "323aed49a00d5456c9fd97fc04f94c45c7b0c45db7b166cb211deb299f33e6e7",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-1.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "gb-3",
-      "name": "Belfast area",
-      "country": "GB",
-      "bounds": {
-        "south": 53.5161513,
-        "west": -6.4753869,
-        "north": 54.6492775,
-        "east": -5.049265
-      },
-      "downloadBytes": 22394194,
-      "graphBytes": 38453221,
-      "sha256": "dab5317a5f4560c9d6bb1a3ee2a3feb3cfa160323b61ef14df82c8e0eae3ce87",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-3.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-2",
-      "name": "Navan area",
-      "country": "IE",
-      "bounds": {
-        "south": 53.5161513,
-        "west": -7.8815088,
-        "north": 54.0927144,
-        "east": -6.4553869
-      },
-      "downloadBytes": 14507584,
-      "graphBytes": 25228510,
-      "sha256": "bc9e82f17e7d33e2ef14381ffdc89cc337307104ebf117b5de12ea57acca52ff",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-2.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-3",
-      "name": "Galway area",
-      "country": "IE",
-      "bounds": {
-        "south": 52.403025,
-        "west": -10.6937525,
-        "north": 53.5361513,
-        "east": -7.8615088
-      },
-      "downloadBytes": 24826123,
-      "graphBytes": 43202336,
-      "sha256": "e9bd91f8efc79ebd9c170e47c24d781fe99a9e92a5594bcde6191fccbfaa3182",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-3.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-4",
-      "name": "Carlow area",
-      "country": "IE",
-      "bounds": {
-        "south": 52.403025,
-        "west": -7.8815088,
-        "north": 53.5361513,
-        "east": -6.4553869
-      },
-      "downloadBytes": 25249271,
-      "graphBytes": 43453505,
-      "sha256": "30043eff3e04d533c2bf75bc2fb4fa14ca1d59b62d9d7daf415ae8225774569c",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-4.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-5",
-      "name": "Dublin area",
-      "country": "IE",
-      "bounds": {
-        "south": 52.403025,
-        "west": -6.4753869,
-        "north": 53.5361513,
-        "east": -5.049265
-      },
-      "downloadBytes": 18998396,
-      "graphBytes": 31843873,
-      "sha256": "3e4a59c8d4f07bb84ca5fc2b1cb8e1672c3d6e19bdec5443410812854037f288",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-5.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-6",
-      "name": "Tralee area",
-      "country": "IE",
-      "bounds": {
-        "south": 51.2898988,
-        "west": -10.6937525,
-        "north": 52.423025,
-        "east": -9.2676306
-      },
-      "downloadBytes": 9644086,
-      "graphBytes": 16930258,
-      "sha256": "e544496408656d66a7d9ee5325d7762f959e5ed88f92bd820671bdd91490879d",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-6.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "ie-7",
-      "name": "Cork area",
-      "country": "IE",
-      "bounds": {
-        "south": 51.2898988,
-        "west": -9.2876306,
-        "north": 52.423025,
-        "east": -7.8615088
-      },
-      "downloadBytes": 19703774,
-      "graphBytes": 34166468,
-      "sha256": "24757c07deb913155b66839959fd6141bc298e2ca08d11b98c627f44e12f7350",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-7.graph.gz",
-      "rev": "2026-10-24"
-    },
-    {
-      "id": "gb-4",
-      "name": "Wexford area",
-      "country": "GB",
-      "bounds": {
-        "south": 50.1767725,
-        "west": -7.8815088,
-        "north": 52.423025,
-        "east": -5.049265
-      },
-      "downloadBytes": 9375964,
-      "graphBytes": 16106069,
-      "sha256": "613428108eb4ab9acdc3fd05766bb98e7fd72ea092b4ebb2929254a19f97f0ce",
-      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-4.graph.gz",
       "rev": "2026-10-24"
     },
     {
@@ -9903,6 +9727,182 @@
       "graphBytes": 20038869,
       "sha256": "fca10624ed14d05d9cf88b0d1b39898943aa281a44598ca63ae2ba7954734b06",
       "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ukraine/ua-15.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "gb-ireland-and-northern-ireland-1",
+      "name": "Derry/Londonderry area",
+      "country": "GB",
+      "bounds": {
+        "south": 54.6292775,
+        "west": -10.6937525,
+        "north": 56.87553,
+        "east": -5.049265
+      },
+      "downloadBytes": 26185277,
+      "graphBytes": 45365999,
+      "sha256": "020a432a3d87679b0ae3c484e26ea2ce4dff18e12551418ef942e10003d99a9b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-ireland-and-northern-ireland-1.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "gb-ireland-and-northern-ireland-2",
+      "name": "Omagh area",
+      "country": "GB",
+      "bounds": {
+        "south": 54.0727144,
+        "west": -7.8815088,
+        "north": 54.6492775,
+        "east": -6.4553869
+      },
+      "downloadBytes": 15043842,
+      "graphBytes": 26228870,
+      "sha256": "de239cb75c6c60bc3e4ca5bb02d3343be624714d83a2b9ae550abedebe49df76",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-ireland-and-northern-ireland-2.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-1",
+      "name": "Sligo area",
+      "country": "IE",
+      "bounds": {
+        "south": 53.5161513,
+        "west": -10.6937525,
+        "north": 54.6492775,
+        "east": -7.8615088
+      },
+      "downloadBytes": 22600941,
+      "graphBytes": 39884944,
+      "sha256": "323aed49a00d5456c9fd97fc04f94c45c7b0c45db7b166cb211deb299f33e6e7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-1.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "gb-ireland-and-northern-ireland-3",
+      "name": "Belfast area",
+      "country": "GB",
+      "bounds": {
+        "south": 53.5161513,
+        "west": -6.4753869,
+        "north": 54.6492775,
+        "east": -5.049265
+      },
+      "downloadBytes": 22394194,
+      "graphBytes": 38453221,
+      "sha256": "dab5317a5f4560c9d6bb1a3ee2a3feb3cfa160323b61ef14df82c8e0eae3ce87",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/gb-ireland-and-northern-ireland-3.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-2",
+      "name": "Navan area",
+      "country": "IE",
+      "bounds": {
+        "south": 53.5161513,
+        "west": -7.8815088,
+        "north": 54.0927144,
+        "east": -6.4553869
+      },
+      "downloadBytes": 14507584,
+      "graphBytes": 25228510,
+      "sha256": "bc9e82f17e7d33e2ef14381ffdc89cc337307104ebf117b5de12ea57acca52ff",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-2.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-3",
+      "name": "Galway area",
+      "country": "IE",
+      "bounds": {
+        "south": 52.403025,
+        "west": -10.6937525,
+        "north": 53.5361513,
+        "east": -7.8615088
+      },
+      "downloadBytes": 24826123,
+      "graphBytes": 43202336,
+      "sha256": "e9bd91f8efc79ebd9c170e47c24d781fe99a9e92a5594bcde6191fccbfaa3182",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-3.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-4",
+      "name": "Carlow area",
+      "country": "IE",
+      "bounds": {
+        "south": 52.403025,
+        "west": -7.8815088,
+        "north": 53.5361513,
+        "east": -6.4553869
+      },
+      "downloadBytes": 25249271,
+      "graphBytes": 43453505,
+      "sha256": "30043eff3e04d533c2bf75bc2fb4fa14ca1d59b62d9d7daf415ae8225774569c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-4.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-5",
+      "name": "Dublin area",
+      "country": "IE",
+      "bounds": {
+        "south": 52.403025,
+        "west": -6.4753869,
+        "north": 53.5361513,
+        "east": -5.049265
+      },
+      "downloadBytes": 18998396,
+      "graphBytes": 31843873,
+      "sha256": "3e4a59c8d4f07bb84ca5fc2b1cb8e1672c3d6e19bdec5443410812854037f288",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-5.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-6",
+      "name": "Tralee area",
+      "country": "IE",
+      "bounds": {
+        "south": 51.2898988,
+        "west": -10.6937525,
+        "north": 52.423025,
+        "east": -9.2676306
+      },
+      "downloadBytes": 9644086,
+      "graphBytes": 16930258,
+      "sha256": "e544496408656d66a7d9ee5325d7762f959e5ed88f92bd820671bdd91490879d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-6.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-7",
+      "name": "Cork area",
+      "country": "IE",
+      "bounds": {
+        "south": 51.2898988,
+        "west": -9.2876306,
+        "north": 52.423025,
+        "east": -7.8615088
+      },
+      "downloadBytes": 19703774,
+      "graphBytes": 34166468,
+      "sha256": "24757c07deb913155b66839959fd6141bc298e2ca08d11b98c627f44e12f7350",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-7.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "ie-8",
+      "name": "Wexford area",
+      "country": "IE",
+      "bounds": {
+        "south": 50.1767725,
+        "west": -7.8815088,
+        "north": 52.423025,
+        "east": -5.049265
+      },
+      "downloadBytes": 9375964,
+      "graphBytes": 16106069,
+      "sha256": "613428108eb4ab9acdc3fd05766bb98e7fd72ea092b4ebb2929254a19f97f0ce",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-ireland-and-northern-ireland/ie-8.graph.gz",
       "rev": "2026-10-24"
     }
   ]
