@@ -2080,6 +2080,86 @@
       "sha256": "409f52ea705a18922fa87006f651b4ca0965e3df1dadac6483633f6cb1430cd7",
       "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vv.graph.gz",
       "rev": "2026-10-24"
+    },
+    {
+      "id": "ad-1",
+      "name": "Andorra",
+      "country": "AD",
+      "bounds": {
+        "south": 42.4176,
+        "west": 1.402368,
+        "north": 42.66717,
+        "east": 1.797481
+      },
+      "downloadBytes": 908397,
+      "graphBytes": 1482384,
+      "sha256": "aefb7cb462f3fb4e962532773f5301dec47534ce415289cadc327dbee51d01f7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-andorra/ad-1.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "li-1",
+      "name": "Liechtenstein",
+      "country": "LI",
+      "bounds": {
+        "south": 47.03774,
+        "west": 9.461078,
+        "north": 47.28128,
+        "east": 9.646217
+      },
+      "downloadBytes": 871962,
+      "graphBytes": 1477991,
+      "sha256": "ec3e409f8ae61f4cd32a09e290730cfe4d3849a27bee8007f18398e3f302af14",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-liechtenstein/li-1.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "lu-1",
+      "name": "Luxembourg",
+      "country": "LU",
+      "bounds": {
+        "south": 49.43553,
+        "west": 5.723033,
+        "north": 50.19496,
+        "east": 6.542249
+      },
+      "downloadBytes": 8170879,
+      "graphBytes": 13245186,
+      "sha256": "fbc08f96fbd43b0dfbb45966056492d1923deea537e1fc91a8bd06abbe4b3c77",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-luxembourg/lu-1.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "mt-1",
+      "name": "Malta",
+      "country": "MT",
+      "bounds": {
+        "south": 35.50985,
+        "west": 13.805377,
+        "north": 36.342958,
+        "east": 14.866099
+      },
+      "downloadBytes": 2814947,
+      "graphBytes": 4467546,
+      "sha256": "4a9f8d9afc5e179d9f8e2f1b8f5f79c0861bec6966cc9e8f0f89af5ac70cfbc5",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-malta/mt-1.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "mc-1",
+      "name": "Monaco",
+      "country": "MC",
+      "bounds": {
+        "south": 43.473817,
+        "west": 7.398583,
+        "north": 43.76293,
+        "east": 7.605671
+      },
+      "downloadBytes": 175958,
+      "graphBytes": 263142,
+      "sha256": "f8d6817ea7e655196ec139fe64480f469ebb476916687d5dcfa39b471943cd9a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs-monaco/mc-1.graph.gz",
+      "rev": "2026-10-24"
     }
   ]
 }
