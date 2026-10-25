@@ -88,7 +88,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           CHANGED: ${{ steps.build.outputs.changed }}
         run: |
-          TAG=$(grep '^TAG=' "$GITHUB_ENV" | cut -d= -f2-)
+          # TAG came in through the environment (set by the download step).
           gh release view "$TAG" >/dev/null 2>&1 || \
             gh release create "$TAG" --title "Road graphs: $ID" --notes "Road networks for $ID, listed in index.json."
           for region in $(echo "$CHANGED" | tr ',' ' '); do

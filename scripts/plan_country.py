@@ -158,7 +158,9 @@ def country_of(centre, codes, rings):
             ys = [p[1] for p in ring]
             if min(xs) <= x <= max(xs) and min(ys) <= y <= max(ys) and point_in_ring(x, y, ring):
                 return code
-    return codes[0]
+    # In no border we could build: with several countries the first ones have borders and the last
+    # is what is left over (Northern Ireland in the Ireland extract).
+    return codes[-1] if rings else codes[0]
 
 
 def main(argv):
