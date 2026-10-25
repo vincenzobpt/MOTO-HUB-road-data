@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Bake every region in regions.json from one OSM extract and package it for the app.
 
-  build_release.py <regions.json> <extract.osm.pbf> <dist-dir> <base-url> [--previous index.json]
+  build_release.py <regions.json> <pbf-dir> <dist-dir> <base-url> [--previous index.json]
 
-Writes `<id>.graph.gz` for each region and `index.json` next to them. The gzip carries no
+<pbf-dir> holds one `<extract-id>.osm.pbf` per extract named in regions.json. Writes `<id>.graph.gz` for each region and `index.json` next to them. The gzip carries no
 timestamp, so an unchanged graph keeps its SHA-256; with `--previous`, a region whose SHA-256
 did not change keeps its old `rev`, and only regions whose roads really changed are offered
 to the app as an update. Prints the ids that changed, one per line, on the last output line
@@ -38,39 +38,45 @@ def read_bounds(path):
     return {"south": south, "west": west, "north": north, "east": east}
 
 
-def main(regions_file, pbf, dist, base_url, previous_file):
-    regions = json.load(open(regions_file))["regions"]
+def main(regions_file, pbf_dir, dist, base_url, previous_file):
+    extracts = json.load(open(regions_file))["extracts"]
     previous = {}
     if previous_file and os.path.exists(previous_file):
         previous = {r["id"]: r for r in json.load(open(previous_file))["regions"]}
-    rev = extract_date(pbf)
     os.makedirs(dist, exist_ok=True)
     index, changed = [], []
     with tempfile.TemporaryDirectory() as tmp:
-        for region in regions:
-            b = region["bbox"]
-            graph = os.path.join(tmp, region["id"] + ".graph")
-            bake_graph.bake(pbf, b["west"], b["south"], b["east"], b["north"], graph)
-            target = os.path.join(dist, region["id"] + ".graph.gz")
-            with open(graph, "rb") as src, open(target, "wb") as raw:
-                with gzip.GzipFile(filename="", mode="wb", fileobj=raw, compresslevel=9, mtime=0) as out:
-                    out.write(src.read())
-            with open(target, "rb") as packed:
-                digest = hashlib.sha256(packed.read()).hexdigest()
-            old = previous.get(region["id"])
-            unchanged = old is not None and old["sha256"] == digest
-            if not unchanged:
-                changed.append(region["id"])
-            index.append({
-                "id": region["id"], "name": region["name"], "country": region["country"],
-                "bounds": read_bounds(graph),
-                "downloadBytes": os.path.getsize(target),
-                "graphBytes": os.path.getsize(graph),
-                "sha256": digest,
-                "url": f"{base_url}/{region['id']}.graph.gz",
-                "rev": old["rev"] if unchanged else rev,
-            })
-            os.remove(graph)
+        for extract in extracts:
+            pbf = os.path.join(pbf_dir, extract["id"] + ".osm.pbf")
+            rev = extract_date(pbf)
+            # One pass over the whole extract; every region is then cut from the small roads-only file.
+            roads = os.path.join(tmp, extract["id"] + "-roads.osm.pbf")
+            bake_graph.filter_roads(pbf, roads)
+            for region in extract["regions"]:
+                b = region["bbox"]
+                graph = os.path.join(tmp, region["id"] + ".graph")
+                bake_graph.bake(roads, b["west"], b["south"], b["east"], b["north"], graph, prefiltered=True)
+                target = os.path.join(dist, region["id"] + ".graph.gz")
+                with open(graph, "rb") as src, open(target, "wb") as raw:
+                    with gzip.GzipFile(filename="", mode="wb", fileobj=raw, compresslevel=9, mtime=0) as out:
+                        out.write(src.read())
+                with open(target, "rb") as packed:
+                    digest = hashlib.sha256(packed.read()).hexdigest()
+                old = previous.get(region["id"])
+                unchanged = old is not None and old["sha256"] == digest
+                if not unchanged:
+                    changed.append(region["id"])
+                index.append({
+                    "id": region["id"], "name": region["name"], "country": region["country"],
+                    "bounds": read_bounds(graph),
+                    "downloadBytes": os.path.getsize(target),
+                    "graphBytes": os.path.getsize(graph),
+                    "sha256": digest,
+                    "url": f"{base_url}/{region['id']}.graph.gz",
+                    "rev": old["rev"] if unchanged else rev,
+                })
+                os.remove(graph)
+            os.remove(roads)
     with open(os.path.join(dist, "index.json"), "w") as f:
         json.dump({"schema": 1, "regions": index}, f, indent=2)
         f.write("\n")

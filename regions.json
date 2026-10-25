@@ -1,245 +1,1576 @@
 {
-  "source": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf",
-  "regions": [
+  "extracts": [
     {
-      "id": "pt-aveiro",
-      "name": "Aveiro",
-      "country": "PT",
-      "relation": 3920249,
-      "bbox": {
-        "west": -8.7840289,
-        "south": 40.2788096,
-        "east": -8.0891722,
-        "north": 41.0801544
-      }
+      "id": "portugal",
+      "source": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf",
+      "regions": [
+        {
+          "id": "pt-aveiro",
+          "name": "Aveiro",
+          "country": "PT",
+          "relation": 3920249,
+          "bbox": {
+            "west": -8.7840289,
+            "south": 40.2788096,
+            "east": -8.0891722,
+            "north": 41.0801544
+          }
+        },
+        {
+          "id": "pt-beja",
+          "name": "Beja",
+          "country": "PT",
+          "relation": 5134927,
+          "bbox": {
+            "west": -8.8195341,
+            "south": 37.3189368,
+            "east": -6.931521,
+            "north": 38.3311462
+          }
+        },
+        {
+          "id": "pt-braga",
+          "name": "Braga",
+          "country": "PT",
+          "relation": 3738284,
+          "bbox": {
+            "west": -8.8115744,
+            "south": 41.3187983,
+            "east": -7.8106767,
+            "north": 41.8206312
+          }
+        },
+        {
+          "id": "pt-braganca",
+          "name": "Bragança",
+          "country": "PT",
+          "relation": 3905929,
+          "bbox": {
+            "west": -7.4318921,
+            "south": 41.0245423,
+            "east": -6.1891593,
+            "north": 41.9925213
+          }
+        },
+        {
+          "id": "pt-castelo-branco",
+          "name": "Castelo Branco",
+          "country": "PT",
+          "relation": 4104644,
+          "bbox": {
+            "west": -8.2931234,
+            "south": 39.5373649,
+            "east": -6.8637851,
+            "north": 40.4161318
+          }
+        },
+        {
+          "id": "pt-coimbra",
+          "name": "Coimbra",
+          "country": "PT",
+          "relation": 4875183,
+          "bbox": {
+            "west": -8.9092437,
+            "south": 39.923791,
+            "east": -7.7317555,
+            "north": 40.5203648
+          }
+        },
+        {
+          "id": "pt-evora",
+          "name": "Évora",
+          "country": "PT",
+          "relation": 5130767,
+          "bbox": {
+            "west": -8.6584679,
+            "south": 38.1546502,
+            "east": -7.1067761,
+            "north": 39.0269315
+          }
+        },
+        {
+          "id": "pt-faro",
+          "name": "Faro",
+          "country": "PT",
+          "relation": 1278415,
+          "bbox": {
+            "west": -8.9971157,
+            "south": 36.9599679,
+            "east": -7.3948663,
+            "north": 37.5291307
+          }
+        },
+        {
+          "id": "pt-guarda",
+          "name": "Guarda",
+          "country": "PT",
+          "relation": 3905924,
+          "bbox": {
+            "west": -7.8492267,
+            "south": 40.2299187,
+            "east": -6.7809607,
+            "north": 41.1793517
+          }
+        },
+        {
+          "id": "pt-leiria",
+          "name": "Leiria",
+          "country": "PT",
+          "relation": 5011694,
+          "bbox": {
+            "west": -9.5170291,
+            "south": 39.2115773,
+            "east": -8.1080378,
+            "north": 40.0897361
+          }
+        },
+        {
+          "id": "pt-lisboa",
+          "name": "Lisboa",
+          "country": "PT",
+          "relation": 2897141,
+          "bbox": {
+            "west": -9.5005266,
+            "south": 38.6731469,
+            "east": -8.781861,
+            "north": 39.3177287
+          }
+        },
+        {
+          "id": "pt-portalegre",
+          "name": "Portalegre",
+          "country": "PT",
+          "relation": 5123448,
+          "bbox": {
+            "west": -8.3438699,
+            "south": 38.7514974,
+            "east": -6.9511303,
+            "north": 39.6636796
+          }
+        },
+        {
+          "id": "pt-porto",
+          "name": "Porto",
+          "country": "PT",
+          "relation": 3459013,
+          "bbox": {
+            "west": -8.7890627,
+            "south": 41.0013802,
+            "east": -7.8755793,
+            "north": 41.4719715
+          }
+        },
+        {
+          "id": "pt-santarem",
+          "name": "Santarém",
+          "country": "PT",
+          "relation": 5122644,
+          "bbox": {
+            "west": -9.001574,
+            "south": 38.7314904,
+            "east": -7.8089881,
+            "north": 39.8387292
+          }
+        },
+        {
+          "id": "pt-setubal",
+          "name": "Setúbal",
+          "country": "PT",
+          "relation": 5143590,
+          "bbox": {
+            "west": -9.2629753,
+            "south": 37.7493933,
+            "east": -8.1296963,
+            "north": 38.8454231
+          }
+        },
+        {
+          "id": "pt-viana-do-castelo",
+          "name": "Viana do Castelo",
+          "country": "PT",
+          "relation": 3898131,
+          "bbox": {
+            "west": -8.8809556,
+            "south": 41.6063807,
+            "east": -8.0827652,
+            "north": 42.1543112
+          }
+        },
+        {
+          "id": "pt-vila-real",
+          "name": "Vila Real",
+          "country": "PT",
+          "relation": 3967823,
+          "bbox": {
+            "west": -8.1194651,
+            "south": 41.1187322,
+            "east": -7.1706402,
+            "north": 41.9270958
+          }
+        },
+        {
+          "id": "pt-viseu",
+          "name": "Viseu",
+          "country": "PT",
+          "relation": 3920285,
+          "bbox": {
+            "west": -8.3594469,
+            "south": 40.3226383,
+            "east": -7.304573,
+            "north": 41.2146579
+          }
+        },
+        {
+          "id": "pt-acores",
+          "name": "Açores",
+          "country": "PT",
+          "relation": 1629146,
+          "bbox": {
+            "west": -31.2688154,
+            "south": 36.9276305,
+            "east": -25.0131792,
+            "north": 39.7261841
+          }
+        },
+        {
+          "id": "pt-madeira",
+          "name": "Madeira",
+          "country": "PT",
+          "relation": 1629145,
+          "bbox": {
+            "west": -17.2659253,
+            "south": 30.0287783,
+            "east": -15.8536715,
+            "north": 33.1281603
+          }
+        }
+      ]
     },
     {
-      "id": "pt-beja",
-      "name": "Beja",
-      "country": "PT",
-      "relation": 5134927,
-      "bbox": {
-        "west": -8.8195341,
-        "south": 37.3189368,
-        "east": -6.931521,
-        "north": 38.3311462
-      }
-    },
-    {
-      "id": "pt-braga",
-      "name": "Braga",
-      "country": "PT",
-      "relation": 3738284,
-      "bbox": {
-        "west": -8.8115744,
-        "south": 41.3187983,
-        "east": -7.8106767,
-        "north": 41.8206312
-      }
-    },
-    {
-      "id": "pt-braganca",
-      "name": "Bragança",
-      "country": "PT",
-      "relation": 3905929,
-      "bbox": {
-        "west": -7.4318921,
-        "south": 41.0245423,
-        "east": -6.1891593,
-        "north": 41.9925213
-      }
-    },
-    {
-      "id": "pt-castelo-branco",
-      "name": "Castelo Branco",
-      "country": "PT",
-      "relation": 4104644,
-      "bbox": {
-        "west": -8.2931234,
-        "south": 39.5373649,
-        "east": -6.8637851,
-        "north": 40.4161318
-      }
-    },
-    {
-      "id": "pt-coimbra",
-      "name": "Coimbra",
-      "country": "PT",
-      "relation": 4875183,
-      "bbox": {
-        "west": -8.9092437,
-        "south": 39.923791,
-        "east": -7.7317555,
-        "north": 40.5203648
-      }
-    },
-    {
-      "id": "pt-evora",
-      "name": "Évora",
-      "country": "PT",
-      "relation": 5130767,
-      "bbox": {
-        "west": -8.6584679,
-        "south": 38.1546502,
-        "east": -7.1067761,
-        "north": 39.0269315
-      }
-    },
-    {
-      "id": "pt-faro",
-      "name": "Faro",
-      "country": "PT",
-      "relation": 1278415,
-      "bbox": {
-        "west": -8.9971157,
-        "south": 36.9599679,
-        "east": -7.3948663,
-        "north": 37.5291307
-      }
-    },
-    {
-      "id": "pt-guarda",
-      "name": "Guarda",
-      "country": "PT",
-      "relation": 3905924,
-      "bbox": {
-        "west": -7.8492267,
-        "south": 40.2299187,
-        "east": -6.7809607,
-        "north": 41.1793517
-      }
-    },
-    {
-      "id": "pt-leiria",
-      "name": "Leiria",
-      "country": "PT",
-      "relation": 5011694,
-      "bbox": {
-        "west": -9.5170291,
-        "south": 39.2115773,
-        "east": -8.1080378,
-        "north": 40.0897361
-      }
-    },
-    {
-      "id": "pt-lisboa",
-      "name": "Lisboa",
-      "country": "PT",
-      "relation": 2897141,
-      "bbox": {
-        "west": -9.5005266,
-        "south": 38.6731469,
-        "east": -8.781861,
-        "north": 39.3177287
-      }
-    },
-    {
-      "id": "pt-portalegre",
-      "name": "Portalegre",
-      "country": "PT",
-      "relation": 5123448,
-      "bbox": {
-        "west": -8.3438699,
-        "south": 38.7514974,
-        "east": -6.9511303,
-        "north": 39.6636796
-      }
-    },
-    {
-      "id": "pt-porto",
-      "name": "Porto",
-      "country": "PT",
-      "relation": 3459013,
-      "bbox": {
-        "west": -8.7890627,
-        "south": 41.0013802,
-        "east": -7.8755793,
-        "north": 41.4719715
-      }
-    },
-    {
-      "id": "pt-santarem",
-      "name": "Santarém",
-      "country": "PT",
-      "relation": 5122644,
-      "bbox": {
-        "west": -9.001574,
-        "south": 38.7314904,
-        "east": -7.8089881,
-        "north": 39.8387292
-      }
-    },
-    {
-      "id": "pt-setubal",
-      "name": "Setúbal",
-      "country": "PT",
-      "relation": 5143590,
-      "bbox": {
-        "west": -9.2629753,
-        "south": 37.7493933,
-        "east": -8.1296963,
-        "north": 38.8454231
-      }
-    },
-    {
-      "id": "pt-viana-do-castelo",
-      "name": "Viana do Castelo",
-      "country": "PT",
-      "relation": 3898131,
-      "bbox": {
-        "west": -8.8809556,
-        "south": 41.6063807,
-        "east": -8.0827652,
-        "north": 42.1543112
-      }
-    },
-    {
-      "id": "pt-vila-real",
-      "name": "Vila Real",
-      "country": "PT",
-      "relation": 3967823,
-      "bbox": {
-        "west": -8.1194651,
-        "south": 41.1187322,
-        "east": -7.1706402,
-        "north": 41.9270958
-      }
-    },
-    {
-      "id": "pt-viseu",
-      "name": "Viseu",
-      "country": "PT",
-      "relation": 3920285,
-      "bbox": {
-        "west": -8.3594469,
-        "south": 40.3226383,
-        "east": -7.304573,
-        "north": 41.2146579
-      }
-    },
-    {
-      "id": "pt-acores",
-      "name": "Açores",
-      "country": "PT",
-      "relation": 1629146,
-      "bbox": {
-        "west": -31.2688154,
-        "south": 36.9276305,
-        "east": -25.0131792,
-        "north": 39.7261841
-      }
-    },
-    {
-      "id": "pt-madeira",
-      "name": "Madeira",
-      "country": "PT",
-      "relation": 1629145,
-      "bbox": {
-        "west": -17.2659253,
-        "south": 30.0287783,
-        "east": -15.8536715,
-        "north": 33.1281603
-      }
+      "id": "italy",
+      "source": "https://download.geofabrik.de/europe/italy-latest.osm.pbf",
+      "regions": [
+        {
+          "id": "it-23",
+          "name": "Valle d'Aosta",
+          "country": "IT",
+          "relation": 45155,
+          "bbox": {
+            "west": 6.8015322,
+            "south": 45.4669522,
+            "east": 7.939504,
+            "north": 45.9877112
+          }
+        },
+        {
+          "id": "it-ag",
+          "name": "Agrigento",
+          "country": "IT",
+          "relation": 39151,
+          "bbox": {
+            "west": 12.8869604,
+            "south": 37.0844823,
+            "east": 14.0386072,
+            "north": 37.7428334
+          }
+        },
+        {
+          "id": "it-al",
+          "name": "Alessandria",
+          "country": "IT",
+          "relation": 43199,
+          "bbox": {
+            "west": 8.1093301,
+            "south": 44.4647191,
+            "east": 9.2142404,
+            "north": 45.2054572
+          }
+        },
+        {
+          "id": "it-an",
+          "name": "Ancona",
+          "country": "IT",
+          "relation": 53059,
+          "bbox": {
+            "west": 12.7461961,
+            "south": 43.2099152,
+            "east": 13.6586187,
+            "north": 43.7505106
+          }
+        },
+        {
+          "id": "it-ap",
+          "name": "Ascoli Piceno",
+          "country": "IT",
+          "relation": 42141,
+          "bbox": {
+            "west": 13.1875521,
+            "south": 42.6871561,
+            "east": 13.9163435,
+            "north": 43.0797782
+          }
+        },
+        {
+          "id": "it-aq",
+          "name": "L'Aquila",
+          "country": "IT",
+          "relation": 167044,
+          "bbox": {
+            "west": 13.0189718,
+            "south": 41.6820382,
+            "east": 14.2297358,
+            "north": 42.5912825
+          }
+        },
+        {
+          "id": "it-ar",
+          "name": "Arezzo",
+          "country": "IT",
+          "relation": 42366,
+          "bbox": {
+            "west": 11.3973824,
+            "south": 43.1563413,
+            "east": 12.3722747,
+            "north": 43.8778958
+          }
+        },
+        {
+          "id": "it-at",
+          "name": "Asti",
+          "country": "IT",
+          "relation": 43267,
+          "bbox": {
+            "west": 7.8834321,
+            "south": 44.5189941,
+            "east": 8.513625,
+            "north": 45.1330048
+          }
+        },
+        {
+          "id": "it-av",
+          "name": "Avellino",
+          "country": "IT",
+          "relation": 40715,
+          "bbox": {
+            "west": 14.5594641,
+            "south": 40.706645,
+            "east": 15.5723064,
+            "north": 41.2864497
+          }
+        },
+        {
+          "id": "it-ba",
+          "name": "Bari",
+          "country": "IT",
+          "relation": 40707,
+          "bbox": {
+            "west": 16.2024642,
+            "south": 40.6929782,
+            "east": 17.399673,
+            "north": 41.2294795
+          }
+        },
+        {
+          "id": "it-bg",
+          "name": "Bergamo",
+          "country": "IT",
+          "relation": 44996,
+          "bbox": {
+            "west": 9.4450549,
+            "south": 45.4221614,
+            "east": 10.2627486,
+            "north": 46.0912367
+          }
+        },
+        {
+          "id": "it-bi",
+          "name": "Biella",
+          "country": "IT",
+          "relation": 44913,
+          "bbox": {
+            "west": 7.8814575,
+            "south": 45.3760887,
+            "east": 8.3279084,
+            "north": 45.7576414
+          }
+        },
+        {
+          "id": "it-bl",
+          "name": "Belluno",
+          "country": "IT",
+          "relation": 46429,
+          "bbox": {
+            "west": 11.6659608,
+            "south": 45.8804429,
+            "east": 12.7322625,
+            "north": 46.6806148
+          }
+        },
+        {
+          "id": "it-bn",
+          "name": "Benevento",
+          "country": "IT",
+          "relation": 40973,
+          "bbox": {
+            "west": 14.3519022,
+            "south": 41.0088795,
+            "east": 15.1491557,
+            "north": 41.4863874
+          }
+        },
+        {
+          "id": "it-bo",
+          "name": "Bologna",
+          "country": "IT",
+          "relation": 42856,
+          "bbox": {
+            "west": 10.803589,
+            "south": 44.0622266,
+            "east": 11.8392441,
+            "north": 44.8053346
+          }
+        },
+        {
+          "id": "it-br",
+          "name": "Brindisi",
+          "country": "IT",
+          "relation": 40485,
+          "bbox": {
+            "west": 17.295343,
+            "south": 40.3795066,
+            "east": 18.098336,
+            "north": 40.8922178
+          }
+        },
+        {
+          "id": "it-bs",
+          "name": "Brescia",
+          "country": "IT",
+          "relation": 44882,
+          "bbox": {
+            "west": 9.8362928,
+            "south": 45.2042549,
+            "east": 10.842675,
+            "north": 46.3548531
+          }
+        },
+        {
+          "id": "it-bt",
+          "name": "Barletta-Andria-Trani",
+          "country": "IT",
+          "relation": 2203582,
+          "bbox": {
+            "west": 15.870262,
+            "south": 40.8977189,
+            "east": 16.5422648,
+            "north": 41.4417111
+          }
+        },
+        {
+          "id": "it-bz",
+          "name": "Bolzano",
+          "country": "IT",
+          "relation": 47046,
+          "bbox": {
+            "west": 10.3818217,
+            "south": 46.2197712,
+            "east": 12.4779748,
+            "north": 47.0921485
+          }
+        },
+        {
+          "id": "it-ca",
+          "name": "Cagliari",
+          "country": "IT",
+          "relation": 276369,
+          "bbox": {
+            "west": 8.699226,
+            "south": 38.8758961,
+            "east": 9.6511525,
+            "north": 39.851822
+          }
+        },
+        {
+          "id": "it-cb",
+          "name": "Campobasso",
+          "country": "IT",
+          "relation": 41255,
+          "bbox": {
+            "west": 14.3777332,
+            "south": 41.3640631,
+            "east": 15.1616821,
+            "north": 42.0702848
+          }
+        },
+        {
+          "id": "it-ce",
+          "name": "Caserta",
+          "country": "IT",
+          "relation": 40940,
+          "bbox": {
+            "west": 13.7623799,
+            "south": 40.898783,
+            "east": 14.5353095,
+            "north": 41.5080786
+          }
+        },
+        {
+          "id": "it-ch",
+          "name": "Chieti",
+          "country": "IT",
+          "relation": 41542,
+          "bbox": {
+            "west": 14.0805053,
+            "south": 41.7596519,
+            "east": 14.7838895,
+            "north": 42.44511
+          }
+        },
+        {
+          "id": "it-cl",
+          "name": "Caltanissetta",
+          "country": "IT",
+          "relation": 39178,
+          "bbox": {
+            "west": 13.6507368,
+            "south": 37.0021336,
+            "east": 14.4768137,
+            "north": 37.7450177
+          }
+        },
+        {
+          "id": "it-cn",
+          "name": "Cuneo",
+          "country": "IT",
+          "relation": 42845,
+          "bbox": {
+            "west": 6.8545067,
+            "south": 44.0597158,
+            "east": 8.2692128,
+            "north": 44.8566056
+          }
+        },
+        {
+          "id": "it-co",
+          "name": "Como",
+          "country": "IT",
+          "relation": 45614,
+          "bbox": {
+            "west": 8.8942419,
+            "south": 45.6393854,
+            "east": 9.4406278,
+            "north": 46.2395703
+          }
+        },
+        {
+          "id": "it-cr",
+          "name": "Cremona",
+          "country": "IT",
+          "relation": 43893,
+          "bbox": {
+            "west": 9.4528532,
+            "south": 44.937668,
+            "east": 10.5967139,
+            "north": 45.5041724
+          }
+        },
+        {
+          "id": "it-cs",
+          "name": "Cosenza",
+          "country": "IT",
+          "relation": 39788,
+          "bbox": {
+            "west": 15.7564433,
+            "south": 39.048701,
+            "east": 17.0236705,
+            "north": 40.1449242
+          }
+        },
+        {
+          "id": "it-ct",
+          "name": "Catania",
+          "country": "IT",
+          "relation": 39181,
+          "bbox": {
+            "west": 14.3517735,
+            "south": 37.050297,
+            "east": 15.2580859,
+            "north": 37.961106
+          }
+        },
+        {
+          "id": "it-cz",
+          "name": "Catanzaro",
+          "country": "IT",
+          "relation": 39637,
+          "bbox": {
+            "west": 16.0957104,
+            "south": 38.4633398,
+            "east": 16.9205972,
+            "north": 39.1942391
+          }
+        },
+        {
+          "id": "it-en",
+          "name": "Enna",
+          "country": "IT",
+          "relation": 39216,
+          "bbox": {
+            "west": 14.0562834,
+            "south": 37.2907801,
+            "east": 14.8298134,
+            "north": 37.8800379
+          }
+        },
+        {
+          "id": "it-fc",
+          "name": "Forlì-Cesena",
+          "country": "IT",
+          "relation": 42609,
+          "bbox": {
+            "west": 11.645047,
+            "south": 43.7398521,
+            "east": 12.4577806,
+            "north": 44.3306793
+          }
+        },
+        {
+          "id": "it-fe",
+          "name": "Ferrara",
+          "country": "IT",
+          "relation": 43292,
+          "bbox": {
+            "west": 11.2346755,
+            "south": 44.5466121,
+            "east": 12.3989637,
+            "north": 44.986943
+          }
+        },
+        {
+          "id": "it-fg",
+          "name": "Foggia",
+          "country": "IT",
+          "relation": 41093,
+          "bbox": {
+            "west": 14.9341858,
+            "south": 41.0557147,
+            "east": 16.1999353,
+            "north": 41.9503234
+          }
+        },
+        {
+          "id": "it-fi",
+          "name": "Firenze",
+          "country": "IT",
+          "relation": 42472,
+          "bbox": {
+            "west": 10.7111211,
+            "south": 43.4515008,
+            "east": 11.7530586,
+            "north": 44.2398101
+          }
+        },
+        {
+          "id": "it-fm",
+          "name": "Fermo",
+          "country": "IT",
+          "relation": 907991,
+          "bbox": {
+            "west": 13.2160385,
+            "south": 42.8901647,
+            "east": 13.8496502,
+            "north": 43.2942629
+          }
+        },
+        {
+          "id": "it-fr",
+          "name": "Frosinone",
+          "country": "IT",
+          "relation": 41223,
+          "bbox": {
+            "west": 12.9918722,
+            "south": 41.301351,
+            "east": 14.0276445,
+            "north": 41.9554478
+          }
+        },
+        {
+          "id": "it-ge",
+          "name": "Genova",
+          "country": "IT",
+          "relation": 49135,
+          "bbox": {
+            "west": 8.5715542,
+            "south": 44.2163249,
+            "east": 9.574846,
+            "north": 44.6764424
+          }
+        },
+        {
+          "id": "it-go",
+          "name": "Gorizia",
+          "country": "IT",
+          "relation": 179294,
+          "bbox": {
+            "west": 13.2371348,
+            "south": 45.6739839,
+            "east": 13.6430755,
+            "north": 46.0513351
+          }
+        },
+        {
+          "id": "it-gr",
+          "name": "Grosseto",
+          "country": "IT",
+          "relation": 41976,
+          "bbox": {
+            "west": 10.7062668,
+            "south": 42.3610306,
+            "east": 11.820158,
+            "north": 43.1891437
+          }
+        },
+        {
+          "id": "it-im",
+          "name": "Imperia",
+          "country": "IT",
+          "relation": 42628,
+          "bbox": {
+            "west": 7.4951614,
+            "south": 43.7756906,
+            "east": 8.1353954,
+            "north": 44.1410201
+          }
+        },
+        {
+          "id": "it-is",
+          "name": "Isernia",
+          "country": "IT",
+          "relation": 41277,
+          "bbox": {
+            "west": 13.9410911,
+            "south": 41.3876719,
+            "east": 14.5222524,
+            "north": 41.9117554
+          }
+        },
+        {
+          "id": "it-kr",
+          "name": "Crotone",
+          "country": "IT",
+          "relation": 39748,
+          "bbox": {
+            "west": 16.6130213,
+            "south": 38.8924655,
+            "east": 17.2064253,
+            "north": 39.4824414
+          }
+        },
+        {
+          "id": "it-lc",
+          "name": "Lecco",
+          "country": "IT",
+          "relation": 45639,
+          "bbox": {
+            "west": 9.2437341,
+            "south": 45.6493752,
+            "east": 9.5411056,
+            "north": 46.151716
+          }
+        },
+        {
+          "id": "it-le",
+          "name": "Lecce",
+          "country": "IT",
+          "relation": 40094,
+          "bbox": {
+            "west": 17.762464,
+            "south": 39.7895944,
+            "east": 18.5205121,
+            "north": 40.5148674
+          }
+        },
+        {
+          "id": "it-li",
+          "name": "Livorno",
+          "country": "IT",
+          "relation": 42147,
+          "bbox": {
+            "west": 10.1024963,
+            "south": 42.707497,
+            "east": 10.7962196,
+            "north": 43.6346331
+          }
+        },
+        {
+          "id": "it-lo",
+          "name": "Lodi",
+          "country": "IT",
+          "relation": 44181,
+          "bbox": {
+            "west": 9.3099901,
+            "south": 45.0526084,
+            "east": 9.900973,
+            "north": 45.4700243
+          }
+        },
+        {
+          "id": "it-lt",
+          "name": "Latina",
+          "country": "IT",
+          "relation": 40783,
+          "bbox": {
+            "west": 12.530159,
+            "south": 41.2038435,
+            "east": 13.8948148,
+            "north": 41.7148329
+          }
+        },
+        {
+          "id": "it-lu",
+          "name": "Lucca",
+          "country": "IT",
+          "relation": 42614,
+          "bbox": {
+            "west": 10.1433617,
+            "south": 43.7493355,
+            "east": 10.7375739,
+            "north": 44.2861712
+          }
+        },
+        {
+          "id": "it-mb",
+          "name": "Monza e Brianza",
+          "country": "IT",
+          "relation": 251419,
+          "bbox": {
+            "west": 9.0505698,
+            "south": 45.5367099,
+            "east": 9.4974636,
+            "north": 45.7424391
+          }
+        },
+        {
+          "id": "it-mc",
+          "name": "Macerata",
+          "country": "IT",
+          "relation": 42212,
+          "bbox": {
+            "west": 12.8296453,
+            "south": 42.8318542,
+            "east": 13.7432808,
+            "north": 43.4739419
+          }
+        },
+        {
+          "id": "it-me",
+          "name": "Messina",
+          "country": "IT",
+          "relation": 39374,
+          "bbox": {
+            "west": 14.1834248,
+            "south": 37.7950379,
+            "east": 15.6530796,
+            "north": 38.3014883
+          }
+        },
+        {
+          "id": "it-mi",
+          "name": "Milano",
+          "country": "IT",
+          "relation": 44881,
+          "bbox": {
+            "west": 8.7060961,
+            "south": 45.2647912,
+            "east": 9.551457,
+            "north": 45.6434829
+          }
+        },
+        {
+          "id": "it-mn",
+          "name": "Mantova",
+          "country": "IT",
+          "relation": 43798,
+          "bbox": {
+            "west": 10.3090587,
+            "south": 44.9102742,
+            "east": 11.4276477,
+            "north": 45.4283223
+          }
+        },
+        {
+          "id": "it-mo",
+          "name": "Modena",
+          "country": "IT",
+          "relation": 42884,
+          "bbox": {
+            "west": 10.4698307,
+            "south": 44.114152,
+            "east": 11.3689308,
+            "north": 44.9629506
+          }
+        },
+        {
+          "id": "it-ms",
+          "name": "Massa-Carrara",
+          "country": "IT",
+          "relation": 42782,
+          "bbox": {
+            "west": 9.6867692,
+            "south": 43.9753156,
+            "east": 10.2557058,
+            "north": 44.4725419
+          }
+        },
+        {
+          "id": "it-mt",
+          "name": "Matera",
+          "country": "IT",
+          "relation": 40259,
+          "bbox": {
+            "west": 16.048594,
+            "south": 40.0566506,
+            "east": 16.8670356,
+            "north": 40.838581
+          }
+        },
+        {
+          "id": "it-na",
+          "name": "Napoli",
+          "country": "IT",
+          "relation": 40600,
+          "bbox": {
+            "west": 14.016982,
+            "south": 40.5690361,
+            "east": 14.6702478,
+            "north": 41.019847
+          }
+        },
+        {
+          "id": "it-no",
+          "name": "Novara",
+          "country": "IT",
+          "relation": 1552704,
+          "bbox": {
+            "west": 8.3105682,
+            "south": 45.2916099,
+            "east": 8.8428962,
+            "north": 45.8767896
+          }
+        },
+        {
+          "id": "it-nu",
+          "name": "Nuoro",
+          "country": "IT",
+          "relation": 39979,
+          "bbox": {
+            "west": 8.6111616,
+            "south": 39.8222077,
+            "east": 9.828852,
+            "north": 40.7060029
+          }
+        },
+        {
+          "id": "it-og",
+          "name": "Ogliastra",
+          "country": "IT",
+          "relation": 19621461,
+          "bbox": {
+            "west": 9.2729036,
+            "south": 39.5492929,
+            "east": 9.7355697,
+            "north": 40.2249519
+          }
+        },
+        {
+          "id": "it-or",
+          "name": "Oristano",
+          "country": "IT",
+          "relation": 40021,
+          "bbox": {
+            "west": 8.3765739,
+            "south": 39.6270116,
+            "east": 9.1729365,
+            "north": 40.4261074
+          }
+        },
+        {
+          "id": "it-ot",
+          "name": "Gallura Nord-Est Sardegna",
+          "country": "IT",
+          "relation": 19166661,
+          "bbox": {
+            "west": 8.8025523,
+            "south": 40.5258328,
+            "east": 9.7536755,
+            "north": 41.2590755
+          }
+        },
+        {
+          "id": "it-pa",
+          "name": "Palermo",
+          "country": "IT",
+          "relation": 39295,
+          "bbox": {
+            "west": 12.9287426,
+            "south": 37.5393034,
+            "east": 14.2943904,
+            "north": 38.2245866
+          }
+        },
+        {
+          "id": "it-pc",
+          "name": "Piacenza",
+          "country": "IT",
+          "relation": 43332,
+          "bbox": {
+            "west": 9.1979117,
+            "south": 44.5558766,
+            "east": 10.0831378,
+            "north": 45.1395001
+          }
+        },
+        {
+          "id": "it-pd",
+          "name": "Padova",
+          "country": "IT",
+          "relation": 44217,
+          "bbox": {
+            "west": 11.3909429,
+            "south": 45.09558,
+            "east": 12.2064075,
+            "north": 45.6872283
+          }
+        },
+        {
+          "id": "it-pe",
+          "name": "Pescara",
+          "country": "IT",
+          "relation": 41778,
+          "bbox": {
+            "west": 13.7661594,
+            "south": 42.0740441,
+            "east": 14.2539586,
+            "north": 42.5454921
+          }
+        },
+        {
+          "id": "it-pg",
+          "name": "Perugia",
+          "country": "IT",
+          "relation": 42106,
+          "bbox": {
+            "west": 11.9123518,
+            "south": 42.5968383,
+            "east": 13.2641895,
+            "north": 43.6173443
+          }
+        },
+        {
+          "id": "it-pi",
+          "name": "Pisa",
+          "country": "IT",
+          "relation": 42338,
+          "bbox": {
+            "west": 10.2574977,
+            "south": 43.1084854,
+            "east": 11.0140065,
+            "north": 43.834394
+          }
+        },
+        {
+          "id": "it-pn",
+          "name": "Pordenone",
+          "country": "IT",
+          "relation": 179293,
+          "bbox": {
+            "west": 12.3213811,
+            "south": 45.7906045,
+            "east": 12.9906991,
+            "north": 46.412508
+          }
+        },
+        {
+          "id": "it-po",
+          "name": "Prato",
+          "country": "IT",
+          "relation": 42619,
+          "bbox": {
+            "west": 10.9639122,
+            "south": 43.7586956,
+            "east": 11.2097886,
+            "north": 44.1123682
+          }
+        },
+        {
+          "id": "it-pr",
+          "name": "Parma",
+          "country": "IT",
+          "relation": 43080,
+          "bbox": {
+            "west": 9.4381716,
+            "south": 44.3460313,
+            "east": 10.5085422,
+            "north": 45.0444369
+          }
+        },
+        {
+          "id": "it-pt",
+          "name": "Pistoia",
+          "country": "IT",
+          "relation": 42637,
+          "bbox": {
+            "west": 10.6209226,
+            "south": 43.7880964,
+            "east": 11.0714805,
+            "north": 44.1601774
+          }
+        },
+        {
+          "id": "it-pu",
+          "name": "Pesaro e Urbino",
+          "country": "IT",
+          "relation": 42455,
+          "bbox": {
+            "west": 12.1854536,
+            "south": 43.4165862,
+            "east": 13.1723132,
+            "north": 43.9715999
+          }
+        },
+        {
+          "id": "it-pv",
+          "name": "Pavia",
+          "country": "IT",
+          "relation": 43483,
+          "bbox": {
+            "west": 8.4978518,
+            "south": 44.6799091,
+            "east": 9.5505475,
+            "north": 45.393838
+          }
+        },
+        {
+          "id": "it-pz",
+          "name": "Potenza",
+          "country": "IT",
+          "relation": 40136,
+          "bbox": {
+            "west": 15.3349712,
+            "south": 39.8958079,
+            "east": 16.3995736,
+            "north": 41.1395383
+          }
+        },
+        {
+          "id": "it-ra",
+          "name": "Ravenna",
+          "country": "IT",
+          "relation": 42889,
+          "bbox": {
+            "west": 11.5248313,
+            "south": 44.0989959,
+            "east": 12.3839715,
+            "north": 44.6283408
+          }
+        },
+        {
+          "id": "it-rc",
+          "name": "Reggio Calabria",
+          "country": "IT",
+          "relation": 44862,
+          "bbox": {
+            "west": 15.6298439,
+            "south": 37.9157947,
+            "east": 16.5834766,
+            "north": 38.5738018
+          }
+        },
+        {
+          "id": "it-re",
+          "name": "Reggio Emilia",
+          "country": "IT",
+          "relation": 42965,
+          "bbox": {
+            "west": 10.1424146,
+            "south": 44.225466,
+            "east": 10.8971498,
+            "north": 44.9920133
+          }
+        },
+        {
+          "id": "it-rg",
+          "name": "Ragusa",
+          "country": "IT",
+          "relation": 39157,
+          "bbox": {
+            "west": 14.3372464,
+            "south": 36.6917663,
+            "east": 15.0078758,
+            "north": 37.1393668
+          }
+        },
+        {
+          "id": "it-ri",
+          "name": "Rieti",
+          "country": "IT",
+          "relation": 41781,
+          "bbox": {
+            "west": 12.4372963,
+            "south": 42.0889167,
+            "east": 13.4099792,
+            "north": 42.7409686
+          }
+        },
+        {
+          "id": "it-rm",
+          "name": "Roma",
+          "country": "IT",
+          "relation": 41313,
+          "bbox": {
+            "west": 11.7336245,
+            "south": 41.4076117,
+            "east": 13.2962768,
+            "north": 42.2965732
+          }
+        },
+        {
+          "id": "it-rn",
+          "name": "Rimini",
+          "country": "IT",
+          "relation": 42661,
+          "bbox": {
+            "west": 12.0961656,
+            "south": 43.7308081,
+            "east": 12.7559006,
+            "north": 44.1622868
+          }
+        },
+        {
+          "id": "it-ro",
+          "name": "Rovigo",
+          "country": "IT",
+          "relation": 43647,
+          "bbox": {
+            "west": 11.173546,
+            "south": 44.7922924,
+            "east": 12.5533113,
+            "north": 45.1629498
+          }
+        },
+        {
+          "id": "it-sa",
+          "name": "Salerno",
+          "country": "IT",
+          "relation": 40217,
+          "bbox": {
+            "west": 14.4622617,
+            "south": 39.9905158,
+            "east": 15.8064468,
+            "north": 40.8487482
+          }
+        },
+        {
+          "id": "it-si",
+          "name": "Siena",
+          "country": "IT",
+          "relation": 42172,
+          "bbox": {
+            "west": 10.9083129,
+            "south": 42.7857809,
+            "east": 11.9827957,
+            "north": 43.54846
+          }
+        },
+        {
+          "id": "it-so",
+          "name": "Sondrio",
+          "country": "IT",
+          "relation": 46708,
+          "bbox": {
+            "west": 9.247002,
+            "south": 46.0113575,
+            "east": 10.6327598,
+            "north": 46.6353532
+          }
+        },
+        {
+          "id": "it-sp",
+          "name": "La Spezia",
+          "country": "IT",
+          "relation": 49131,
+          "bbox": {
+            "west": 9.4657374,
+            "south": 44.0353855,
+            "east": 10.0715114,
+            "north": 44.441566
+          }
+        },
+        {
+          "id": "it-sr",
+          "name": "Siracusa",
+          "country": "IT",
+          "relation": 39155,
+          "bbox": {
+            "west": 14.7729261,
+            "south": 36.6467869,
+            "east": 15.3367251,
+            "north": 37.4128826
+          }
+        },
+        {
+          "id": "it-ss",
+          "name": "Sassari",
+          "country": "IT",
+          "relation": 275098,
+          "bbox": {
+            "west": 8.1308446,
+            "south": 40.2965476,
+            "east": 9.2849064,
+            "north": 40.972631
+          }
+        },
+        {
+          "id": "it-su",
+          "name": "Sulcis Iglesiente",
+          "country": "IT",
+          "relation": 19622159,
+          "bbox": {
+            "west": 8.3666366,
+            "south": 38.8640117,
+            "east": 8.8531525,
+            "north": 39.4829916
+          }
+        },
+        {
+          "id": "it-sv",
+          "name": "Savona",
+          "country": "IT",
+          "relation": 42760,
+          "bbox": {
+            "west": 7.9772768,
+            "south": 43.9382354,
+            "east": 8.6709233,
+            "north": 44.528545
+          }
+        },
+        {
+          "id": "it-ta",
+          "name": "Taranto",
+          "country": "IT",
+          "relation": 40423,
+          "bbox": {
+            "west": 16.6973101,
+            "south": 40.2944732,
+            "east": 17.8004172,
+            "north": 40.803251
+          }
+        },
+        {
+          "id": "it-te",
+          "name": "Teramo",
+          "country": "IT",
+          "relation": 42024,
+          "bbox": {
+            "west": 13.3469322,
+            "south": 42.4211162,
+            "east": 14.1463154,
+            "north": 42.8950814
+          }
+        },
+        {
+          "id": "it-tn",
+          "name": "Trento",
+          "country": "IT",
+          "relation": 45756,
+          "bbox": {
+            "west": 10.4522048,
+            "south": 45.6728669,
+            "east": 11.9628023,
+            "north": 46.5330375
+          }
+        },
+        {
+          "id": "it-to",
+          "name": "Torino",
+          "country": "IT",
+          "relation": 44880,
+          "bbox": {
+            "west": 6.6272658,
+            "south": 44.713755,
+            "east": 8.1518662,
+            "north": 45.6023219
+          }
+        },
+        {
+          "id": "it-tp",
+          "name": "Trapani",
+          "country": "IT",
+          "relation": 39166,
+          "bbox": {
+            "west": 12.4242472,
+            "south": 37.5594659,
+            "east": 13.1001376,
+            "north": 38.1896376
+          }
+        },
+        {
+          "id": "it-tr",
+          "name": "Terni",
+          "country": "IT",
+          "relation": 42003,
+          "bbox": {
+            "west": 11.8920337,
+            "south": 42.3647769,
+            "east": 12.8961982,
+            "north": 42.9431276
+          }
+        },
+        {
+          "id": "it-ts",
+          "name": "Trieste",
+          "country": "IT",
+          "relation": 179292,
+          "bbox": {
+            "west": 13.5757991,
+            "south": 45.5808987,
+            "east": 13.9186553,
+            "north": 45.8081828
+          }
+        },
+        {
+          "id": "it-tv",
+          "name": "Treviso",
+          "country": "IT",
+          "relation": 45300,
+          "bbox": {
+            "west": 11.7430292,
+            "south": 45.5304763,
+            "east": 12.6853155,
+            "north": 46.0828957
+          }
+        },
+        {
+          "id": "it-ud",
+          "name": "Udine",
+          "country": "IT",
+          "relation": 179295,
+          "bbox": {
+            "west": 12.4930436,
+            "south": 45.6426241,
+            "east": 13.7172972,
+            "north": 46.6479539
+          }
+        },
+        {
+          "id": "it-va",
+          "name": "Varese",
+          "country": "IT",
+          "relation": 45347,
+          "bbox": {
+            "west": 8.552246,
+            "south": 45.5583143,
+            "east": 9.0662956,
+            "north": 46.1223113
+          }
+        },
+        {
+          "id": "it-vb",
+          "name": "Verbano-Cusio-Ossola",
+          "country": "IT",
+          "relation": 46089,
+          "bbox": {
+            "west": 7.8684081,
+            "south": 45.7669327,
+            "east": 8.7289666,
+            "north": 46.4642954
+          }
+        },
+        {
+          "id": "it-vc",
+          "name": "Vercelli",
+          "country": "IT",
+          "relation": 1552705,
+          "bbox": {
+            "west": 7.8613734,
+            "south": 45.1595211,
+            "east": 8.5811897,
+            "north": 45.9507585
+          }
+        },
+        {
+          "id": "it-ve",
+          "name": "Venezia",
+          "country": "IT",
+          "relation": 44230,
+          "bbox": {
+            "west": 11.9619782,
+            "south": 45.0556953,
+            "east": 13.1020861,
+            "north": 45.8546002
+          }
+        },
+        {
+          "id": "it-vi",
+          "name": "Vicenza",
+          "country": "IT",
+          "relation": 44580,
+          "bbox": {
+            "west": 11.1361942,
+            "south": 45.2551958,
+            "east": 11.8362709,
+            "north": 46.0144637
+          }
+        },
+        {
+          "id": "it-vr",
+          "name": "Verona",
+          "country": "IT",
+          "relation": 44107,
+          "bbox": {
+            "west": 10.6231032,
+            "south": 45.0530672,
+            "east": 11.491357,
+            "north": 45.8318248
+          }
+        },
+        {
+          "id": "it-vs",
+          "name": "Medio Campidano",
+          "country": "IT",
+          "relation": 19622158,
+          "bbox": {
+            "west": 8.3792773,
+            "south": 39.374733,
+            "east": 9.0736886,
+            "north": 39.7829214
+          }
+        },
+        {
+          "id": "it-vt",
+          "name": "Viterbo",
+          "country": "IT",
+          "relation": 41817,
+          "bbox": {
+            "west": 11.4491695,
+            "south": 42.1471742,
+            "east": 12.5198374,
+            "north": 42.8387328
+          }
+        },
+        {
+          "id": "it-vv",
+          "name": "Vibo Valentia",
+          "country": "IT",
+          "relation": 44866,
+          "bbox": {
+            "west": 15.8263159,
+            "south": 38.428875,
+            "east": 16.4347613,
+            "north": 38.8244201
+          }
+        }
+      ]
     }
   ]
 }

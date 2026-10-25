@@ -7,8 +7,9 @@ The `.graph.gz` files are attached to the `graphs` release.
 
 ## How it is made
 
-`regions.json` lists the regions (name, OSM relation, bounding box) and the extract they are cut
-from. A monthly workflow downloads the extract from Geofabrik, bakes each region with
+`regions.json` lists the extracts (one per country) and the regions cut from each (name, OSM
+relation, bounding box). `scripts/make_regions.py` writes a country's list from its admin
+boundaries. A monthly workflow downloads the extracts from Geofabrik, bakes each region with
 `scripts/build_release.py`, uploads the files whose roads changed and updates `index.json`.
 An unchanged region keeps its file, checksum and `rev`, so the app only offers real updates.
 

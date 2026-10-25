@@ -1,4 +1,4 @@
 dist/
-extract.osm.pbf
+pbfs/
 build.log
 __pycache__/

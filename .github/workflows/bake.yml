@@ -21,7 +21,7 @@ concurrency:
 jobs:
   bake:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 240
     env:
       BASE_URL: https://github.com/${{ github.repository }}/releases/download/graphs
     steps:
@@ -30,16 +30,22 @@ jobs:
       - name: Install osmium
         run: sudo apt-get update && sudo apt-get install -y osmium-tool
 
-      - name: Download the extract
+      - name: Download the extracts
         run: |
-          url=$(python3 -c "import json; print(json.load(open('regions.json'))['source'])")
-          curl -fsSL --retry 3 -o extract.osm.pbf "$url"
-          ls -l extract.osm.pbf
+          mkdir pbfs
+          python3 -c "
+          import json
+          for e in json.load(open('regions.json'))['extracts']:
+              print(e['id'], e['source'])
+          " | while read id url; do
+            curl -fsSL --retry 3 -o "pbfs/$id.osm.pbf" "$url"
+          done
+          ls -l pbfs
 
       - name: Bake and package
         id: build
         run: |
-          python3 scripts/build_release.py regions.json extract.osm.pbf dist "$BASE_URL" --previous index.json | tee build.log
+          python3 scripts/build_release.py regions.json pbfs dist "$BASE_URL" --previous index.json | tee build.log
           echo "changed=$(grep '^CHANGED:' build.log | cut -d: -f2)" >> "$GITHUB_OUTPUT"
 
       - name: Report

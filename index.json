@@ -320,6 +320,1766 @@
       "sha256": "e0f0c63bc8061100aed3a4ef597659b834bba74f7207903739e2672e5d8d3768",
       "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-madeira.graph.gz",
       "rev": "2026-10-24"
+    },
+    {
+      "id": "it-23",
+      "name": "Valle d'Aosta",
+      "country": "IT",
+      "bounds": {
+        "south": 45.4669522,
+        "west": 6.8015322,
+        "north": 45.9877112,
+        "east": 7.939504
+      },
+      "downloadBytes": 5846198,
+      "graphBytes": 10122016,
+      "sha256": "363bae0987e9448809454828c68fcb1c89ffd7945330373614e7637ec08638d9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-23.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ag",
+      "name": "Agrigento",
+      "country": "IT",
+      "bounds": {
+        "south": 37.0844823,
+        "west": 12.8869604,
+        "north": 37.7428334,
+        "east": 14.0386072
+      },
+      "downloadBytes": 11009638,
+      "graphBytes": 18960306,
+      "sha256": "ceed1ab91a5d7de105388b0013ef2b4578d2392f3a45cfbf90a5d6a16a81b160",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ag.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-al",
+      "name": "Alessandria",
+      "country": "IT",
+      "bounds": {
+        "south": 44.4647191,
+        "west": 8.1093301,
+        "north": 45.2054572,
+        "east": 9.2142404
+      },
+      "downloadBytes": 22030645,
+      "graphBytes": 38103741,
+      "sha256": "8bc232e44022e84ebcf8a50875b7bda0ab3202c27e3076b585528994ca97e92f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-al.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-an",
+      "name": "Ancona",
+      "country": "IT",
+      "bounds": {
+        "south": 43.2099152,
+        "west": 12.7461961,
+        "north": 43.7505106,
+        "east": 13.6586187
+      },
+      "downloadBytes": 12740190,
+      "graphBytes": 21594021,
+      "sha256": "04173c64b0131c3e2d16c9e422208226019165936f51176ebd479866976c0204",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-an.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ap",
+      "name": "Ascoli Piceno",
+      "country": "IT",
+      "bounds": {
+        "south": 42.6871561,
+        "west": 13.1875521,
+        "north": 43.0797782,
+        "east": 13.9163435
+      },
+      "downloadBytes": 6470532,
+      "graphBytes": 11044682,
+      "sha256": "4fdf7532e4cb1568dea75412a5dc01580246a6aa380cf3aff4f2cad639ec1259",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ap.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-aq",
+      "name": "L'Aquila",
+      "country": "IT",
+      "bounds": {
+        "south": 41.6820382,
+        "west": 13.0189718,
+        "north": 42.5912825,
+        "east": 14.2297358
+      },
+      "downloadBytes": 26752125,
+      "graphBytes": 46109716,
+      "sha256": "0b71c99dba7919c733be5e5964c7c401bcdbb57530912bd5cc783c8b0c783715",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-aq.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ar",
+      "name": "Arezzo",
+      "country": "IT",
+      "bounds": {
+        "south": 43.1563413,
+        "west": 11.3973824,
+        "north": 43.8778958,
+        "east": 12.3722747
+      },
+      "downloadBytes": 13054218,
+      "graphBytes": 22334502,
+      "sha256": "7a715d9aef75c9fe79ef92d36be5f3a5987f5ac8e6e939726a7634556cd12b9d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ar.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-at",
+      "name": "Asti",
+      "country": "IT",
+      "bounds": {
+        "south": 44.5189941,
+        "west": 7.8834321,
+        "north": 45.1330048,
+        "east": 8.513625
+      },
+      "downloadBytes": 11799392,
+      "graphBytes": 20464774,
+      "sha256": "b48de735cf949a0e860ca5b4de14cc2b34d5934f80988f671a6636417fb50bb1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-at.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-av",
+      "name": "Avellino",
+      "country": "IT",
+      "bounds": {
+        "south": 40.706645,
+        "west": 14.5594641,
+        "north": 41.2864497,
+        "east": 15.5723064
+      },
+      "downloadBytes": 14708951,
+      "graphBytes": 25409336,
+      "sha256": "cf7812536ba32032e08c5f015085cb66ce47ce814bcd5956219d6c7143da9aea",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-av.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ba",
+      "name": "Bari",
+      "country": "IT",
+      "bounds": {
+        "south": 40.6929782,
+        "west": 16.2024642,
+        "north": 41.2294795,
+        "east": 17.399673
+      },
+      "downloadBytes": 9738162,
+      "graphBytes": 16173266,
+      "sha256": "3f94e3ab1d27544caca93653d7865124cd96ff419149e40b53c096f804ea1556",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ba.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bg",
+      "name": "Bergamo",
+      "country": "IT",
+      "bounds": {
+        "south": 45.4221614,
+        "west": 9.4450549,
+        "north": 46.0912367,
+        "east": 10.2627486
+      },
+      "downloadBytes": 19046136,
+      "graphBytes": 31300783,
+      "sha256": "28daec379f97c809f4e284f436960a79e4878c020a2b6a8d09252dd23f58779b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bg.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bi",
+      "name": "Biella",
+      "country": "IT",
+      "bounds": {
+        "south": 45.3760887,
+        "west": 7.8814575,
+        "north": 45.7576414,
+        "east": 8.3279084
+      },
+      "downloadBytes": 4402613,
+      "graphBytes": 7513968,
+      "sha256": "43c095767bcf0b8c2bee9189d003a841137ead3b7e902ff260b1aec145c4349a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bi.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bl",
+      "name": "Belluno",
+      "country": "IT",
+      "bounds": {
+        "south": 45.8804429,
+        "west": 11.6659608,
+        "north": 46.6806148,
+        "east": 12.7322625
+      },
+      "downloadBytes": 12837339,
+      "graphBytes": 21955863,
+      "sha256": "f5dd4404146ce054b3ffb95e9385d6bf591ada88f4964b492bc1d24ac9fd134e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bl.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bn",
+      "name": "Benevento",
+      "country": "IT",
+      "bounds": {
+        "south": 41.0088795,
+        "west": 14.3519022,
+        "north": 41.4863874,
+        "east": 15.1491557
+      },
+      "downloadBytes": 10783314,
+      "graphBytes": 18719794,
+      "sha256": "a6ff121e6f63e7055cb6a985c29357d79cc6ce07513630e24df240e282e18c50",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bn.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bo",
+      "name": "Bologna",
+      "country": "IT",
+      "bounds": {
+        "south": 44.0622266,
+        "west": 10.803589,
+        "north": 44.8053346,
+        "east": 11.8392441
+      },
+      "downloadBytes": 19701940,
+      "graphBytes": 33110846,
+      "sha256": "a521f4b3242631580c8f97b34c2457e21167d7d853fcfa629c063f5a49084ba6",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bo.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-br",
+      "name": "Brindisi",
+      "country": "IT",
+      "bounds": {
+        "south": 40.3795066,
+        "west": 17.295343,
+        "north": 40.8922178,
+        "east": 18.098336
+      },
+      "downloadBytes": 5359699,
+      "graphBytes": 8903923,
+      "sha256": "208d9d41f0c373e32843eacbf70b2da7f12d3a48e7e485f06bbaa00d0a4ca7bd",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-br.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bs",
+      "name": "Brescia",
+      "country": "IT",
+      "bounds": {
+        "south": 45.2042549,
+        "west": 9.8362928,
+        "north": 46.3548531,
+        "east": 10.842675
+      },
+      "downloadBytes": 25638875,
+      "graphBytes": 42926439,
+      "sha256": "8ce0415d682c5b5ee491f193964b956ba67ab0823e90bd805e66d9845a198dcd",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bs.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bt",
+      "name": "Barletta-Andria-Trani",
+      "country": "IT",
+      "bounds": {
+        "south": 40.8977189,
+        "west": 15.870262,
+        "north": 41.4417111,
+        "east": 16.5422648
+      },
+      "downloadBytes": 2966266,
+      "graphBytes": 4838656,
+      "sha256": "0fd5865fa9e9dfea27aba85733cd43f4b7d36173bace2f19377e21cb9eba8c30",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bt.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-bz",
+      "name": "Bolzano",
+      "country": "IT",
+      "bounds": {
+        "south": 46.2197712,
+        "west": 10.3818217,
+        "north": 47.0921485,
+        "east": 12.4779748
+      },
+      "downloadBytes": 18584095,
+      "graphBytes": 31895921,
+      "sha256": "1e18f7dcd7777d77660511ee74ec808dcfd9904d9c01256d0f3902480cf31c10",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-bz.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ca",
+      "name": "Cagliari",
+      "country": "IT",
+      "bounds": {
+        "south": 38.8758961,
+        "west": 8.699226,
+        "north": 39.851822,
+        "east": 9.6511525
+      },
+      "downloadBytes": 8140292,
+      "graphBytes": 13473136,
+      "sha256": "08de9a69e4fb850ad0ecc280c8083bb9ba667f5d58f2c7964353fa3b285661ac",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ca.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-cb",
+      "name": "Campobasso",
+      "country": "IT",
+      "bounds": {
+        "south": 41.3640631,
+        "west": 14.3777332,
+        "north": 42.0702848,
+        "east": 15.1616821
+      },
+      "downloadBytes": 10458892,
+      "graphBytes": 18312142,
+      "sha256": "b6a0e12175753445cffd76b45b2000f39607b64a4c69263e3ae8ec59a0c2027e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-cb.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ce",
+      "name": "Caserta",
+      "country": "IT",
+      "bounds": {
+        "south": 40.898783,
+        "west": 13.7623799,
+        "north": 41.5080786,
+        "east": 14.5353095
+      },
+      "downloadBytes": 10887167,
+      "graphBytes": 18305422,
+      "sha256": "d195dd20263e9639c3c44ec875d4e72b477d334fcb3cd7c9247cdb8d95af160d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ce.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ch",
+      "name": "Chieti",
+      "country": "IT",
+      "bounds": {
+        "south": 41.7596519,
+        "west": 14.0805053,
+        "north": 42.44511,
+        "east": 14.7838895
+      },
+      "downloadBytes": 12109967,
+      "graphBytes": 20788394,
+      "sha256": "8a15d7b3f0ba5439e1bc834bed88ac625df519786bd9fba377506bc92f06381d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ch.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-cl",
+      "name": "Caltanissetta",
+      "country": "IT",
+      "bounds": {
+        "south": 37.0021336,
+        "west": 13.6507368,
+        "north": 37.7450177,
+        "east": 14.4768137
+      },
+      "downloadBytes": 10478776,
+      "graphBytes": 18031496,
+      "sha256": "5ac72e6c4a66a45aa43b490073592d21941122808d947870d88f1583e4359d20",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-cl.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-cn",
+      "name": "Cuneo",
+      "country": "IT",
+      "bounds": {
+        "south": 44.0597158,
+        "west": 6.8545067,
+        "north": 44.8566056,
+        "east": 8.2692128
+      },
+      "downloadBytes": 20239788,
+      "graphBytes": 34632964,
+      "sha256": "cfb4561d8a9917cd2207564efd0ab50d3f46f55715e263380b7a9ca0dbdf850b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-cn.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-co",
+      "name": "Como",
+      "country": "IT",
+      "bounds": {
+        "south": 45.6393854,
+        "west": 8.8942419,
+        "north": 46.2395703,
+        "east": 9.4406278
+      },
+      "downloadBytes": 11614334,
+      "graphBytes": 19216364,
+      "sha256": "ec5f20b199ef50af52d407043ff0e412a477d9b55ef212183013a23bfaa493ad",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-co.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-cr",
+      "name": "Cremona",
+      "country": "IT",
+      "bounds": {
+        "south": 44.937668,
+        "west": 9.4528532,
+        "north": 45.5041724,
+        "east": 10.5967139
+      },
+      "downloadBytes": 12409772,
+      "graphBytes": 20226731,
+      "sha256": "839dc9ff5454dc5e6b277993dafdf6390101ea4e10ebd20dd00c1c19db7333af",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-cr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-cs",
+      "name": "Cosenza",
+      "country": "IT",
+      "bounds": {
+        "south": 39.048701,
+        "west": 15.7564433,
+        "north": 40.1449242,
+        "east": 17.0236705
+      },
+      "downloadBytes": 19317880,
+      "graphBytes": 33977816,
+      "sha256": "fe96d809d80acd5d671dea29928f2b4432c304c8abd50afefee1bfc85b7156ac",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-cs.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ct",
+      "name": "Catania",
+      "country": "IT",
+      "bounds": {
+        "south": 37.050297,
+        "west": 14.3517735,
+        "north": 37.961106,
+        "east": 15.2580859
+      },
+      "downloadBytes": 19579105,
+      "graphBytes": 33175197,
+      "sha256": "02345843dbc8e60860aab5988dc035c329aa15e154eab70aea635eb6fe0aea46",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ct.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-cz",
+      "name": "Catanzaro",
+      "country": "IT",
+      "bounds": {
+        "south": 38.4633398,
+        "west": 16.0957104,
+        "north": 39.1942391,
+        "east": 16.9205972
+      },
+      "downloadBytes": 10763029,
+      "graphBytes": 18847611,
+      "sha256": "068b49961cfed3ff3c5411c11162e57931cbdf339377f6bcd98629e5c62daa8d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-cz.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-en",
+      "name": "Enna",
+      "country": "IT",
+      "bounds": {
+        "south": 37.2907801,
+        "west": 14.0562834,
+        "north": 37.8800379,
+        "east": 14.8298134
+      },
+      "downloadBytes": 8178415,
+      "graphBytes": 14262640,
+      "sha256": "64a3cce0a40419a12cab453e366fedf03dadafdcc8b8ea0b88f4729d7e9de0db",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-en.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-fc",
+      "name": "Forl\u00ec-Cesena",
+      "country": "IT",
+      "bounds": {
+        "south": 43.7398521,
+        "west": 11.645047,
+        "north": 44.3306793,
+        "east": 12.4577806
+      },
+      "downloadBytes": 8956277,
+      "graphBytes": 15184896,
+      "sha256": "4cab0390316779d4fc559030bd5c4f779e12ab245d164fba484b89761290f330",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-fc.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-fe",
+      "name": "Ferrara",
+      "country": "IT",
+      "bounds": {
+        "south": 44.5466121,
+        "west": 11.2346755,
+        "north": 44.986943,
+        "east": 12.3989637
+      },
+      "downloadBytes": 6493733,
+      "graphBytes": 10677990,
+      "sha256": "3ef06faed1d94dcf2cb545c45f977961c20df633ed9b3a79c634110fcab562bf",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-fe.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-fg",
+      "name": "Foggia",
+      "country": "IT",
+      "bounds": {
+        "south": 41.0557147,
+        "west": 14.9341858,
+        "north": 41.9503234,
+        "east": 16.1999353
+      },
+      "downloadBytes": 9888066,
+      "graphBytes": 16921756,
+      "sha256": "998fd97f6e0ba83f9da833a7c2baf71be9d853fa80cfba0b2a64e88b4d6bd356",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-fg.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-fi",
+      "name": "Firenze",
+      "country": "IT",
+      "bounds": {
+        "south": 43.4515008,
+        "west": 10.7111211,
+        "north": 44.2398101,
+        "east": 11.7530586
+      },
+      "downloadBytes": 23861974,
+      "graphBytes": 40007661,
+      "sha256": "2ad8fee2c6c3c32a41396ea7472c94d3d26f71d56e30bd5de3bfe7536caa2cad",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-fi.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-fm",
+      "name": "Fermo",
+      "country": "IT",
+      "bounds": {
+        "south": 42.8901647,
+        "west": 13.2160385,
+        "north": 43.2942629,
+        "east": 13.8496502
+      },
+      "downloadBytes": 6458023,
+      "graphBytes": 11012139,
+      "sha256": "fe44d7a8c54b52e555fb4f70a7cab315501cd6e33701fffc081a5976ab694928",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-fm.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-fr",
+      "name": "Frosinone",
+      "country": "IT",
+      "bounds": {
+        "south": 41.301351,
+        "west": 12.9918722,
+        "north": 41.9554478,
+        "east": 14.0276445
+      },
+      "downloadBytes": 13479755,
+      "graphBytes": 23539964,
+      "sha256": "93070b29d43eb2fa3bcb1eec80e8ffdf00e36f7bd5eaae536e2894009c0cee4e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-fr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ge",
+      "name": "Genova",
+      "country": "IT",
+      "bounds": {
+        "south": 44.2163249,
+        "west": 8.5715542,
+        "north": 44.6764424,
+        "east": 9.574846
+      },
+      "downloadBytes": 12828487,
+      "graphBytes": 22160336,
+      "sha256": "932a1770120779da652677a496a53a54a8d323e82934d5c18c9440f8e06ba1af",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ge.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-go",
+      "name": "Gorizia",
+      "country": "IT",
+      "bounds": {
+        "south": 45.6739839,
+        "west": 13.2371348,
+        "north": 46.0513351,
+        "east": 13.6430755
+      },
+      "downloadBytes": 2910047,
+      "graphBytes": 4728405,
+      "sha256": "23979efbc6259a6df8ca0436af8b08f2f1a7aac3619fdb14b095712f6a9a4252",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-go.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-gr",
+      "name": "Grosseto",
+      "country": "IT",
+      "bounds": {
+        "south": 42.3610306,
+        "west": 10.7062668,
+        "north": 43.1891437,
+        "east": 11.820158
+      },
+      "downloadBytes": 9634129,
+      "graphBytes": 16317314,
+      "sha256": "22a7f06ec2b49a4f8c6dcdf32811478f7d51c989a1f6f834407d1a74f4307a69",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-gr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-im",
+      "name": "Imperia",
+      "country": "IT",
+      "bounds": {
+        "south": 43.7756906,
+        "west": 7.4951614,
+        "north": 44.1410201,
+        "east": 8.1353954
+      },
+      "downloadBytes": 5969656,
+      "graphBytes": 10396451,
+      "sha256": "2bbfa33f27eadb6f4684f22df70ca2c752ec5559e24fd98d82fcd8961aee5e62",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-im.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-is",
+      "name": "Isernia",
+      "country": "IT",
+      "bounds": {
+        "south": 41.3876719,
+        "west": 13.9410911,
+        "north": 41.9117554,
+        "east": 14.5222524
+      },
+      "downloadBytes": 5360618,
+      "graphBytes": 9424971,
+      "sha256": "3063a9275ca0f5ffc251b67ab67fbd8dd4f214a294b8adb421edb601916a6043",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-is.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-kr",
+      "name": "Crotone",
+      "country": "IT",
+      "bounds": {
+        "south": 38.8924655,
+        "west": 16.6130213,
+        "north": 39.4824414,
+        "east": 17.2064253
+      },
+      "downloadBytes": 5097412,
+      "graphBytes": 8992537,
+      "sha256": "59d70b466497ff71a1265ff57fe1595cf8c6985c87461d355a9ecde6855e5adf",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-kr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-lc",
+      "name": "Lecco",
+      "country": "IT",
+      "bounds": {
+        "south": 45.6493752,
+        "west": 9.2437341,
+        "north": 46.151716,
+        "east": 9.5411056
+      },
+      "downloadBytes": 6669257,
+      "graphBytes": 11230704,
+      "sha256": "d3f1ae6677040b17a60fd3ba63ad15ecc1350fa105ea645f9cfde5bf0fe25971",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-lc.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-le",
+      "name": "Lecce",
+      "country": "IT",
+      "bounds": {
+        "south": 39.7895944,
+        "west": 17.762464,
+        "north": 40.5148674,
+        "east": 18.5205121
+      },
+      "downloadBytes": 9593445,
+      "graphBytes": 16119269,
+      "sha256": "5fedec18fd37de408cb5621ceb6d1dc7c90d7420fced6c77cff99ab2b7c6606c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-le.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-li",
+      "name": "Livorno",
+      "country": "IT",
+      "bounds": {
+        "south": 42.707497,
+        "west": 10.1024963,
+        "north": 43.6346331,
+        "east": 10.7962196
+      },
+      "downloadBytes": 6867687,
+      "graphBytes": 11333133,
+      "sha256": "7977ce7a6613cfdea58e7ed9cd60c6f5a42586dca8a346bc8e12d84a25aaa783",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-li.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-lo",
+      "name": "Lodi",
+      "country": "IT",
+      "bounds": {
+        "south": 45.0526084,
+        "west": 9.3099901,
+        "north": 45.4700243,
+        "east": 9.900973
+      },
+      "downloadBytes": 5659907,
+      "graphBytes": 9139514,
+      "sha256": "0dd64b430a6821861355384a08c9f13cea4d0d5c2e866add985842b42065ac9f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-lo.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-lt",
+      "name": "Latina",
+      "country": "IT",
+      "bounds": {
+        "south": 41.2038435,
+        "west": 12.530159,
+        "north": 41.7148329,
+        "east": 13.8948148
+      },
+      "downloadBytes": 16233655,
+      "graphBytes": 27970033,
+      "sha256": "d84d6166289abca1dfece5989b9e28d10deb061b23c393b974b981e0fc31d936",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-lt.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-lu",
+      "name": "Lucca",
+      "country": "IT",
+      "bounds": {
+        "south": 43.7493355,
+        "west": 10.1433617,
+        "north": 44.2861712,
+        "east": 10.7375739
+      },
+      "downloadBytes": 10604355,
+      "graphBytes": 18220028,
+      "sha256": "454f44a6c8b3e02604545c5a4988bb41746d6054ade5eade875abfd3ffee37dd",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-lu.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-mb",
+      "name": "Monza e Brianza",
+      "country": "IT",
+      "bounds": {
+        "south": 45.5367099,
+        "west": 9.0505698,
+        "north": 45.7424391,
+        "east": 9.4974636
+      },
+      "downloadBytes": 9487892,
+      "graphBytes": 14958347,
+      "sha256": "febb04618bf34b0de0fe50aeb340962b6bfbf9377da5f3dd650360c10e90c24b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-mb.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-mc",
+      "name": "Macerata",
+      "country": "IT",
+      "bounds": {
+        "south": 42.8318542,
+        "west": 12.8296453,
+        "north": 43.4739419,
+        "east": 13.7432808
+      },
+      "downloadBytes": 13231921,
+      "graphBytes": 22567463,
+      "sha256": "a5734eafdd5d16df1bb8287d7b94caa6aadc0cc253c1ffbfa5a9ffa63604c0f1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-mc.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-me",
+      "name": "Messina",
+      "country": "IT",
+      "bounds": {
+        "south": 37.7950379,
+        "west": 14.1834248,
+        "north": 38.3014883,
+        "east": 15.6530796
+      },
+      "downloadBytes": 13114232,
+      "graphBytes": 22872778,
+      "sha256": "f00ed35ac5a1720b1f080f9b68ea29d5397fa4753a6c2a6d99c9a246cebe19a9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-me.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-mi",
+      "name": "Milano",
+      "country": "IT",
+      "bounds": {
+        "south": 45.2647912,
+        "west": 8.7060961,
+        "north": 45.6434829,
+        "east": 9.551457
+      },
+      "downloadBytes": 22212509,
+      "graphBytes": 34357464,
+      "sha256": "14ee9abd110d3dbaebd93235b5ea705e391075d9ccfb39ad85af662b1c386a6a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-mi.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-mn",
+      "name": "Mantova",
+      "country": "IT",
+      "bounds": {
+        "south": 44.9102742,
+        "west": 10.3090587,
+        "north": 45.4283223,
+        "east": 11.4276477
+      },
+      "downloadBytes": 10981641,
+      "graphBytes": 18043557,
+      "sha256": "576654c3753bc1de046ebbafa1a752532997fbac718e968ee7881a6033338b3d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-mn.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-mo",
+      "name": "Modena",
+      "country": "IT",
+      "bounds": {
+        "south": 44.114152,
+        "west": 10.4698307,
+        "north": 44.9629506,
+        "east": 11.3689308
+      },
+      "downloadBytes": 23131678,
+      "graphBytes": 39004816,
+      "sha256": "8027684b45acf8b3076d83bf55bfb3d4a7f1d5df6fb1dd5df8ee600341ebf93f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-mo.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ms",
+      "name": "Massa-Carrara",
+      "country": "IT",
+      "bounds": {
+        "south": 43.9753156,
+        "west": 9.6867692,
+        "north": 44.4725419,
+        "east": 10.2557058
+      },
+      "downloadBytes": 8127352,
+      "graphBytes": 13888901,
+      "sha256": "6cacad3c3a7ae8b5ba802e8600337b5365562c95f97218c90c3e99ba42df98ca",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ms.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-mt",
+      "name": "Matera",
+      "country": "IT",
+      "bounds": {
+        "south": 40.0566506,
+        "west": 16.048594,
+        "north": 40.838581,
+        "east": 16.8670356
+      },
+      "downloadBytes": 7780392,
+      "graphBytes": 13452837,
+      "sha256": "14965136e59093b7df6b91977dc3f35bbca4038499a56cf70776ae96fdef2d76",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-mt.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-na",
+      "name": "Napoli",
+      "country": "IT",
+      "bounds": {
+        "south": 40.5690361,
+        "west": 14.016982,
+        "north": 41.019847,
+        "east": 14.6702478
+      },
+      "downloadBytes": 11060945,
+      "graphBytes": 18074592,
+      "sha256": "671a441df51ff1d4ed40cc645001eee4e0ba569859fa6f6a6f71131eeb767b2c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-na.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-no",
+      "name": "Novara",
+      "country": "IT",
+      "bounds": {
+        "south": 45.2916099,
+        "west": 8.3105682,
+        "north": 45.8767896,
+        "east": 8.8428962
+      },
+      "downloadBytes": 10537841,
+      "graphBytes": 17303481,
+      "sha256": "b0558b02de566bd169d359e16996514f7a3443d4ea0253fd42b5b208dde61d50",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-no.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-nu",
+      "name": "Nuoro",
+      "country": "IT",
+      "bounds": {
+        "south": 39.8222077,
+        "west": 8.6111616,
+        "north": 40.7060029,
+        "east": 9.828852
+      },
+      "downloadBytes": 8824549,
+      "graphBytes": 15057772,
+      "sha256": "9a352de538ae989329caffbfeae97666eb2f03d94157db3e745d556b7a43dc7a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-nu.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-og",
+      "name": "Ogliastra",
+      "country": "IT",
+      "bounds": {
+        "south": 39.5492929,
+        "west": 9.2729036,
+        "north": 40.2249519,
+        "east": 9.7355697
+      },
+      "downloadBytes": 2312012,
+      "graphBytes": 3995700,
+      "sha256": "84fa39d5ed3b373c9bbe4f3acd26595e2f67dc88756a0f796aceafaf08c91afb",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-og.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-or",
+      "name": "Oristano",
+      "country": "IT",
+      "bounds": {
+        "south": 39.6270116,
+        "west": 8.3765739,
+        "north": 40.4261074,
+        "east": 9.1729365
+      },
+      "downloadBytes": 5228482,
+      "graphBytes": 8767946,
+      "sha256": "5795469f75815c46043de982fab56c0c8752f9cd95dfa7c95a3e3497ac092b48",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-or.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ot",
+      "name": "Gallura Nord-Est Sardegna",
+      "country": "IT",
+      "bounds": {
+        "south": 40.5258328,
+        "west": 8.8025523,
+        "north": 41.2590755,
+        "east": 9.7536755
+      },
+      "downloadBytes": 6406451,
+      "graphBytes": 10938309,
+      "sha256": "e54a200b73d94bc5faab664556dd6f1cddcc726a31298037e2d72cc26cebe094",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ot.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pa",
+      "name": "Palermo",
+      "country": "IT",
+      "bounds": {
+        "south": 37.5393034,
+        "west": 12.9287426,
+        "north": 38.2245866,
+        "east": 14.2943904
+      },
+      "downloadBytes": 14553776,
+      "graphBytes": 25054578,
+      "sha256": "ac8bcaca7ebc633361070116ce3deebc06e0e00686752f59fd3dab2098deed83",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pa.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pc",
+      "name": "Piacenza",
+      "country": "IT",
+      "bounds": {
+        "south": 44.5558766,
+        "west": 9.1979117,
+        "north": 45.1395001,
+        "east": 10.0831378
+      },
+      "downloadBytes": 10417086,
+      "graphBytes": 17805599,
+      "sha256": "7aff85cabef328e78117bb0ea8bab0fc78e08a67c2295b08c98548d253cb5bf3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pc.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pd",
+      "name": "Padova",
+      "country": "IT",
+      "bounds": {
+        "south": 45.09558,
+        "west": 11.3909429,
+        "north": 45.6872283,
+        "east": 12.2064075
+      },
+      "downloadBytes": 18745652,
+      "graphBytes": 30862170,
+      "sha256": "9b64c4d036d363be0476106fc2092b644ceff3cf1ec5d34f61f33a17eda5c669",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pd.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pe",
+      "name": "Pescara",
+      "country": "IT",
+      "bounds": {
+        "south": 42.0740441,
+        "west": 13.7661594,
+        "north": 42.5454921,
+        "east": 14.2539586
+      },
+      "downloadBytes": 9659020,
+      "graphBytes": 16378597,
+      "sha256": "49a8fbd7489ecaaff8e8c133aac3e3ca72a14eb90c3d7e44763f04262a95b1a4",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pe.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pg",
+      "name": "Perugia",
+      "country": "IT",
+      "bounds": {
+        "south": 42.5968383,
+        "west": 11.9123518,
+        "north": 43.6173443,
+        "east": 13.2641895
+      },
+      "downloadBytes": 26367581,
+      "graphBytes": 45511459,
+      "sha256": "ea442bd508fb762e27d20a418a81ab18abd2892976e3bba430f9326852d1541c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pg.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pi",
+      "name": "Pisa",
+      "country": "IT",
+      "bounds": {
+        "south": 43.1084854,
+        "west": 10.2574977,
+        "north": 43.834394,
+        "east": 11.0140065
+      },
+      "downloadBytes": 12063247,
+      "graphBytes": 19863021,
+      "sha256": "4623b19a0ed3b98329dd6c371c7be795fd5f9f64cb958930b5845fcc45782f90",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pi.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pn",
+      "name": "Pordenone",
+      "country": "IT",
+      "bounds": {
+        "south": 45.7906045,
+        "west": 12.3213811,
+        "north": 46.412508,
+        "east": 12.9906991
+      },
+      "downloadBytes": 8088533,
+      "graphBytes": 13557466,
+      "sha256": "c4fe370dc1d6f13a2e47c76d0ecf677d88015206d6c56fb7f3dafb69aed9f61b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pn.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-po",
+      "name": "Prato",
+      "country": "IT",
+      "bounds": {
+        "south": 43.7586956,
+        "west": 10.9639122,
+        "north": 44.1123682,
+        "east": 11.2097886
+      },
+      "downloadBytes": 4329431,
+      "graphBytes": 6904066,
+      "sha256": "73946e4472c80fa4000df58ea9cd3e8dbb4b4060e05bfb62224934d2b811be99",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-po.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pr",
+      "name": "Parma",
+      "country": "IT",
+      "bounds": {
+        "south": 44.3460313,
+        "west": 9.4381716,
+        "north": 45.0444369,
+        "east": 10.5085422
+      },
+      "downloadBytes": 14617125,
+      "graphBytes": 24516321,
+      "sha256": "b71aed3d45ab68541886891e5da8e8d91a8f7931b216fefd51946ddb57912aac",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pt",
+      "name": "Pistoia",
+      "country": "IT",
+      "bounds": {
+        "south": 43.7880964,
+        "west": 10.6209226,
+        "north": 44.1601774,
+        "east": 11.0714805
+      },
+      "downloadBytes": 6654775,
+      "graphBytes": 11178482,
+      "sha256": "2cc252d897d5063e39640f7d1f1f93e5fee016a135e556bbb7bb3ef5ec43b060",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pt.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pu",
+      "name": "Pesaro e Urbino",
+      "country": "IT",
+      "bounds": {
+        "south": 43.4165862,
+        "west": 12.1854536,
+        "north": 43.9715999,
+        "east": 13.1723132
+      },
+      "downloadBytes": 13371702,
+      "graphBytes": 23003453,
+      "sha256": "5a233b595035320a64b211dedd3d20cf5cc454a4b6adca96796eb1c4d66a56b5",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pu.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pv",
+      "name": "Pavia",
+      "country": "IT",
+      "bounds": {
+        "south": 44.6799091,
+        "west": 8.4978518,
+        "north": 45.393838,
+        "east": 9.5505475
+      },
+      "downloadBytes": 18807361,
+      "graphBytes": 31671967,
+      "sha256": "370e2077efeb6638fc2349b2d5d964e2e02c7b97ead9398a387175275b3288e7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pv.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-pz",
+      "name": "Potenza",
+      "country": "IT",
+      "bounds": {
+        "south": 39.8958079,
+        "west": 15.3349712,
+        "north": 41.1395383,
+        "east": 16.3995736
+      },
+      "downloadBytes": 21164299,
+      "graphBytes": 36912728,
+      "sha256": "0f5f227b9f5326a4c983ab19dd017bb4f77dad29a516b3510995c809abff968d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-pz.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ra",
+      "name": "Ravenna",
+      "country": "IT",
+      "bounds": {
+        "south": 44.0989959,
+        "west": 11.5248313,
+        "north": 44.6283408,
+        "east": 12.3839715
+      },
+      "downloadBytes": 7607410,
+      "graphBytes": 12510900,
+      "sha256": "650a1b7186123692888a8649da0a256f310314eb5e481ce1f99bf0c8252ebdcd",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ra.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-rc",
+      "name": "Reggio Calabria",
+      "country": "IT",
+      "bounds": {
+        "south": 37.9157947,
+        "west": 15.6298439,
+        "north": 38.5738018,
+        "east": 16.5834766
+      },
+      "downloadBytes": 8760012,
+      "graphBytes": 15177367,
+      "sha256": "a6d545e23c0e8968f4638742c01507be5f08446568f90fce4cfdd13e58a9678a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-rc.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-re",
+      "name": "Reggio Emilia",
+      "country": "IT",
+      "bounds": {
+        "south": 44.225466,
+        "west": 10.1424146,
+        "north": 44.9920133,
+        "east": 10.8971498
+      },
+      "downloadBytes": 17255036,
+      "graphBytes": 28820485,
+      "sha256": "c6b3679a4eeeb69d8d28d6930487ed5a499b243da2c6a8ff5c244f9b02903e2d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-re.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-rg",
+      "name": "Ragusa",
+      "country": "IT",
+      "bounds": {
+        "south": 36.6917663,
+        "west": 14.3372464,
+        "north": 37.1393668,
+        "east": 15.0078758
+      },
+      "downloadBytes": 7113846,
+      "graphBytes": 11952061,
+      "sha256": "86bf5735452daa64347bfb78bde514171329a47bed9ccfe010dcbf89e46f42d7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-rg.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ri",
+      "name": "Rieti",
+      "country": "IT",
+      "bounds": {
+        "south": 42.0889167,
+        "west": 12.4372963,
+        "north": 42.7409686,
+        "east": 13.4099792
+      },
+      "downloadBytes": 13373912,
+      "graphBytes": 23012582,
+      "sha256": "ab9cdffe6a210af14e50528c22714aa818790d33733dbb9dc541a9b03dceec3f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ri.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-rm",
+      "name": "Roma",
+      "country": "IT",
+      "bounds": {
+        "south": 41.4076117,
+        "west": 11.7336245,
+        "north": 42.2965732,
+        "east": 13.2962768
+      },
+      "downloadBytes": 43574558,
+      "graphBytes": 72886550,
+      "sha256": "2091212bff0dd2fe4b77cd69d70c3de6c73786e807d2ebf0ee586c8c1d255907",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-rm.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-rn",
+      "name": "Rimini",
+      "country": "IT",
+      "bounds": {
+        "south": 43.7308081,
+        "west": 12.0961656,
+        "north": 44.1622868,
+        "east": 12.7559006
+      },
+      "downloadBytes": 7260140,
+      "graphBytes": 12187029,
+      "sha256": "ee662be1ad1120a529423d8eb05b13914bda03969d3ea3583b70231da40a8fbf",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-rn.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ro",
+      "name": "Rovigo",
+      "country": "IT",
+      "bounds": {
+        "south": 44.7922924,
+        "west": 11.173546,
+        "north": 45.1629498,
+        "east": 12.5533113
+      },
+      "downloadBytes": 6149651,
+      "graphBytes": 10164289,
+      "sha256": "ebf6f7a78ef0162109b7a8d5ca1eee995c668b36fafcb9b4dbeb5a8c55acbaeb",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ro.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-sa",
+      "name": "Salerno",
+      "country": "IT",
+      "bounds": {
+        "south": 39.9905158,
+        "west": 14.4622617,
+        "north": 40.8487482,
+        "east": 15.8064468
+      },
+      "downloadBytes": 18946506,
+      "graphBytes": 32553888,
+      "sha256": "9e3db055f979947f4cfdc4615d5e2659a12a36fd6dfaf84977ec1b0de8611c55",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-sa.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-si",
+      "name": "Siena",
+      "country": "IT",
+      "bounds": {
+        "south": 42.7857809,
+        "west": 10.9083129,
+        "north": 43.54846,
+        "east": 11.9827957
+      },
+      "downloadBytes": 15885168,
+      "graphBytes": 26782057,
+      "sha256": "b244923831c7abe5e3a873fed558c71862e341758486bb89e8b696df812e45db",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-si.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-so",
+      "name": "Sondrio",
+      "country": "IT",
+      "bounds": {
+        "south": 46.0113575,
+        "west": 9.247002,
+        "north": 46.6353532,
+        "east": 10.6327598
+      },
+      "downloadBytes": 6178798,
+      "graphBytes": 10630058,
+      "sha256": "c1bde80faeaf1ee64f6f6329aa0ea069c92421cdbad547f189b968578a037a1b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-so.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-sp",
+      "name": "La Spezia",
+      "country": "IT",
+      "bounds": {
+        "south": 44.0353855,
+        "west": 9.4657374,
+        "north": 44.441566,
+        "east": 10.0715114
+      },
+      "downloadBytes": 7021283,
+      "graphBytes": 12041381,
+      "sha256": "61663f2eb1dd08c3a660b79a3bb60e0aecad24677e559aa15b1bc712258e5ed9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-sp.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-sr",
+      "name": "Siracusa",
+      "country": "IT",
+      "bounds": {
+        "south": 36.6467869,
+        "west": 14.7729261,
+        "north": 37.4128826,
+        "east": 15.3367251
+      },
+      "downloadBytes": 9184311,
+      "graphBytes": 15395395,
+      "sha256": "15b663815fc4e2f2db643c49df6e90f390dbaa9c1833378c0f1a0cb3afa67e28",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-sr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ss",
+      "name": "Sassari",
+      "country": "IT",
+      "bounds": {
+        "south": 40.2965476,
+        "west": 8.1308446,
+        "north": 40.972631,
+        "east": 9.2849064
+      },
+      "downloadBytes": 6709014,
+      "graphBytes": 11323848,
+      "sha256": "cc2ad1eaa8da4482812054d5a555bd6f8e61bc7b43b43daf3986aa52eb78dbfa",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ss.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-su",
+      "name": "Sulcis Iglesiente",
+      "country": "IT",
+      "bounds": {
+        "south": 38.8640117,
+        "west": 8.3666366,
+        "north": 39.4829916,
+        "east": 8.8531525
+      },
+      "downloadBytes": 2237320,
+      "graphBytes": 3769626,
+      "sha256": "ccc6344fd1d27dbc6d0bd7da17d585af7849a9b1da2092e50e99333f88e26488",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-su.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-sv",
+      "name": "Savona",
+      "country": "IT",
+      "bounds": {
+        "south": 43.9382354,
+        "west": 7.9772768,
+        "north": 44.528545,
+        "east": 8.6709233
+      },
+      "downloadBytes": 8910561,
+      "graphBytes": 15438464,
+      "sha256": "a48874db98d22f56586a7f1683d0822fba833a68b1aa4bb8adce776ce25728b3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-sv.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ta",
+      "name": "Taranto",
+      "country": "IT",
+      "bounds": {
+        "south": 40.2944732,
+        "west": 16.6973101,
+        "north": 40.803251,
+        "east": 17.8004172
+      },
+      "downloadBytes": 6779022,
+      "graphBytes": 11324476,
+      "sha256": "e1088cb79d765ac19b3ff02a36448b2cc4da3b526c683cdd6022fa942d57655d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ta.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-te",
+      "name": "Teramo",
+      "country": "IT",
+      "bounds": {
+        "south": 42.4211162,
+        "west": 13.3469322,
+        "north": 42.8950814,
+        "east": 14.1463154
+      },
+      "downloadBytes": 10211813,
+      "graphBytes": 17503330,
+      "sha256": "266d87b944793b5718ba0bba964602a7e16ace1ae3776bbfa91d621d1f25542d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-te.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-tn",
+      "name": "Trento",
+      "country": "IT",
+      "bounds": {
+        "south": 45.6728669,
+        "west": 10.4522048,
+        "north": 46.5330375,
+        "east": 11.9628023
+      },
+      "downloadBytes": 25582033,
+      "graphBytes": 43624614,
+      "sha256": "e0810eab8e5ad45cab81a4eaeaa6f335817576e0cbfe8c1ea57a7e94dc56b4f1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-tn.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-to",
+      "name": "Torino",
+      "country": "IT",
+      "bounds": {
+        "south": 44.713755,
+        "west": 6.6272658,
+        "north": 45.6023219,
+        "east": 8.1518662
+      },
+      "downloadBytes": 25647684,
+      "graphBytes": 42697620,
+      "sha256": "0bc60a02f397465adc094d34d432d4f5740e634d4ab430e11b5e20eccaa35b23",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-to.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-tp",
+      "name": "Trapani",
+      "country": "IT",
+      "bounds": {
+        "south": 37.5594659,
+        "west": 12.4242472,
+        "north": 38.1896376,
+        "east": 13.1001376
+      },
+      "downloadBytes": 5835804,
+      "graphBytes": 9909914,
+      "sha256": "f738d843544982ca58f96f1e7cd8100d0c1c0b9b1717fe6b71ab443ccb4e17a1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-tp.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-tr",
+      "name": "Terni",
+      "country": "IT",
+      "bounds": {
+        "south": 42.3647769,
+        "west": 11.8920337,
+        "north": 42.9431276,
+        "east": 12.8961982
+      },
+      "downloadBytes": 11048352,
+      "graphBytes": 18974806,
+      "sha256": "d1e4b04e25c6eca15a72d8fa831300b95fd89c670d0c54b5f937065817792732",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-tr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ts",
+      "name": "Trieste",
+      "country": "IT",
+      "bounds": {
+        "south": 45.5808987,
+        "west": 13.5757991,
+        "north": 45.8081828,
+        "east": 13.9186553
+      },
+      "downloadBytes": 2328956,
+      "graphBytes": 3841625,
+      "sha256": "70b061cd7f42e3fb8bdb7447d6a8dc4406fff7ee66f2c2d9dc4400091bca3d92",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ts.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-tv",
+      "name": "Treviso",
+      "country": "IT",
+      "bounds": {
+        "south": 45.5304763,
+        "west": 11.7430292,
+        "north": 46.0828957,
+        "east": 12.6853155
+      },
+      "downloadBytes": 17592753,
+      "graphBytes": 29155698,
+      "sha256": "97cccda4ccb2972d0c3778aa82a86e7b76c03326ea1e73882997aab35b2c33eb",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-tv.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ud",
+      "name": "Udine",
+      "country": "IT",
+      "bounds": {
+        "south": 45.6426241,
+        "west": 12.4930436,
+        "north": 46.6479539,
+        "east": 13.7172972
+      },
+      "downloadBytes": 19634586,
+      "graphBytes": 32842881,
+      "sha256": "92d1dc1ad3b90144fbe99d0959e64ec617361f42b9501e48767359cf12d5fc0a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ud.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-va",
+      "name": "Varese",
+      "country": "IT",
+      "bounds": {
+        "south": 45.5583143,
+        "west": 8.552246,
+        "north": 46.1223113,
+        "east": 9.0662956
+      },
+      "downloadBytes": 12938276,
+      "graphBytes": 21177240,
+      "sha256": "c4db8923f03bc4c89a1603350fb4ac9d8e3424407ea9a2954f61f1136b99757c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-va.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vb",
+      "name": "Verbano-Cusio-Ossola",
+      "country": "IT",
+      "bounds": {
+        "south": 45.7669327,
+        "west": 7.8684081,
+        "north": 46.4642954,
+        "east": 8.7289666
+      },
+      "downloadBytes": 6482408,
+      "graphBytes": 11121564,
+      "sha256": "80b2bb8aea3805c1b60a19aee6e83b41d5f43ad8dc98f7ad49ba209bfd74f885",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vb.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vc",
+      "name": "Vercelli",
+      "country": "IT",
+      "bounds": {
+        "south": 45.1595211,
+        "west": 7.8613734,
+        "north": 45.9507585,
+        "east": 8.5811897
+      },
+      "downloadBytes": 11784755,
+      "graphBytes": 19895493,
+      "sha256": "0e3e403195edd56665796b6dfd73d9c6a99622cccbb0168514ae19f731bb2dd2",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vc.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-ve",
+      "name": "Venezia",
+      "country": "IT",
+      "bounds": {
+        "south": 45.0556953,
+        "west": 11.9619782,
+        "north": 45.8546002,
+        "east": 13.1020861
+      },
+      "downloadBytes": 16660845,
+      "graphBytes": 27127618,
+      "sha256": "961d25cbe59832fcd7db4f373dad65e3234065392ae567fff2302c753d785fee",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-ve.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vi",
+      "name": "Vicenza",
+      "country": "IT",
+      "bounds": {
+        "south": 45.2551958,
+        "west": 11.1361942,
+        "north": 46.0144637,
+        "east": 11.8362709
+      },
+      "downloadBytes": 17540132,
+      "graphBytes": 29437327,
+      "sha256": "9d2e3fe5b4e9a5d8b7f08fd026483e4ec97b32febab3756b44d915a6738327d8",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vi.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vr",
+      "name": "Verona",
+      "country": "IT",
+      "bounds": {
+        "south": 45.0530672,
+        "west": 10.6231032,
+        "north": 45.8318248,
+        "east": 11.491357
+      },
+      "downloadBytes": 18499517,
+      "graphBytes": 30901303,
+      "sha256": "e7b316ea6b1687dd98022127550834af121ef2e5f6f6aa2778a97af8e8756452",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vr.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vs",
+      "name": "Medio Campidano",
+      "country": "IT",
+      "bounds": {
+        "south": 39.374733,
+        "west": 8.3792773,
+        "north": 39.7829214,
+        "east": 9.0736886
+      },
+      "downloadBytes": 2525004,
+      "graphBytes": 4179041,
+      "sha256": "f4a15d3513d1918322682df84ea1db790d746051edc07fa48ba4d5bdf9c6644b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vs.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vt",
+      "name": "Viterbo",
+      "country": "IT",
+      "bounds": {
+        "south": 42.1471742,
+        "west": 11.4491695,
+        "north": 42.8387328,
+        "east": 12.5198374
+      },
+      "downloadBytes": 9525014,
+      "graphBytes": 16355202,
+      "sha256": "3047afc33c3ef3dd1eae73a6022a44cbcb5f0fa648006f0f94d2dda14099c0a4",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vt.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "it-vv",
+      "name": "Vibo Valentia",
+      "country": "IT",
+      "bounds": {
+        "south": 38.428875,
+        "west": 15.8263159,
+        "north": 38.8244201,
+        "east": 16.4347613
+      },
+      "downloadBytes": 4167411,
+      "graphBytes": 7221391,
+      "sha256": "409f52ea705a18922fa87006f651b4ca0965e3df1dadac6483633f6cb1430cd7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/it-vv.graph.gz",
+      "rev": "2026-10-24"
     }
   ]
 }

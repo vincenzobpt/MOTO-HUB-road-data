@@ -44,14 +44,21 @@ def run(*args):
     subprocess.run(args, check=True)
 
 
-def bake(pbf, west, south, east, north, out, include_service=True):
+def filter_roads(pbf, out, include_service=True):
+    """Keep only routable ways (and the nodes they use). Do it once per extract, not per region."""
     linked = ["motorway", "trunk", "primary", "secondary", "tertiary"]
     plain = ["unclassified", "residential", "living_street", "road"] + (["service"] if include_service else [])
     values = ",".join(linked + [c + "_link" for c in linked] + plain)
+    run("osmium", "tags-filter", pbf, "w/highway=" + values, "-o", out, "--overwrite")
+
+
+def bake(pbf, west, south, east, north, out, include_service=True, prefiltered=False):
     with tempfile.TemporaryDirectory() as tmp:
-        roads = os.path.join(tmp, "roads.osm.pbf")
+        roads = pbf
+        if not prefiltered:
+            roads = os.path.join(tmp, "roads.osm.pbf")
+            filter_roads(pbf, roads, include_service)
         cut = os.path.join(tmp, "cut.osm.pbf")
-        run("osmium", "tags-filter", pbf, "w/highway=" + values, "-o", roads, "--overwrite")
         run("osmium", "extract", "-b", f"{west},{south},{east},{north}",
             "--strategy=complete_ways", roads, "-o", cut, "--overwrite")
         opl = subprocess.Popen(["osmium", "cat", cut, "-f", "opl", "-o", "-"],
