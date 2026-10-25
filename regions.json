@@ -5266,145 +5266,6 @@
       ]
     },
     {
-      "id": "ireland-and-northern-ireland",
-      "source": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf",
-      "release": "graphs-ireland-and-northern-ireland",
-      "regions": [
-        {
-          "id": "gb-ni-1",
-          "name": "Derry/Londonderry area",
-          "country": "GB",
-          "bbox": {
-            "west": -10.6937525,
-            "south": 54.6292775,
-            "east": -5.049265,
-            "north": 56.87553
-          },
-          "nodes": 1080012
-        },
-        {
-          "id": "gb-ni-2",
-          "name": "Omagh area",
-          "country": "GB",
-          "bbox": {
-            "west": -7.8815088,
-            "south": 54.0727144,
-            "east": -6.4553869,
-            "north": 54.6492775
-          },
-          "nodes": 621364
-        },
-        {
-          "id": "ie-1",
-          "name": "Sligo area",
-          "country": "IE",
-          "bbox": {
-            "west": -10.6937525,
-            "south": 53.5161513,
-            "east": -7.8615088,
-            "north": 54.6492775
-          },
-          "nodes": 945468
-        },
-        {
-          "id": "gb-ni-3",
-          "name": "Belfast area",
-          "country": "GB",
-          "bbox": {
-            "west": -6.4753869,
-            "south": 53.5161513,
-            "east": -5.049265,
-            "north": 54.6492775
-          },
-          "nodes": 918586
-        },
-        {
-          "id": "ie-2",
-          "name": "Navan area",
-          "country": "IE",
-          "bbox": {
-            "west": -7.8815088,
-            "south": 53.5161513,
-            "east": -6.4553869,
-            "north": 54.0927144
-          },
-          "nodes": 598524
-        },
-        {
-          "id": "ie-3",
-          "name": "Galway area",
-          "country": "IE",
-          "bbox": {
-            "west": -10.6937525,
-            "south": 52.403025,
-            "east": -7.8615088,
-            "north": 53.5361513
-          },
-          "nodes": 1030033
-        },
-        {
-          "id": "ie-4",
-          "name": "Carlow area",
-          "country": "IE",
-          "bbox": {
-            "west": -7.8815088,
-            "south": 52.403025,
-            "east": -6.4553869,
-            "north": 53.5361513
-          },
-          "nodes": 1037251
-        },
-        {
-          "id": "ie-5",
-          "name": "Dublin area",
-          "country": "IE",
-          "bbox": {
-            "west": -6.4753869,
-            "south": 52.403025,
-            "east": -5.049265,
-            "north": 53.5361513
-          },
-          "nodes": 771550
-        },
-        {
-          "id": "ie-6",
-          "name": "Tralee area",
-          "country": "IE",
-          "bbox": {
-            "west": -10.6937525,
-            "south": 51.2898988,
-            "east": -9.2676306,
-            "north": 52.423025
-          },
-          "nodes": 401773
-        },
-        {
-          "id": "ie-7",
-          "name": "Cork area",
-          "country": "IE",
-          "bbox": {
-            "west": -9.2876306,
-            "south": 51.2898988,
-            "east": -7.8615088,
-            "north": 52.423025
-          },
-          "nodes": 813831
-        },
-        {
-          "id": "gb-ni-4",
-          "name": "Wexford area",
-          "country": "GB",
-          "bbox": {
-            "west": -7.8815088,
-            "south": 50.1767725,
-            "east": -5.049265,
-            "north": 52.423025
-          },
-          "nodes": 385037
-        }
-      ]
-    },
-    {
       "id": "isle-of-man",
       "source": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
       "release": "graphs-isle-of-man",
@@ -7747,6 +7608,145 @@
             "north": 46.1130922
           },
           "nodes": 465191
+        }
+      ]
+    },
+    {
+      "id": "ireland-and-northern-ireland",
+      "source": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf",
+      "release": "graphs-ireland-and-northern-ireland",
+      "regions": [
+        {
+          "id": "gb-ireland-and-northern-ireland-1",
+          "name": "Derry/Londonderry area",
+          "country": "GB",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 54.6292775,
+            "east": -5.049265,
+            "north": 56.87553
+          },
+          "nodes": 1080012
+        },
+        {
+          "id": "gb-ireland-and-northern-ireland-2",
+          "name": "Omagh area",
+          "country": "GB",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 54.0727144,
+            "east": -6.4553869,
+            "north": 54.6492775
+          },
+          "nodes": 621364
+        },
+        {
+          "id": "ie-1",
+          "name": "Sligo area",
+          "country": "IE",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 53.5161513,
+            "east": -7.8615088,
+            "north": 54.6492775
+          },
+          "nodes": 945468
+        },
+        {
+          "id": "gb-ireland-and-northern-ireland-3",
+          "name": "Belfast area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4753869,
+            "south": 53.5161513,
+            "east": -5.049265,
+            "north": 54.6492775
+          },
+          "nodes": 918586
+        },
+        {
+          "id": "ie-2",
+          "name": "Navan area",
+          "country": "IE",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 53.5161513,
+            "east": -6.4553869,
+            "north": 54.0927144
+          },
+          "nodes": 598524
+        },
+        {
+          "id": "ie-3",
+          "name": "Galway area",
+          "country": "IE",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 52.403025,
+            "east": -7.8615088,
+            "north": 53.5361513
+          },
+          "nodes": 1030033
+        },
+        {
+          "id": "ie-4",
+          "name": "Carlow area",
+          "country": "IE",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 52.403025,
+            "east": -6.4553869,
+            "north": 53.5361513
+          },
+          "nodes": 1037251
+        },
+        {
+          "id": "ie-5",
+          "name": "Dublin area",
+          "country": "IE",
+          "bbox": {
+            "west": -6.4753869,
+            "south": 52.403025,
+            "east": -5.049265,
+            "north": 53.5361513
+          },
+          "nodes": 771550
+        },
+        {
+          "id": "ie-6",
+          "name": "Tralee area",
+          "country": "IE",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 51.2898988,
+            "east": -9.2676306,
+            "north": 52.423025
+          },
+          "nodes": 401773
+        },
+        {
+          "id": "ie-7",
+          "name": "Cork area",
+          "country": "IE",
+          "bbox": {
+            "west": -9.2876306,
+            "south": 51.2898988,
+            "east": -7.8615088,
+            "north": 52.423025
+          },
+          "nodes": 813831
+        },
+        {
+          "id": "ie-8",
+          "name": "Wexford area",
+          "country": "IE",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 50.1767725,
+            "east": -5.049265,
+            "north": 52.423025
+          },
+          "nodes": 385037
         }
       ]
     }
