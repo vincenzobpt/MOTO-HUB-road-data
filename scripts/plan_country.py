@@ -192,10 +192,11 @@ def main(argv):
     regions = []
     counters = {}
     for core, bbox, nodes in tiles:
-        centre = ((core[0] + core[2]) / 2, (core[1] + core[3]) / 2)
-        code = country_of(centre, codes, rings)
-        counters[code] = counters.get(code, 0) + 1
         inside = [p for p in places if core[0] <= p[0] < core[2] and core[1] <= p[1] < core[3]]
+        # The tile's biggest place is on land; the tile's centre may be in the sea or a lake.
+        anchor = max(inside, key=lambda p: (p[3], p[4]))[:2] if inside else ((core[0] + core[2]) / 2, (core[1] + core[3]) / 2)
+        code = country_of(anchor, codes, rings)
+        counters[code] = counters.get(code, 0) + 1
         if len(tiles) == 1 and len(codes) == 1:
             name = countries[code]
         elif inside:
