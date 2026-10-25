@@ -2,6 +2,134 @@
   "schema": 1,
   "regions": [
     {
+      "id": "pt-aveiro",
+      "name": "Aveiro",
+      "country": "PT",
+      "bounds": {
+        "south": 40.2788096,
+        "west": -8.7840289,
+        "north": 41.0801544,
+        "east": -8.0891722
+      },
+      "downloadBytes": 17162702,
+      "graphBytes": 29187136,
+      "sha256": "39bcef0110578945ddb4fdb5f6d611fd3c4ec051e5414bf36ce85c5bd7c99af3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-aveiro.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-beja",
+      "name": "Beja",
+      "country": "PT",
+      "bounds": {
+        "south": 37.3189368,
+        "west": -8.8195341,
+        "north": 38.3311462,
+        "east": -6.931521
+      },
+      "downloadBytes": 7740900,
+      "graphBytes": 13219588,
+      "sha256": "9906cd6e3ed55a4ec2aac6bdaff06902c795fefcc70c203dcfb1f417e13bd64e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-beja.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-braga",
+      "name": "Braga",
+      "country": "PT",
+      "bounds": {
+        "south": 41.3187983,
+        "west": -8.8115744,
+        "north": 41.8206312,
+        "east": -7.8106767
+      },
+      "downloadBytes": 19763790,
+      "graphBytes": 33921868,
+      "sha256": "68a6a153fe01b339262587d5ddf9c429ca8f4203aeb440bad17d64e7b6a91d60",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-braga.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-braganca",
+      "name": "Bragan\u00e7a",
+      "country": "PT",
+      "bounds": {
+        "south": 41.0245423,
+        "west": -7.4318921,
+        "north": 41.9925213,
+        "east": -6.1891593
+      },
+      "downloadBytes": 6982508,
+      "graphBytes": 11953518,
+      "sha256": "61d7e79298abd1b570cd5a056239430848c90d072c37be0fc718b879ad0e9bf8",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-braganca.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-castelo-branco",
+      "name": "Castelo Branco",
+      "country": "PT",
+      "bounds": {
+        "south": 39.5373649,
+        "west": -8.2931234,
+        "north": 40.4161318,
+        "east": -6.8637851
+      },
+      "downloadBytes": 15324312,
+      "graphBytes": 26574259,
+      "sha256": "dc6aae00783f0cefc8af3625f6a3a059ef9ac96d88bcd1b335495f540f41a4d0",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-castelo-branco.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-coimbra",
+      "name": "Coimbra",
+      "country": "PT",
+      "bounds": {
+        "south": 39.923791,
+        "west": -8.9092437,
+        "north": 40.5203648,
+        "east": -7.7317555
+      },
+      "downloadBytes": 15353081,
+      "graphBytes": 26267941,
+      "sha256": "7fd55bb829bf944046eadbfd9b7f58b68bcc5ee4b345795ad318efda5e31de31",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-coimbra.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-evora",
+      "name": "\u00c9vora",
+      "country": "PT",
+      "bounds": {
+        "south": 38.1546502,
+        "west": -8.6584679,
+        "north": 39.0269315,
+        "east": -7.1067761
+      },
+      "downloadBytes": 5366514,
+      "graphBytes": 8946854,
+      "sha256": "2e998aeb696b7de4d128c078d767350dc2275aa07ac065be6991a8096db30a5a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-evora.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-faro",
+      "name": "Faro",
+      "country": "PT",
+      "bounds": {
+        "south": 36.9599679,
+        "west": -8.9971157,
+        "north": 37.5291307,
+        "east": -7.3948663
+      },
+      "downloadBytes": 11437326,
+      "graphBytes": 19113813,
+      "sha256": "02a1fa4f4abd4a755f981c77830aa498fc4ac45ea152c082ddb6969800d1c047",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-faro.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
       "id": "pt-guarda",
       "name": "Guarda",
       "country": "PT",
@@ -15,6 +143,182 @@
       "graphBytes": 22110182,
       "sha256": "627c3dec1563502a096a039f4c4ecfb2297cee070c947b44395f31db9ea880c3",
       "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-guarda.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-leiria",
+      "name": "Leiria",
+      "country": "PT",
+      "bounds": {
+        "south": 39.2115773,
+        "west": -9.5170291,
+        "north": 40.0897361,
+        "east": -8.1080378
+      },
+      "downloadBytes": 22688059,
+      "graphBytes": 38776935,
+      "sha256": "2cac49f7a15ec28317d9ade690787830ee2ed5a6ab8da739b53dd20b0cddb1b6",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-leiria.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-lisboa",
+      "name": "Lisboa",
+      "country": "PT",
+      "bounds": {
+        "south": 38.6731469,
+        "west": -9.5005266,
+        "north": 39.3177287,
+        "east": -8.781861
+      },
+      "downloadBytes": 17845131,
+      "graphBytes": 29000515,
+      "sha256": "3b36133f1a9ffac1174fdf969cf65a5b11ba8c50933f4c6ac15452aea3a0e38f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-lisboa.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-portalegre",
+      "name": "Portalegre",
+      "country": "PT",
+      "bounds": {
+        "south": 38.7514974,
+        "west": -8.3438699,
+        "north": 39.6636796,
+        "east": -6.9511303
+      },
+      "downloadBytes": 6048786,
+      "graphBytes": 10225712,
+      "sha256": "659509d083f97e71d54301d5e4ac6958257020007349b102c4738a74b888ae74",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-portalegre.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-porto",
+      "name": "Porto",
+      "country": "PT",
+      "bounds": {
+        "south": 41.0013802,
+        "west": -8.7890627,
+        "north": 41.4719715,
+        "east": -7.8755793
+      },
+      "downloadBytes": 23405495,
+      "graphBytes": 39477758,
+      "sha256": "78aaaa9d505593a090425a02e89208205efb0fcfa791ebadeded52c7aa88a060",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-porto.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-santarem",
+      "name": "Santar\u00e9m",
+      "country": "PT",
+      "bounds": {
+        "south": 38.7314904,
+        "west": -9.001574,
+        "north": 39.8387292,
+        "east": -7.8089881
+      },
+      "downloadBytes": 18324710,
+      "graphBytes": 31272039,
+      "sha256": "a9c4bc37e4969ae82b98601dcae6ec1a54bbc45cbc86c5855f5ee02bbab692d4",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-santarem.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-setubal",
+      "name": "Set\u00fabal",
+      "country": "PT",
+      "bounds": {
+        "south": 37.7493933,
+        "west": -9.2629753,
+        "north": 38.8454231,
+        "east": -8.1296963
+      },
+      "downloadBytes": 13805535,
+      "graphBytes": 22066789,
+      "sha256": "9a1d7a76c9397c4dfb17fa03f6a9700a8adb47fe49a792e5bd1721ee506204d9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-setubal.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "name": "Viana do Castelo",
+      "country": "PT",
+      "bounds": {
+        "south": 41.6063807,
+        "west": -8.8809556,
+        "north": 42.1543112,
+        "east": -8.0827652
+      },
+      "downloadBytes": 11086748,
+      "graphBytes": 19236618,
+      "sha256": "1338690e1cb715e14fd6c2bd9dfe465091ba989497e4dd887a02e9e7056db8e9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-viana-do-castelo.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-vila-real",
+      "name": "Vila Real",
+      "country": "PT",
+      "bounds": {
+        "south": 41.1187322,
+        "west": -8.1194651,
+        "north": 41.9270958,
+        "east": -7.1706402
+      },
+      "downloadBytes": 16092299,
+      "graphBytes": 28041011,
+      "sha256": "4c19a838d885fae8bc2ba9ebc057c45fcd306e2efcb6c305bc4272b0521b78ce",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-vila-real.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-viseu",
+      "name": "Viseu",
+      "country": "PT",
+      "bounds": {
+        "south": 40.3226383,
+        "west": -8.3594469,
+        "north": 41.2146579,
+        "east": -7.304573
+      },
+      "downloadBytes": 22803105,
+      "graphBytes": 39696344,
+      "sha256": "47158535c0ffc14080c332aed0bf5e13ff161327cceed4ee07a4a9087e3b6dad",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-viseu.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-acores",
+      "name": "A\u00e7ores",
+      "country": "PT",
+      "bounds": {
+        "south": 36.9276305,
+        "west": -31.2688154,
+        "north": 39.7261841,
+        "east": -25.0131792
+      },
+      "downloadBytes": 6211887,
+      "graphBytes": 10650680,
+      "sha256": "68fc434a7fbff64040c44358ece15f05ce6426e1827a6e29aeb94a9d90c246ef",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-acores.graph.gz",
+      "rev": "2026-10-24"
+    },
+    {
+      "id": "pt-madeira",
+      "name": "Madeira",
+      "country": "PT",
+      "bounds": {
+        "south": 30.0287783,
+        "west": -17.2659253,
+        "north": 33.1281603,
+        "east": -15.8536715
+      },
+      "downloadBytes": 3999893,
+      "graphBytes": 6600656,
+      "sha256": "e0f0c63bc8061100aed3a4ef597659b834bba74f7207903739e2672e5d8d3768",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-madeira.graph.gz",
       "rev": "2026-10-24"
     }
   ]
