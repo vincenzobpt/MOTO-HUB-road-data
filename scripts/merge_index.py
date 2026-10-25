@@ -20,14 +20,24 @@ def main(regions_file, previous_file, parts_dir, out_file):
         previous = {r["id"]: r for r in json.load(open(previous_file))["regions"]}
     merged = []
     for extract in extracts:
+        tag = extract.get("release") or "graphs-" + extract["id"]
         part_path = os.path.join(parts_dir, f"part-{extract['id']}.json")
         part = {}
         if os.path.exists(part_path):
             part = {r["id"]: r for r in json.load(open(part_path))["regions"]}
         for region in extract["regions"]:
-            entry = part.get(region["id"]) or previous.get(region["id"])
+            old = previous.get(region["id"])
+            # An old entry only counts if it was published in this extract's own release: ids once
+            # collided between extracts, and the wrong file must never be kept under another's name.
+            if old and old["url"].split("/")[-2] != tag:
+                old = None
+            entry = part.get(region["id"]) or old
             if entry:
                 merged.append(entry)
+    ids = [r["id"] for r in merged]
+    files = [(r["url"].split("/")[-2], r["url"].split("/")[-1]) for r in merged]
+    if len(set(ids)) != len(ids) or len(set(files)) != len(files):
+        sys.exit("duplicate region ids or files in the index - refusing to write it")
     with open(out_file, "w") as f:
         json.dump({"schema": 1, "regions": merged}, f, indent=2)
         f.write("\n")

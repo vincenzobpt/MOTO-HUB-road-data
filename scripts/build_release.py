@@ -74,6 +74,8 @@ def main(regions_file, pbf_dir, dist, repo_url, previous_file, only):
                 with open(target, "rb") as packed:
                     digest = hashlib.sha256(packed.read()).hexdigest()
                 old = previous.get(region["id"])
+                if old and not old["url"].startswith(base_url + "/"):
+                    old = None  # published by another extract under a colliding id
                 bounds = read_bounds(graph)
                 graph_bytes = os.path.getsize(graph)
                 unchanged = old is not None and (
