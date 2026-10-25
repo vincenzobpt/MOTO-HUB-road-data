@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""Cut a country into regions of a sensible size, with no hand-made list.
+"""Cut an extract into tiles that each fit a phone, and name them after the biggest place inside.
 
   plan_country.py <extract.osm.pbf> <extract-id> <source-url> <release-tag> <out.json> \
-      <CC> [<CC> ...] [--level CC=N ...]
+      <CC>[=<Country name>] [<CC>[=<Country name>] ...]
 
-For each country code in the extract:
-  1. count the routable road nodes, and from that how many regions are wanted (about
-     TARGET_NODES nodes each, which is a graph of a few tens of MB);
-  2. read the country's admin boundaries (levels 3-7), keep those that lie inside the country,
-     and pick the level whose region count is closest to the wanted one (`--level` overrides);
-  3. measure what each region's graph would hold, and cut any region over CAP_NODES into
-     tiles, halving along its longer side until every tile fits.
+Admin boundaries are not used to cut: their levels differ from country to country, some cover
+only part of a country, and one province can hold a hundred times the roads of another. Instead
+the extract's own bounding box is halved along its longer side, over and over, until every tile
+holds at most CAP_NODES road nodes (a graph of about 45 MB). Tiles over the sea or empty land are
+dropped. The tiles keep a little overlap (PAD): that overlap is the seam the app joins graphs on.
+
+A tile is named "<largest city or town inside> area"; a country that fits in one tile is named
+after the country. With several country codes (an extract that holds more than one country) each
+tile gets the code whose border contains its centre, and the first code if none does.
+
 Writes the extract entry for regions.json to <out.json> and prints a summary.
-
-Region ids are `<cc>-<osm relation>` (`-<n>` for tiles): stable when OSM renames a place.
-Boxes are padded so neighbours overlap; that overlap is the seam the app joins graphs on.
 """
 import json
 import math
@@ -26,14 +26,10 @@ import tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bake_graph  # noqa: E402
 
-TARGET_NODES = 600_000
 CAP_NODES = 1_100_000
 MIN_TILE_NODES = 5_000
 PAD = 0.01
-ISLAND_SHARE = 0.1
-LEVELS = range(3, 8)
-MIN_COVERAGE = 0.8
-MAX_DEPTH = 4
+MAX_DEPTH = 12
 RING_SAMPLE = 20_000
 
 
@@ -47,13 +43,72 @@ def count_nodes(pbf):
     return int(out)
 
 
-def measure(roads, bbox, tmp):
+def extract_box(pbf):
+    """(west, south, east, north) from the extract's header: Geofabrik cuts it to the country."""
+    out = subprocess.run(["osmium", "fileinfo", "-g", "header.boxes", pbf],
+                         check=True, capture_output=True, text=True).stdout.strip()
+    west, south, east, north = map(float, out.strip("()").split(",")[:4])
+    return west, south, east, north
+
+
+def measure(roads, box, tmp):
     """Nodes a graph cut with this box would hold (the cut keeps only nodes of whole ways)."""
     cut = os.path.join(tmp, "measure.osm.pbf")
-    west, south, east, north = bbox
+    west, south, east, north = box
     sh("osmium", "extract", "-b", f"{west},{south},{east},{north}", "--strategy=complete_ways",
        roads, "-o", cut, "--overwrite")
     return count_nodes(cut)
+
+
+def padded(box):
+    west, south, east, north = box
+    return (round(west - PAD, 7), round(south - PAD, 7), round(east + PAD, 7), round(north + PAD, 7))
+
+
+def tiles_of(roads, core, tmp, depth=0):
+    """[(core box, padded box, nodes)]: halve the core along its longer side until each tile fits."""
+    box = padded(core)
+    nodes = measure(roads, box, tmp)
+    if nodes < MIN_TILE_NODES:
+        return []
+    if nodes <= CAP_NODES or depth >= MAX_DEPTH:
+        return [(core, box, nodes)]
+    west, south, east, north = core
+    height = (north - south) * 111.32
+    width = (east - west) * 111.32 * math.cos(math.radians((north + south) / 2))
+    if height >= width:
+        mid = (south + north) / 2
+        halves = [(west, south, east, mid), (west, mid, east, north)]
+    else:
+        mid = (west + east) / 2
+        halves = [(west, south, mid, north), (mid, south, east, north)]
+    return [t for half in halves for t in tiles_of(roads, half, tmp, depth + 1)]
+
+
+def read_places(extract, tmp):
+    """Cities and towns as (lon, lat, name, population, is_city)."""
+    places = os.path.join(tmp, "places.osm.pbf")
+    sh("osmium", "tags-filter", extract, "n/place=city,town", "-o", places, "--overwrite")
+    out = subprocess.run(
+        ["osmium", "export", places, "-f", "geojsonseq", "--geometry-types=point",
+         "-x", "print_record_separator=false", "-o", "-"],
+        check=True, capture_output=True, text=True).stdout
+    found = []
+    for line in out.splitlines():
+        if not line.strip():
+            continue
+        feature = json.loads(line)
+        props = feature.get("properties", {})
+        name = props.get("name:en") or props.get("name")
+        if not name:
+            continue
+        try:
+            population = int(str(props.get("population", "0")).replace(",", "").split()[0])
+        except (ValueError, IndexError):
+            population = 0
+        lon, lat = feature["geometry"]["coordinates"]
+        found.append((lon, lat, name, population, props.get("place") == "city"))
+    return found
 
 
 def point_in_ring(x, y, ring):
@@ -68,227 +123,53 @@ def point_in_ring(x, y, ring):
     return inside
 
 
-def ring_area(ring):
-    """Rough area in square degrees, longitude scaled to the ring's latitude (shoelace)."""
-    mean_lat = sum(p[1] for p in ring) / len(ring)
-    scale = math.cos(math.radians(mean_lat))
-    total = 0.0
-    for i in range(len(ring)):
-        x1, y1 = ring[i]
-        x2, y2 = ring[(i + 1) % len(ring)]
-        total += x1 * y2 - x2 * y1
-    return abs(total) / 2 * scale
-
-
-def read_boundaries(extract, tmp):
-    """Every admin boundary of levels 2-7 as {level, name, relation, bbox, centre, rings?}."""
-    boundaries = os.path.join(tmp, "boundaries.osm.pbf")
-    sh("osmium", "tags-filter", extract, "r/boundary=administrative", "-o", boundaries, "--overwrite")
-    wanted = os.path.join(tmp, "levels.osm.pbf")
-    sh("osmium", "tags-filter", boundaries, "r/admin_level=2,3,4,5,6,7", "-o", wanted, "--overwrite")
-    proc = subprocess.Popen(
-        ["osmium", "export", wanted, "-f", "geojsonseq", "--geometry-types=polygon", "-a", "type,id",
+def read_country_rings(extract, codes, tmp):
+    """{code: [thinned outer rings]} for the level-2 boundaries with those ISO codes (when they build)."""
+    all_boundaries = os.path.join(tmp, "b.osm.pbf")
+    countries = os.path.join(tmp, "countries.osm.pbf")
+    sh("osmium", "tags-filter", extract, "r/boundary=administrative", "-o", all_boundaries, "--overwrite")
+    sh("osmium", "tags-filter", all_boundaries, "r/admin_level=2", "-o", countries, "--overwrite")
+    out = subprocess.run(
+        ["osmium", "export", countries, "-f", "geojsonseq", "--geometry-types=polygon",
          "-x", "print_record_separator=false", "-o", "-"],
-        stdout=subprocess.PIPE, text=True, bufsize=1 << 20)
-    found = []
-    for line in proc.stdout:
+        check=True, capture_output=True, text=True).stdout
+    rings = {}
+    for line in out.splitlines():
         if not line.strip():
             continue
         feature = json.loads(line)
         props = feature.get("properties", {})
-        if props.get("@type") != "relation" or not props.get("admin_level", "").isdigit():
+        iso = props.get("ISO3166-1:alpha2") or props.get("ISO3166-1")
+        if iso not in codes:
             continue
         geometry = feature["geometry"]
         polygons = geometry["coordinates"] if geometry["type"] == "MultiPolygon" else [geometry["coordinates"]]
-        outers = [polygon[0] for polygon in polygons if polygon and polygon[0]]
-        if not outers:
-            continue
-        boxes = []
-        for ring in outers:
+        for polygon in polygons:
+            ring = polygon[0]
+            rings.setdefault(iso, []).append(ring[::max(1, len(ring) // RING_SAMPLE)])
+    return rings
+
+
+def country_of(centre, codes, rings):
+    x, y = centre
+    for code in codes:
+        for ring in rings.get(code, []):
             xs = [p[0] for p in ring]
             ys = [p[1] for p in ring]
-            boxes.append((min(xs), min(ys), max(xs), max(ys)))
-        area = [(b[2] - b[0]) * (b[3] - b[1]) for b in boxes]
-        biggest = max(area)
-        kept = [b for b, a in zip(boxes, area) if a >= ISLAND_SHARE * biggest]
-        main = outers[area.index(biggest)]
-        step = max(1, len(main) // 2000)
-        sample = main[::step]
-        found.append({
-            "level": int(props["admin_level"]),
-            "name": props.get("name:en") or props.get("name") or "",
-            "relation": int(props["@id"]),
-            "iso": props.get("ISO3166-1:alpha2") or props.get("ISO3166-1") or "",
-            "bbox": (min(b[0] for b in kept), min(b[1] for b in kept),
-                     max(b[2] for b in kept), max(b[3] for b in kept)),
-            "centre": (sum(p[0] for p in sample) / len(sample), sum(p[1] for p in sample) / len(sample)),
-            "area": sum(ring_area(r[::max(1, len(r) // 2000)]) for r in outers),
-            # Whole outline, thinned, only for countries: it is what ownership is tested against.
-            "rings": [(r[::max(1, len(r) // RING_SAMPLE)]) for r in outers] if props["admin_level"] == "2" else None,
-        })
-    if proc.wait() != 0:
-        sys.exit("osmium export failed")
-    return found
-
-
-def inside_country(centre, rings):
-    x, y = centre
-    for ring in rings:
-        xs = [p[0] for p in ring]
-        ys = [p[1] for p in ring]
-        if min(xs) <= x <= max(xs) and min(ys) <= y <= max(ys) and point_in_ring(x, y, ring):
-            return True
-    return False
-
-
-def padded(bbox):
-    west, south, east, north = bbox
-    return (round(west - PAD, 7), round(south - PAD, 7), round(east + PAD, 7), round(north + PAD, 7))
-
-
-def split(roads, bbox, nodes, tmp, depth=0):
-    """[(bbox, nodes)] tiles of at most CAP_NODES each, halving the longer side (with overlap)."""
-    if nodes <= CAP_NODES or depth >= MAX_DEPTH:
-        return [(bbox, nodes)]
-    west, south, east, north = bbox
-    height = (north - south) * 111.32
-    width = (east - west) * 111.32 * math.cos(math.radians((north + south) / 2))
-    if height >= width:
-        mid = (south + north) / 2
-        halves = [(west, south, east, mid + PAD), (west, mid - PAD, east, north)]
-    else:
-        mid = (west + east) / 2
-        halves = [(west, south, mid + PAD, north), (mid - PAD, south, east, north)]
-    tiles = []
-    for half in halves:
-        count = measure(roads, half, tmp)
-        if count >= MIN_TILE_NODES:
-            tiles += split(roads, half, count, tmp, depth + 1)
-    return tiles
-
-
-def tile_names(name, tiles):
-    """Compass suffixes for 2 or 4 tiles, numbers otherwise; tiles ordered north to south, west to east."""
-    tiles = sorted(tiles, key=lambda t: (-(t[0][1] + t[0][3]), t[0][0] + t[0][2]))
-    centres = [((b[0] + b[2]) / 2, (b[1] + b[3]) / 2) for b, _ in tiles]
-    mean_x = sum(c[0] for c in centres) / len(centres)
-    mean_y = sum(c[1] for c in centres) / len(centres)
-    labels = None
-    if len(tiles) == 2:
-        dx = abs(centres[0][0] - centres[1][0]) * math.cos(math.radians(mean_y))
-        dy = abs(centres[0][1] - centres[1][1])
-        labels = ["N", "S"] if dy >= dx else [("W" if c[0] < mean_x else "E") for c in centres]
-    elif len(tiles) == 4:
-        labels = [("N" if c[1] > mean_y else "S") + ("E" if c[0] > mean_x else "W") for c in centres]
-    if not labels or len(set(labels)) != len(labels):
-        labels = [str(i + 1) for i in range(len(tiles))]
-    return [(f"{name} · {label}", tile) for label, tile in zip(labels, tiles)]
-
-
-def place_names(country_name, tiles, places):
-    """Name tiles of a country with no usable admin level after the place nearest to each one's centre."""
-    if not places:
-        return tile_names(country_name, tiles)
-    named = []
-    taken = set()
-    for index, (box, nodes) in enumerate(sorted(tiles, key=lambda t: (-(t[0][1] + t[0][3]), t[0][0] + t[0][2]))):
-        cx, cy = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2
-        scale = math.cos(math.radians(cy))
-        nearest = min(places, key=lambda p: ((p["centre"][0] - cx) * scale) ** 2 + (p["centre"][1] - cy) ** 2)
-        name = f"{country_name} · {nearest['name']}"
-        if name in taken:
-            name = f"{name} {index + 1}"
-        taken.add(name)
-        named.append((name, (box, nodes)))
-    return named
-
-
-def plan_country(extract, roads, code, forced_level, total_nodes, boundaries, tmp, log, multi=False):
-    country = [b for b in boundaries if b["level"] == 2 and b["iso"] == code]
-    if not country:
-        level2 = [f"{b['name']!r} iso={b['iso']!r}" for b in boundaries if b["level"] == 2]
-        log(f"{code}: no level-2 boundary with that code - skipped. Level-2 boundaries in the extract: "
-            + ", ".join(level2[:12]))
-        return []
-    rings = [r for c in country for r in c["rings"]]
-    country_name = country[0]["name"] or code
-    if multi:
-        # Several countries share this extract: count only the roads inside this one's box.
-        total_nodes = measure(roads, padded(country[0]["bbox"]), tmp)
-    wanted = max(1, round(total_nodes / TARGET_NODES))
-    owned = {}
-    for level in LEVELS:
-        seen = {}
-        for b in boundaries:
-            if b["level"] != level or not b["name"] or not inside_country(b["centre"], rings):
-                continue
-            area = (b["bbox"][2] - b["bbox"][0]) * (b["bbox"][3] - b["bbox"][1])
-            if b["name"] not in seen or area > seen[b["name"]][0]:
-                seen[b["name"]] = (area, b)
-        owned[level] = [b for _, b in seen.values()]
-    counts = {level: len(items) for level, items in owned.items()}
-    # A level can hold boundaries for only part of the country (Swiss "level 5" is a few cantons):
-    # it only counts when its regions add up to most of the country's area.
-    country_area = max(c["area"] for c in country) or 1.0
-    coverage = {level: sum(b["area"] for b in items) / country_area for level, items in owned.items()}
-    usable = {level: n for level, n in counts.items() if n >= 2 and coverage[level] >= MIN_COVERAGE}
-    if forced_level:
-        level = forced_level
-    elif wanted <= 1 or not usable:
-        level = None
-    else:
-        level = min(usable, key=lambda lv: (abs(math.log(usable[lv] / wanted)), lv))
-    log(f"{code} {country_name}: {total_nodes:,} road nodes, wants ~{wanted} regions, "
-        f"boundaries per level {counts}, coverage {({k: round(v, 2) for k, v in coverage.items()})}, "
-        f"chosen level {level or 'whole country'}")
-
-    if level is None:
-        units = [{"name": country_name, "relation": country[0]["relation"], "bbox": country[0]["bbox"]}]
-    else:
-        units = owned.get(level, [])
-    regions = []
-    for unit in units:
-        box = padded(unit["bbox"])
-        nodes = measure(roads, box, tmp)
-        if nodes < MIN_TILE_NODES:
-            continue
-        tiles = split(roads, box, nodes, tmp)
-        named = [(unit["name"], tiles[0])] if len(tiles) == 1 else tile_names(unit["name"], tiles)
-        if level is None and len(tiles) > 1:
-            named = place_names(country_name, tiles, [b for lv in owned.values() for b in lv])
-        for index, (name, (tile_box, tile_nodes)) in enumerate(named):
-            suffix = "" if len(tiles) == 1 else f"-{index + 1}"
-            regions.append({
-                "id": f"{code.lower()}-{unit['relation']}{suffix}",
-                "name": name,
-                "country": code,
-                "relation": unit["relation"],
-                "bbox": dict(zip(("west", "south", "east", "north"), tile_box)),
-                "nodes": tile_nodes,
-            })
-    regions.sort(key=lambda r: r["name"])
-    sizes = [r["nodes"] for r in regions]
-    if sizes:
-        log(f"{code}: {len(regions)} regions, largest {max(sizes):,} nodes, smallest {min(sizes):,}, "
-            f"{sum(1 for r in regions if '-' in r['id'].split('-', 1)[1])} from tiles")
-    return regions
+            if min(xs) <= x <= max(xs) and min(ys) <= y <= max(ys) and point_in_ring(x, y, ring):
+                return code
+    return codes[0]
 
 
 def main(argv):
-    forced = {}
-    args = []
-    i = 0
-    while i < len(argv):
-        if argv[i] == "--level":
-            code, _, value = argv[i + 1].partition("=")
-            forced[code] = int(value)
-            i += 2
-        else:
-            args.append(argv[i])
-            i += 1
-    if len(args) < 6:
+    if len(argv) < 6:
         sys.exit(__doc__)
-    extract, extract_id, source, release, out_path, *codes = args
+    extract, extract_id, source, release, out_path, *country_args = argv
+    countries = {}
+    for arg in country_args:
+        code, _, name = arg.partition("=")
+        countries[code] = (name or code).replace("_", " ")
+    codes = list(countries)
     lines = []
 
     def log(message):
@@ -299,11 +180,43 @@ def main(argv):
         roads = os.path.join(tmp, "roads.osm.pbf")
         bake_graph.filter_roads(extract, roads)
         total = count_nodes(roads)
-        boundaries = read_boundaries(extract, tmp)
-        regions = []
-        for code in codes:
-            regions += plan_country(extract, roads, code, forced.get(code), total, boundaries, tmp, log,
-                                    multi=len(codes) > 1)
+        box = extract_box(extract)
+        tiles = tiles_of(roads, box, tmp)
+        places = read_places(extract, tmp)
+        rings = read_country_rings(extract, codes, tmp) if len(codes) > 1 else {}
+
+    # Deterministic order, so ids and names do not depend on how the halving happened to unfold.
+    tiles.sort(key=lambda t: (-round((t[0][1] + t[0][3]) / 2, 3), (t[0][0] + t[0][2]) / 2))
+    regions = []
+    counters = {}
+    for core, bbox, nodes in tiles:
+        centre = ((core[0] + core[2]) / 2, (core[1] + core[3]) / 2)
+        code = country_of(centre, codes, rings)
+        counters[code] = counters.get(code, 0) + 1
+        inside = [p for p in places if core[0] <= p[0] < core[2] and core[1] <= p[1] < core[3]]
+        if len(tiles) == 1 and len(codes) == 1:
+            name = countries[code]
+        elif inside:
+            best = max(inside, key=lambda p: (p[3], p[4]))
+            name = f"{best[2]} area"
+        else:
+            name = f"{countries[code]} {counters[code]}"
+        regions.append({
+            "id": f"{code.lower()}-{counters[code]}",
+            "name": name,
+            "country": code,
+            "bbox": dict(zip(("west", "south", "east", "north"), bbox)),
+            "nodes": nodes,
+        })
+    names = [r["name"] for r in regions]
+    for region in regions:
+        if names.count(region["name"]) > 1:
+            region["name"] = f"{region['name']} {region['id'].split('-')[-1]}"
+    sizes = [r["nodes"] for r in regions]
+    log(f"{extract_id}: {total:,} road nodes in {len(regions)} tiles"
+        + (f", largest {max(sizes):,}, smallest {min(sizes):,}" if sizes else ""))
+    for region in regions:
+        log(f"  {region['id']:8s} {region['nodes']:>9,}  {region['name']}")
     entry = {"id": extract_id, "source": source, "release": release, "regions": regions}
     with open(out_path, "w") as f:
         json.dump(entry, f, indent=2, ensure_ascii=False)

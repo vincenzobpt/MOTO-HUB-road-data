@@ -5,310 +5,310 @@
       "id": "albania",
       "url": "https://download.geofabrik.de/europe/albania-latest.osm.pbf",
       "codes": [
-        "AL"
+        "AL=Albania"
       ]
     },
     {
       "id": "andorra",
       "url": "https://download.geofabrik.de/europe/andorra-latest.osm.pbf",
       "codes": [
-        "AD"
+        "AD=Andorra"
       ]
     },
     {
       "id": "austria",
       "url": "https://download.geofabrik.de/europe/austria-latest.osm.pbf",
       "codes": [
-        "AT"
+        "AT=Austria"
       ]
     },
     {
       "id": "belarus",
       "url": "https://download.geofabrik.de/europe/belarus-latest.osm.pbf",
       "codes": [
-        "BY"
+        "BY=Belarus"
       ]
     },
     {
       "id": "belgium",
       "url": "https://download.geofabrik.de/europe/belgium-latest.osm.pbf",
       "codes": [
-        "BE"
+        "BE=Belgium"
       ]
     },
     {
       "id": "bosnia-herzegovina",
       "url": "https://download.geofabrik.de/europe/bosnia-herzegovina-latest.osm.pbf",
       "codes": [
-        "BA"
+        "BA=Bosnia_and_Herzegovina"
       ]
     },
     {
       "id": "bulgaria",
       "url": "https://download.geofabrik.de/europe/bulgaria-latest.osm.pbf",
       "codes": [
-        "BG"
+        "BG=Bulgaria"
       ]
     },
     {
       "id": "croatia",
       "url": "https://download.geofabrik.de/europe/croatia-latest.osm.pbf",
       "codes": [
-        "HR"
+        "HR=Croatia"
       ]
     },
     {
       "id": "cyprus",
       "url": "https://download.geofabrik.de/europe/cyprus-latest.osm.pbf",
       "codes": [
-        "CY"
+        "CY=Cyprus"
       ]
     },
     {
       "id": "czech-republic",
       "url": "https://download.geofabrik.de/europe/czech-republic-latest.osm.pbf",
       "codes": [
-        "CZ"
+        "CZ=Czechia"
       ]
     },
     {
       "id": "denmark",
       "url": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf",
       "codes": [
-        "DK"
+        "DK=Denmark"
       ]
     },
     {
       "id": "estonia",
       "url": "https://download.geofabrik.de/europe/estonia-latest.osm.pbf",
       "codes": [
-        "EE"
+        "EE=Estonia"
       ]
     },
     {
       "id": "faroe-islands",
       "url": "https://download.geofabrik.de/europe/faroe-islands-latest.osm.pbf",
       "codes": [
-        "FO"
+        "FO=Faroe_Islands"
       ]
     },
     {
       "id": "finland",
       "url": "https://download.geofabrik.de/europe/finland-latest.osm.pbf",
       "codes": [
-        "FI"
+        "FI=Finland"
       ]
     },
     {
       "id": "france",
       "url": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
       "codes": [
-        "FR"
+        "FR=France"
       ]
     },
     {
       "id": "germany",
       "url": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
       "codes": [
-        "DE"
+        "DE=Germany"
       ]
     },
     {
       "id": "great-britain",
       "url": "https://download.geofabrik.de/europe/great-britain-latest.osm.pbf",
       "codes": [
-        "GB"
+        "GB=United_Kingdom"
       ]
     },
     {
       "id": "greece",
       "url": "https://download.geofabrik.de/europe/greece-latest.osm.pbf",
       "codes": [
-        "GR"
+        "GR=Greece"
       ]
     },
     {
       "id": "guernsey-jersey",
       "url": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
       "codes": [
-        "GG",
-        "JE"
+        "GG=Guernsey",
+        "JE=Jersey"
       ]
     },
     {
       "id": "hungary",
       "url": "https://download.geofabrik.de/europe/hungary-latest.osm.pbf",
       "codes": [
-        "HU"
+        "HU=Hungary"
       ]
     },
     {
       "id": "iceland",
       "url": "https://download.geofabrik.de/europe/iceland-latest.osm.pbf",
       "codes": [
-        "IS"
+        "IS=Iceland"
       ]
     },
     {
       "id": "ireland-and-northern-ireland",
       "url": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf",
       "codes": [
-        "IE",
-        "GB"
+        "IE=Ireland",
+        "GB=Northern_Ireland"
       ]
     },
     {
       "id": "isle-of-man",
       "url": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
       "codes": [
-        "IM"
+        "IM=Isle_of_Man"
       ]
     },
     {
       "id": "kosovo",
       "url": "https://download.geofabrik.de/europe/kosovo-latest.osm.pbf",
       "codes": [
-        "XK"
+        "XK=Kosovo"
       ]
     },
     {
       "id": "latvia",
       "url": "https://download.geofabrik.de/europe/latvia-latest.osm.pbf",
       "codes": [
-        "LV"
+        "LV=Latvia"
       ]
     },
     {
       "id": "liechtenstein",
       "url": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
       "codes": [
-        "LI"
+        "LI=Liechtenstein"
       ]
     },
     {
       "id": "lithuania",
       "url": "https://download.geofabrik.de/europe/lithuania-latest.osm.pbf",
       "codes": [
-        "LT"
+        "LT=Lithuania"
       ]
     },
     {
       "id": "luxembourg",
       "url": "https://download.geofabrik.de/europe/luxembourg-latest.osm.pbf",
       "codes": [
-        "LU"
+        "LU=Luxembourg"
       ]
     },
     {
       "id": "macedonia",
       "url": "https://download.geofabrik.de/europe/macedonia-latest.osm.pbf",
       "codes": [
-        "MK"
+        "MK=North_Macedonia"
       ]
     },
     {
       "id": "malta",
       "url": "https://download.geofabrik.de/europe/malta-latest.osm.pbf",
       "codes": [
-        "MT"
+        "MT=Malta"
       ]
     },
     {
       "id": "moldova",
       "url": "https://download.geofabrik.de/europe/moldova-latest.osm.pbf",
       "codes": [
-        "MD"
+        "MD=Moldova"
       ]
     },
     {
       "id": "monaco",
       "url": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
       "codes": [
-        "MC"
+        "MC=Monaco"
       ]
     },
     {
       "id": "montenegro",
       "url": "https://download.geofabrik.de/europe/montenegro-latest.osm.pbf",
       "codes": [
-        "ME"
+        "ME=Montenegro"
       ]
     },
     {
       "id": "netherlands",
       "url": "https://download.geofabrik.de/europe/netherlands-latest.osm.pbf",
       "codes": [
-        "NL"
+        "NL=Netherlands"
       ]
     },
     {
       "id": "norway",
       "url": "https://download.geofabrik.de/europe/norway-latest.osm.pbf",
       "codes": [
-        "NO"
+        "NO=Norway"
       ]
     },
     {
       "id": "poland",
       "url": "https://download.geofabrik.de/europe/poland-latest.osm.pbf",
       "codes": [
-        "PL"
+        "PL=Poland"
       ]
     },
     {
       "id": "romania",
       "url": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
       "codes": [
-        "RO"
+        "RO=Romania"
       ]
     },
     {
       "id": "serbia",
       "url": "https://download.geofabrik.de/europe/serbia-latest.osm.pbf",
       "codes": [
-        "RS"
+        "RS=Serbia"
       ]
     },
     {
       "id": "slovakia",
       "url": "https://download.geofabrik.de/europe/slovakia-latest.osm.pbf",
       "codes": [
-        "SK"
+        "SK=Slovakia"
       ]
     },
     {
       "id": "slovenia",
       "url": "https://download.geofabrik.de/europe/slovenia-latest.osm.pbf",
       "codes": [
-        "SI"
+        "SI=Slovenia"
       ]
     },
     {
       "id": "spain",
       "url": "https://download.geofabrik.de/europe/spain-latest.osm.pbf",
       "codes": [
-        "ES"
+        "ES=Spain"
       ]
     },
     {
       "id": "sweden",
       "url": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf",
       "codes": [
-        "SE"
+        "SE=Sweden"
       ]
     },
     {
       "id": "switzerland",
       "url": "https://download.geofabrik.de/europe/switzerland-latest.osm.pbf",
       "codes": [
-        "CH"
+        "CH=Switzerland"
       ]
     },
     {
       "id": "ukraine",
       "url": "https://download.geofabrik.de/europe/ukraine-latest.osm.pbf",
       "codes": [
-        "UA"
+        "UA=Ukraine"
       ]
     }
   ]

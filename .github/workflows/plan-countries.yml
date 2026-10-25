@@ -69,7 +69,6 @@ jobs:
           c = next(c for c in json.load(open("countries.json"))["countries"] if c["id"] == os.environ["ID"])
           print("URL=" + c["url"])
           print("CODES=" + " ".join(c["codes"]))
-          print("LEVELS=" + " ".join(f"--level {k}={v}" for k, v in c.get("levels", {}).items()))
           PY
 
       - name: Download the extract
@@ -79,7 +78,7 @@ jobs:
           ls -l pbfs
 
       - name: Plan the regions
-        run: python3 scripts/plan_country.py "pbfs/$ID.osm.pbf" "$ID" "$URL" "graphs-$ID" "plan-$ID.json" $CODES $LEVELS
+        run: python3 scripts/plan_country.py "pbfs/$ID.osm.pbf" "$ID" "$URL" "graphs-$ID" "plan-$ID.json" $CODES
 
       - uses: actions/upload-artifact@v4
         with:
