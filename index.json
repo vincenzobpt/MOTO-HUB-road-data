@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "regions": [
+    {
+      "id": "pt-guarda",
+      "name": "Guarda",
+      "country": "PT",
+      "bounds": {
+        "south": 40.2299187,
+        "west": -7.8492267,
+        "north": 41.1793517,
+        "east": -6.7809607
+      },
+      "downloadBytes": 12764454,
+      "graphBytes": 22110182,
+      "sha256": "627c3dec1563502a096a039f4c4ecfb2297cee070c947b44395f31db9ea880c3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/graphs/pt-guarda.graph.gz",
+      "rev": "2026-10-24"
+    }
+  ]
+}
