@@ -244,7 +244,8 @@
             "north": 33.1281603
           }
         }
-      ]
+      ],
+      "release": "graphs"
     },
     {
       "id": "italy",
@@ -1570,7 +1571,8 @@
             "north": 38.8244201
           }
         }
-      ]
+      ],
+      "release": "graphs"
     }
   ]
 }

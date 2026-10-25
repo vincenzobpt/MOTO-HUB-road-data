@@ -1,0 +1,125 @@
+name: Plan countries
+
+# Cuts each country into regions of a sensible size (scripts/plan_country.py), records them in
+# regions.json and, when asked, starts the bake that builds and publishes the graphs.
+# Nothing runs on a laptop.
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Country extract ids from countries.json, comma separated, or 'pending' for those not planned yet"
+        default: "pending"
+      action:
+        description: "plan = only show the regions (download the plan-* artifacts to review); save = also commit them to regions.json; publish = save, then bake and publish"
+        type: choice
+        options: [plan, save, publish]
+        default: plan
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.ids.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: ids
+        env:
+          IDS: ${{ inputs.ids }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          known = [c["id"] for c in json.load(open("countries.json"))["countries"]]
+          done = {e["id"] for e in json.load(open("regions.json"))["extracts"]}
+          want = os.environ["IDS"].strip()
+          ids = [i for i in known if i not in done] if want == "pending" else [i.strip() for i in want.split(",") if i.strip() in known]
+          print("ids=" + json.dumps(ids))
+          PY
+
+  plan:
+    needs: list
+    if: needs.list.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.ids) }}
+    env:
+      ID: ${{ matrix.id }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install osmium
+        run: sudo apt-get update && sudo apt-get install -y osmium-tool
+
+      - name: Look the country up
+        run: |
+          python3 - <<'PY' >> "$GITHUB_ENV"
+          import json, os
+          c = next(c for c in json.load(open("countries.json"))["countries"] if c["id"] == os.environ["ID"])
+          print("URL=" + c["url"])
+          print("CODES=" + " ".join(c["codes"]))
+          print("LEVELS=" + " ".join(f"--level {k}={v}" for k, v in c.get("levels", {}).items()))
+          PY
+
+      - name: Download the extract
+        run: |
+          mkdir pbfs
+          curl -fsSL --retry 3 -o "pbfs/$ID.osm.pbf" "$URL"
+          ls -l pbfs
+
+      - name: Plan the regions
+        run: python3 scripts/plan_country.py "pbfs/$ID.osm.pbf" "$ID" "$URL" "graphs-$ID" "plan-$ID.json" $CODES $LEVELS
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plan-${{ matrix.id }}
+          path: plan-${{ matrix.id }}.json
+
+  merge:
+    needs: [list, plan]
+    if: ${{ !cancelled() && needs.list.result == 'success' }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: plan-*
+          path: plans
+          merge-multiple: true
+
+      - name: Record the plans
+        id: merge
+        run: |
+          mkdir -p plans
+          python3 scripts/merge_plans.py regions.json plans/*.json | tee merge.log
+          echo "ids=$(grep -v 'left out' merge.log | cut -d: -f1 | paste -sd, -)" >> "$GITHUB_OUTPUT"
+          { echo '```'; cat merge.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save the plans
+        if: inputs.action != 'plan' && steps.merge.outputs.ids != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add regions.json
+          git commit -m "Add regions for ${{ steps.merge.outputs.ids }}"
+          git pull --rebase -q
+          git push
+
+      - name: Start the bake
+        if: inputs.action == 'publish' && steps.merge.outputs.ids != ''
+        run: gh workflow run bake.yml -f publish=true -f "only=${{ steps.merge.outputs.ids }}"

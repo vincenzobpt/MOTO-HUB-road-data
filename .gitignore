@@ -4,3 +4,9 @@ build.log
 __pycache__/
 regions.log
 extract.osm.pbf
+plans/
+parts/
+index.new.json
+merge.log
+plan-*.json
+part-*.json

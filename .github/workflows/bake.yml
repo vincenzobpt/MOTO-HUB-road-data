@@ -10,60 +10,128 @@ on:
         description: "Upload changed files and update index.json (off = dry run, only reports)"
         type: boolean
         default: true
+      only:
+        description: "Extract ids to bake, comma separated (empty = all)"
+        required: false
 
 permissions:
   contents: write
 
+# One writer at a time for regions.json, index.json and the releases.
 concurrency:
-  group: bake
+  group: data
   cancel-in-progress: false
 
 jobs:
-  bake:
+  list:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    outputs:
+      ids: ${{ steps.ids.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: ids
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          only = [x.strip() for x in os.environ.get("ONLY", "").split(",") if x.strip()]
+          ids = [e["id"] for e in json.load(open("regions.json"))["extracts"] if not only or e["id"] in only]
+          print("ids=" + json.dumps(ids))
+          PY
+
+  bake:
+    needs: list
+    if: needs.list.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.ids) }}
     env:
-      BASE_URL: https://github.com/${{ github.repository }}/releases/download/graphs
+      ID: ${{ matrix.id }}
+      REPO_URL: https://github.com/${{ github.repository }}
+      PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
     steps:
       - uses: actions/checkout@v4
 
       - name: Install osmium
         run: sudo apt-get update && sudo apt-get install -y osmium-tool
 
-      - name: Download the extracts
+      - name: Download the extract
         run: |
+          python3 - <<'PY' >> "$GITHUB_ENV"
+          import json, os
+          e = next(e for e in json.load(open("regions.json"))["extracts"] if e["id"] == os.environ["ID"])
+          print("URL=" + e["source"])
+          print("TAG=" + (e.get("release") or "graphs-" + e["id"]))
+          PY
           mkdir pbfs
-          python3 -c "
-          import json
-          for e in json.load(open('regions.json'))['extracts']:
-              print(e['id'], e['source'])
-          " | while read id url; do
-            curl -fsSL --retry 3 -o "pbfs/$id.osm.pbf" "$url"
-          done
+          curl -fsSL --retry 3 -o "pbfs/$ID.osm.pbf" "$(grep '^URL=' "$GITHUB_ENV" | cut -d= -f2-)"
           ls -l pbfs
 
       - name: Bake and package
         id: build
         run: |
-          python3 scripts/build_release.py regions.json pbfs dist "$BASE_URL" --previous index.json | tee build.log
+          python3 scripts/build_release.py regions.json pbfs dist "$REPO_URL" --previous index.json --only "$ID" | tee build.log
           echo "changed=$(grep '^CHANGED:' build.log | cut -d: -f2)" >> "$GITHUB_OUTPUT"
+          cp dist/index.json "part-$ID.json"
 
       - name: Report
-        run: |
-          echo "Changed regions: ${{ steps.build.outputs.changed || 'none' }}" | tee -a "$GITHUB_STEP_SUMMARY"
+        run: echo "$ID changed regions $(echo '${{ steps.build.outputs.changed }}' | tr ',' '\n' | grep -c .)" | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Publish changed files
-        if: steps.build.outputs.changed != '' && (github.event_name == 'schedule' || inputs.publish)
+        if: env.PUBLISH == 'true' && steps.build.outputs.changed != ''
         env:
           GH_TOKEN: ${{ github.token }}
+          CHANGED: ${{ steps.build.outputs.changed }}
         run: |
-          # Files first, index last: the app never reads an index that names a file not yet uploaded.
-          for id in $(echo "${{ steps.build.outputs.changed }}" | tr ',' ' '); do
-            gh release upload graphs "dist/$id.graph.gz" --clobber
+          TAG=$(grep '^TAG=' "$GITHUB_ENV" | cut -d= -f2-)
+          gh release view "$TAG" >/dev/null 2>&1 || \
+            gh release create "$TAG" --title "Road graphs: $ID" --notes "Road networks for $ID, listed in index.json."
+          for region in $(echo "$CHANGED" | tr ',' ' '); do
+            for attempt in 1 2 3; do
+              gh release upload "$TAG" "dist/$region.graph.gz" --clobber && break
+              [ "$attempt" = 3 ] && exit 1
+              sleep 20
+            done
           done
-          cp dist/index.json index.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.id }}
+          path: part-${{ matrix.id }}.json
+
+  index:
+    needs: [list, bake]
+    if: ${{ !cancelled() && needs.list.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: part-*
+          path: parts
+          merge-multiple: true
+
+      - name: Merge the index
+        run: |
+          mkdir -p parts
+          python3 scripts/merge_index.py regions.json index.json parts index.new.json
+
+      - name: Publish the index
+        if: github.event_name == 'schedule' || inputs.publish
+        run: |
+          # Files were uploaded by the bake jobs first: the app never reads an index naming a file not yet there.
+          cp index.new.json index.json
+          if git diff --quiet index.json; then echo "Index unchanged"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.json
-          git commit -m "Update road graphs: ${{ steps.build.outputs.changed }}"
+          git commit -m "Update the road graph index"
+          git pull --rebase -q
           git push
