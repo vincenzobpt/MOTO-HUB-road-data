@@ -197,8 +197,8 @@ def main(argv):
         anchor = max(inside, key=lambda p: (p[3], p[4]))[:2] if inside else ((core[0] + core[2]) / 2, (core[1] + core[3]) / 2)
         code = country_of(anchor, codes, rings)
         counters[code] = counters.get(code, 0) + 1
-        if len(tiles) == 1 and len(codes) == 1:
-            name = countries[code]
+        if len(tiles) == 1:
+            name = " and ".join(countries.values())
         elif inside:
             best = max(inside, key=lambda p: (p[3], p[4]))
             name = f"{best[2]} area"
