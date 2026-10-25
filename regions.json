@@ -1573,6 +1573,101 @@
         }
       ],
       "release": "graphs"
+    },
+    {
+      "id": "andorra",
+      "source": "https://download.geofabrik.de/europe/andorra-latest.osm.pbf",
+      "release": "graphs-andorra",
+      "regions": [
+        {
+          "id": "ad-1",
+          "name": "Andorra",
+          "country": "AD",
+          "bbox": {
+            "west": 1.402368,
+            "south": 42.4176,
+            "east": 1.797481,
+            "north": 42.66717
+          },
+          "nodes": 37799
+        }
+      ]
+    },
+    {
+      "id": "liechtenstein",
+      "source": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+      "release": "graphs-liechtenstein",
+      "regions": [
+        {
+          "id": "li-1",
+          "name": "Liechtenstein",
+          "country": "LI",
+          "bbox": {
+            "west": 9.461078,
+            "south": 47.03774,
+            "east": 9.646217,
+            "north": 47.28128
+          },
+          "nodes": 35377
+        }
+      ]
+    },
+    {
+      "id": "luxembourg",
+      "source": "https://download.geofabrik.de/europe/luxembourg-latest.osm.pbf",
+      "release": "graphs-luxembourg",
+      "regions": [
+        {
+          "id": "lu-1",
+          "name": "Luxembourg",
+          "country": "LU",
+          "bbox": {
+            "west": 5.723033,
+            "south": 49.43553,
+            "east": 6.542249,
+            "north": 50.19496
+          },
+          "nodes": 323348
+        }
+      ]
+    },
+    {
+      "id": "malta",
+      "source": "https://download.geofabrik.de/europe/malta-latest.osm.pbf",
+      "release": "graphs-malta",
+      "regions": [
+        {
+          "id": "mt-1",
+          "name": "Malta",
+          "country": "MT",
+          "bbox": {
+            "west": 13.805377,
+            "south": 35.50985,
+            "east": 14.866099,
+            "north": 36.342958
+          },
+          "nodes": 110620
+        }
+      ]
+    },
+    {
+      "id": "monaco",
+      "source": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+      "release": "graphs-monaco",
+      "regions": [
+        {
+          "id": "mc-1",
+          "name": "Monaco",
+          "country": "MC",
+          "bbox": {
+            "west": 7.398583,
+            "south": 43.473817,
+            "east": 7.605671,
+            "north": 43.76293
+          },
+          "nodes": 7332
+        }
+      ]
     }
   ]
 }
