@@ -5,6 +5,15 @@ Ready-made road networks for offline rerouting in MOTO-HUB. One file per region,
 
 The `.graph.gz` files are attached to the `graphs` release.
 
+## How it is made
+
+`regions.json` lists the regions (name, OSM relation, bounding box) and the extract they are cut
+from. A monthly workflow downloads the extract from Geofabrik, bakes each region with
+`scripts/build_release.py`, uploads the files whose roads changed and updates `index.json`.
+An unchanged region keeps its file, checksum and `rev`, so the app only offers real updates.
+
+Run it by hand from the Actions tab; switch "publish" off for a dry run that only reports.
+
 ## Data and licence
 
 The road networks are derived from OpenStreetMap data, © OpenStreetMap contributors, and are

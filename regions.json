@@ -1,0 +1,245 @@
+{
+  "source": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf",
+  "regions": [
+    {
+      "id": "pt-aveiro",
+      "name": "Aveiro",
+      "country": "PT",
+      "relation": 3920249,
+      "bbox": {
+        "west": -8.7840289,
+        "south": 40.2788096,
+        "east": -8.0891722,
+        "north": 41.0801544
+      }
+    },
+    {
+      "id": "pt-beja",
+      "name": "Beja",
+      "country": "PT",
+      "relation": 5134927,
+      "bbox": {
+        "west": -8.8195341,
+        "south": 37.3189368,
+        "east": -6.931521,
+        "north": 38.3311462
+      }
+    },
+    {
+      "id": "pt-braga",
+      "name": "Braga",
+      "country": "PT",
+      "relation": 3738284,
+      "bbox": {
+        "west": -8.8115744,
+        "south": 41.3187983,
+        "east": -7.8106767,
+        "north": 41.8206312
+      }
+    },
+    {
+      "id": "pt-braganca",
+      "name": "Bragança",
+      "country": "PT",
+      "relation": 3905929,
+      "bbox": {
+        "west": -7.4318921,
+        "south": 41.0245423,
+        "east": -6.1891593,
+        "north": 41.9925213
+      }
+    },
+    {
+      "id": "pt-castelo-branco",
+      "name": "Castelo Branco",
+      "country": "PT",
+      "relation": 4104644,
+      "bbox": {
+        "west": -8.2931234,
+        "south": 39.5373649,
+        "east": -6.8637851,
+        "north": 40.4161318
+      }
+    },
+    {
+      "id": "pt-coimbra",
+      "name": "Coimbra",
+      "country": "PT",
+      "relation": 4875183,
+      "bbox": {
+        "west": -8.9092437,
+        "south": 39.923791,
+        "east": -7.7317555,
+        "north": 40.5203648
+      }
+    },
+    {
+      "id": "pt-evora",
+      "name": "Évora",
+      "country": "PT",
+      "relation": 5130767,
+      "bbox": {
+        "west": -8.6584679,
+        "south": 38.1546502,
+        "east": -7.1067761,
+        "north": 39.0269315
+      }
+    },
+    {
+      "id": "pt-faro",
+      "name": "Faro",
+      "country": "PT",
+      "relation": 1278415,
+      "bbox": {
+        "west": -8.9971157,
+        "south": 36.9599679,
+        "east": -7.3948663,
+        "north": 37.5291307
+      }
+    },
+    {
+      "id": "pt-guarda",
+      "name": "Guarda",
+      "country": "PT",
+      "relation": 3905924,
+      "bbox": {
+        "west": -7.8492267,
+        "south": 40.2299187,
+        "east": -6.7809607,
+        "north": 41.1793517
+      }
+    },
+    {
+      "id": "pt-leiria",
+      "name": "Leiria",
+      "country": "PT",
+      "relation": 5011694,
+      "bbox": {
+        "west": -9.5170291,
+        "south": 39.2115773,
+        "east": -8.1080378,
+        "north": 40.0897361
+      }
+    },
+    {
+      "id": "pt-lisboa",
+      "name": "Lisboa",
+      "country": "PT",
+      "relation": 2897141,
+      "bbox": {
+        "west": -9.5005266,
+        "south": 38.6731469,
+        "east": -8.781861,
+        "north": 39.3177287
+      }
+    },
+    {
+      "id": "pt-portalegre",
+      "name": "Portalegre",
+      "country": "PT",
+      "relation": 5123448,
+      "bbox": {
+        "west": -8.3438699,
+        "south": 38.7514974,
+        "east": -6.9511303,
+        "north": 39.6636796
+      }
+    },
+    {
+      "id": "pt-porto",
+      "name": "Porto",
+      "country": "PT",
+      "relation": 3459013,
+      "bbox": {
+        "west": -8.7890627,
+        "south": 41.0013802,
+        "east": -7.8755793,
+        "north": 41.4719715
+      }
+    },
+    {
+      "id": "pt-santarem",
+      "name": "Santarém",
+      "country": "PT",
+      "relation": 5122644,
+      "bbox": {
+        "west": -9.001574,
+        "south": 38.7314904,
+        "east": -7.8089881,
+        "north": 39.8387292
+      }
+    },
+    {
+      "id": "pt-setubal",
+      "name": "Setúbal",
+      "country": "PT",
+      "relation": 5143590,
+      "bbox": {
+        "west": -9.2629753,
+        "south": 37.7493933,
+        "east": -8.1296963,
+        "north": 38.8454231
+      }
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "name": "Viana do Castelo",
+      "country": "PT",
+      "relation": 3898131,
+      "bbox": {
+        "west": -8.8809556,
+        "south": 41.6063807,
+        "east": -8.0827652,
+        "north": 42.1543112
+      }
+    },
+    {
+      "id": "pt-vila-real",
+      "name": "Vila Real",
+      "country": "PT",
+      "relation": 3967823,
+      "bbox": {
+        "west": -8.1194651,
+        "south": 41.1187322,
+        "east": -7.1706402,
+        "north": 41.9270958
+      }
+    },
+    {
+      "id": "pt-viseu",
+      "name": "Viseu",
+      "country": "PT",
+      "relation": 3920285,
+      "bbox": {
+        "west": -8.3594469,
+        "south": 40.3226383,
+        "east": -7.304573,
+        "north": 41.2146579
+      }
+    },
+    {
+      "id": "pt-acores",
+      "name": "Açores",
+      "country": "PT",
+      "relation": 1629146,
+      "bbox": {
+        "west": -31.2688154,
+        "south": 36.9276305,
+        "east": -25.0131792,
+        "north": 39.7261841
+      }
+    },
+    {
+      "id": "pt-madeira",
+      "name": "Madeira",
+      "country": "PT",
+      "relation": 1629145,
+      "bbox": {
+        "west": -17.2659253,
+        "south": 30.0287783,
+        "east": -15.8536715,
+        "north": 33.1281603
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+name: Bake road graphs
+
+on:
+  schedule:
+    # Roads change slowly and every change is a download for the rider: once a month.
+    - cron: "17 4 3 * *"
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Upload changed files and update index.json (off = dry run, only reports)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bake
+  cancel-in-progress: false
+
+jobs:
+  bake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      BASE_URL: https://github.com/${{ github.repository }}/releases/download/graphs
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install osmium
+        run: sudo apt-get update && sudo apt-get install -y osmium-tool
+
+      - name: Download the extract
+        run: |
+          url=$(python3 -c "import json; print(json.load(open('regions.json'))['source'])")
+          curl -fsSL --retry 3 -o extract.osm.pbf "$url"
+          ls -l extract.osm.pbf
+
+      - name: Bake and package
+        id: build
+        run: |
+          python3 scripts/build_release.py regions.json extract.osm.pbf dist "$BASE_URL" --previous index.json | tee build.log
+          echo "changed=$(grep '^CHANGED:' build.log | cut -d: -f2)" >> "$GITHUB_OUTPUT"
+
+      - name: Report
+        run: |
+          echo "Changed regions: ${{ steps.build.outputs.changed || 'none' }}" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish changed files
+        if: steps.build.outputs.changed != '' && (github.event_name == 'schedule' || inputs.publish)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Files first, index last: the app never reads an index that names a file not yet uploaded.
+          for id in $(echo "${{ steps.build.outputs.changed }}" | tr ',' ' '); do
+            gh release upload graphs "dist/$id.graph.gz" --clobber
+          done
+          cp dist/index.json index.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "Update road graphs: ${{ steps.build.outputs.changed }}"
+          git push
