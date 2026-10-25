@@ -122,7 +122,7 @@ def read_boundaries(extract, tmp):
             "bbox": (min(b[0] for b in kept), min(b[1] for b in kept),
                      max(b[2] for b in kept), max(b[3] for b in kept)),
             "centre": (sum(p[0] for p in sample) / len(sample), sum(p[1] for p in sample) / len(sample)),
-            "area": ring_area(sample),
+            "area": sum(ring_area(r[::max(1, len(r) // 2000)]) for r in outers),
             # Whole outline, thinned, only for countries: it is what ownership is tested against.
             "rings": [(r[::max(1, len(r) // RING_SAMPLE)]) for r in outers] if props["admin_level"] == "2" else None,
         })
@@ -185,10 +185,30 @@ def tile_names(name, tiles):
     return [(f"{name} · {label}", tile) for label, tile in zip(labels, tiles)]
 
 
+def place_names(country_name, tiles, places):
+    """Name tiles of a country with no usable admin level after the place nearest to each one's centre."""
+    if not places:
+        return tile_names(country_name, tiles)
+    named = []
+    taken = set()
+    for index, (box, nodes) in enumerate(sorted(tiles, key=lambda t: (-(t[0][1] + t[0][3]), t[0][0] + t[0][2]))):
+        cx, cy = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2
+        scale = math.cos(math.radians(cy))
+        nearest = min(places, key=lambda p: ((p["centre"][0] - cx) * scale) ** 2 + (p["centre"][1] - cy) ** 2)
+        name = f"{country_name} · {nearest['name']}"
+        if name in taken:
+            name = f"{name} {index + 1}"
+        taken.add(name)
+        named.append((name, (box, nodes)))
+    return named
+
+
 def plan_country(extract, roads, code, forced_level, total_nodes, boundaries, tmp, log, multi=False):
     country = [b for b in boundaries if b["level"] == 2 and b["iso"] == code]
     if not country:
-        log(f"{code}: no level-2 boundary with that code - skipped")
+        level2 = [f"{b['name']!r} iso={b['iso']!r}" for b in boundaries if b["level"] == 2]
+        log(f"{code}: no level-2 boundary with that code - skipped. Level-2 boundaries in the extract: "
+            + ", ".join(level2[:12]))
         return []
     rings = [r for c in country for r in c["rings"]]
     country_name = country[0]["name"] or code
@@ -234,6 +254,8 @@ def plan_country(extract, roads, code, forced_level, total_nodes, boundaries, tm
             continue
         tiles = split(roads, box, nodes, tmp)
         named = [(unit["name"], tiles[0])] if len(tiles) == 1 else tile_names(unit["name"], tiles)
+        if level is None and len(tiles) > 1:
+            named = place_names(country_name, tiles, [b for lv in owned.values() for b in lv])
         for index, (name, (tile_box, tile_nodes)) in enumerate(named):
             suffix = "" if len(tiles) == 1 else f"-{index + 1}"
             regions.append({
