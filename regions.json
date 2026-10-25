@@ -1668,6 +1668,6087 @@
           "nodes": 7332
         }
       ]
+    },
+    {
+      "id": "albania",
+      "source": "https://download.geofabrik.de/europe/albania-latest.osm.pbf",
+      "release": "graphs-albania",
+      "regions": [
+        {
+          "id": "al-1",
+          "name": "Tirana area",
+          "country": "AL",
+          "bbox": {
+            "west": 18.886483,
+            "south": 41.13525,
+            "east": 21.072851,
+            "north": 42.673125
+          },
+          "nodes": 999114
+        },
+        {
+          "id": "al-2",
+          "name": "Vlora area",
+          "country": "AL",
+          "bbox": {
+            "west": 18.886483,
+            "south": 39.617375,
+            "east": 21.072851,
+            "north": 41.15525
+          },
+          "nodes": 967297
+        }
+      ]
+    },
+    {
+      "id": "austria",
+      "source": "https://download.geofabrik.de/europe/austria-latest.osm.pbf",
+      "release": "graphs-austria",
+      "regions": [
+        {
+          "id": "at-1",
+          "name": "Zwettl area",
+          "country": "AT",
+          "bbox": {
+            "west": 13.335429,
+            "south": 48.3504708,
+            "east": 15.2647535,
+            "north": 49.03403
+          },
+          "nodes": 865059
+        },
+        {
+          "id": "at-2",
+          "name": "Krems an der Donau area",
+          "country": "AT",
+          "bbox": {
+            "west": 15.2447535,
+            "south": 48.3504708,
+            "east": 17.174078,
+            "north": 49.03403
+          },
+          "nodes": 541547
+        },
+        {
+          "id": "at-3",
+          "name": "Salzburg area",
+          "country": "AT",
+          "bbox": {
+            "west": 9.51678,
+            "south": 47.6869115,
+            "east": 13.355429,
+            "north": 49.03403
+          },
+          "nodes": 447355
+        },
+        {
+          "id": "at-4",
+          "name": "Linz area",
+          "country": "AT",
+          "bbox": {
+            "west": 13.335429,
+            "south": 47.6869115,
+            "east": 14.3100912,
+            "north": 48.3704708
+          },
+          "nodes": 983349
+        },
+        {
+          "id": "at-5",
+          "name": "Steyr area",
+          "country": "AT",
+          "bbox": {
+            "west": 14.2900912,
+            "south": 47.6869115,
+            "east": 15.2647535,
+            "north": 48.3704708
+          },
+          "nodes": 873465
+        },
+        {
+          "id": "at-6",
+          "name": "Vienna area",
+          "country": "AT",
+          "bbox": {
+            "west": 15.2447535,
+            "south": 47.6869115,
+            "east": 17.174078,
+            "north": 48.3704708
+          },
+          "nodes": 930298
+        },
+        {
+          "id": "at-7",
+          "name": "Leoben area",
+          "country": "AT",
+          "bbox": {
+            "west": 13.335429,
+            "south": 47.0233523,
+            "east": 15.2647535,
+            "north": 47.7069115
+          },
+          "nodes": 586233
+        },
+        {
+          "id": "at-8",
+          "name": "Graz area",
+          "country": "AT",
+          "bbox": {
+            "west": 15.2447535,
+            "south": 47.0233523,
+            "east": 17.174078,
+            "north": 47.7069115
+          },
+          "nodes": 846055
+        },
+        {
+          "id": "at-9",
+          "name": "Innsbruck area",
+          "country": "AT",
+          "bbox": {
+            "west": 9.51678,
+            "south": 46.359793,
+            "east": 11.4461045,
+            "north": 47.7069115
+          },
+          "nodes": 654621
+        },
+        {
+          "id": "at-10",
+          "name": "Hallein area",
+          "country": "AT",
+          "bbox": {
+            "west": 11.4261045,
+            "south": 46.359793,
+            "east": 13.355429,
+            "north": 47.7069115
+          },
+          "nodes": 850321
+        },
+        {
+          "id": "at-11",
+          "name": "Klagenfurt area",
+          "country": "AT",
+          "bbox": {
+            "west": 13.335429,
+            "south": 46.359793,
+            "east": 15.2647535,
+            "north": 47.0433522
+          },
+          "nodes": 802939
+        },
+        {
+          "id": "at-12",
+          "name": "Feldbach area",
+          "country": "AT",
+          "bbox": {
+            "west": 15.2447535,
+            "south": 46.359793,
+            "east": 17.174078,
+            "north": 47.0433522
+          },
+          "nodes": 650046
+        }
+      ]
+    },
+    {
+      "id": "belarus",
+      "source": "https://download.geofabrik.de/europe/belarus-latest.osm.pbf",
+      "release": "graphs-belarus",
+      "regions": [
+        {
+          "id": "by-1",
+          "name": "Minsk area",
+          "country": "BY",
+          "bbox": {
+            "west": 23.164801,
+            "south": 53.694127,
+            "east": 27.9821355,
+            "north": 56.183846
+          },
+          "nodes": 864980
+        },
+        {
+          "id": "by-2",
+          "name": "Vitsebsk area",
+          "country": "BY",
+          "bbox": {
+            "west": 27.9621355,
+            "south": 53.694127,
+            "east": 32.77947,
+            "north": 56.183846
+          },
+          "nodes": 705918
+        },
+        {
+          "id": "by-3",
+          "name": "Hrodna area",
+          "country": "BY",
+          "bbox": {
+            "west": 23.164801,
+            "south": 51.224408,
+            "east": 27.9821355,
+            "north": 53.714127
+          },
+          "nodes": 969881
+        },
+        {
+          "id": "by-4",
+          "name": "Homel area",
+          "country": "BY",
+          "bbox": {
+            "west": 27.9621355,
+            "south": 51.224408,
+            "east": 32.77947,
+            "north": 53.714127
+          },
+          "nodes": 532923
+        }
+      ]
+    },
+    {
+      "id": "belgium",
+      "source": "https://download.geofabrik.de/europe/belgium-latest.osm.pbf",
+      "release": "graphs-belgium",
+      "regions": [
+        {
+          "id": "be-1",
+          "name": "Lokeren area",
+          "country": "BE",
+          "bbox": {
+            "west": 3.34811,
+            "south": 51.0625153,
+            "east": 4.385495,
+            "north": 51.60839
+          },
+          "nodes": 299598
+        },
+        {
+          "id": "be-2",
+          "name": "Antwerp area",
+          "country": "BE",
+          "bbox": {
+            "west": 4.365495,
+            "south": 51.0625153,
+            "east": 5.40288,
+            "north": 51.60839
+          },
+          "nodes": 429515
+        },
+        {
+          "id": "be-3",
+          "name": "Bruges area",
+          "country": "BE",
+          "bbox": {
+            "west": 2.330725,
+            "south": 50.5366405,
+            "east": 3.36811,
+            "north": 51.60839
+          },
+          "nodes": 612414
+        },
+        {
+          "id": "be-4",
+          "name": "Liège area",
+          "country": "BE",
+          "bbox": {
+            "west": 5.38288,
+            "south": 50.5366405,
+            "east": 6.420265,
+            "north": 51.60839
+          },
+          "nodes": 494509
+        },
+        {
+          "id": "be-5",
+          "name": "Ghent area",
+          "country": "BE",
+          "bbox": {
+            "west": 3.34811,
+            "south": 50.5366405,
+            "east": 4.385495,
+            "north": 51.0825153
+          },
+          "nodes": 950070
+        },
+        {
+          "id": "be-6",
+          "name": "Leuven area",
+          "country": "BE",
+          "bbox": {
+            "west": 4.365495,
+            "south": 50.5366405,
+            "east": 5.40288,
+            "north": 51.0825153
+          },
+          "nodes": 818641
+        },
+        {
+          "id": "be-7",
+          "name": "Mons area",
+          "country": "BE",
+          "bbox": {
+            "west": 2.330725,
+            "south": 49.484891,
+            "east": 4.385495,
+            "north": 50.5566405
+          },
+          "nodes": 300484
+        },
+        {
+          "id": "be-8",
+          "name": "Charleroi area",
+          "country": "BE",
+          "bbox": {
+            "west": 4.365495,
+            "south": 49.484891,
+            "east": 6.420265,
+            "north": 50.5566405
+          },
+          "nodes": 874555
+        }
+      ]
+    },
+    {
+      "id": "bosnia-herzegovina",
+      "source": "https://download.geofabrik.de/europe/bosnia-herzegovina-latest.osm.pbf",
+      "release": "graphs-bosnia-herzegovina",
+      "regions": [
+        {
+          "id": "ba-1",
+          "name": "Bihać area",
+          "country": "BA",
+          "bbox": {
+            "west": 15.705599,
+            "south": 43.905206,
+            "east": 16.7032963,
+            "north": 45.288027
+          },
+          "nodes": 388211
+        },
+        {
+          "id": "ba-2",
+          "name": "Banja Luka area",
+          "country": "BA",
+          "bbox": {
+            "west": 16.6832962,
+            "south": 43.905206,
+            "east": 17.6809935,
+            "north": 45.288027
+          },
+          "nodes": 796672
+        },
+        {
+          "id": "ba-3",
+          "name": "Zenica area",
+          "country": "BA",
+          "bbox": {
+            "west": 17.6609935,
+            "south": 43.905206,
+            "east": 18.6586908,
+            "north": 45.288027
+          },
+          "nodes": 947921
+        },
+        {
+          "id": "ba-4",
+          "name": "Tuzla area",
+          "country": "BA",
+          "bbox": {
+            "west": 18.6386907,
+            "south": 43.905206,
+            "east": 19.636388,
+            "north": 45.288027
+          },
+          "nodes": 527128
+        },
+        {
+          "id": "ba-5",
+          "name": "Široki Brijeg area",
+          "country": "BA",
+          "bbox": {
+            "west": 15.705599,
+            "south": 42.542385,
+            "east": 17.6809935,
+            "north": 43.925206
+          },
+          "nodes": 296354
+        },
+        {
+          "id": "ba-6",
+          "name": "Sarajevo area",
+          "country": "BA",
+          "bbox": {
+            "west": 17.6609935,
+            "south": 42.542385,
+            "east": 19.636388,
+            "north": 43.925206
+          },
+          "nodes": 913625
+        }
+      ]
+    },
+    {
+      "id": "bulgaria",
+      "source": "https://download.geofabrik.de/europe/bulgaria-latest.osm.pbf",
+      "release": "graphs-bulgaria",
+      "regions": [
+        {
+          "id": "bg-1",
+          "name": "Pleven area",
+          "country": "BG",
+          "bbox": {
+            "west": 22.33875,
+            "south": 42.71229,
+            "east": 25.77847,
+            "north": 44.22777
+          },
+          "nodes": 699678
+        },
+        {
+          "id": "bg-2",
+          "name": "Varna area",
+          "country": "BG",
+          "bbox": {
+            "west": 25.75847,
+            "south": 41.21681,
+            "east": 29.19819,
+            "north": 44.22777
+          },
+          "nodes": 955360
+        },
+        {
+          "id": "bg-3",
+          "name": "Sofia area",
+          "country": "BG",
+          "bbox": {
+            "west": 22.33875,
+            "south": 41.21681,
+            "east": 24.06861,
+            "north": 42.73229
+          },
+          "nodes": 569736
+        },
+        {
+          "id": "bg-4",
+          "name": "Plovdiv area",
+          "country": "BG",
+          "bbox": {
+            "west": 24.04861,
+            "south": 41.21681,
+            "east": 25.77847,
+            "north": 42.73229
+          },
+          "nodes": 678621
+        }
+      ]
+    },
+    {
+      "id": "croatia",
+      "source": "https://download.geofabrik.de/europe/croatia-latest.osm.pbf",
+      "release": "graphs-croatia",
+      "regions": [
+        {
+          "id": "hr-1",
+          "name": "Zagreb area",
+          "country": "HR",
+          "bbox": {
+            "west": 14.671862,
+            "south": 45.449379,
+            "east": 16.284564,
+            "north": 46.567562
+          },
+          "nodes": 708348
+        },
+        {
+          "id": "hr-2",
+          "name": "Rijeka area",
+          "country": "HR",
+          "bbox": {
+            "west": 13.07916,
+            "south": 44.351196,
+            "east": 14.691862,
+            "north": 46.567562
+          },
+          "nodes": 399794
+        },
+        {
+          "id": "hr-3",
+          "name": "Ogulin area",
+          "country": "HR",
+          "bbox": {
+            "west": 14.671862,
+            "south": 44.351196,
+            "east": 16.284564,
+            "north": 45.469379
+          },
+          "nodes": 427535
+        },
+        {
+          "id": "hr-4",
+          "name": "Split area",
+          "country": "HR",
+          "bbox": {
+            "west": 16.264564,
+            "south": 42.15483,
+            "east": 19.469968,
+            "north": 46.567562
+          },
+          "nodes": 1089817
+        },
+        {
+          "id": "hr-5",
+          "name": "Zadar area",
+          "country": "HR",
+          "bbox": {
+            "west": 13.07916,
+            "south": 42.15483,
+            "east": 16.284564,
+            "north": 44.371196
+          },
+          "nodes": 287947
+        }
+      ]
+    },
+    {
+      "id": "cyprus",
+      "source": "https://download.geofabrik.de/europe/cyprus-latest.osm.pbf",
+      "release": "graphs-cyprus",
+      "regions": [
+        {
+          "id": "cy-1",
+          "name": "Cyprus",
+          "country": "CY",
+          "bbox": {
+            "west": 31.94244,
+            "south": 34.2237399,
+            "east": 34.97147,
+            "north": 36.01323
+          },
+          "nodes": 790759
+        }
+      ]
+    },
+    {
+      "id": "czech-republic",
+      "source": "https://download.geofabrik.de/europe/czech-republic-latest.osm.pbf",
+      "release": "graphs-czech-republic",
+      "regions": [
+        {
+          "id": "cz-1",
+          "name": "Liberec area",
+          "country": "CZ",
+          "bbox": {
+            "west": 13.76938,
+            "south": 50.423925,
+            "east": 15.48399,
+            "north": 51.07426
+          },
+          "nodes": 513821
+        },
+        {
+          "id": "cz-2",
+          "name": "Most area",
+          "country": "CZ",
+          "bbox": {
+            "west": 12.07477,
+            "south": 49.79359,
+            "east": 13.78938,
+            "north": 51.07426
+          },
+          "nodes": 458409
+        },
+        {
+          "id": "cz-3",
+          "name": "Ostrava area",
+          "country": "CZ",
+          "bbox": {
+            "west": 15.46399,
+            "south": 49.79359,
+            "east": 18.87321,
+            "north": 51.07426
+          },
+          "nodes": 936195
+        },
+        {
+          "id": "cz-4",
+          "name": "Prague area",
+          "country": "CZ",
+          "bbox": {
+            "west": 13.76938,
+            "south": 49.79359,
+            "east": 15.48399,
+            "north": 50.443925
+          },
+          "nodes": 833864
+        },
+        {
+          "id": "cz-5",
+          "name": "Pilsen area",
+          "country": "CZ",
+          "bbox": {
+            "west": 12.07477,
+            "south": 48.53292,
+            "east": 13.78938,
+            "north": 49.81359
+          },
+          "nodes": 365548
+        },
+        {
+          "id": "cz-6",
+          "name": "České Budějovice area",
+          "country": "CZ",
+          "bbox": {
+            "west": 13.76938,
+            "south": 48.53292,
+            "east": 15.48399,
+            "north": 49.81359
+          },
+          "nodes": 791729
+        },
+        {
+          "id": "cz-7",
+          "name": "Brno area",
+          "country": "CZ",
+          "bbox": {
+            "west": 15.46399,
+            "south": 48.53292,
+            "east": 17.1786,
+            "north": 49.81359
+          },
+          "nodes": 862029
+        },
+        {
+          "id": "cz-8",
+          "name": "Olomouc area",
+          "country": "CZ",
+          "bbox": {
+            "west": 17.1586,
+            "south": 48.53292,
+            "east": 18.87321,
+            "north": 49.81359
+          },
+          "nodes": 905669
+        }
+      ]
+    },
+    {
+      "id": "denmark",
+      "source": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf",
+      "release": "graphs-denmark",
+      "regions": [
+        {
+          "id": "dk-1",
+          "name": "Viborg area",
+          "country": "DK",
+          "bbox": {
+            "west": 7.6911,
+            "south": 56.24152,
+            "east": 9.6994475,
+            "north": 58.07239
+          },
+          "nodes": 559613
+        },
+        {
+          "id": "dk-2",
+          "name": "Aalborg area",
+          "country": "DK",
+          "bbox": {
+            "west": 9.6794475,
+            "south": 56.24152,
+            "east": 11.687795,
+            "north": 58.07239
+          },
+          "nodes": 661738
+        },
+        {
+          "id": "dk-3",
+          "name": "Copenhagen area",
+          "country": "DK",
+          "bbox": {
+            "west": 11.667795,
+            "south": 54.43065,
+            "east": 15.66449,
+            "north": 58.07239
+          },
+          "nodes": 1036212
+        },
+        {
+          "id": "dk-4",
+          "name": "Aarhus area",
+          "country": "DK",
+          "bbox": {
+            "west": 9.6794475,
+            "south": 55.336085,
+            "east": 11.687795,
+            "north": 56.26152
+          },
+          "nodes": 848540
+        },
+        {
+          "id": "dk-5",
+          "name": "Esbjerg area",
+          "country": "DK",
+          "bbox": {
+            "west": 7.6911,
+            "south": 54.43065,
+            "east": 9.6994475,
+            "north": 56.26152
+          },
+          "nodes": 998565
+        },
+        {
+          "id": "dk-6",
+          "name": "Sønderborg area",
+          "country": "DK",
+          "bbox": {
+            "west": 9.6794475,
+            "south": 54.43065,
+            "east": 11.687795,
+            "north": 55.356085
+          },
+          "nodes": 388165
+        }
+      ]
+    },
+    {
+      "id": "estonia",
+      "source": "https://download.geofabrik.de/europe/estonia-latest.osm.pbf",
+      "release": "graphs-estonia",
+      "regions": [
+        {
+          "id": "ee-1",
+          "name": "Tallinn area",
+          "country": "EE",
+          "bbox": {
+            "west": 24.52296,
+            "south": 58.737345,
+            "east": 28.22426,
+            "north": 60.00705
+          },
+          "nodes": 564222
+        },
+        {
+          "id": "ee-2",
+          "name": "Pärnu area",
+          "country": "EE",
+          "bbox": {
+            "west": 20.84166,
+            "south": 57.48764,
+            "east": 24.54296,
+            "north": 60.00705
+          },
+          "nodes": 277310
+        },
+        {
+          "id": "ee-3",
+          "name": "Tartu area",
+          "country": "EE",
+          "bbox": {
+            "west": 24.52296,
+            "south": 57.48764,
+            "east": 28.22426,
+            "north": 58.757345
+          },
+          "nodes": 556529
+        }
+      ]
+    },
+    {
+      "id": "faroe-islands",
+      "source": "https://download.geofabrik.de/europe/faroe-islands-latest.osm.pbf",
+      "release": "graphs-faroe-islands",
+      "regions": [
+        {
+          "id": "fo-1",
+          "name": "Faroe Islands",
+          "country": "FO",
+          "bbox": {
+            "west": -8.700197,
+            "south": 60.856318,
+            "east": -5.505148,
+            "north": 62.915232
+          },
+          "nodes": 105034
+        }
+      ]
+    },
+    {
+      "id": "finland",
+      "source": "https://download.geofabrik.de/europe/finland-latest.osm.pbf",
+      "release": "graphs-finland",
+      "regions": [
+        {
+          "id": "fi-1",
+          "name": "Oulu area",
+          "country": "FI",
+          "bbox": {
+            "west": 19.01427,
+            "south": 64.68371,
+            "east": 31.625904,
+            "north": 70.10959
+          },
+          "nodes": 972913
+        },
+        {
+          "id": "fi-2",
+          "name": "Kajaani area",
+          "country": "FI",
+          "bbox": {
+            "west": 25.310087,
+            "south": 63.33224,
+            "east": 28.4779955,
+            "north": 64.70371
+          },
+          "nodes": 370790
+        },
+        {
+          "id": "fi-3",
+          "name": "Korsholm area",
+          "country": "FI",
+          "bbox": {
+            "west": 19.01427,
+            "south": 61.98077,
+            "east": 22.1821785,
+            "north": 64.70371
+          },
+          "nodes": 296340
+        },
+        {
+          "id": "fi-4",
+          "name": "Seinäjoki area",
+          "country": "FI",
+          "bbox": {
+            "west": 22.1621785,
+            "south": 61.98077,
+            "east": 25.330087,
+            "north": 64.70371
+          },
+          "nodes": 1084082
+        },
+        {
+          "id": "fi-5",
+          "name": "Joensuu area",
+          "country": "FI",
+          "bbox": {
+            "west": 28.4579955,
+            "south": 61.98077,
+            "east": 31.625904,
+            "north": 64.70371
+          },
+          "nodes": 1053893
+        },
+        {
+          "id": "fi-6",
+          "name": "Jyväskylä area",
+          "country": "FI",
+          "bbox": {
+            "west": 25.310087,
+            "south": 61.98077,
+            "east": 28.4779955,
+            "north": 63.35224
+          },
+          "nodes": 881635
+        },
+        {
+          "id": "fi-7",
+          "name": "Nokia area",
+          "country": "FI",
+          "bbox": {
+            "west": 22.1621785,
+            "south": 60.6293,
+            "east": 23.7561328,
+            "north": 62.00077
+          },
+          "nodes": 656077
+        },
+        {
+          "id": "fi-8",
+          "name": "Tampere area",
+          "country": "FI",
+          "bbox": {
+            "west": 23.7361327,
+            "south": 60.6293,
+            "east": 25.330087,
+            "north": 62.00077
+          },
+          "nodes": 888294
+        },
+        {
+          "id": "fi-9",
+          "name": "Lahti area",
+          "country": "FI",
+          "bbox": {
+            "west": 25.310087,
+            "south": 60.6293,
+            "east": 26.9040413,
+            "north": 62.00077
+          },
+          "nodes": 812626
+        },
+        {
+          "id": "fi-10",
+          "name": "Lappeenranta area",
+          "country": "FI",
+          "bbox": {
+            "west": 26.8840412,
+            "south": 60.6293,
+            "east": 28.4779955,
+            "north": 62.00077
+          },
+          "nodes": 555844
+        },
+        {
+          "id": "fi-11",
+          "name": "Pori area",
+          "country": "FI",
+          "bbox": {
+            "west": 19.01427,
+            "south": 59.27783,
+            "east": 22.1821785,
+            "north": 62.00077
+          },
+          "nodes": 805661
+        },
+        {
+          "id": "fi-12",
+          "name": "Savonlinna area",
+          "country": "FI",
+          "bbox": {
+            "west": 28.4579955,
+            "south": 59.27783,
+            "east": 31.625904,
+            "north": 62.00077
+          },
+          "nodes": 287147
+        },
+        {
+          "id": "fi-13",
+          "name": "Turku area",
+          "country": "FI",
+          "bbox": {
+            "west": 22.1621785,
+            "south": 59.27783,
+            "east": 23.7561328,
+            "north": 60.6493
+          },
+          "nodes": 657354
+        },
+        {
+          "id": "fi-14",
+          "name": "Helsinki area",
+          "country": "FI",
+          "bbox": {
+            "west": 23.7361327,
+            "south": 59.27783,
+            "east": 25.330087,
+            "north": 60.6493
+          },
+          "nodes": 1035403
+        },
+        {
+          "id": "fi-15",
+          "name": "Porvoo area",
+          "country": "FI",
+          "bbox": {
+            "west": 25.310087,
+            "south": 59.27783,
+            "east": 28.4779955,
+            "north": 60.6493
+          },
+          "nodes": 311942
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "source": "https://download.geofabrik.de/europe/france-latest.osm.pbf",
+      "release": "graphs-france",
+      "regions": [
+        {
+          "id": "fr-1",
+          "name": "Dunkirk area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 50.7819174,
+            "east": 2.6094169,
+            "north": 51.438801
+          },
+          "nodes": 542873
+        },
+        {
+          "id": "fr-2",
+          "name": "France 2",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 50.7819174,
+            "east": 3.6690417,
+            "north": 51.438801
+          },
+          "nodes": 35192
+        },
+        {
+          "id": "fr-3",
+          "name": "Boulogne-sur-Mer area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 50.1450339,
+            "east": 2.6094169,
+            "north": 50.8019174
+          },
+          "nodes": 629788
+        },
+        {
+          "id": "fr-4",
+          "name": "Lille area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 50.1450339,
+            "east": 3.1392293,
+            "north": 50.8019174
+          },
+          "nodes": 883701
+        },
+        {
+          "id": "fr-5",
+          "name": "Tourcoing area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.1192293,
+            "south": 50.1450339,
+            "east": 3.6690417,
+            "north": 50.8019174
+          },
+          "nodes": 640666
+        },
+        {
+          "id": "fr-6",
+          "name": "Cherbourg-en-Cotentin area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 48.8712667,
+            "east": -0.5694578,
+            "north": 51.438801
+          },
+          "nodes": 606963
+        },
+        {
+          "id": "fr-7",
+          "name": "Reims area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 48.8712667,
+            "east": 5.7882915,
+            "north": 51.438801
+          },
+          "nodes": 1015548
+        },
+        {
+          "id": "fr-8",
+          "name": "Metz area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 48.8712667,
+            "east": 10.026791,
+            "north": 51.438801
+          },
+          "nodes": 691411
+        },
+        {
+          "id": "fr-9",
+          "name": "Amiens area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 49.5081503,
+            "east": 2.6094169,
+            "north": 50.1650339
+          },
+          "nodes": 365502
+        },
+        {
+          "id": "fr-10",
+          "name": "Le Havre area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 48.8712667,
+            "east": 0.4901671,
+            "north": 50.1650339
+          },
+          "nodes": 825333
+        },
+        {
+          "id": "fr-11",
+          "name": "Rouen area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 48.8712667,
+            "east": 1.549792,
+            "north": 50.1650339
+          },
+          "nodes": 922233
+        },
+        {
+          "id": "fr-12",
+          "name": "Meaux area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 48.8712667,
+            "east": 3.6690417,
+            "north": 50.1650339
+          },
+          "nodes": 812579
+        },
+        {
+          "id": "fr-13",
+          "name": "Cergy area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 48.8712667,
+            "east": 2.0796044,
+            "north": 49.5281503
+          },
+          "nodes": 349731
+        },
+        {
+          "id": "fr-14",
+          "name": "Saint-Denis area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.0596044,
+            "south": 48.8712667,
+            "east": 2.6094169,
+            "north": 49.5281503
+          },
+          "nodes": 876632
+        },
+        {
+          "id": "fr-15",
+          "name": "Saint-Brieuc area",
+          "country": "FR",
+          "bbox": {
+            "west": -3.7683324,
+            "south": 48.2343832,
+            "east": -2.6887075,
+            "north": 48.8912667
+          },
+          "nodes": 656630
+        },
+        {
+          "id": "fr-16",
+          "name": "Saint-Malo area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 48.2343832,
+            "east": -1.6290826,
+            "north": 48.8912667
+          },
+          "nodes": 448149
+        },
+        {
+          "id": "fr-17",
+          "name": "Fougères area",
+          "country": "FR",
+          "bbox": {
+            "west": -1.6490826,
+            "south": 48.2343832,
+            "east": -0.5694578,
+            "north": 48.8912667
+          },
+          "nodes": 548493
+        },
+        {
+          "id": "fr-18",
+          "name": "Trappes area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 48.2343832,
+            "east": 2.0796044,
+            "north": 48.8912667
+          },
+          "nodes": 268558
+        },
+        {
+          "id": "fr-19",
+          "name": "Paris area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.0596044,
+            "south": 48.2343832,
+            "east": 2.6094169,
+            "north": 48.8912667
+          },
+          "nodes": 1012472
+        },
+        {
+          "id": "fr-20",
+          "name": "Brest area",
+          "country": "FR",
+          "bbox": {
+            "west": -4.8279572,
+            "south": 47.5974996,
+            "east": -3.7483324,
+            "north": 48.8912667
+          },
+          "nodes": 1038333
+        },
+        {
+          "id": "fr-21",
+          "name": "Le Mans area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 47.5974996,
+            "east": 0.4901671,
+            "north": 48.8912667
+          },
+          "nodes": 874466
+        },
+        {
+          "id": "fr-22",
+          "name": "Chartres area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 47.5974996,
+            "east": 1.549792,
+            "north": 48.8912667
+          },
+          "nodes": 697549
+        },
+        {
+          "id": "fr-23",
+          "name": "Melun area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 47.5974996,
+            "east": 3.6690417,
+            "north": 48.8912667
+          },
+          "nodes": 807117
+        },
+        {
+          "id": "fr-24",
+          "name": "Troyes area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 47.5974996,
+            "east": 5.7882915,
+            "north": 48.8912667
+          },
+          "nodes": 861676
+        },
+        {
+          "id": "fr-25",
+          "name": "Nancy area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 47.5974996,
+            "east": 6.8479164,
+            "north": 48.8912667
+          },
+          "nodes": 869737
+        },
+        {
+          "id": "fr-26",
+          "name": "Strasbourg area",
+          "country": "FR",
+          "bbox": {
+            "west": 6.8279164,
+            "south": 47.5974996,
+            "east": 7.9075412,
+            "north": 48.8912667
+          },
+          "nodes": 1070301
+        },
+        {
+          "id": "fr-27",
+          "name": "Lorient area",
+          "country": "FR",
+          "bbox": {
+            "west": -3.7683324,
+            "south": 47.5974996,
+            "east": -2.6887075,
+            "north": 48.2543832
+          },
+          "nodes": 665672
+        },
+        {
+          "id": "fr-28",
+          "name": "Rennes area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 47.5974996,
+            "east": -1.6290826,
+            "north": 48.2543832
+          },
+          "nodes": 733827
+        },
+        {
+          "id": "fr-29",
+          "name": "Laval area",
+          "country": "FR",
+          "bbox": {
+            "west": -1.6490826,
+            "south": 47.5974996,
+            "east": -0.5694578,
+            "north": 48.2543832
+          },
+          "nodes": 697305
+        },
+        {
+          "id": "fr-30",
+          "name": "Orléans area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 47.5974996,
+            "east": 2.6094169,
+            "north": 48.2543832
+          },
+          "nodes": 357552
+        },
+        {
+          "id": "fr-31",
+          "name": "France 31",
+          "country": "FR",
+          "bbox": {
+            "west": 7.8875412,
+            "south": 46.3237325,
+            "east": 10.026791,
+            "north": 48.8912667
+          },
+          "nodes": 22864
+        },
+        {
+          "id": "fr-32",
+          "name": "Nantes area",
+          "country": "FR",
+          "bbox": {
+            "west": -1.6490826,
+            "south": 46.9606161,
+            "east": -0.5694578,
+            "north": 47.6174996
+          },
+          "nodes": 982471
+        },
+        {
+          "id": "fr-33",
+          "name": "Angers area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 46.9606161,
+            "east": 0.4901671,
+            "north": 47.6174996
+          },
+          "nodes": 667304
+        },
+        {
+          "id": "fr-34",
+          "name": "France 34",
+          "country": "FR",
+          "bbox": {
+            "west": -4.8279572,
+            "south": 46.3237325,
+            "east": -2.6887075,
+            "north": 47.6174996
+          },
+          "nodes": 79892
+        },
+        {
+          "id": "fr-35",
+          "name": "Saint-Nazaire area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 46.3237325,
+            "east": -1.6290826,
+            "north": 47.6174996
+          },
+          "nodes": 775332
+        },
+        {
+          "id": "fr-36",
+          "name": "Tours area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 46.3237325,
+            "east": 1.549792,
+            "north": 47.6174996
+          },
+          "nodes": 1068074
+        },
+        {
+          "id": "fr-37",
+          "name": "Bourges area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 46.3237325,
+            "east": 2.6094169,
+            "north": 47.6174996
+          },
+          "nodes": 704379
+        },
+        {
+          "id": "fr-38",
+          "name": "Montluçon area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 46.3237325,
+            "east": 3.6690417,
+            "north": 47.6174996
+          },
+          "nodes": 554648
+        },
+        {
+          "id": "fr-39",
+          "name": "Le Creusot area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 46.3237325,
+            "east": 4.7286666,
+            "north": 47.6174996
+          },
+          "nodes": 792718
+        },
+        {
+          "id": "fr-40",
+          "name": "Dijon area",
+          "country": "FR",
+          "bbox": {
+            "west": 4.7086666,
+            "south": 46.3237325,
+            "east": 5.7882915,
+            "north": 47.6174996
+          },
+          "nodes": 946314
+        },
+        {
+          "id": "fr-41",
+          "name": "Besançon area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 46.3237325,
+            "east": 7.9075412,
+            "north": 47.6174996
+          },
+          "nodes": 1012750
+        },
+        {
+          "id": "fr-42",
+          "name": "La Roche-sur-Yon area",
+          "country": "FR",
+          "bbox": {
+            "west": -1.6490826,
+            "south": 46.3237325,
+            "east": -0.5694578,
+            "north": 46.9806161
+          },
+          "nodes": 678618
+        },
+        {
+          "id": "fr-43",
+          "name": "Poitiers area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 46.3237325,
+            "east": 0.4901671,
+            "north": 46.9806161
+          },
+          "nodes": 647016
+        },
+        {
+          "id": "fr-44",
+          "name": "Niort area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 45.6868489,
+            "east": 0.4901671,
+            "north": 46.3437325
+          },
+          "nodes": 583067
+        },
+        {
+          "id": "fr-45",
+          "name": "Clermont-Ferrand area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 45.6868489,
+            "east": 3.6690417,
+            "north": 46.3437325
+          },
+          "nodes": 680450
+        },
+        {
+          "id": "fr-46",
+          "name": "Roanne area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 45.6868489,
+            "east": 4.7286666,
+            "north": 46.3437325
+          },
+          "nodes": 772245
+        },
+        {
+          "id": "fr-47",
+          "name": "Lyon area",
+          "country": "FR",
+          "bbox": {
+            "west": 4.7086666,
+            "south": 45.6868489,
+            "east": 5.7882915,
+            "north": 46.3437325
+          },
+          "nodes": 868594
+        },
+        {
+          "id": "fr-48",
+          "name": "Annecy area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 45.6868489,
+            "east": 6.3181039,
+            "north": 46.3437325
+          },
+          "nodes": 724051
+        },
+        {
+          "id": "fr-49",
+          "name": "Cluses area",
+          "country": "FR",
+          "bbox": {
+            "west": 6.2981039,
+            "south": 45.6868489,
+            "east": 6.8479164,
+            "north": 46.3437325
+          },
+          "nodes": 590447
+        },
+        {
+          "id": "fr-50",
+          "name": "La Rochelle area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 45.0499654,
+            "east": -0.5694578,
+            "north": 46.3437325
+          },
+          "nodes": 698082
+        },
+        {
+          "id": "fr-51",
+          "name": "Limoges area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 45.0499654,
+            "east": 1.549792,
+            "north": 46.3437325
+          },
+          "nodes": 1036540
+        },
+        {
+          "id": "fr-52",
+          "name": "Tulle area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 45.0499654,
+            "east": 2.6094169,
+            "north": 46.3437325
+          },
+          "nodes": 1077934
+        },
+        {
+          "id": "fr-53",
+          "name": "Chamonix-Mont-Blanc area",
+          "country": "FR",
+          "bbox": {
+            "west": 6.8279164,
+            "south": 45.0499654,
+            "east": 7.9075412,
+            "north": 46.3437325
+          },
+          "nodes": 43755
+        },
+        {
+          "id": "fr-54",
+          "name": "Angoulême area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 45.0499654,
+            "east": 0.4901671,
+            "north": 45.7068489
+          },
+          "nodes": 550833
+        },
+        {
+          "id": "fr-55",
+          "name": "Issoire area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 45.0499654,
+            "east": 3.6690417,
+            "north": 45.7068489
+          },
+          "nodes": 504099
+        },
+        {
+          "id": "fr-56",
+          "name": "Saint-Étienne area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 45.0499654,
+            "east": 4.7286666,
+            "north": 45.7068489
+          },
+          "nodes": 829996
+        },
+        {
+          "id": "fr-57",
+          "name": "Saint-Priest area",
+          "country": "FR",
+          "bbox": {
+            "west": 4.7086666,
+            "south": 45.0499654,
+            "east": 5.2584791,
+            "north": 45.7068489
+          },
+          "nodes": 645919
+        },
+        {
+          "id": "fr-58",
+          "name": "Grenoble area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.2384791,
+            "south": 45.0499654,
+            "east": 5.7882915,
+            "north": 45.7068489
+          },
+          "nodes": 537051
+        },
+        {
+          "id": "fr-59",
+          "name": "Chambéry area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 45.0499654,
+            "east": 6.8479164,
+            "north": 45.7068489
+          },
+          "nodes": 643150
+        },
+        {
+          "id": "fr-60",
+          "name": "Villenave-d'Ornon area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 44.4130818,
+            "east": 0.4901671,
+            "north": 45.0699654
+          },
+          "nodes": 680741
+        },
+        {
+          "id": "fr-61",
+          "name": "Bergerac area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 44.4130818,
+            "east": 1.549792,
+            "north": 45.0699654
+          },
+          "nodes": 627259
+        },
+        {
+          "id": "fr-62",
+          "name": "Aurillac area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 44.4130818,
+            "east": 2.6094169,
+            "north": 45.0699654
+          },
+          "nodes": 643874
+        },
+        {
+          "id": "fr-63",
+          "name": "Le Puy-en-Velay area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 44.4130818,
+            "east": 4.7286666,
+            "north": 45.0699654
+          },
+          "nodes": 662912
+        },
+        {
+          "id": "fr-64",
+          "name": "Valence area",
+          "country": "FR",
+          "bbox": {
+            "west": 4.7086666,
+            "south": 44.4130818,
+            "east": 5.7882915,
+            "north": 45.0699654
+          },
+          "nodes": 618665
+        },
+        {
+          "id": "fr-65",
+          "name": "Bordeaux area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 43.7761983,
+            "east": -0.5694578,
+            "north": 45.0699654
+          },
+          "nodes": 510664
+        },
+        {
+          "id": "fr-66",
+          "name": "Millau area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 43.7761983,
+            "east": 3.6690417,
+            "north": 45.0699654
+          },
+          "nodes": 824267
+        },
+        {
+          "id": "fr-67",
+          "name": "Gap area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 43.7761983,
+            "east": 7.9075412,
+            "north": 45.0699654
+          },
+          "nodes": 933241
+        },
+        {
+          "id": "fr-68",
+          "name": "Mont-de-Marsan area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 43.7761983,
+            "east": 0.4901671,
+            "north": 44.4330818
+          },
+          "nodes": 453258
+        },
+        {
+          "id": "fr-69",
+          "name": "Montauban area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 43.7761983,
+            "east": 1.549792,
+            "north": 44.4330818
+          },
+          "nodes": 746694
+        },
+        {
+          "id": "fr-70",
+          "name": "Albi area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 43.7761983,
+            "east": 2.6094169,
+            "north": 44.4330818
+          },
+          "nodes": 653700
+        },
+        {
+          "id": "fr-71",
+          "name": "Nîmes area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 43.7761983,
+            "east": 4.7286666,
+            "north": 44.4330818
+          },
+          "nodes": 793497
+        },
+        {
+          "id": "fr-72",
+          "name": "Avignon area",
+          "country": "FR",
+          "bbox": {
+            "west": 4.7086666,
+            "south": 43.7761983,
+            "east": 5.7882915,
+            "north": 44.4330818
+          },
+          "nodes": 999595
+        },
+        {
+          "id": "fr-73",
+          "name": "Toulouse area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 43.1393147,
+            "east": 1.549792,
+            "north": 43.7961982
+          },
+          "nodes": 959492
+        },
+        {
+          "id": "fr-74",
+          "name": "Pau area",
+          "country": "FR",
+          "bbox": {
+            "west": -0.5894578,
+            "south": 42.5024311,
+            "east": 0.4901671,
+            "north": 43.7961982
+          },
+          "nodes": 856856
+        },
+        {
+          "id": "fr-75",
+          "name": "Carcassonne area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 42.5024311,
+            "east": 2.6094169,
+            "north": 43.7961982
+          },
+          "nodes": 1027443
+        },
+        {
+          "id": "fr-76",
+          "name": "Perpignan area",
+          "country": "FR",
+          "bbox": {
+            "west": 2.5894169,
+            "south": 42.5024311,
+            "east": 3.6690417,
+            "north": 43.7961982
+          },
+          "nodes": 947871
+        },
+        {
+          "id": "fr-77",
+          "name": "Montpellier area",
+          "country": "FR",
+          "bbox": {
+            "west": 3.6490418,
+            "south": 42.5024311,
+            "east": 4.7286666,
+            "north": 43.7961982
+          },
+          "nodes": 488376
+        },
+        {
+          "id": "fr-78",
+          "name": "Marseille area",
+          "country": "FR",
+          "bbox": {
+            "west": 4.7086666,
+            "south": 42.5024311,
+            "east": 5.7882915,
+            "north": 43.7961982
+          },
+          "nodes": 1080921
+        },
+        {
+          "id": "fr-79",
+          "name": "Toulon area",
+          "country": "FR",
+          "bbox": {
+            "west": 5.7682915,
+            "south": 42.5024311,
+            "east": 6.8479164,
+            "north": 43.7961982
+          },
+          "nodes": 871642
+        },
+        {
+          "id": "fr-80",
+          "name": "Nice area",
+          "country": "FR",
+          "bbox": {
+            "west": 6.8279164,
+            "south": 42.5024311,
+            "east": 7.9075412,
+            "north": 43.7961982
+          },
+          "nodes": 482296
+        },
+        {
+          "id": "fr-81",
+          "name": "Saint-Gaudens area",
+          "country": "FR",
+          "bbox": {
+            "west": 0.4701671,
+            "south": 42.5024311,
+            "east": 1.549792,
+            "north": 43.1593147
+          },
+          "nodes": 282944
+        },
+        {
+          "id": "fr-82",
+          "name": "Bayonne area",
+          "country": "FR",
+          "bbox": {
+            "west": -2.7087075,
+            "south": 41.228664,
+            "east": -0.5694578,
+            "north": 43.7961982
+          },
+          "nodes": 752457
+        },
+        {
+          "id": "fr-83",
+          "name": "Ajaccio area",
+          "country": "FR",
+          "bbox": {
+            "west": 7.8875412,
+            "south": 41.228664,
+            "east": 10.026791,
+            "north": 43.7961982
+          },
+          "nodes": 499227
+        },
+        {
+          "id": "fr-84",
+          "name": "Céret area",
+          "country": "FR",
+          "bbox": {
+            "west": 1.529792,
+            "south": 41.228664,
+            "east": 3.6690417,
+            "north": 42.5224311
+          },
+          "nodes": 103867
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "source": "https://download.geofabrik.de/europe/germany-latest.osm.pbf",
+      "release": "graphs-germany",
+      "regions": [
+        {
+          "id": "de-1",
+          "name": "Kiel area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 54.1524775,
+            "east": 10.4675985,
+            "north": 55.15777
+          },
+          "nodes": 573117
+        },
+        {
+          "id": "de-2",
+          "name": "Wilhelmshaven area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 53.167185,
+            "east": 8.1710077,
+            "north": 55.15777
+          },
+          "nodes": 410202
+        },
+        {
+          "id": "de-3",
+          "name": "Lübeck area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 53.167185,
+            "east": 12.7641892,
+            "north": 55.15777
+          },
+          "nodes": 878916
+        },
+        {
+          "id": "de-4",
+          "name": "Neubrandenburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 53.167185,
+            "east": 15.06078,
+            "north": 55.15777
+          },
+          "nodes": 451404
+        },
+        {
+          "id": "de-5",
+          "name": "Bad Bramstedt area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 53.6598313,
+            "east": 10.4675985,
+            "north": 54.1724775
+          },
+          "nodes": 409866
+        },
+        {
+          "id": "de-6",
+          "name": "Bremerhaven area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 53.167185,
+            "east": 9.3193031,
+            "north": 54.1724775
+          },
+          "nodes": 375007
+        },
+        {
+          "id": "de-7",
+          "name": "Hamburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 53.167185,
+            "east": 10.4675985,
+            "north": 53.6798312
+          },
+          "nodes": 747689
+        },
+        {
+          "id": "de-8",
+          "name": "Oranienburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 52.6745388,
+            "east": 13.9124846,
+            "north": 53.187185
+          },
+          "nodes": 193271
+        },
+        {
+          "id": "de-9",
+          "name": "Osnabrück area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 52.1818925,
+            "east": 8.1710077,
+            "north": 53.187185
+          },
+          "nodes": 808591
+        },
+        {
+          "id": "de-10",
+          "name": "Bremen area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 52.1818925,
+            "east": 9.3193031,
+            "north": 53.187185
+          },
+          "nodes": 947867
+        },
+        {
+          "id": "de-11",
+          "name": "Hanover area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 52.1818925,
+            "east": 10.4675985,
+            "north": 53.187185
+          },
+          "nodes": 649152
+        },
+        {
+          "id": "de-12",
+          "name": "Brunswick area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 52.1818925,
+            "east": 12.7641892,
+            "north": 53.187185
+          },
+          "nodes": 825431
+        },
+        {
+          "id": "de-13",
+          "name": "Frankfurt (Oder) area",
+          "country": "DE",
+          "bbox": {
+            "west": 13.8924846,
+            "south": 52.1818925,
+            "east": 15.06078,
+            "north": 53.187185
+          },
+          "nodes": 186268
+        },
+        {
+          "id": "de-14",
+          "name": "Berlin area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 52.1818925,
+            "east": 13.9124846,
+            "north": 52.6945387
+          },
+          "nodes": 1059620
+        },
+        {
+          "id": "de-15",
+          "name": "Bocholt area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 51.6892463,
+            "east": 7.0227124,
+            "north": 52.2018925
+          },
+          "nodes": 256669
+        },
+        {
+          "id": "de-16",
+          "name": "Münster area",
+          "country": "DE",
+          "bbox": {
+            "west": 7.0027124,
+            "south": 51.6892463,
+            "east": 8.1710077,
+            "north": 52.2018925
+          },
+          "nodes": 589879
+        },
+        {
+          "id": "de-17",
+          "name": "Bielefeld area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 51.6892463,
+            "east": 9.3193031,
+            "north": 52.2018925
+          },
+          "nodes": 813017
+        },
+        {
+          "id": "de-18",
+          "name": "Kassel area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 51.1966,
+            "east": 10.4675985,
+            "north": 52.2018925
+          },
+          "nodes": 788371
+        },
+        {
+          "id": "de-19",
+          "name": "Wolfenbüttel area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 51.1966,
+            "east": 11.6158939,
+            "north": 52.2018925
+          },
+          "nodes": 685662
+        },
+        {
+          "id": "de-20",
+          "name": "Leipzig area",
+          "country": "DE",
+          "bbox": {
+            "west": 11.5958939,
+            "south": 51.1966,
+            "east": 12.7641892,
+            "north": 52.2018925
+          },
+          "nodes": 882876
+        },
+        {
+          "id": "de-21",
+          "name": "Cottbus - Chóśebuz area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 51.1966,
+            "east": 15.06078,
+            "north": 52.2018925
+          },
+          "nodes": 778057
+        },
+        {
+          "id": "de-22",
+          "name": "Dusseldorf area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 51.1966,
+            "east": 7.0227124,
+            "north": 51.7092462
+          },
+          "nodes": 901437
+        },
+        {
+          "id": "de-23",
+          "name": "Dortmund area",
+          "country": "DE",
+          "bbox": {
+            "west": 7.0027124,
+            "south": 51.1966,
+            "east": 7.5968601,
+            "north": 51.7092462
+          },
+          "nodes": 1027034
+        },
+        {
+          "id": "de-24",
+          "name": "Hamm area",
+          "country": "DE",
+          "bbox": {
+            "west": 7.5768601,
+            "south": 51.1966,
+            "east": 8.1710077,
+            "north": 51.7092462
+          },
+          "nodes": 459767
+        },
+        {
+          "id": "de-25",
+          "name": "Lippstadt area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 51.1966,
+            "east": 9.3193031,
+            "north": 51.7092462
+          },
+          "nodes": 436505
+        },
+        {
+          "id": "de-26",
+          "name": "Cologne area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 50.7039538,
+            "east": 7.0227124,
+            "north": 51.2166
+          },
+          "nodes": 986399
+        },
+        {
+          "id": "de-27",
+          "name": "Bonn area",
+          "country": "DE",
+          "bbox": {
+            "west": 7.0027124,
+            "south": 50.7039538,
+            "east": 8.1710077,
+            "north": 51.2166
+          },
+          "nodes": 1053497
+        },
+        {
+          "id": "de-28",
+          "name": "Marburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 50.2113075,
+            "east": 9.3193031,
+            "north": 51.2166
+          },
+          "nodes": 912902
+        },
+        {
+          "id": "de-29",
+          "name": "Fulda area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 50.2113075,
+            "east": 10.4675985,
+            "north": 51.2166
+          },
+          "nodes": 757382
+        },
+        {
+          "id": "de-30",
+          "name": "Erfurt area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 50.2113075,
+            "east": 11.6158939,
+            "north": 51.2166
+          },
+          "nodes": 763119
+        },
+        {
+          "id": "de-31",
+          "name": "Zwickau area",
+          "country": "DE",
+          "bbox": {
+            "west": 11.5958939,
+            "south": 50.2113075,
+            "east": 12.7641892,
+            "north": 51.2166
+          },
+          "nodes": 977613
+        },
+        {
+          "id": "de-32",
+          "name": "Dresden area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 50.2113075,
+            "east": 13.9124846,
+            "north": 51.2166
+          },
+          "nodes": 961631
+        },
+        {
+          "id": "de-33",
+          "name": "Görlitz area",
+          "country": "DE",
+          "bbox": {
+            "west": 13.8924846,
+            "south": 50.2113075,
+            "east": 15.06078,
+            "north": 51.2166
+          },
+          "nodes": 372827
+        },
+        {
+          "id": "de-34",
+          "name": "Euskirchen area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 50.2113075,
+            "east": 7.0227124,
+            "north": 50.7239537
+          },
+          "nodes": 348454
+        },
+        {
+          "id": "de-35",
+          "name": "Koblenz area",
+          "country": "DE",
+          "bbox": {
+            "west": 7.0027124,
+            "south": 50.2113075,
+            "east": 8.1710077,
+            "north": 50.7239537
+          },
+          "nodes": 731005
+        },
+        {
+          "id": "de-36",
+          "name": "Frankfurt area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 49.7186613,
+            "east": 9.3193031,
+            "north": 50.2313075
+          },
+          "nodes": 936819
+        },
+        {
+          "id": "de-37",
+          "name": "Trier area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 49.226015,
+            "east": 7.0227124,
+            "north": 50.2313075
+          },
+          "nodes": 620180
+        },
+        {
+          "id": "de-38",
+          "name": "Kaiserslautern area",
+          "country": "DE",
+          "bbox": {
+            "west": 7.0027124,
+            "south": 49.226015,
+            "east": 8.1710077,
+            "north": 50.2313075
+          },
+          "nodes": 1023449
+        },
+        {
+          "id": "de-39",
+          "name": "Würzburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 49.226015,
+            "east": 10.4675985,
+            "north": 50.2313075
+          },
+          "nodes": 751522
+        },
+        {
+          "id": "de-40",
+          "name": "Nuremberg area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 49.226015,
+            "east": 11.6158939,
+            "north": 50.2313075
+          },
+          "nodes": 1064173
+        },
+        {
+          "id": "de-41",
+          "name": "Amberg area",
+          "country": "DE",
+          "bbox": {
+            "west": 11.5958939,
+            "south": 49.226015,
+            "east": 12.7641892,
+            "north": 50.2313075
+          },
+          "nodes": 581983
+        },
+        {
+          "id": "de-42",
+          "name": "Furth im Wald area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 49.226015,
+            "east": 15.06078,
+            "north": 50.2313075
+          },
+          "nodes": 25731
+        },
+        {
+          "id": "de-43",
+          "name": "Mannheim area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 49.226015,
+            "east": 9.3193031,
+            "north": 49.7386612
+          },
+          "nodes": 814763
+        },
+        {
+          "id": "de-44",
+          "name": "Stuttgart area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 48.7333688,
+            "east": 9.3193031,
+            "north": 49.246015
+          },
+          "nodes": 951177
+        },
+        {
+          "id": "de-45",
+          "name": "Aalen area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 48.7333688,
+            "east": 10.4675985,
+            "north": 49.246015
+          },
+          "nodes": 581793
+        },
+        {
+          "id": "de-46",
+          "name": "Regensburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 11.5958939,
+            "south": 48.7333688,
+            "east": 12.7641892,
+            "north": 49.246015
+          },
+          "nodes": 521947
+        },
+        {
+          "id": "de-47",
+          "name": "Augsburg area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 48.2407225,
+            "east": 11.6158939,
+            "north": 49.246015
+          },
+          "nodes": 1083326
+        },
+        {
+          "id": "de-48",
+          "name": "Reutlingen area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 48.2407225,
+            "east": 9.3193031,
+            "north": 48.7533687
+          },
+          "nodes": 745571
+        },
+        {
+          "id": "de-49",
+          "name": "Ulm area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 48.2407225,
+            "east": 10.4675985,
+            "north": 48.7533687
+          },
+          "nodes": 773905
+        },
+        {
+          "id": "de-50",
+          "name": "Landshut area",
+          "country": "DE",
+          "bbox": {
+            "west": 11.5958939,
+            "south": 48.2407225,
+            "east": 12.7641892,
+            "north": 48.7533687
+          },
+          "nodes": 621858
+        },
+        {
+          "id": "de-51",
+          "name": "Freiburg im Breisgau area",
+          "country": "DE",
+          "bbox": {
+            "west": 5.854417,
+            "south": 47.25543,
+            "east": 8.1710077,
+            "north": 49.246015
+          },
+          "nodes": 993201
+        },
+        {
+          "id": "de-52",
+          "name": "Passau area",
+          "country": "DE",
+          "bbox": {
+            "west": 12.7441892,
+            "south": 47.25543,
+            "east": 15.06078,
+            "north": 49.246015
+          },
+          "nodes": 863987
+        },
+        {
+          "id": "de-53",
+          "name": "Constance area",
+          "country": "DE",
+          "bbox": {
+            "west": 8.1510077,
+            "south": 47.25543,
+            "east": 9.3193031,
+            "north": 48.2607225
+          },
+          "nodes": 685618
+        },
+        {
+          "id": "de-54",
+          "name": "Kempten (Allgäu) area",
+          "country": "DE",
+          "bbox": {
+            "west": 9.2993031,
+            "south": 47.25543,
+            "east": 10.4675985,
+            "north": 48.2607225
+          },
+          "nodes": 924839
+        },
+        {
+          "id": "de-55",
+          "name": "Munich area",
+          "country": "DE",
+          "bbox": {
+            "west": 10.4475985,
+            "south": 47.25543,
+            "east": 11.6158939,
+            "north": 48.2607225
+          },
+          "nodes": 986263
+        },
+        {
+          "id": "de-56",
+          "name": "Rosenheim area",
+          "country": "DE",
+          "bbox": {
+            "west": 11.5958939,
+            "south": 47.25543,
+            "east": 12.7641892,
+            "north": 48.2607225
+          },
+          "nodes": 862258
+        }
+      ]
+    },
+    {
+      "id": "great-britain",
+      "source": "https://download.geofabrik.de/europe/great-britain-latest.osm.pbf",
+      "release": "graphs-great-britain",
+      "regions": [
+        {
+          "id": "gb-1",
+          "name": "Kirkwall area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 58.8171858,
+            "east": 2.523672,
+            "north": 61.93858
+          },
+          "nodes": 110571
+        },
+        {
+          "id": "gb-2",
+          "name": "United Kingdom 2",
+          "country": "GB",
+          "bbox": {
+            "west": -15.346777,
+            "south": 55.7157915,
+            "east": -6.4015525,
+            "north": 61.93858
+          },
+          "nodes": 92227
+        },
+        {
+          "id": "gb-3",
+          "name": "Inverness area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 57.2664886,
+            "east": -1.9389402,
+            "north": 58.8371857
+          },
+          "nodes": 575206
+        },
+        {
+          "id": "gb-4",
+          "name": "Peterhead area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 55.7157915,
+            "east": 2.523672,
+            "north": 58.8371857
+          },
+          "nodes": 23115
+        },
+        {
+          "id": "gb-5",
+          "name": "Aberdeen area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 56.4911401,
+            "east": -1.9389402,
+            "north": 57.2864886
+          },
+          "nodes": 429374
+        },
+        {
+          "id": "gb-6",
+          "name": "Glasgow area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 55.7157915,
+            "east": -4.1702464,
+            "north": 57.2864886
+          },
+          "nodes": 594410
+        },
+        {
+          "id": "gb-7",
+          "name": "Edinburgh area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 55.7157915,
+            "east": -1.9389402,
+            "north": 56.5111401
+          },
+          "nodes": 1065403
+        },
+        {
+          "id": "gb-8",
+          "name": "Ayr area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 54.1650944,
+            "east": -4.1702464,
+            "north": 55.7357915
+          },
+          "nodes": 281641
+        },
+        {
+          "id": "gb-9",
+          "name": "Carlisle area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 54.1650944,
+            "east": -1.9389402,
+            "north": 55.7357915
+          },
+          "nodes": 970467
+        },
+        {
+          "id": "gb-10",
+          "name": "Newcastle upon Tyne area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 54.1650944,
+            "east": 2.523672,
+            "north": 55.7357915
+          },
+          "nodes": 1075841
+        },
+        {
+          "id": "gb-11",
+          "name": "Blackpool area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 53.7774201,
+            "east": -1.9389402,
+            "north": 54.1850944
+          },
+          "nodes": 380219
+        },
+        {
+          "id": "gb-12",
+          "name": "Leeds area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 53.7774201,
+            "east": -0.8232872,
+            "north": 54.1850944
+          },
+          "nodes": 520751
+        },
+        {
+          "id": "gb-13",
+          "name": "Barrow-in-Furness area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 53.3897458,
+            "east": -3.0545933,
+            "north": 54.1850944
+          },
+          "nodes": 48577
+        },
+        {
+          "id": "gb-14",
+          "name": "Hull area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.8432872,
+            "south": 53.3897458,
+            "east": 0.2923659,
+            "north": 54.1850944
+          },
+          "nodes": 393338
+        },
+        {
+          "id": "gb-15",
+          "name": "Liverpool area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 53.3897458,
+            "east": -2.4967668,
+            "north": 53.7974201
+          },
+          "nodes": 587960
+        },
+        {
+          "id": "gb-16",
+          "name": "Manchester area",
+          "country": "GB",
+          "bbox": {
+            "west": -2.5167668,
+            "south": 53.3897458,
+            "east": -1.9389402,
+            "north": 53.7974201
+          },
+          "nodes": 723944
+        },
+        {
+          "id": "gb-17",
+          "name": "Wakefield area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 53.3897458,
+            "east": -0.8232872,
+            "north": 53.7974201
+          },
+          "nodes": 770305
+        },
+        {
+          "id": "gb-18",
+          "name": "Holyhead area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 52.6143973,
+            "east": -4.1702464,
+            "north": 54.1850944
+          },
+          "nodes": 147216
+        },
+        {
+          "id": "gb-19",
+          "name": "Norwich area",
+          "country": "GB",
+          "bbox": {
+            "west": 0.2723659,
+            "south": 52.6143973,
+            "east": 2.523672,
+            "north": 54.1850944
+          },
+          "nodes": 367019
+        },
+        {
+          "id": "gb-20",
+          "name": "Stoke-on-Trent area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 53.0020715,
+            "east": -1.9389402,
+            "north": 53.4097458
+          },
+          "nodes": 876914
+        },
+        {
+          "id": "gb-21",
+          "name": "Sheffield area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 53.0020715,
+            "east": -0.8232872,
+            "north": 53.4097458
+          },
+          "nodes": 640214
+        },
+        {
+          "id": "gb-22",
+          "name": "Colwyn Bay area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 52.6143973,
+            "east": -3.0545933,
+            "north": 53.4097458
+          },
+          "nodes": 579008
+        },
+        {
+          "id": "gb-23",
+          "name": "Lincoln area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.8432872,
+            "south": 52.6143973,
+            "east": 0.2923659,
+            "north": 53.4097458
+          },
+          "nodes": 569815
+        },
+        {
+          "id": "gb-24",
+          "name": "Telford area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 52.6143973,
+            "east": -1.9389402,
+            "north": 53.0220715
+          },
+          "nodes": 579336
+        },
+        {
+          "id": "gb-25",
+          "name": "Leicester area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 52.6143973,
+            "east": -0.8232872,
+            "north": 53.0220715
+          },
+          "nodes": 813614
+        },
+        {
+          "id": "gb-26",
+          "name": "Birmingham area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 52.226723,
+            "east": -0.8232872,
+            "north": 52.6343972
+          },
+          "nodes": 883134
+        },
+        {
+          "id": "gb-27",
+          "name": "Aberystwyth area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 51.8390487,
+            "east": -3.0545933,
+            "north": 52.6343972
+          },
+          "nodes": 343658
+        },
+        {
+          "id": "gb-28",
+          "name": "Wolverhampton area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 51.8390487,
+            "east": -1.9389402,
+            "north": 52.6343972
+          },
+          "nodes": 1061154
+        },
+        {
+          "id": "gb-29",
+          "name": "Milton Keynes area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.8432872,
+            "south": 51.8390487,
+            "east": 0.2923659,
+            "north": 52.6343972
+          },
+          "nodes": 1000787
+        },
+        {
+          "id": "gb-30",
+          "name": "Colchester area",
+          "country": "GB",
+          "bbox": {
+            "west": 0.2723659,
+            "south": 51.8390487,
+            "east": 2.523672,
+            "north": 52.6343972
+          },
+          "nodes": 935899
+        },
+        {
+          "id": "gb-31",
+          "name": "Banbury area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 51.8390487,
+            "east": -0.8232872,
+            "north": 52.246723
+          },
+          "nodes": 422981
+        },
+        {
+          "id": "gb-32",
+          "name": "Haverfordwest area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 51.0637001,
+            "east": -4.1702464,
+            "north": 52.6343972
+          },
+          "nodes": 369914
+        },
+        {
+          "id": "gb-33",
+          "name": "Newport area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 51.4513744,
+            "east": -1.9389402,
+            "north": 51.8590487
+          },
+          "nodes": 663490
+        },
+        {
+          "id": "gb-34",
+          "name": "Swindon area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 51.4513744,
+            "east": -0.8232872,
+            "north": 51.8590487
+          },
+          "nodes": 601237
+        },
+        {
+          "id": "gb-35",
+          "name": "Slough area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.8432872,
+            "south": 51.4513744,
+            "east": -0.2654607,
+            "north": 51.8590487
+          },
+          "nodes": 615463
+        },
+        {
+          "id": "gb-36",
+          "name": "London area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.2854607,
+            "south": 51.4513744,
+            "east": 0.2923659,
+            "north": 51.8590487
+          },
+          "nodes": 946038
+        },
+        {
+          "id": "gb-37",
+          "name": "Cardiff area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 51.0637001,
+            "east": -3.0545933,
+            "north": 51.8590487
+          },
+          "nodes": 803119
+        },
+        {
+          "id": "gb-38",
+          "name": "Southend-on-Sea area",
+          "country": "GB",
+          "bbox": {
+            "west": 0.2723659,
+            "south": 51.0637001,
+            "east": 2.523672,
+            "north": 51.8590487
+          },
+          "nodes": 1083462
+        },
+        {
+          "id": "gb-39",
+          "name": "Bristol area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 51.0637001,
+            "east": -1.9389402,
+            "north": 51.4713744
+          },
+          "nodes": 682297
+        },
+        {
+          "id": "gb-40",
+          "name": "Reading area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 51.0637001,
+            "east": -0.8232872,
+            "north": 51.4713744
+          },
+          "nodes": 580173
+        },
+        {
+          "id": "gb-41",
+          "name": "Guildford area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.8432872,
+            "south": 51.0637001,
+            "east": -0.2654607,
+            "north": 51.4713744
+          },
+          "nodes": 706047
+        },
+        {
+          "id": "gb-42",
+          "name": "Croydon area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.2854607,
+            "south": 51.0637001,
+            "east": 0.2923659,
+            "north": 51.4713744
+          },
+          "nodes": 756265
+        },
+        {
+          "id": "gb-43",
+          "name": "Plymouth area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 50.2883516,
+            "east": -3.0545933,
+            "north": 51.0837001
+          },
+          "nodes": 895998
+        },
+        {
+          "id": "gb-44",
+          "name": "Poole area",
+          "country": "GB",
+          "bbox": {
+            "west": -3.0745933,
+            "south": 50.2883516,
+            "east": -1.9389402,
+            "north": 51.0837001
+          },
+          "nodes": 469206
+        },
+        {
+          "id": "gb-45",
+          "name": "Southampton area",
+          "country": "GB",
+          "bbox": {
+            "west": -1.9589402,
+            "south": 50.2883516,
+            "east": -0.8232872,
+            "north": 51.0837001
+          },
+          "nodes": 776007
+        },
+        {
+          "id": "gb-46",
+          "name": "Brighton area",
+          "country": "GB",
+          "bbox": {
+            "west": -0.8432872,
+            "south": 50.2883516,
+            "east": 0.2923659,
+            "north": 51.0837001
+          },
+          "nodes": 537137
+        },
+        {
+          "id": "gb-47",
+          "name": "Falmouth area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4215525,
+            "south": 49.513003,
+            "east": -4.1702464,
+            "north": 51.0837001
+          },
+          "nodes": 649667
+        },
+        {
+          "id": "gb-48",
+          "name": "Hastings area",
+          "country": "GB",
+          "bbox": {
+            "west": 0.2723659,
+            "south": 49.513003,
+            "east": 2.523672,
+            "north": 51.0837001
+          },
+          "nodes": 195668
+        },
+        {
+          "id": "gb-49",
+          "name": "Salcombe area",
+          "country": "GB",
+          "bbox": {
+            "west": -4.1902464,
+            "south": 49.513003,
+            "east": -1.9389402,
+            "north": 50.3083516
+          },
+          "nodes": 21375
+        }
+      ]
+    },
+    {
+      "id": "greece",
+      "source": "https://download.geofabrik.de/europe/greece-latest.osm.pbf",
+      "release": "graphs-greece",
+      "regions": [
+        {
+          "id": "gr-1",
+          "name": "Florina area",
+          "country": "GR",
+          "bbox": {
+            "west": 18.960641,
+            "south": 39.9499325,
+            "east": 21.6521883,
+            "north": 41.75954
+          },
+          "nodes": 361709
+        },
+        {
+          "id": "gr-2",
+          "name": "Thessaloniki area",
+          "country": "GR",
+          "bbox": {
+            "west": 21.6321882,
+            "south": 39.9499325,
+            "east": 22.9879619,
+            "north": 41.75954
+          },
+          "nodes": 775618
+        },
+        {
+          "id": "gr-3",
+          "name": "Serres area",
+          "country": "GR",
+          "bbox": {
+            "west": 22.9679619,
+            "south": 39.9499325,
+            "east": 24.3237355,
+            "north": 41.75954
+          },
+          "nodes": 691268
+        },
+        {
+          "id": "gr-4",
+          "name": "Kavala area",
+          "country": "GR",
+          "bbox": {
+            "west": 24.3037355,
+            "south": 38.160325,
+            "east": 29.66683,
+            "north": 41.75954
+          },
+          "nodes": 885656
+        },
+        {
+          "id": "gr-5",
+          "name": "Ioannina area",
+          "country": "GR",
+          "bbox": {
+            "west": 20.2964146,
+            "south": 39.0551288,
+            "east": 21.6521883,
+            "north": 39.9699325
+          },
+          "nodes": 1003229
+        },
+        {
+          "id": "gr-6",
+          "name": "Larissa area",
+          "country": "GR",
+          "bbox": {
+            "west": 21.6321882,
+            "south": 39.0551288,
+            "east": 22.9879619,
+            "north": 39.9699325
+          },
+          "nodes": 705811
+        },
+        {
+          "id": "gr-7",
+          "name": "Corfu area",
+          "country": "GR",
+          "bbox": {
+            "west": 18.960641,
+            "south": 38.160325,
+            "east": 20.3164146,
+            "north": 39.9699325
+          },
+          "nodes": 206331
+        },
+        {
+          "id": "gr-8",
+          "name": "Chalkida area",
+          "country": "GR",
+          "bbox": {
+            "west": 22.9679619,
+            "south": 38.160325,
+            "east": 24.3237355,
+            "north": 39.9699325
+          },
+          "nodes": 768685
+        },
+        {
+          "id": "gr-9",
+          "name": "Agrinio area",
+          "country": "GR",
+          "bbox": {
+            "west": 20.2964146,
+            "south": 38.160325,
+            "east": 21.6521883,
+            "north": 39.0751288
+          },
+          "nodes": 619311
+        },
+        {
+          "id": "gr-10",
+          "name": "Patras area",
+          "country": "GR",
+          "bbox": {
+            "west": 21.6321882,
+            "south": 38.160325,
+            "east": 22.9879619,
+            "north": 39.0751288
+          },
+          "nodes": 909632
+        },
+        {
+          "id": "gr-11",
+          "name": "Megalopoli area",
+          "country": "GR",
+          "bbox": {
+            "west": 21.6321882,
+            "south": 37.2655213,
+            "east": 22.3200751,
+            "north": 38.180325
+          },
+          "nodes": 622855
+        },
+        {
+          "id": "gr-12",
+          "name": "Tripoli area",
+          "country": "GR",
+          "bbox": {
+            "west": 22.3000751,
+            "south": 37.2655213,
+            "east": 22.9879619,
+            "north": 38.180325
+          },
+          "nodes": 512475
+        },
+        {
+          "id": "gr-13",
+          "name": "Athens area",
+          "country": "GR",
+          "bbox": {
+            "west": 22.9679619,
+            "south": 36.3707175,
+            "east": 24.3237355,
+            "north": 38.180325
+          },
+          "nodes": 977144
+        },
+        {
+          "id": "gr-14",
+          "name": "Pothia area",
+          "country": "GR",
+          "bbox": {
+            "west": 24.3037355,
+            "south": 36.3707175,
+            "east": 26.9952828,
+            "north": 38.180325
+          },
+          "nodes": 664061
+        },
+        {
+          "id": "gr-15",
+          "name": "Kalamata area",
+          "country": "GR",
+          "bbox": {
+            "west": 21.6321882,
+            "south": 36.3707175,
+            "east": 22.9879619,
+            "north": 37.2855213
+          },
+          "nodes": 701762
+        },
+        {
+          "id": "gr-16",
+          "name": "Pyrgos area",
+          "country": "GR",
+          "bbox": {
+            "west": 18.960641,
+            "south": 34.58111,
+            "east": 21.6521883,
+            "north": 38.180325
+          },
+          "nodes": 504825
+        },
+        {
+          "id": "gr-17",
+          "name": "Rhodes area",
+          "country": "GR",
+          "bbox": {
+            "west": 26.9752827,
+            "south": 34.58111,
+            "east": 29.66683,
+            "north": 38.180325
+          },
+          "nodes": 265408
+        },
+        {
+          "id": "gr-18",
+          "name": "Chania area",
+          "country": "GR",
+          "bbox": {
+            "west": 21.6321882,
+            "south": 34.58111,
+            "east": 24.3237355,
+            "north": 36.3907175
+          },
+          "nodes": 287049
+        },
+        {
+          "id": "gr-19",
+          "name": "Heraklion area",
+          "country": "GR",
+          "bbox": {
+            "west": 24.3037355,
+            "south": 34.58111,
+            "east": 26.9952828,
+            "north": 36.3907175
+          },
+          "nodes": 936780
+        }
+      ]
+    },
+    {
+      "id": "guernsey-jersey",
+      "source": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
+      "release": "graphs-guernsey-jersey",
+      "regions": [
+        {
+          "id": "gg-1",
+          "name": "St Helier area",
+          "country": "GG",
+          "bbox": {
+            "west": -3.583306,
+            "south": 48.796865,
+            "east": -1.698377,
+            "north": 50.079483
+          },
+          "nodes": 66929
+        }
+      ]
+    },
+    {
+      "id": "hungary",
+      "source": "https://download.geofabrik.de/europe/hungary-latest.osm.pbf",
+      "release": "graphs-hungary",
+      "regions": [
+        {
+          "id": "hu-1",
+          "name": "Budapest area",
+          "country": "HU",
+          "bbox": {
+            "west": 16.098446,
+            "south": 47.1506395,
+            "east": 19.51747,
+            "north": 48.599212
+          },
+          "nodes": 967958
+        },
+        {
+          "id": "hu-2",
+          "name": "Debrecen area",
+          "country": "HU",
+          "bbox": {
+            "west": 19.49747,
+            "south": 45.722067,
+            "east": 22.916494,
+            "north": 48.599212
+          },
+          "nodes": 1030855
+        },
+        {
+          "id": "hu-3",
+          "name": "Pécs area",
+          "country": "HU",
+          "bbox": {
+            "west": 16.098446,
+            "south": 45.722067,
+            "east": 19.51747,
+            "north": 47.1706395
+          },
+          "nodes": 814781
+        }
+      ]
+    },
+    {
+      "id": "iceland",
+      "source": "https://download.geofabrik.de/europe/iceland-latest.osm.pbf",
+      "release": "graphs-iceland",
+      "regions": [
+        {
+          "id": "is-1",
+          "name": "Iceland",
+          "country": "IS",
+          "bbox": {
+            "west": -25.75085,
+            "south": 62.83553,
+            "east": -12.40708,
+            "north": 67.51085
+          },
+          "nodes": 615824
+        }
+      ]
+    },
+    {
+      "id": "ireland-and-northern-ireland",
+      "source": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf",
+      "release": "graphs-ireland-and-northern-ireland",
+      "regions": [
+        {
+          "id": "gb-1",
+          "name": "Derry/Londonderry area",
+          "country": "GB",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 54.6292775,
+            "east": -5.049265,
+            "north": 56.87553
+          },
+          "nodes": 1080012
+        },
+        {
+          "id": "gb-2",
+          "name": "Omagh area",
+          "country": "GB",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 54.0727144,
+            "east": -6.4553869,
+            "north": 54.6492775
+          },
+          "nodes": 621364
+        },
+        {
+          "id": "ie-1",
+          "name": "Sligo area",
+          "country": "IE",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 53.5161513,
+            "east": -7.8615088,
+            "north": 54.6492775
+          },
+          "nodes": 945468
+        },
+        {
+          "id": "gb-3",
+          "name": "Belfast area",
+          "country": "GB",
+          "bbox": {
+            "west": -6.4753869,
+            "south": 53.5161513,
+            "east": -5.049265,
+            "north": 54.6492775
+          },
+          "nodes": 918586
+        },
+        {
+          "id": "ie-2",
+          "name": "Navan area",
+          "country": "IE",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 53.5161513,
+            "east": -6.4553869,
+            "north": 54.0927144
+          },
+          "nodes": 598524
+        },
+        {
+          "id": "ie-3",
+          "name": "Galway area",
+          "country": "IE",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 52.403025,
+            "east": -7.8615088,
+            "north": 53.5361513
+          },
+          "nodes": 1030033
+        },
+        {
+          "id": "ie-4",
+          "name": "Carlow area",
+          "country": "IE",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 52.403025,
+            "east": -6.4553869,
+            "north": 53.5361513
+          },
+          "nodes": 1037251
+        },
+        {
+          "id": "ie-5",
+          "name": "Dublin area",
+          "country": "IE",
+          "bbox": {
+            "west": -6.4753869,
+            "south": 52.403025,
+            "east": -5.049265,
+            "north": 53.5361513
+          },
+          "nodes": 771550
+        },
+        {
+          "id": "ie-6",
+          "name": "Tralee area",
+          "country": "IE",
+          "bbox": {
+            "west": -10.6937525,
+            "south": 51.2898988,
+            "east": -9.2676306,
+            "north": 52.423025
+          },
+          "nodes": 401773
+        },
+        {
+          "id": "ie-7",
+          "name": "Cork area",
+          "country": "IE",
+          "bbox": {
+            "west": -9.2876306,
+            "south": 51.2898988,
+            "east": -7.8615088,
+            "north": 52.423025
+          },
+          "nodes": 813831
+        },
+        {
+          "id": "gb-4",
+          "name": "Wexford area",
+          "country": "GB",
+          "bbox": {
+            "west": -7.8815088,
+            "south": 50.1767725,
+            "east": -5.049265,
+            "north": 52.423025
+          },
+          "nodes": 385037
+        }
+      ]
+    },
+    {
+      "id": "isle-of-man",
+      "source": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
+      "release": "graphs-isle-of-man",
+      "regions": [
+        {
+          "id": "im-1",
+          "name": "Isle of Man",
+          "country": "IM",
+          "bbox": {
+            "west": -5.444554,
+            "south": 53.72236,
+            "east": -3.678718,
+            "north": 54.6806
+          },
+          "nodes": 64980
+        }
+      ]
+    },
+    {
+      "id": "kosovo",
+      "source": "https://download.geofabrik.de/europe/kosovo-latest.osm.pbf",
+      "release": "graphs-kosovo",
+      "regions": [
+        {
+          "id": "xk-1",
+          "name": "Kosovo",
+          "country": "XK",
+          "bbox": {
+            "west": 20.00357,
+            "south": 41.844079,
+            "east": 21.80327,
+            "north": 43.287534
+          },
+          "nodes": 996074
+        }
+      ]
+    },
+    {
+      "id": "latvia",
+      "source": "https://download.geofabrik.de/europe/latvia-latest.osm.pbf",
+      "release": "graphs-latvia",
+      "regions": [
+        {
+          "id": "lv-1",
+          "name": "Riga area",
+          "country": "LV",
+          "bbox": {
+            "west": 23.984245,
+            "south": 56.867895,
+            "east": 28.26501,
+            "north": 58.1047
+          },
+          "nodes": 814152
+        },
+        {
+          "id": "lv-2",
+          "name": "Liepaja area",
+          "country": "LV",
+          "bbox": {
+            "west": 19.72348,
+            "south": 55.65109,
+            "east": 24.004245,
+            "north": 58.1047
+          },
+          "nodes": 636757
+        },
+        {
+          "id": "lv-3",
+          "name": "Daugavpils area",
+          "country": "LV",
+          "bbox": {
+            "west": 23.984245,
+            "south": 55.65109,
+            "east": 28.26501,
+            "north": 56.887895
+          },
+          "nodes": 726084
+        }
+      ]
+    },
+    {
+      "id": "lithuania",
+      "source": "https://download.geofabrik.de/europe/lithuania-latest.osm.pbf",
+      "release": "graphs-lithuania",
+      "regions": [
+        {
+          "id": "lt-1",
+          "name": "Panevėžys area",
+          "country": "LT",
+          "bbox": {
+            "west": 23.7186605,
+            "south": 55.162748,
+            "east": 26.84873,
+            "north": 56.46329
+          },
+          "nodes": 506476
+        },
+        {
+          "id": "lt-2",
+          "name": "Klaipėda area",
+          "country": "LT",
+          "bbox": {
+            "west": 20.608591,
+            "south": 53.882206,
+            "east": 23.7386605,
+            "north": 56.46329
+          },
+          "nodes": 863490
+        },
+        {
+          "id": "lt-3",
+          "name": "Vilnius area",
+          "country": "LT",
+          "bbox": {
+            "west": 23.7186605,
+            "south": 53.882206,
+            "east": 26.84873,
+            "north": 55.182748
+          },
+          "nodes": 809731
+        }
+      ]
+    },
+    {
+      "id": "macedonia",
+      "source": "https://download.geofabrik.de/europe/macedonia-latest.osm.pbf",
+      "release": "graphs-macedonia",
+      "regions": [
+        {
+          "id": "mk-1",
+          "name": "North Macedonia",
+          "country": "MK",
+          "bbox": {
+            "west": 20.43671,
+            "south": 40.83759,
+            "east": 23.05012,
+            "north": 42.38969
+          },
+          "nodes": 863337
+        }
+      ]
+    },
+    {
+      "id": "moldova",
+      "source": "https://download.geofabrik.de/europe/moldova-latest.osm.pbf",
+      "release": "graphs-moldova",
+      "regions": [
+        {
+          "id": "md-1",
+          "name": "Chișinău area",
+          "country": "MD",
+          "bbox": {
+            "west": 26.60232,
+            "south": 46.9678035,
+            "east": 30.202489,
+            "north": 48.503971
+          },
+          "nodes": 1073664
+        },
+        {
+          "id": "md-2",
+          "name": "Tiraspol area",
+          "country": "MD",
+          "bbox": {
+            "west": 26.60232,
+            "south": 45.451636,
+            "east": 30.202489,
+            "north": 46.9878035
+          },
+          "nodes": 459314
+        }
+      ]
+    },
+    {
+      "id": "montenegro",
+      "source": "https://download.geofabrik.de/europe/montenegro-latest.osm.pbf",
+      "release": "graphs-montenegro",
+      "regions": [
+        {
+          "id": "me-1",
+          "name": "Montenegro",
+          "country": "ME",
+          "bbox": {
+            "west": 18.16282,
+            "south": 41.60621,
+            "east": 20.368827,
+            "north": 43.572169
+          },
+          "nodes": 1046825
+        }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "source": "https://download.geofabrik.de/europe/netherlands-latest.osm.pbf",
+      "release": "graphs-netherlands",
+      "regions": [
+        {
+          "id": "nl-1",
+          "name": "Groningen area",
+          "country": "NL",
+          "bbox": {
+            "west": 5.073275,
+            "south": 53.1902775,
+            "east": 7.240455,
+            "north": 54.02786
+          },
+          "nodes": 321500
+        },
+        {
+          "id": "nl-2",
+          "name": "Haarlem area",
+          "country": "NL",
+          "bbox": {
+            "west": 2.926095,
+            "south": 52.372695,
+            "east": 5.093275,
+            "north": 54.02786
+          },
+          "nodes": 442501
+        },
+        {
+          "id": "nl-3",
+          "name": "Zwolle area",
+          "country": "NL",
+          "bbox": {
+            "west": 5.073275,
+            "south": 52.372695,
+            "east": 6.166865,
+            "north": 53.2102775
+          },
+          "nodes": 698762
+        },
+        {
+          "id": "nl-4",
+          "name": "Assen area",
+          "country": "NL",
+          "bbox": {
+            "west": 6.146865,
+            "south": 52.372695,
+            "east": 7.240455,
+            "north": 53.2102775
+          },
+          "nodes": 686200
+        },
+        {
+          "id": "nl-5",
+          "name": "Amsterdam area",
+          "country": "NL",
+          "bbox": {
+            "west": 3.999685,
+            "south": 51.9639038,
+            "east": 5.093275,
+            "north": 52.392695
+          },
+          "nodes": 840028
+        },
+        {
+          "id": "nl-6",
+          "name": "Utrecht area",
+          "country": "NL",
+          "bbox": {
+            "west": 5.073275,
+            "south": 51.9639038,
+            "east": 6.166865,
+            "north": 52.392695
+          },
+          "nodes": 747603
+        },
+        {
+          "id": "nl-7",
+          "name": "Zierikzee area",
+          "country": "NL",
+          "bbox": {
+            "west": 2.926095,
+            "south": 51.5551125,
+            "east": 4.019685,
+            "north": 52.392695
+          },
+          "nodes": 67140
+        },
+        {
+          "id": "nl-8",
+          "name": "Enschede area",
+          "country": "NL",
+          "bbox": {
+            "west": 6.146865,
+            "south": 51.5551125,
+            "east": 7.240455,
+            "north": 52.392695
+          },
+          "nodes": 533805
+        },
+        {
+          "id": "nl-9",
+          "name": "Rotterdam area",
+          "country": "NL",
+          "bbox": {
+            "west": 3.999685,
+            "south": 51.5551125,
+            "east": 5.093275,
+            "north": 51.9839037
+          },
+          "nodes": 778042
+        },
+        {
+          "id": "nl-10",
+          "name": "Nijmegen area",
+          "country": "NL",
+          "bbox": {
+            "west": 5.073275,
+            "south": 51.5551125,
+            "east": 6.166865,
+            "north": 51.9839037
+          },
+          "nodes": 665681
+        },
+        {
+          "id": "nl-11",
+          "name": "Roosendaal area",
+          "country": "NL",
+          "bbox": {
+            "west": 2.926095,
+            "south": 50.73753,
+            "east": 5.093275,
+            "north": 51.5751125
+          },
+          "nodes": 377887
+        },
+        {
+          "id": "nl-12",
+          "name": "Eindhoven area",
+          "country": "NL",
+          "bbox": {
+            "west": 5.073275,
+            "south": 50.73753,
+            "east": 7.240455,
+            "north": 51.5751125
+          },
+          "nodes": 756885
+        }
+      ]
+    },
+    {
+      "id": "norway",
+      "source": "https://download.geofabrik.de/europe/norway-latest.osm.pbf",
+      "release": "graphs-norway",
+      "regions": [
+        {
+          "id": "no-1",
+          "name": "Tromsø area",
+          "country": "NO",
+          "bbox": {
+            "west": -11.37801,
+            "south": 69.29259,
+            "east": 35.53711,
+            "north": 81.06195
+          },
+          "nodes": 615688
+        },
+        {
+          "id": "no-2",
+          "name": "Bodø area",
+          "country": "NO",
+          "bbox": {
+            "west": 12.06955,
+            "south": 66.35525,
+            "east": 23.81333,
+            "north": 69.31259
+          },
+          "nodes": 973933
+        },
+        {
+          "id": "no-3",
+          "name": "Trondheim area",
+          "country": "NO",
+          "bbox": {
+            "west": -11.37801,
+            "south": 63.41791,
+            "east": 12.08955,
+            "north": 69.31259
+          },
+          "nodes": 912293
+        },
+        {
+          "id": "no-4",
+          "name": "Norway 4",
+          "country": "NO",
+          "bbox": {
+            "west": 23.79333,
+            "south": 63.41791,
+            "east": 35.53711,
+            "north": 69.31259
+          },
+          "nodes": 11708
+        },
+        {
+          "id": "no-5",
+          "name": "Mo i Rana area",
+          "country": "NO",
+          "bbox": {
+            "west": 12.06955,
+            "south": 63.41791,
+            "east": 23.81333,
+            "north": 66.37525
+          },
+          "nodes": 496008
+        },
+        {
+          "id": "no-6",
+          "name": "Molde area",
+          "country": "NO",
+          "bbox": {
+            "west": 6.20766,
+            "south": 61.94924,
+            "east": 9.158605,
+            "north": 63.43791
+          },
+          "nodes": 776245
+        },
+        {
+          "id": "no-7",
+          "name": "Orkanger area",
+          "country": "NO",
+          "bbox": {
+            "west": 9.138605,
+            "south": 61.94924,
+            "east": 12.08955,
+            "north": 63.43791
+          },
+          "nodes": 1005697
+        },
+        {
+          "id": "no-8",
+          "name": "Ålesund area",
+          "country": "NO",
+          "bbox": {
+            "west": 0.34577,
+            "south": 60.48057,
+            "east": 6.22766,
+            "north": 63.43791
+          },
+          "nodes": 819028
+        },
+        {
+          "id": "no-9",
+          "name": "Vinstra area",
+          "country": "NO",
+          "bbox": {
+            "west": 9.138605,
+            "south": 61.214905,
+            "east": 12.08955,
+            "north": 61.96924
+          },
+          "nodes": 634748
+        },
+        {
+          "id": "no-10",
+          "name": "Vossavangen area",
+          "country": "NO",
+          "bbox": {
+            "west": 6.20766,
+            "south": 60.48057,
+            "east": 9.158605,
+            "north": 61.96924
+          },
+          "nodes": 874747
+        },
+        {
+          "id": "no-11",
+          "name": "Lillehammer area",
+          "country": "NO",
+          "bbox": {
+            "west": 9.138605,
+            "south": 60.48057,
+            "east": 10.6240775,
+            "north": 61.234905
+          },
+          "nodes": 742208
+        },
+        {
+          "id": "no-12",
+          "name": "Hamar area",
+          "country": "NO",
+          "bbox": {
+            "west": 10.6040775,
+            "south": 60.48057,
+            "east": 12.08955,
+            "north": 61.234905
+          },
+          "nodes": 723717
+        },
+        {
+          "id": "no-13",
+          "name": "Norway 13",
+          "country": "NO",
+          "bbox": {
+            "west": 12.06955,
+            "south": 57.54323,
+            "east": 35.53711,
+            "north": 63.43791
+          },
+          "nodes": 365200
+        },
+        {
+          "id": "no-14",
+          "name": "Jessheim area",
+          "country": "NO",
+          "bbox": {
+            "west": 10.6040775,
+            "south": 60.1134025,
+            "east": 12.08955,
+            "north": 60.50057
+          },
+          "nodes": 432930
+        },
+        {
+          "id": "no-15",
+          "name": "Bergen area",
+          "country": "NO",
+          "bbox": {
+            "west": 4.7421875,
+            "south": 59.746235,
+            "east": 6.22766,
+            "north": 60.50057
+          },
+          "nodes": 736705
+        },
+        {
+          "id": "no-16",
+          "name": "Sandvika area",
+          "country": "NO",
+          "bbox": {
+            "west": 9.138605,
+            "south": 59.746235,
+            "east": 10.6240775,
+            "north": 60.50057
+          },
+          "nodes": 903851
+        },
+        {
+          "id": "no-17",
+          "name": "Oslo area",
+          "country": "NO",
+          "bbox": {
+            "west": 10.6040775,
+            "south": 59.746235,
+            "east": 12.08955,
+            "north": 60.1334025
+          },
+          "nodes": 719651
+        },
+        {
+          "id": "no-18",
+          "name": "Odda area",
+          "country": "NO",
+          "bbox": {
+            "west": 6.20766,
+            "south": 59.0119,
+            "east": 9.158605,
+            "north": 60.50057
+          },
+          "nodes": 823077
+        },
+        {
+          "id": "no-19",
+          "name": "Haugesund area",
+          "country": "NO",
+          "bbox": {
+            "west": 4.7421875,
+            "south": 59.0119,
+            "east": 6.22766,
+            "north": 59.766235
+          },
+          "nodes": 473979
+        },
+        {
+          "id": "no-20",
+          "name": "Drammen area",
+          "country": "NO",
+          "bbox": {
+            "west": 9.138605,
+            "south": 59.0119,
+            "east": 10.6240775,
+            "north": 59.766235
+          },
+          "nodes": 1041477
+        },
+        {
+          "id": "no-21",
+          "name": "Fredrikstad area",
+          "country": "NO",
+          "bbox": {
+            "west": 10.6040775,
+            "south": 59.0119,
+            "east": 12.08955,
+            "north": 59.766235
+          },
+          "nodes": 820853
+        },
+        {
+          "id": "no-22",
+          "name": "Stavanger area",
+          "country": "NO",
+          "bbox": {
+            "west": 3.276715,
+            "south": 57.54323,
+            "east": 6.22766,
+            "north": 59.0319
+          },
+          "nodes": 407869
+        },
+        {
+          "id": "no-23",
+          "name": "Kristiansand area",
+          "country": "NO",
+          "bbox": {
+            "west": 6.20766,
+            "south": 57.54323,
+            "east": 9.158605,
+            "north": 59.0319
+          },
+          "nodes": 1044497
+        },
+        {
+          "id": "no-24",
+          "name": "Stavern area",
+          "country": "NO",
+          "bbox": {
+            "west": 9.138605,
+            "south": 57.54323,
+            "east": 12.08955,
+            "north": 59.0319
+          },
+          "nodes": 158665
+        }
+      ]
+    },
+    {
+      "id": "poland",
+      "source": "https://download.geofabrik.de/europe/poland-latest.osm.pbf",
+      "release": "graphs-poland",
+      "regions": [
+        {
+          "id": "pl-1",
+          "name": "Koszalin area",
+          "country": "PL",
+          "bbox": {
+            "west": 13.980216,
+            "south": 53.6577973,
+            "east": 16.5429178,
+            "north": 55.238256
+          },
+          "nodes": 321158
+        },
+        {
+          "id": "pl-2",
+          "name": "Gdansk area",
+          "country": "PL",
+          "bbox": {
+            "west": 16.5229178,
+            "south": 53.6577973,
+            "east": 19.0856195,
+            "north": 55.238256
+          },
+          "nodes": 1084037
+        },
+        {
+          "id": "pl-3",
+          "name": "Olsztyn area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.0656195,
+            "south": 53.6577973,
+            "east": 24.171023,
+            "north": 55.238256
+          },
+          "nodes": 1031281
+        },
+        {
+          "id": "pl-4",
+          "name": "Bydgoszcz area",
+          "country": "PL",
+          "bbox": {
+            "west": 16.5229178,
+            "south": 52.8775679,
+            "east": 19.0856195,
+            "north": 53.6777972
+          },
+          "nodes": 779152
+        },
+        {
+          "id": "pl-5",
+          "name": "Ostrołęka area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.0656195,
+            "south": 52.8775679,
+            "east": 21.6283213,
+            "north": 53.6777972
+          },
+          "nodes": 484438
+        },
+        {
+          "id": "pl-6",
+          "name": "Szczecin area",
+          "country": "PL",
+          "bbox": {
+            "west": 13.980216,
+            "south": 52.0973385,
+            "east": 16.5429178,
+            "north": 53.6777972
+          },
+          "nodes": 841074
+        },
+        {
+          "id": "pl-7",
+          "name": "Białystok area",
+          "country": "PL",
+          "bbox": {
+            "west": 21.6083212,
+            "south": 52.0973385,
+            "east": 24.171023,
+            "north": 53.6777972
+          },
+          "nodes": 668656
+        },
+        {
+          "id": "pl-8",
+          "name": "Poznan area",
+          "country": "PL",
+          "bbox": {
+            "west": 16.5229178,
+            "south": 52.0973385,
+            "east": 19.0856195,
+            "north": 52.8975679
+          },
+          "nodes": 903142
+        },
+        {
+          "id": "pl-9",
+          "name": "Płock area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.0656195,
+            "south": 52.0973385,
+            "east": 20.3569704,
+            "north": 52.8975679
+          },
+          "nodes": 316968
+        },
+        {
+          "id": "pl-10",
+          "name": "Warsaw area",
+          "country": "PL",
+          "bbox": {
+            "west": 20.3369704,
+            "south": 52.0973385,
+            "east": 21.6283213,
+            "north": 52.8975679
+          },
+          "nodes": 1045758
+        },
+        {
+          "id": "pl-11",
+          "name": "Wrocław area",
+          "country": "PL",
+          "bbox": {
+            "west": 16.5229178,
+            "south": 50.5368798,
+            "east": 17.8142686,
+            "north": 52.1173385
+          },
+          "nodes": 947868
+        },
+        {
+          "id": "pl-12",
+          "name": "Opole area",
+          "country": "PL",
+          "bbox": {
+            "west": 17.7942686,
+            "south": 50.5368798,
+            "east": 19.0856195,
+            "north": 52.1173385
+          },
+          "nodes": 572775
+        },
+        {
+          "id": "pl-13",
+          "name": "Łódź area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.0656195,
+            "south": 50.5368798,
+            "east": 20.3569704,
+            "north": 52.1173385
+          },
+          "nodes": 861865
+        },
+        {
+          "id": "pl-14",
+          "name": "Radom area",
+          "country": "PL",
+          "bbox": {
+            "west": 20.3369704,
+            "south": 50.5368798,
+            "east": 21.6283213,
+            "north": 52.1173385
+          },
+          "nodes": 1080791
+        },
+        {
+          "id": "pl-15",
+          "name": "Lublin area",
+          "country": "PL",
+          "bbox": {
+            "west": 21.6083212,
+            "south": 50.5368798,
+            "east": 22.8996721,
+            "north": 52.1173385
+          },
+          "nodes": 918103
+        },
+        {
+          "id": "pl-16",
+          "name": "Zamość area",
+          "country": "PL",
+          "bbox": {
+            "west": 22.8796721,
+            "south": 50.5368798,
+            "east": 24.171023,
+            "north": 52.1173385
+          },
+          "nodes": 373867
+        },
+        {
+          "id": "pl-17",
+          "name": "Zielona Góra area",
+          "country": "PL",
+          "bbox": {
+            "west": 13.980216,
+            "south": 48.976421,
+            "east": 16.5429178,
+            "north": 52.1173385
+          },
+          "nodes": 1082832
+        },
+        {
+          "id": "pl-18",
+          "name": "Sosnowiec area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.0656195,
+            "south": 49.7566504,
+            "east": 19.7212949,
+            "north": 50.5568798
+          },
+          "nodes": 651140
+        },
+        {
+          "id": "pl-19",
+          "name": "Krakow area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.7012949,
+            "south": 49.7566504,
+            "east": 20.3569704,
+            "north": 50.5568798
+          },
+          "nodes": 783279
+        },
+        {
+          "id": "pl-20",
+          "name": "Tarnów area",
+          "country": "PL",
+          "bbox": {
+            "west": 20.3369704,
+            "south": 49.7566504,
+            "east": 21.6283213,
+            "north": 50.5568798
+          },
+          "nodes": 768552
+        },
+        {
+          "id": "pl-21",
+          "name": "Rzeszów area",
+          "country": "PL",
+          "bbox": {
+            "west": 21.6083212,
+            "south": 49.7566504,
+            "east": 22.8996721,
+            "north": 50.5568798
+          },
+          "nodes": 887108
+        },
+        {
+          "id": "pl-22",
+          "name": "Nysa area",
+          "country": "PL",
+          "bbox": {
+            "west": 16.5229178,
+            "south": 48.976421,
+            "east": 17.8142686,
+            "north": 50.5568798
+          },
+          "nodes": 217917
+        },
+        {
+          "id": "pl-23",
+          "name": "Katowice area",
+          "country": "PL",
+          "bbox": {
+            "west": 17.7942686,
+            "south": 48.976421,
+            "east": 19.0856195,
+            "north": 50.5568798
+          },
+          "nodes": 1059422
+        },
+        {
+          "id": "pl-24",
+          "name": "Tomaszów Lubelski area",
+          "country": "PL",
+          "bbox": {
+            "west": 22.8796721,
+            "south": 48.976421,
+            "east": 24.171023,
+            "north": 50.5568798
+          },
+          "nodes": 104256
+        },
+        {
+          "id": "pl-25",
+          "name": "Nowy Targ area",
+          "country": "PL",
+          "bbox": {
+            "west": 19.0656195,
+            "south": 48.976421,
+            "east": 20.3569704,
+            "north": 49.7766504
+          },
+          "nodes": 415773
+        },
+        {
+          "id": "pl-26",
+          "name": "Nowy Sącz area",
+          "country": "PL",
+          "bbox": {
+            "west": 20.3369704,
+            "south": 48.976421,
+            "east": 21.6283213,
+            "north": 49.7766504
+          },
+          "nodes": 524526
+        },
+        {
+          "id": "pl-27",
+          "name": "Krosno area",
+          "country": "PL",
+          "bbox": {
+            "west": 21.6083212,
+            "south": 48.976421,
+            "east": 22.8996721,
+            "north": 49.7766504
+          },
+          "nodes": 350717
+        }
+      ]
+    },
+    {
+      "id": "romania",
+      "source": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
+      "release": "graphs-romania",
+      "regions": [
+        {
+          "id": "ro-1",
+          "name": "Baia Mare area",
+          "country": "RO",
+          "bbox": {
+            "west": 22.7410975,
+            "south": 47.0952287,
+            "east": 25.270385,
+            "north": 48.279483
+          },
+          "nodes": 458188
+        },
+        {
+          "id": "ro-2",
+          "name": "Iași area",
+          "country": "RO",
+          "bbox": {
+            "west": 25.250385,
+            "south": 47.0952287,
+            "east": 27.7796725,
+            "north": 48.279483
+          },
+          "nodes": 571162
+        },
+        {
+          "id": "ro-3",
+          "name": "Oradea area",
+          "country": "RO",
+          "bbox": {
+            "west": 20.23181,
+            "south": 45.9309745,
+            "east": 22.7610975,
+            "north": 48.279483
+          },
+          "nodes": 467831
+        },
+        {
+          "id": "ro-4",
+          "name": "Huși area",
+          "country": "RO",
+          "bbox": {
+            "west": 27.7596725,
+            "south": 45.9309745,
+            "east": 30.28896,
+            "north": 48.279483
+          },
+          "nodes": 109971
+        },
+        {
+          "id": "ro-5",
+          "name": "Cluj-Napoca area",
+          "country": "RO",
+          "bbox": {
+            "west": 22.7410975,
+            "south": 45.9309745,
+            "east": 25.270385,
+            "north": 47.1152287
+          },
+          "nodes": 791784
+        },
+        {
+          "id": "ro-6",
+          "name": "Bacău area",
+          "country": "RO",
+          "bbox": {
+            "west": 25.250385,
+            "south": 45.9309745,
+            "east": 27.7796725,
+            "north": 47.1152287
+          },
+          "nodes": 747974
+        },
+        {
+          "id": "ro-7",
+          "name": "Sibiu area",
+          "country": "RO",
+          "bbox": {
+            "west": 22.7410975,
+            "south": 44.7667202,
+            "east": 25.270385,
+            "north": 45.9509745
+          },
+          "nodes": 957119
+        },
+        {
+          "id": "ro-8",
+          "name": "Brasov area",
+          "country": "RO",
+          "bbox": {
+            "west": 25.250385,
+            "south": 44.7667202,
+            "east": 27.7796725,
+            "north": 45.9509745
+          },
+          "nodes": 840885
+        },
+        {
+          "id": "ro-9",
+          "name": "Timișoara area",
+          "country": "RO",
+          "bbox": {
+            "west": 20.23181,
+            "south": 43.602466,
+            "east": 22.7610975,
+            "north": 45.9509745
+          },
+          "nodes": 379522
+        },
+        {
+          "id": "ro-10",
+          "name": "Constanța area",
+          "country": "RO",
+          "bbox": {
+            "west": 27.7596725,
+            "south": 43.602466,
+            "east": 30.28896,
+            "north": 45.9509745
+          },
+          "nodes": 307265
+        },
+        {
+          "id": "ro-11",
+          "name": "Craiova area",
+          "country": "RO",
+          "bbox": {
+            "west": 22.7410975,
+            "south": 43.602466,
+            "east": 25.270385,
+            "north": 44.7867202
+          },
+          "nodes": 482601
+        },
+        {
+          "id": "ro-12",
+          "name": "Bucharest area",
+          "country": "RO",
+          "bbox": {
+            "west": 25.250385,
+            "south": 43.602466,
+            "east": 27.7796725,
+            "north": 44.7867202
+          },
+          "nodes": 572353
+        }
+      ]
+    },
+    {
+      "id": "serbia",
+      "source": "https://download.geofabrik.de/europe/serbia-latest.osm.pbf",
+      "release": "graphs-serbia",
+      "regions": [
+        {
+          "id": "rs-1",
+          "name": "Novi Sad area",
+          "country": "RS",
+          "bbox": {
+            "west": 18.798937,
+            "south": 45.1915013,
+            "east": 20.919643,
+            "north": 46.202072
+          },
+          "nodes": 263227
+        },
+        {
+          "id": "rs-2",
+          "name": "Smederevo area",
+          "country": "RS",
+          "bbox": {
+            "west": 20.899643,
+            "south": 44.2009305,
+            "east": 23.020349,
+            "north": 46.202072
+          },
+          "nodes": 476844
+        },
+        {
+          "id": "rs-3",
+          "name": "Šabac area",
+          "country": "RS",
+          "bbox": {
+            "west": 18.798937,
+            "south": 44.2009305,
+            "east": 19.86929,
+            "north": 45.2115013
+          },
+          "nodes": 449787
+        },
+        {
+          "id": "rs-4",
+          "name": "Belgrade area",
+          "country": "RS",
+          "bbox": {
+            "west": 19.84929,
+            "south": 44.2009305,
+            "east": 20.919643,
+            "north": 45.2115013
+          },
+          "nodes": 831331
+        },
+        {
+          "id": "rs-5",
+          "name": "Čačak area",
+          "country": "RS",
+          "bbox": {
+            "west": 19.84929,
+            "south": 43.7056451,
+            "east": 20.919643,
+            "north": 44.2209305
+          },
+          "nodes": 627168
+        },
+        {
+          "id": "rs-6",
+          "name": "Uzice area",
+          "country": "RS",
+          "bbox": {
+            "west": 18.798937,
+            "south": 43.2103598,
+            "east": 19.86929,
+            "north": 44.2209305
+          },
+          "nodes": 534060
+        },
+        {
+          "id": "rs-7",
+          "name": "Niš area",
+          "country": "RS",
+          "bbox": {
+            "west": 20.899643,
+            "south": 43.2103598,
+            "east": 23.020349,
+            "north": 44.2209305
+          },
+          "nodes": 1032872
+        },
+        {
+          "id": "rs-8",
+          "name": "Sjenica area",
+          "country": "RS",
+          "bbox": {
+            "west": 19.84929,
+            "south": 43.2103598,
+            "east": 20.919643,
+            "north": 43.7256451
+          },
+          "nodes": 516157
+        },
+        {
+          "id": "rs-9",
+          "name": "Novi Pazar area",
+          "country": "RS",
+          "bbox": {
+            "west": 18.798937,
+            "south": 42.219789,
+            "east": 20.919643,
+            "north": 43.2303597
+          },
+          "nodes": 215322
+        },
+        {
+          "id": "rs-10",
+          "name": "Leskovac area",
+          "country": "RS",
+          "bbox": {
+            "west": 20.899643,
+            "south": 42.219789,
+            "east": 23.020349,
+            "north": 43.2303597
+          },
+          "nodes": 821025
+        }
+      ]
+    },
+    {
+      "id": "slovakia",
+      "source": "https://download.geofabrik.de/europe/slovakia-latest.osm.pbf",
+      "release": "graphs-slovakia",
+      "regions": [
+        {
+          "id": "sk-1",
+          "name": "Bratislava area",
+          "country": "SK",
+          "bbox": {
+            "west": 16.820711,
+            "south": 47.71646,
+            "east": 18.2756608,
+            "north": 49.6286
+          },
+          "nodes": 680058
+        },
+        {
+          "id": "sk-2",
+          "name": "Žilina area",
+          "country": "SK",
+          "bbox": {
+            "west": 18.2556608,
+            "south": 47.71646,
+            "east": 19.7106105,
+            "north": 49.6286
+          },
+          "nodes": 852465
+        },
+        {
+          "id": "sk-3",
+          "name": "Košice area",
+          "country": "SK",
+          "bbox": {
+            "west": 19.6906105,
+            "south": 47.71646,
+            "east": 22.58051,
+            "north": 49.6286
+          },
+          "nodes": 754530
+        }
+      ]
+    },
+    {
+      "id": "slovenia",
+      "source": "https://download.geofabrik.de/europe/slovenia-latest.osm.pbf",
+      "release": "graphs-slovenia",
+      "regions": [
+        {
+          "id": "si-1",
+          "name": "Kranj area",
+          "country": "SI",
+          "bbox": {
+            "west": 13.295086,
+            "south": 46.14018,
+            "east": 14.962714,
+            "north": 46.889555
+          },
+          "nodes": 409843
+        },
+        {
+          "id": "si-2",
+          "name": "Maribor area",
+          "country": "SI",
+          "bbox": {
+            "west": 14.942714,
+            "south": 46.14018,
+            "east": 15.786528,
+            "north": 46.889555
+          },
+          "nodes": 731997
+        },
+        {
+          "id": "si-3",
+          "name": "Ptuj area",
+          "country": "SI",
+          "bbox": {
+            "west": 15.766528,
+            "south": 46.14018,
+            "east": 16.610342,
+            "north": 46.889555
+          },
+          "nodes": 449741
+        },
+        {
+          "id": "si-4",
+          "name": "Ljubljana area",
+          "country": "SI",
+          "bbox": {
+            "west": 13.295086,
+            "south": 45.410805,
+            "east": 14.962714,
+            "north": 46.16018
+          },
+          "nodes": 985608
+        },
+        {
+          "id": "si-5",
+          "name": "Novo Mesto area",
+          "country": "SI",
+          "bbox": {
+            "west": 14.942714,
+            "south": 45.410805,
+            "east": 16.610342,
+            "north": 46.16018
+          },
+          "nodes": 594927
+        }
+      ]
+    },
+    {
+      "id": "spain",
+      "source": "https://download.geofabrik.de/europe/spain-latest.osm.pbf",
+      "release": "graphs-spain",
+      "regions": [
+        {
+          "id": "es-1",
+          "name": "A Coruña area",
+          "country": "ES",
+          "bbox": {
+            "west": -9.789014,
+            "south": 43.0142504,
+            "east": -7.9093216,
+            "north": 44.15855
+          },
+          "nodes": 503928
+        },
+        {
+          "id": "es-2",
+          "name": "Burela area",
+          "country": "ES",
+          "bbox": {
+            "west": -7.9293216,
+            "south": 43.0142504,
+            "east": -6.0496293,
+            "north": 44.15855
+          },
+          "nodes": 775143
+        },
+        {
+          "id": "es-3",
+          "name": "Santander area",
+          "country": "ES",
+          "bbox": {
+            "west": -4.2099369,
+            "south": 43.0142504,
+            "east": -3.2600907,
+            "north": 44.15855
+          },
+          "nodes": 546079
+        },
+        {
+          "id": "es-4",
+          "name": "Bilbao area",
+          "country": "ES",
+          "bbox": {
+            "west": -3.2800907,
+            "south": 43.0142504,
+            "east": -2.3302445,
+            "north": 44.15855
+          },
+          "nodes": 594542
+        },
+        {
+          "id": "es-5",
+          "name": "Gijón area",
+          "country": "ES",
+          "bbox": {
+            "west": -6.0696293,
+            "south": 41.8899508,
+            "east": -4.1899369,
+            "north": 44.15855
+          },
+          "nodes": 1059941
+        },
+        {
+          "id": "es-6",
+          "name": "Pamplona area",
+          "country": "ES",
+          "bbox": {
+            "west": -2.3502445,
+            "south": 41.8899508,
+            "east": -0.4705521,
+            "north": 44.15855
+          },
+          "nodes": 936806
+        },
+        {
+          "id": "es-7",
+          "name": "Huesca area",
+          "country": "ES",
+          "bbox": {
+            "west": -0.4905521,
+            "south": 41.8899508,
+            "east": 1.3891403,
+            "north": 44.15855
+          },
+          "nodes": 415472
+        },
+        {
+          "id": "es-8",
+          "name": "Girona area",
+          "country": "ES",
+          "bbox": {
+            "west": 1.3691403,
+            "south": 41.8899508,
+            "east": 5.108525,
+            "north": 44.15855
+          },
+          "nodes": 531880
+        },
+        {
+          "id": "es-9",
+          "name": "Santiago de Compostela area",
+          "country": "ES",
+          "bbox": {
+            "west": -8.8591678,
+            "south": 42.4521006,
+            "east": -7.9093216,
+            "north": 43.0342504
+          },
+          "nodes": 570109
+        },
+        {
+          "id": "es-10",
+          "name": "Santa Uxía de Ribeira area",
+          "country": "ES",
+          "bbox": {
+            "west": -9.789014,
+            "south": 41.8899508,
+            "east": -8.8391678,
+            "north": 43.0342504
+          },
+          "nodes": 158813
+        },
+        {
+          "id": "es-11",
+          "name": "Ourense area",
+          "country": "ES",
+          "bbox": {
+            "west": -7.9293216,
+            "south": 41.8899508,
+            "east": -6.0496293,
+            "north": 43.0342504
+          },
+          "nodes": 1036037
+        },
+        {
+          "id": "es-12",
+          "name": "Vitoria-Gasteiz area",
+          "country": "ES",
+          "bbox": {
+            "west": -4.2099369,
+            "south": 41.8899508,
+            "east": -2.3302445,
+            "north": 43.0342504
+          },
+          "nodes": 716649
+        },
+        {
+          "id": "es-13",
+          "name": "Vigo area",
+          "country": "ES",
+          "bbox": {
+            "west": -8.8591678,
+            "south": 41.8899508,
+            "east": -7.9093216,
+            "north": 42.4721006
+          },
+          "nodes": 709336
+        },
+        {
+          "id": "es-14",
+          "name": "Segovia area",
+          "country": "ES",
+          "bbox": {
+            "west": -4.2099369,
+            "south": 40.7656511,
+            "east": -2.3302445,
+            "north": 41.9099508
+          },
+          "nodes": 485422
+        },
+        {
+          "id": "es-15",
+          "name": "Lleida area",
+          "country": "ES",
+          "bbox": {
+            "west": -0.4905521,
+            "south": 40.7656511,
+            "east": 1.3891403,
+            "north": 41.9099508
+          },
+          "nodes": 842030
+        },
+        {
+          "id": "es-16",
+          "name": "Barcelona area",
+          "country": "ES",
+          "bbox": {
+            "west": 1.3691403,
+            "south": 40.7656511,
+            "east": 2.3189864,
+            "north": 41.9099508
+          },
+          "nodes": 940132
+        },
+        {
+          "id": "es-17",
+          "name": "Mataró area",
+          "country": "ES",
+          "bbox": {
+            "west": 2.2989864,
+            "south": 40.7656511,
+            "east": 3.2488326,
+            "north": 41.9099508
+          },
+          "nodes": 262500
+        },
+        {
+          "id": "es-18",
+          "name": "Plasencia area",
+          "country": "ES",
+          "bbox": {
+            "west": -9.789014,
+            "south": 39.6413515,
+            "east": -6.0496293,
+            "north": 41.9099508
+          },
+          "nodes": 308911
+        },
+        {
+          "id": "es-19",
+          "name": "Valladolid area",
+          "country": "ES",
+          "bbox": {
+            "west": -6.0696293,
+            "south": 39.6413515,
+            "east": -4.1899369,
+            "north": 41.9099508
+          },
+          "nodes": 956305
+        },
+        {
+          "id": "es-20",
+          "name": "Zaragoza area",
+          "country": "ES",
+          "bbox": {
+            "west": -2.3502445,
+            "south": 39.6413515,
+            "east": -0.4705521,
+            "north": 41.9099508
+          },
+          "nodes": 797271
+        },
+        {
+          "id": "es-21",
+          "name": "Maó area",
+          "country": "ES",
+          "bbox": {
+            "west": 3.2288326,
+            "south": 39.6413515,
+            "east": 5.108525,
+            "north": 41.9099508
+          },
+          "nodes": 83152
+        },
+        {
+          "id": "es-22",
+          "name": "Madrid area",
+          "country": "ES",
+          "bbox": {
+            "west": -4.2099369,
+            "south": 39.6413515,
+            "east": -3.2600907,
+            "north": 40.7856511
+          },
+          "nodes": 980568
+        },
+        {
+          "id": "es-23",
+          "name": "Guadalajara area",
+          "country": "ES",
+          "bbox": {
+            "west": -3.2800907,
+            "south": 39.6413515,
+            "east": -2.3302445,
+            "north": 40.7856511
+          },
+          "nodes": 252179
+        },
+        {
+          "id": "es-24",
+          "name": "Castelló de la Plana area",
+          "country": "ES",
+          "bbox": {
+            "west": -0.4905521,
+            "south": 39.6413515,
+            "east": 1.3891403,
+            "north": 40.7856511
+          },
+          "nodes": 372730
+        },
+        {
+          "id": "es-25",
+          "name": "Inca area",
+          "country": "ES",
+          "bbox": {
+            "west": 1.3691403,
+            "south": 39.6413515,
+            "east": 3.2488326,
+            "north": 40.7856511
+          },
+          "nodes": 112044
+        },
+        {
+          "id": "es-26",
+          "name": "Albacete area",
+          "country": "ES",
+          "bbox": {
+            "west": -2.3502445,
+            "south": 38.5170519,
+            "east": -0.4705521,
+            "north": 39.6613515
+          },
+          "nodes": 859753
+        },
+        {
+          "id": "es-27",
+          "name": "Córdoba area",
+          "country": "ES",
+          "bbox": {
+            "west": -6.0696293,
+            "south": 37.3927523,
+            "east": -4.1899369,
+            "north": 39.6613515
+          },
+          "nodes": 590021
+        },
+        {
+          "id": "es-28",
+          "name": "Jaén area",
+          "country": "ES",
+          "bbox": {
+            "west": -4.2099369,
+            "south": 37.3927523,
+            "east": -2.3302445,
+            "north": 39.6613515
+          },
+          "nodes": 655814
+        },
+        {
+          "id": "es-29",
+          "name": "Valencia area",
+          "country": "ES",
+          "bbox": {
+            "west": -0.4905521,
+            "south": 37.3927523,
+            "east": 1.3891403,
+            "north": 39.6613515
+          },
+          "nodes": 902935
+        },
+        {
+          "id": "es-30",
+          "name": "Águilas area",
+          "country": "ES",
+          "bbox": {
+            "west": -2.3502445,
+            "south": 37.3927523,
+            "east": -1.4003983,
+            "north": 38.5370519
+          },
+          "nodes": 342465
+        },
+        {
+          "id": "es-31",
+          "name": "Alicante area",
+          "country": "ES",
+          "bbox": {
+            "west": -1.4203983,
+            "south": 37.3927523,
+            "east": -0.4705521,
+            "north": 38.5370519
+          },
+          "nodes": 778819
+        },
+        {
+          "id": "es-32",
+          "name": "Jerez area",
+          "country": "ES",
+          "bbox": {
+            "west": -9.789014,
+            "south": 35.144153,
+            "east": -6.0496293,
+            "north": 39.6613515
+          },
+          "nodes": 672616
+        },
+        {
+          "id": "es-33",
+          "name": "Palma area",
+          "country": "ES",
+          "bbox": {
+            "west": 1.3691403,
+            "south": 35.144153,
+            "east": 5.108525,
+            "north": 39.6613515
+          },
+          "nodes": 328599
+        },
+        {
+          "id": "es-34",
+          "name": "Seville area",
+          "country": "ES",
+          "bbox": {
+            "west": -6.0696293,
+            "south": 35.144153,
+            "east": -4.1899369,
+            "north": 37.4127523
+          },
+          "nodes": 1075059
+        },
+        {
+          "id": "es-35",
+          "name": "Granada area",
+          "country": "ES",
+          "bbox": {
+            "west": -4.2099369,
+            "south": 35.144153,
+            "east": -2.3302445,
+            "north": 37.4127523
+          },
+          "nodes": 713942
+        },
+        {
+          "id": "es-36",
+          "name": "Huércal-Overa area",
+          "country": "ES",
+          "bbox": {
+            "west": -2.3502445,
+            "south": 35.144153,
+            "east": 1.3891403,
+            "north": 37.4127523
+          },
+          "nodes": 168006
+        }
+      ]
+    },
+    {
+      "id": "sweden",
+      "source": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf",
+      "release": "graphs-sweden",
+      "regions": [
+        {
+          "id": "se-1",
+          "name": "Luleå area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 65.5464525,
+            "east": 24.23472,
+            "north": 69.07643
+          },
+          "nodes": 652037
+        },
+        {
+          "id": "se-2",
+          "name": "Sundsvall area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 62.036475,
+            "east": 17.39305,
+            "north": 65.5664525
+          },
+          "nodes": 790496
+        },
+        {
+          "id": "se-3",
+          "name": "Umeå area",
+          "country": "SE",
+          "bbox": {
+            "west": 17.37305,
+            "south": 62.036475,
+            "east": 24.23472,
+            "north": 65.5664525
+          },
+          "nodes": 812315
+        },
+        {
+          "id": "se-4",
+          "name": "Gävle area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 60.2814863,
+            "east": 17.39305,
+            "north": 62.056475
+          },
+          "nodes": 1073192
+        },
+        {
+          "id": "se-5",
+          "name": "Skutskär area",
+          "country": "SE",
+          "bbox": {
+            "west": 17.37305,
+            "south": 60.2814863,
+            "east": 24.23472,
+            "north": 62.056475
+          },
+          "nodes": 77545
+        },
+        {
+          "id": "se-6",
+          "name": "Arvika area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 59.4039919,
+            "east": 13.972215,
+            "north": 60.3014862
+          },
+          "nodes": 434616
+        },
+        {
+          "id": "se-7",
+          "name": "Västerås area",
+          "country": "SE",
+          "bbox": {
+            "west": 13.952215,
+            "south": 59.4039919,
+            "east": 17.39305,
+            "north": 60.3014862
+          },
+          "nodes": 858251
+        },
+        {
+          "id": "se-8",
+          "name": "Uppsala area",
+          "country": "SE",
+          "bbox": {
+            "west": 17.37305,
+            "south": 59.4039919,
+            "east": 20.813885,
+            "north": 60.3014862
+          },
+          "nodes": 593595
+        },
+        {
+          "id": "se-9",
+          "name": "Karlstad area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 58.5264975,
+            "east": 13.972215,
+            "north": 59.4239919
+          },
+          "nodes": 700008
+        },
+        {
+          "id": "se-10",
+          "name": "Örebro area",
+          "country": "SE",
+          "bbox": {
+            "west": 13.952215,
+            "south": 58.5264975,
+            "east": 15.6826325,
+            "north": 59.4239919
+          },
+          "nodes": 594921
+        },
+        {
+          "id": "se-11",
+          "name": "Norrköping area",
+          "country": "SE",
+          "bbox": {
+            "west": 15.6626325,
+            "south": 58.5264975,
+            "east": 17.39305,
+            "north": 59.4239919
+          },
+          "nodes": 630076
+        },
+        {
+          "id": "se-12",
+          "name": "Stockholm area",
+          "country": "SE",
+          "bbox": {
+            "west": 17.37305,
+            "south": 58.5264975,
+            "east": 20.813885,
+            "north": 59.4239919
+          },
+          "nodes": 615065
+        },
+        {
+          "id": "se-13",
+          "name": "Borås area",
+          "country": "SE",
+          "bbox": {
+            "west": 12.2417975,
+            "south": 57.6490031,
+            "east": 13.972215,
+            "north": 58.5464975
+          },
+          "nodes": 788827
+        },
+        {
+          "id": "se-14",
+          "name": "Gothenburg area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 56.7715088,
+            "east": 12.2617975,
+            "north": 58.5464975
+          },
+          "nodes": 1092909
+        },
+        {
+          "id": "se-15",
+          "name": "Linköping area",
+          "country": "SE",
+          "bbox": {
+            "west": 13.952215,
+            "south": 56.7715088,
+            "east": 15.6826325,
+            "north": 58.5464975
+          },
+          "nodes": 1079157
+        },
+        {
+          "id": "se-16",
+          "name": "Västervik area",
+          "country": "SE",
+          "bbox": {
+            "west": 15.6626325,
+            "south": 56.7715088,
+            "east": 17.39305,
+            "north": 58.5464975
+          },
+          "nodes": 498055
+        },
+        {
+          "id": "se-17",
+          "name": "Falkenberg area",
+          "country": "SE",
+          "bbox": {
+            "west": 12.2417975,
+            "south": 56.7715088,
+            "east": 13.972215,
+            "north": 57.6690031
+          },
+          "nodes": 613276
+        },
+        {
+          "id": "se-18",
+          "name": "Visby area",
+          "country": "SE",
+          "bbox": {
+            "west": 17.37305,
+            "south": 55.01652,
+            "east": 24.23472,
+            "north": 58.5464975
+          },
+          "nodes": 113811
+        },
+        {
+          "id": "se-19",
+          "name": "Malmö area",
+          "country": "SE",
+          "bbox": {
+            "west": 10.53138,
+            "south": 55.01652,
+            "east": 13.972215,
+            "north": 56.7915087
+          },
+          "nodes": 811620
+        },
+        {
+          "id": "se-20",
+          "name": "Kristianstad area",
+          "country": "SE",
+          "bbox": {
+            "west": 13.952215,
+            "south": 55.01652,
+            "east": 17.39305,
+            "north": 56.7915087
+          },
+          "nodes": 678441
+        }
+      ]
+    },
+    {
+      "id": "switzerland",
+      "source": "https://download.geofabrik.de/europe/switzerland-latest.osm.pbf",
+      "release": "graphs-switzerland",
+      "regions": [
+        {
+          "id": "ch-1",
+          "name": "Basel area",
+          "country": "CH",
+          "bbox": {
+            "west": 7.0797735,
+            "south": 47.3025495,
+            "east": 8.235129,
+            "north": 47.82126
+          },
+          "nodes": 514553
+        },
+        {
+          "id": "ch-2",
+          "name": "Zurich area",
+          "country": "CH",
+          "bbox": {
+            "west": 8.215129,
+            "south": 47.3025495,
+            "east": 9.3704845,
+            "north": 47.82126
+          },
+          "nodes": 954016
+        },
+        {
+          "id": "ch-3",
+          "name": "La Chaux-de-Fonds area",
+          "country": "CH",
+          "bbox": {
+            "west": 5.944418,
+            "south": 46.803839,
+            "east": 7.0997735,
+            "north": 47.82126
+          },
+          "nodes": 275698
+        },
+        {
+          "id": "ch-4",
+          "name": "St. Gallen area",
+          "country": "CH",
+          "bbox": {
+            "west": 9.3504845,
+            "south": 46.803839,
+            "east": 10.50584,
+            "north": 47.82126
+          },
+          "nodes": 359152
+        },
+        {
+          "id": "ch-5",
+          "name": "Bern area",
+          "country": "CH",
+          "bbox": {
+            "west": 7.0797735,
+            "south": 46.803839,
+            "east": 8.235129,
+            "north": 47.3225495
+          },
+          "nodes": 1084546
+        },
+        {
+          "id": "ch-6",
+          "name": "Lucerne area",
+          "country": "CH",
+          "bbox": {
+            "west": 8.215129,
+            "south": 46.803839,
+            "east": 9.3704845,
+            "north": 47.3225495
+          },
+          "nodes": 786509
+        },
+        {
+          "id": "ch-7",
+          "name": "Geneva area",
+          "country": "CH",
+          "bbox": {
+            "west": 5.944418,
+            "south": 45.806418,
+            "east": 7.0997735,
+            "north": 46.823839
+          },
+          "nodes": 1088679
+        },
+        {
+          "id": "ch-8",
+          "name": "Thun area",
+          "country": "CH",
+          "bbox": {
+            "west": 7.0797735,
+            "south": 45.806418,
+            "east": 8.235129,
+            "north": 46.823839
+          },
+          "nodes": 913115
+        },
+        {
+          "id": "ch-9",
+          "name": "Lugano area",
+          "country": "CH",
+          "bbox": {
+            "west": 8.215129,
+            "south": 45.806418,
+            "east": 10.50584,
+            "north": 46.823839
+          },
+          "nodes": 637217
+        }
+      ]
+    },
+    {
+      "id": "ukraine",
+      "source": "https://download.geofabrik.de/europe/ukraine-latest.osm.pbf",
+      "release": "graphs-ukraine",
+      "regions": [
+        {
+          "id": "ua-1",
+          "name": "Rivne area",
+          "country": "UA",
+          "bbox": {
+            "west": 22.122644,
+            "south": 50.2820288,
+            "east": 26.6690113,
+            "north": 52.396497
+          },
+          "nodes": 403645
+        },
+        {
+          "id": "ua-2",
+          "name": "Kyiv area",
+          "country": "UA",
+          "bbox": {
+            "west": 26.6490112,
+            "south": 50.2820288,
+            "east": 31.1953785,
+            "north": 52.396497
+          },
+          "nodes": 819776
+        },
+        {
+          "id": "ua-3",
+          "name": "Chernihiv area",
+          "country": "UA",
+          "bbox": {
+            "west": 31.1753785,
+            "south": 50.2820288,
+            "east": 35.7217457,
+            "north": 52.396497
+          },
+          "nodes": 718227
+        },
+        {
+          "id": "ua-4",
+          "name": "Kharkiv area",
+          "country": "UA",
+          "bbox": {
+            "west": 35.7017458,
+            "south": 48.1875605,
+            "east": 40.248113,
+            "north": 52.396497
+          },
+          "nodes": 971016
+        },
+        {
+          "id": "ua-5",
+          "name": "Ternopil area",
+          "country": "UA",
+          "bbox": {
+            "west": 24.3858276,
+            "south": 49.2347946,
+            "east": 26.6690113,
+            "north": 50.3020287
+          },
+          "nodes": 465167
+        },
+        {
+          "id": "ua-6",
+          "name": "Lviv area",
+          "country": "UA",
+          "bbox": {
+            "west": 22.122644,
+            "south": 48.1875605,
+            "east": 24.4058276,
+            "north": 50.3020287
+          },
+          "nodes": 924828
+        },
+        {
+          "id": "ua-7",
+          "name": "Vinnytsia area",
+          "country": "UA",
+          "bbox": {
+            "west": 26.6490112,
+            "south": 48.1875605,
+            "east": 28.9321949,
+            "north": 50.3020287
+          },
+          "nodes": 798494
+        },
+        {
+          "id": "ua-8",
+          "name": "Bila Tserkva area",
+          "country": "UA",
+          "bbox": {
+            "west": 28.9121949,
+            "south": 48.1875605,
+            "east": 31.1953785,
+            "north": 50.3020287
+          },
+          "nodes": 768131
+        },
+        {
+          "id": "ua-9",
+          "name": "Cherkasy area",
+          "country": "UA",
+          "bbox": {
+            "west": 31.1753785,
+            "south": 48.1875605,
+            "east": 33.4585621,
+            "north": 50.3020287
+          },
+          "nodes": 653020
+        },
+        {
+          "id": "ua-10",
+          "name": "Dnipro area",
+          "country": "UA",
+          "bbox": {
+            "west": 33.4385621,
+            "south": 48.1875605,
+            "east": 35.7217457,
+            "north": 50.3020287
+          },
+          "nodes": 766847
+        },
+        {
+          "id": "ua-11",
+          "name": "Chernivtsi area",
+          "country": "UA",
+          "bbox": {
+            "west": 24.3858276,
+            "south": 48.1875605,
+            "east": 26.6690113,
+            "north": 49.2547946
+          },
+          "nodes": 820129
+        },
+        {
+          "id": "ua-12",
+          "name": "Zaporizhzhia area",
+          "country": "UA",
+          "bbox": {
+            "west": 31.1753785,
+            "south": 46.0930922,
+            "east": 35.7217457,
+            "north": 48.2075605
+          },
+          "nodes": 779060
+        },
+        {
+          "id": "ua-13",
+          "name": "Odesa area",
+          "country": "UA",
+          "bbox": {
+            "west": 22.122644,
+            "south": 43.998624,
+            "east": 31.1953785,
+            "north": 48.2075605
+          },
+          "nodes": 909377
+        },
+        {
+          "id": "ua-14",
+          "name": "Donetsk area",
+          "country": "UA",
+          "bbox": {
+            "west": 35.7017458,
+            "south": 43.998624,
+            "east": 40.248113,
+            "north": 48.2075605
+          },
+          "nodes": 522650
+        },
+        {
+          "id": "ua-15",
+          "name": "Sevastopol area",
+          "country": "UA",
+          "bbox": {
+            "west": 31.1753785,
+            "south": 43.998624,
+            "east": 35.7217457,
+            "north": 46.1130922
+          },
+          "nodes": 465191
+        }
+      ]
     }
   ]
 }
