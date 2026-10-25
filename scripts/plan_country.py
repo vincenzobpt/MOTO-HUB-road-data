@@ -204,7 +204,11 @@ def main(argv):
         else:
             name = f"{countries[code]} {counters[code]}"
         regions.append({
-            "id": f"{code.lower()}-{counters[code]}",
+            # Ids are global (they name files on the phone): a code that is not the extract's first
+            # one (Northern Ireland in the Ireland extract) carries the extract id, so it cannot
+            # collide with the same country planned from another extract.
+            "id": (f"{code.lower()}-{counters[code]}" if code == codes[0]
+                   else f"{code.lower()}-{extract_id}-{counters[code]}"),
             "name": name,
             "country": code,
             "bbox": dict(zip(("west", "south", "east", "north"), bbox)),

@@ -5271,7 +5271,7 @@
       "release": "graphs-ireland-and-northern-ireland",
       "regions": [
         {
-          "id": "gb-1",
+          "id": "gb-ni-1",
           "name": "Derry/Londonderry area",
           "country": "GB",
           "bbox": {
@@ -5283,7 +5283,7 @@
           "nodes": 1080012
         },
         {
-          "id": "gb-2",
+          "id": "gb-ni-2",
           "name": "Omagh area",
           "country": "GB",
           "bbox": {
@@ -5307,7 +5307,7 @@
           "nodes": 945468
         },
         {
-          "id": "gb-3",
+          "id": "gb-ni-3",
           "name": "Belfast area",
           "country": "GB",
           "bbox": {
@@ -5391,7 +5391,7 @@
           "nodes": 813831
         },
         {
-          "id": "gb-4",
+          "id": "gb-ni-4",
           "name": "Wexford area",
           "country": "GB",
           "bbox": {
