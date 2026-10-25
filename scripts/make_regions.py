@@ -24,7 +24,7 @@ import tempfile
 PREFIXES = re.compile(
     r"^(Provincia autonoma di|Provincia autonoma|Provincia di|Provincia del|Provincia della|"
     r"Provincia dell'|Città metropolitana di|Città metropolitana del|Città metropolitana della|"
-    r"Libero consorzio comunale di|Libero consorzio comunale|Região Autónoma d[aeo]s?|Distrito d[aeo]s?)\s*",
+    r"Canton|Kanton|Libero consorzio comunale di|Libero consorzio comunale|Região Autónoma d[aeo]s?|Distrito d[aeo]s?)\s*",
     re.IGNORECASE)
 
 
