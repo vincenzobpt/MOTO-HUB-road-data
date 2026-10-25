@@ -2,3 +2,5 @@ dist/
 pbfs/
 build.log
 __pycache__/
+regions.log
+extract.osm.pbf
