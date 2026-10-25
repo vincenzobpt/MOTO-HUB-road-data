@@ -32,6 +32,7 @@ MIN_TILE_NODES = 5_000
 PAD = 0.01
 ISLAND_SHARE = 0.1
 LEVELS = range(3, 8)
+MIN_COVERAGE = 0.8
 MAX_DEPTH = 4
 RING_SAMPLE = 20_000
 
@@ -65,6 +66,18 @@ def point_in_ring(x, y, ring):
             inside = not inside
         j = i
     return inside
+
+
+def ring_area(ring):
+    """Rough area in square degrees, longitude scaled to the ring's latitude (shoelace)."""
+    mean_lat = sum(p[1] for p in ring) / len(ring)
+    scale = math.cos(math.radians(mean_lat))
+    total = 0.0
+    for i in range(len(ring)):
+        x1, y1 = ring[i]
+        x2, y2 = ring[(i + 1) % len(ring)]
+        total += x1 * y2 - x2 * y1
+    return abs(total) / 2 * scale
 
 
 def read_boundaries(extract, tmp):
@@ -109,6 +122,7 @@ def read_boundaries(extract, tmp):
             "bbox": (min(b[0] for b in kept), min(b[1] for b in kept),
                      max(b[2] for b in kept), max(b[3] for b in kept)),
             "centre": (sum(p[0] for p in sample) / len(sample), sum(p[1] for p in sample) / len(sample)),
+            "area": ring_area(sample),
             # Whole outline, thinned, only for countries: it is what ownership is tested against.
             "rings": [(r[::max(1, len(r) // RING_SAMPLE)]) for r in outers] if props["admin_level"] == "2" else None,
         })
@@ -193,7 +207,11 @@ def plan_country(extract, roads, code, forced_level, total_nodes, boundaries, tm
                 seen[b["name"]] = (area, b)
         owned[level] = [b for _, b in seen.values()]
     counts = {level: len(items) for level, items in owned.items()}
-    usable = {level: n for level, n in counts.items() if n >= 2}
+    # A level can hold boundaries for only part of the country (Swiss "level 5" is a few cantons):
+    # it only counts when its regions add up to most of the country's area.
+    country_area = max(c["area"] for c in country) or 1.0
+    coverage = {level: sum(b["area"] for b in items) / country_area for level, items in owned.items()}
+    usable = {level: n for level, n in counts.items() if n >= 2 and coverage[level] >= MIN_COVERAGE}
     if forced_level:
         level = forced_level
     elif wanted <= 1 or not usable:
@@ -201,7 +219,8 @@ def plan_country(extract, roads, code, forced_level, total_nodes, boundaries, tm
     else:
         level = min(usable, key=lambda lv: (abs(math.log(usable[lv] / wanted)), lv))
     log(f"{code} {country_name}: {total_nodes:,} road nodes, wants ~{wanted} regions, "
-        f"boundaries per level {counts}, chosen level {level or 'whole country'}")
+        f"boundaries per level {counts}, coverage {({k: round(v, 2) for k, v in coverage.items()})}, "
+        f"chosen level {level or 'whole country'}")
 
     if level is None:
         units = [{"name": country_name, "relation": country[0]["relation"], "bbox": country[0]["bbox"]}]
