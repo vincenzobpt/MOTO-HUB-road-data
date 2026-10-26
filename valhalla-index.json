@@ -1,0 +1,1981 @@
+{
+  "schema": 1,
+  "regions": [
+    {
+      "id": "pt-aveiro",
+      "name": "Aveiro",
+      "country": "PT",
+      "bounds": {
+        "south": 40.2788096,
+        "west": -8.7840289,
+        "north": 41.0801544,
+        "east": -8.0891722
+      },
+      "downloadBytes": 44929906,
+      "graphBytes": 115415040,
+      "sha256": "8a5a8490a2e8ff98106cce253b98ff75b6da19dc2cb8c6fd37c1167b374e7e47",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-aveiro.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 17,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-beja",
+      "name": "Beja",
+      "country": "PT",
+      "bounds": {
+        "south": 37.3189368,
+        "west": -8.8195341,
+        "north": 38.3311462,
+        "east": -6.931521
+      },
+      "downloadBytes": 29270610,
+      "graphBytes": 71895040,
+      "sha256": "2a89c36e0d544a45a8583eb4c0aca7100d0eb5ef483cb7c68b94017a54875d1b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-beja.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 49,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-braga",
+      "name": "Braga",
+      "country": "PT",
+      "bounds": {
+        "south": 41.3187983,
+        "west": -8.8115744,
+        "north": 41.8206312,
+        "east": -7.8106767
+      },
+      "downloadBytes": 43377230,
+      "graphBytes": 109752320,
+      "sha256": "58ab73ec7dd0dcc4c89b89b4e17e13cc7f17021fec0d31a4cb941da0804c457e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-braga.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 19,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-braganca",
+      "name": "Bragan\u00e7a",
+      "country": "PT",
+      "bounds": {
+        "south": 41.0245423,
+        "west": -7.4318921,
+        "north": 41.9925213,
+        "east": -6.1891593
+      },
+      "downloadBytes": 20104694,
+      "graphBytes": 47390720,
+      "sha256": "67524e23ff49d5fae673b496f80955bb0a7063f4e799602f3917daf83a00a454",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-braganca.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 24,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-castelo-branco",
+      "name": "Castelo Branco",
+      "country": "PT",
+      "bounds": {
+        "south": 39.5373649,
+        "west": -8.2931234,
+        "north": 40.4161318,
+        "east": -6.8637851
+      },
+      "downloadBytes": 47679023,
+      "graphBytes": 115599360,
+      "sha256": "1fcaa9621bcaf1aaa84e73c1cabfbb677cd53f9c26d13278bb28e5f77611c37c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-castelo-branco.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 36,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-coimbra",
+      "name": "Coimbra",
+      "country": "PT",
+      "bounds": {
+        "south": 39.923791,
+        "west": -8.9092437,
+        "north": 40.5203648,
+        "east": -7.7317555
+      },
+      "downloadBytes": 53318540,
+      "graphBytes": 130816000,
+      "sha256": "072770afc5f4649dc9397705e469c04dabfb71211102fd330cfcdf87c2ec72f8",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-coimbra.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 30,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-evora",
+      "name": "\u00c9vora",
+      "country": "PT",
+      "bounds": {
+        "south": 38.1546502,
+        "west": -8.6584679,
+        "north": 39.0269315,
+        "east": -7.1067761
+      },
+      "downloadBytes": 28438864,
+      "graphBytes": 70502400,
+      "sha256": "07d95a552eb73e224dc05aecd9e941101323cfc237e7354f76ab62e83644caee",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-evora.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 41,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-faro",
+      "name": "Faro",
+      "country": "PT",
+      "bounds": {
+        "south": 36.9599679,
+        "west": -8.9971157,
+        "north": 37.5291307,
+        "east": -7.3948663
+      },
+      "downloadBytes": 19401103,
+      "graphBytes": 47790080,
+      "sha256": "7dd238cfe5d01d2de177573655ea89eedf505b2755c107b6ee7612dd65529586",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-faro.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 27,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-guarda",
+      "name": "Guarda",
+      "country": "PT",
+      "bounds": {
+        "south": 40.2299187,
+        "west": -7.8492267,
+        "north": 41.1793517,
+        "east": -6.7809607
+      },
+      "downloadBytes": 31803237,
+      "graphBytes": 75233280,
+      "sha256": "549ffe697a26eff3cd2a1d0ff5fd767392dfb0688bbd7361312d4a2006895619",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-guarda.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 30,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-leiria",
+      "name": "Leiria",
+      "country": "PT",
+      "bounds": {
+        "south": 39.2115773,
+        "west": -9.5170291,
+        "north": 40.0897361,
+        "east": -8.1080378
+      },
+      "downloadBytes": 46832121,
+      "graphBytes": 115722240,
+      "sha256": "249c48f9bd4ba642b80c8f4ba6d07ec89c3cc670c654380df21e8dd95e785cb1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-leiria.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 31,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-lisboa",
+      "name": "Lisboa",
+      "country": "PT",
+      "bounds": {
+        "south": 38.6731469,
+        "west": -9.5005266,
+        "north": 39.3177287,
+        "east": -8.781861
+      },
+      "downloadBytes": 47669807,
+      "graphBytes": 125491200,
+      "sha256": "965bdcf8363d1bed8ac9069205f019b3107060a7a2c997d353dc570955e811a1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-lisboa.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 18,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-portalegre",
+      "name": "Portalegre",
+      "country": "PT",
+      "bounds": {
+        "south": 38.7514974,
+        "west": -8.3438699,
+        "north": 39.6636796,
+        "east": -6.9511303
+      },
+      "downloadBytes": 27756764,
+      "graphBytes": 68147200,
+      "sha256": "c66586a8152c79b0d9850410f274ab9099ff12dd6d3b37445e3ce0389fe3acba",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-portalegre.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-porto",
+      "name": "Porto",
+      "country": "PT",
+      "bounds": {
+        "south": 41.0013802,
+        "west": -8.7890627,
+        "north": 41.4719715,
+        "east": -7.8755793
+      },
+      "downloadBytes": 44143551,
+      "graphBytes": 114636800,
+      "sha256": "16dde855430e896590ebb916877fd5ce9e61d8a8f835b06e211b2c7ec6622e4f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-porto.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 13,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-santarem",
+      "name": "Santar\u00e9m",
+      "country": "PT",
+      "bounds": {
+        "south": 38.7314904,
+        "west": -9.001574,
+        "north": 39.8387292,
+        "east": -7.8089881
+      },
+      "downloadBytes": 66520066,
+      "graphBytes": 168744960,
+      "sha256": "2d96df3186a69b09d2e25da6bd1473f6b815e18c708da12cc6c6466cb154e198",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-santarem.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 44,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-setubal",
+      "name": "Set\u00fabal",
+      "country": "PT",
+      "bounds": {
+        "south": 37.7493933,
+        "west": -9.2629753,
+        "north": 38.8454231,
+        "east": -8.1296963
+      },
+      "downloadBytes": 46110344,
+      "graphBytes": 121190400,
+      "sha256": "d32e9d8a91d0e07789d06b3c7fa4bcd8b16f947d3241207675402362286578b1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-setubal.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 34,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-viana-do-castelo",
+      "name": "Viana do Castelo",
+      "country": "PT",
+      "bounds": {
+        "south": 41.6063807,
+        "west": -8.8809556,
+        "north": 42.1543112,
+        "east": -8.0827652
+      },
+      "downloadBytes": 26451305,
+      "graphBytes": 66560000,
+      "sha256": "159a8255cee2717c0ca3191dfec45540aeee7a554e775a1b3970fa99f73f5626",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-viana-do-castelo.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 15,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-vila-real",
+      "name": "Vila Real",
+      "country": "PT",
+      "bounds": {
+        "south": 41.1187322,
+        "west": -8.1194651,
+        "north": 41.9270958,
+        "east": -7.1706402
+      },
+      "downloadBytes": 42404643,
+      "graphBytes": 103710720,
+      "sha256": "18a8f15a252069cec1ca6a2ac186f8e1db8f9cbf66c26d38550edd50616d5ed7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-vila-real.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 24,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-viseu",
+      "name": "Viseu",
+      "country": "PT",
+      "bounds": {
+        "south": 40.3226383,
+        "west": -8.3594469,
+        "north": 41.2146579,
+        "east": -7.304573
+      },
+      "downloadBytes": 54047029,
+      "graphBytes": 132823040,
+      "sha256": "5ccaf71f651c982fbf84216395ad32d8b38a186b2249fb21bc61ec63252c868f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-viseu.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 26,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-acores",
+      "name": "A\u00e7ores",
+      "country": "PT",
+      "bounds": {
+        "south": 36.9276305,
+        "west": -31.2688154,
+        "north": 39.7261841,
+        "east": -25.0131792
+      },
+      "downloadBytes": 6003369,
+      "graphBytes": 14284800,
+      "sha256": "822baef5eac2e41e98dc7bdf51abe8e64eade590580e2de2431e232f6ecd4812",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-acores.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 41,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "pt-madeira",
+      "name": "Madeira",
+      "country": "PT",
+      "bounds": {
+        "south": 30.0287783,
+        "west": -17.2659253,
+        "north": 33.1281603,
+        "east": -15.8536715
+      },
+      "downloadBytes": 5898084,
+      "graphBytes": 15011840,
+      "sha256": "cc2d308c770d17d9150a2e8800826f3f19e32409152317116ee802078c707749",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-portugal/pt-madeira.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "portugal",
+      "tiles": 14,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-1",
+      "name": "Dunkirk area",
+      "country": "FR",
+      "bounds": {
+        "south": 50.7819174,
+        "west": 1.529792,
+        "north": 51.438801,
+        "east": 2.6094169
+      },
+      "downloadBytes": 17953792,
+      "graphBytes": 44513280,
+      "sha256": "c730bfb58c5ccf112a00b7b02e4cdbd4c98574927e8717aa0df943eb3be462c0",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-1.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 14,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-2",
+      "name": "France 2",
+      "country": "FR",
+      "bounds": {
+        "south": 50.7819174,
+        "west": 2.5894169,
+        "north": 51.438801,
+        "east": 3.6690417
+      },
+      "downloadBytes": 14848354,
+      "graphBytes": 36700160,
+      "sha256": "527a44b750ec0023809e9f013f4d115db44a01c76ef5569a84afea78599762bc",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-2.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 8,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-3",
+      "name": "Boulogne-sur-Mer area",
+      "country": "FR",
+      "bounds": {
+        "south": 50.1450339,
+        "west": 1.529792,
+        "north": 50.8019174,
+        "east": 2.6094169
+      },
+      "downloadBytes": 29824363,
+      "graphBytes": 74076160,
+      "sha256": "823910b858abd606bb9d9c52a8494c73c1e01a1b343bec575790e7f8fb858369",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-3.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 23,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-4",
+      "name": "Lille area",
+      "country": "FR",
+      "bounds": {
+        "south": 50.1450339,
+        "west": 2.5894169,
+        "north": 50.8019174,
+        "east": 3.1392293
+      },
+      "downloadBytes": 40517668,
+      "graphBytes": 105011200,
+      "sha256": "c7fe860f29ec1c6f7622dd20ede4250df67d6f4ae40be7868e1731d2575c4811",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-4.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 15,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-5",
+      "name": "Tourcoing area",
+      "country": "FR",
+      "bounds": {
+        "south": 50.1450339,
+        "west": 3.1192293,
+        "north": 50.8019174,
+        "east": 3.6690417
+      },
+      "downloadBytes": 27242465,
+      "graphBytes": 70451200,
+      "sha256": "9d0c4d9330cedd12d964b1b5c002a3f04dcb007ce90114b04e5d68b64f497f12",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-5.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 12,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-6",
+      "name": "Cherbourg-en-Cotentin area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": -2.7087075,
+        "north": 51.438801,
+        "east": -0.5694578
+      },
+      "downloadBytes": 38470262,
+      "graphBytes": 99952640,
+      "sha256": "1c2f4e578ee2935963e3a7f53191e00fc3553ad73854fd3bcf999fae33f3964d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-6.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 68,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-7",
+      "name": "Reims area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": 3.6490418,
+        "north": 51.438801,
+        "east": 5.7882915
+      },
+      "downloadBytes": 78497390,
+      "graphBytes": 199567360,
+      "sha256": "7d99d1a49fe8672cb95cd11834e50fcf30cc4ab07620e763f8d43a8f0c55696f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-7.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 68,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-8",
+      "name": "Metz area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": 5.7682915,
+        "north": 51.438801,
+        "east": 10.026791
+      },
+      "downloadBytes": 49933279,
+      "graphBytes": 128645120,
+      "sha256": "4410a1f344c87f71ef85ce81574d47576c09803916da07bfdb6262b98f4f3cf3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-8.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 38,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-9",
+      "name": "Amiens area",
+      "country": "FR",
+      "bounds": {
+        "south": 49.5081503,
+        "west": 1.529792,
+        "north": 50.1650339,
+        "east": 2.6094169
+      },
+      "downloadBytes": 41685181,
+      "graphBytes": 106219520,
+      "sha256": "b849e0f2d02ba016f548ec0a2a03c4139d819f70cd3789cdf6f97465c7e39551",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-9.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 21,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-10",
+      "name": "Le Havre area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": -0.5894578,
+        "north": 50.1650339,
+        "east": 0.4901671
+      },
+      "downloadBytes": 63143485,
+      "graphBytes": 167188480,
+      "sha256": "bc5aa3c350a727a720b8accee5fcbe78f2e6624860c00c8b5eda7a6cb5c0d34b",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-10.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 30,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-11",
+      "name": "Rouen area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": 0.4701671,
+        "north": 50.1650339,
+        "east": 1.549792
+      },
+      "downloadBytes": 64540935,
+      "graphBytes": 166615040,
+      "sha256": "22c2014638b16013f2784d36693bf9ed41fd94b9142466a8e7b20fdb407d0a3d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-11.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 42,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-12",
+      "name": "Meaux area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": 2.5894169,
+        "north": 50.1650339,
+        "east": 3.6690417
+      },
+      "downloadBytes": 82199177,
+      "graphBytes": 213749760,
+      "sha256": "8e012bd2cda005c8f5eaa5b3c3f4f2bbf040e7beb3e8bcdc571f1f51bae26d2c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-12.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 38,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-13",
+      "name": "Cergy area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": 1.529792,
+        "north": 49.5281503,
+        "east": 2.0796044
+      },
+      "downloadBytes": 66339118,
+      "graphBytes": 176332800,
+      "sha256": "3bb0ab8aa4de78e0f459d23f14afd4ef2b0e2733c8ea95446dcb703f0bf1461c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-13.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 17,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-14",
+      "name": "Saint-Denis area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.8712667,
+        "west": 2.0596044,
+        "north": 49.5281503,
+        "east": 2.6094169
+      },
+      "downloadBytes": 100941263,
+      "graphBytes": 282255360,
+      "sha256": "984cd03afb4205fc46901940bdcc46554a90c3b6d6e70ce8bbe31a3a43689f4f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-14.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 15,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-15",
+      "name": "Saint-Brieuc area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.2343832,
+        "west": -3.7683324,
+        "north": 48.8912667,
+        "east": -2.6887075
+      },
+      "downloadBytes": 33713086,
+      "graphBytes": 84254720,
+      "sha256": "ec917bb280a6f0dbdbbeca39287e477c5d86515a47f8f618ba0e85841cf0c13c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-15.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 26,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-16",
+      "name": "Saint-Malo area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.2343832,
+        "west": -2.7087075,
+        "north": 48.8912667,
+        "east": -1.6290826
+      },
+      "downloadBytes": 37742910,
+      "graphBytes": 98744320,
+      "sha256": "8bca01c87efd27a9a914cfd1c44ea0c8ed5e346b65dd215360442344f60efffe",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-16.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 22,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-17",
+      "name": "Foug\u00e8res area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.2343832,
+        "west": -1.6490826,
+        "north": 48.8912667,
+        "east": -0.5694578
+      },
+      "downloadBytes": 41929967,
+      "graphBytes": 109731840,
+      "sha256": "373f756d1a58cb143a19210bfb43b2039d4f06fa2c0404631785cacd3f9f743e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-17.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 23,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-18",
+      "name": "Trappes area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.2343832,
+        "west": 1.529792,
+        "north": 48.8912667,
+        "east": 2.0796044
+      },
+      "downloadBytes": 57424277,
+      "graphBytes": 153620480,
+      "sha256": "37cbee988e0a5860792a5474ba9f682307db3b531cdac421d56188a8f2aa38e9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-18.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 15,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-19",
+      "name": "Paris area",
+      "country": "FR",
+      "bounds": {
+        "south": 48.2343832,
+        "west": 2.0596044,
+        "north": 48.8912667,
+        "east": 2.6094169
+      },
+      "downloadBytes": 104728775,
+      "graphBytes": 293908480,
+      "sha256": "f0834cbb3ed93ce8ac94e447b465b1f0636e09428245c6f4de3ee75a89a03349",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-19.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 14,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-20",
+      "name": "Brest area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": -4.8279572,
+        "north": 48.8912667,
+        "east": -3.7483324
+      },
+      "downloadBytes": 44484717,
+      "graphBytes": 113203200,
+      "sha256": "17f30630eeb67571b821b8233acc477e65d5e56085255aa88c490f58061bd3c5",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-20.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 39,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-21",
+      "name": "Le Mans area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": -0.5894578,
+        "north": 48.8912667,
+        "east": 0.4901671
+      },
+      "downloadBytes": 62181442,
+      "graphBytes": 160358400,
+      "sha256": "39930f9708c3e2fcffcf5d35ae7466402b0e0d4e2a1791d1b2a87416c63887b2",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-21.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 36,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-22",
+      "name": "Chartres area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": 0.4701671,
+        "north": 48.8912667,
+        "east": 1.549792
+      },
+      "downloadBytes": 52796372,
+      "graphBytes": 135004160,
+      "sha256": "b3e6fc30c8eb25a95791d9534f2dda440ceba7803cfc8854bba492b6f11e4338",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-22.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 41,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-23",
+      "name": "Melun area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": 2.5894169,
+        "north": 48.8912667,
+        "east": 3.6690417
+      },
+      "downloadBytes": 70034560,
+      "graphBytes": 185303040,
+      "sha256": "3a05b64f9f006584d76df50b7038095e4fab6c939563be37bb3bdd4462ce59e2",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-23.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-24",
+      "name": "Troyes area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": 3.6490418,
+        "north": 48.8912667,
+        "east": 5.7882915
+      },
+      "downloadBytes": 71286771,
+      "graphBytes": 181248000,
+      "sha256": "a453781939575741176b43086b7095a238704eb78deec64269d47e77d915fbf3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-24.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 68,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-25",
+      "name": "Nancy area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": 5.7682915,
+        "north": 48.8912667,
+        "east": 6.8479164
+      },
+      "downloadBytes": 54574783,
+      "graphBytes": 139069440,
+      "sha256": "eace4ae240c41553eef8f9785d73eac03262b415df2a77374fdd0da6a60a798e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-25.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-26",
+      "name": "Strasbourg area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": 6.8279164,
+        "north": 48.8912667,
+        "east": 7.9075412
+      },
+      "downloadBytes": 69462189,
+      "graphBytes": 178769920,
+      "sha256": "4242ee3b0888e71a04e36f0fc44066341dc7839c3674c2645828f5325aeca966",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-26.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 32,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-27",
+      "name": "Lorient area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": -3.7683324,
+        "north": 48.2543832,
+        "east": -2.6887075
+      },
+      "downloadBytes": 43965359,
+      "graphBytes": 111616000,
+      "sha256": "c53ce1398c4ed9f15c58ede849e769b5605fb1ea6441192a3825feef37e9683e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-27.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 29,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-28",
+      "name": "Rennes area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": -2.7087075,
+        "north": 48.2543832,
+        "east": -1.6290826
+      },
+      "downloadBytes": 51292009,
+      "graphBytes": 133191680,
+      "sha256": "75c759a948d902f5db59272de8d73a9a3bd82f8225f97d733217db01add7987e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-28.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 25,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-29",
+      "name": "Laval area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": -1.6490826,
+        "north": 48.2543832,
+        "east": -0.5694578
+      },
+      "downloadBytes": 51777232,
+      "graphBytes": 135618560,
+      "sha256": "1dd758bc0127235b3ed11c2b60ef6bcd42e8c1861e67371be8968744c8640e2c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-29.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 25,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-30",
+      "name": "Orl\u00e9ans area",
+      "country": "FR",
+      "bounds": {
+        "south": 47.5974996,
+        "west": 1.529792,
+        "north": 48.2543832,
+        "east": 2.6094169
+      },
+      "downloadBytes": 53086161,
+      "graphBytes": 139950080,
+      "sha256": "c2abac592bdecd3edd1cea86eb253b58e8cc98cd927d8ad4e09dd03bd2a0b791",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-30.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 25,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-31",
+      "name": "France 31",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 7.8875412,
+        "north": 48.8912667,
+        "east": 10.026791
+      },
+      "downloadBytes": 19872119,
+      "graphBytes": 52305920,
+      "sha256": "8f192636699658cf05717dd7fe381048fddbb1bf3ca5e91fcdf08d83fbd91805",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-31.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 10,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-32",
+      "name": "Nantes area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.9606161,
+        "west": -1.6490826,
+        "north": 47.6174996,
+        "east": -0.5694578
+      },
+      "downloadBytes": 65123560,
+      "graphBytes": 173035520,
+      "sha256": "fc10d8a7a5ff397abe8ae0c7c8a0424926a933a9979cdbbe9c6c019c2f7d449a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-32.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 25,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-33",
+      "name": "Angers area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.9606161,
+        "west": -0.5894578,
+        "north": 47.6174996,
+        "east": 0.4901671
+      },
+      "downloadBytes": 61872161,
+      "graphBytes": 161515520,
+      "sha256": "7ba4d20b585542b43648be2ee595632b9c0c2fa8ee8319f8133532f10c618aaa",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-33.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 26,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-34",
+      "name": "France 34",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": -4.8279572,
+        "north": 47.6174996,
+        "east": -2.6887075
+      },
+      "downloadBytes": 22106683,
+      "graphBytes": 58030080,
+      "sha256": "17fdc470c59cd393d00bedff1f9c967d4089590efbd6fb3b329fb235fed7852c",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-34.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 27,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-35",
+      "name": "Saint-Nazaire area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": -2.7087075,
+        "north": 47.6174996,
+        "east": -1.6290826
+      },
+      "downloadBytes": 52954494,
+      "graphBytes": 139929600,
+      "sha256": "5b72cf4bdff61c90e7a59f90822c7f19debffce4776bbdd0de84841718a3ada2",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-35.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 29,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-36",
+      "name": "Tours area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 0.4701671,
+        "north": 47.6174996,
+        "east": 1.549792
+      },
+      "downloadBytes": 65757432,
+      "graphBytes": 169594880,
+      "sha256": "22e7a088385db3d5a9d764b7f73d547bb87d646fb64ac61ae13a4122fe12c864",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-36.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 41,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-37",
+      "name": "Bourges area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 1.529792,
+        "north": 47.6174996,
+        "east": 2.6094169
+      },
+      "downloadBytes": 44418909,
+      "graphBytes": 114268160,
+      "sha256": "14a3847694dcbee2847bd79b93419016a7ddb52ba92863a3fded30ef18df19ee",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-37.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-38",
+      "name": "Montlu\u00e7on area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 2.5894169,
+        "north": 47.6174996,
+        "east": 3.6690417
+      },
+      "downloadBytes": 39867204,
+      "graphBytes": 101642240,
+      "sha256": "a77edcba8647b736df36f374fd37b82f8bdf8d92044d7fe986330c1698d27cdd",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-38.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-39",
+      "name": "Le Creusot area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 3.6490418,
+        "north": 47.6174996,
+        "east": 4.7286666
+      },
+      "downloadBytes": 54639357,
+      "graphBytes": 137789440,
+      "sha256": "59bb6c29d60788ae21acf37d94423ba8fb73c355f327b07957fff2001d31b6db",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-39.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 36,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-40",
+      "name": "Dijon area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 4.7086666,
+        "north": 47.6174996,
+        "east": 5.7882915
+      },
+      "downloadBytes": 59189466,
+      "graphBytes": 149063680,
+      "sha256": "ac9e1da1473faa427aa158d1106ca944ec283f07d9d6038d8627a9e9c503fdb4",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-40.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 41,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-41",
+      "name": "Besan\u00e7on area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": 5.7682915,
+        "north": 47.6174996,
+        "east": 7.9075412
+      },
+      "downloadBytes": 61974263,
+      "graphBytes": 158668800,
+      "sha256": "082f94ed82f3b640ec08daacda7544d0749415cdc15f09f7db2c0f0dc6e8266f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-41.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 40,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-42",
+      "name": "La Roche-sur-Yon area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": -1.6490826,
+        "north": 46.9806161,
+        "east": -0.5694578
+      },
+      "downloadBytes": 32424538,
+      "graphBytes": 84193280,
+      "sha256": "2e2eec3a8bb4f42be0e0070c32c4b623e1879d9d27a7d7aa8f22185d2de1046a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-42.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 18,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-43",
+      "name": "Poitiers area",
+      "country": "FR",
+      "bounds": {
+        "south": 46.3237325,
+        "west": -0.5894578,
+        "north": 46.9806161,
+        "east": 0.4901671
+      },
+      "downloadBytes": 44804240,
+      "graphBytes": 115486720,
+      "sha256": "a0b043d16442185d8b84386842af148514bbc1a5e41787babba5e9fe03f09719",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-43.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 19,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-44",
+      "name": "Niort area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.6868489,
+        "west": -0.5894578,
+        "north": 46.3437325,
+        "east": 0.4901671
+      },
+      "downloadBytes": 66761557,
+      "graphBytes": 172195840,
+      "sha256": "7e64b336de85c383b6ea18f2c259342bec0320519ce43bd0a703abe20e4e6571",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-44.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 28,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-45",
+      "name": "Clermont-Ferrand area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.6868489,
+        "west": 2.5894169,
+        "north": 46.3437325,
+        "east": 3.6690417
+      },
+      "downloadBytes": 58278019,
+      "graphBytes": 149329920,
+      "sha256": "2b2c084e8b6e955fc1d5d98cbdd2c1063921452c98058d3b5fc7c5ae78363b56",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-45.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 26,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-46",
+      "name": "Roanne area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.6868489,
+        "west": 3.6490418,
+        "north": 46.3437325,
+        "east": 4.7286666
+      },
+      "downloadBytes": 84200933,
+      "graphBytes": 215910400,
+      "sha256": "874d6769c80adde10b3689afe5bc23dae9a3210a1a0507077125771ba954d969",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-46.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 28,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-47",
+      "name": "Lyon area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.6868489,
+        "west": 4.7086666,
+        "north": 46.3437325,
+        "east": 5.7882915
+      },
+      "downloadBytes": 95891144,
+      "graphBytes": 252907520,
+      "sha256": "e1217381d2eec0c9867d37d0fc1cb9b41eb3952e394f64b1cc3b43bdf05d471f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-47.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 30,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-48",
+      "name": "Annecy area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.6868489,
+        "west": 5.7682915,
+        "north": 46.3437325,
+        "east": 6.3181039
+      },
+      "downloadBytes": 65283135,
+      "graphBytes": 169543680,
+      "sha256": "c454e8394154271180b4cfdaa2b976fc1977f92eb05a0c78a6535f1ffa4bcc31",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-48.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 18,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-49",
+      "name": "Cluses area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.6868489,
+        "west": 6.2981039,
+        "north": 46.3437325,
+        "east": 6.8479164
+      },
+      "downloadBytes": 46235456,
+      "graphBytes": 117585920,
+      "sha256": "fc3c201f92f639e3580e8b5248bdacaab02c54942473bce1981186a098ff1953",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-49.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 16,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-50",
+      "name": "La Rochelle area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": -2.7087075,
+        "north": 46.3437325,
+        "east": -0.5694578
+      },
+      "downloadBytes": 46495179,
+      "graphBytes": 121835520,
+      "sha256": "1896e0773cf094e2fa30817c662ecefa00eff5018b7ef5fe08ceeffc338f25fa",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-50.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 31,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-51",
+      "name": "Limoges area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 0.4701671,
+        "north": 46.3437325,
+        "east": 1.549792
+      },
+      "downloadBytes": 65265273,
+      "graphBytes": 165089280,
+      "sha256": "3e1d14b2c8ccd9729b12a319eadcca9042140ae83bfc5c0603f358196c262e17",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-51.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 42,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-52",
+      "name": "Tulle area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 1.529792,
+        "north": 46.3437325,
+        "east": 2.6094169
+      },
+      "downloadBytes": 55746405,
+      "graphBytes": 139612160,
+      "sha256": "c9de9c68568519aaf972ecdd44a4097569dc7b002e79b7ee3371428a5609a64a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-52.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 36,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-53",
+      "name": "Chamonix-Mont-Blanc area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 6.8279164,
+        "north": 46.3437325,
+        "east": 7.9075412
+      },
+      "downloadBytes": 27823605,
+      "graphBytes": 70471680,
+      "sha256": "cbdc96e8218f4145793eb4ee23c5e41f078feb520e2eb64d2e5283b62a937fa7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-53.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 15,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-54",
+      "name": "Angoul\u00eame area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": -0.5894578,
+        "north": 45.7068489,
+        "east": 0.4901671
+      },
+      "downloadBytes": 32279525,
+      "graphBytes": 82708480,
+      "sha256": "369221adcd04b578d89b3bbdaf96b299832f12cc61fe7d1d20c8a355c09c232d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-54.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 19,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-55",
+      "name": "Issoire area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 2.5894169,
+        "north": 45.7068489,
+        "east": 3.6690417
+      },
+      "downloadBytes": 29926919,
+      "graphBytes": 74403840,
+      "sha256": "aa0be290e5552c2066c36fc43c463b7c6a8f9b3491031987ba84c7d3ec0025e3",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-55.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 18,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-56",
+      "name": "Saint-\u00c9tienne area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 3.6490418,
+        "north": 45.7068489,
+        "east": 4.7286666
+      },
+      "downloadBytes": 53633234,
+      "graphBytes": 137216000,
+      "sha256": "7ac833f54784b1f6184b9501ff512069d7558a4de17655bc46b8e3f4bfe4c3b9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-56.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 19,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-57",
+      "name": "Saint-Priest area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 4.7086666,
+        "north": 45.7068489,
+        "east": 5.2584791
+      },
+      "downloadBytes": 55151339,
+      "graphBytes": 146135040,
+      "sha256": "43825ac31af4ee1cecc9109fedb32491e451453606927d71cf1b34114bb4cbfe",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-57.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 15,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-58",
+      "name": "Grenoble area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 5.2384791,
+        "north": 45.7068489,
+        "east": 5.7882915
+      },
+      "downloadBytes": 47981047,
+      "graphBytes": 125388800,
+      "sha256": "ebf650aa2f2ad05ef628709a249b508f3d4df6e6b79f05ec80c05fa16a8e9979",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-58.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 14,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-59",
+      "name": "Chamb\u00e9ry area",
+      "country": "FR",
+      "bounds": {
+        "south": 45.0499654,
+        "west": 5.7682915,
+        "north": 45.7068489,
+        "east": 6.8479164
+      },
+      "downloadBytes": 42494783,
+      "graphBytes": 105103360,
+      "sha256": "0ef4e762f3166653c1208f42b4c3a1fc871cfb67195f24502c44b9e5157627a7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-59.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 18,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-60",
+      "name": "Villenave-d'Ornon area",
+      "country": "FR",
+      "bounds": {
+        "south": 44.4130818,
+        "west": -0.5894578,
+        "north": 45.0699654,
+        "east": 0.4901671
+      },
+      "downloadBytes": 50421480,
+      "graphBytes": 132515840,
+      "sha256": "681e40a8007288c930c997a4c8248efd5df251ec143e91c0733c5adc1256cb3e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-60.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 26,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-61",
+      "name": "Bergerac area",
+      "country": "FR",
+      "bounds": {
+        "south": 44.4130818,
+        "west": 0.4701671,
+        "north": 45.0699654,
+        "east": 1.549792
+      },
+      "downloadBytes": 45813390,
+      "graphBytes": 115128320,
+      "sha256": "097573586dd681847a759d62ce968566f3dc0577e7aca39a8a16ee14b7db00e9",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-61.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 29,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-62",
+      "name": "Aurillac area",
+      "country": "FR",
+      "bounds": {
+        "south": 44.4130818,
+        "west": 1.529792,
+        "north": 45.0699654,
+        "east": 2.6094169
+      },
+      "downloadBytes": 42696735,
+      "graphBytes": 106270720,
+      "sha256": "463bb291213105b53af01623d6a1b9232bfaeae530f85be857bba5861e80a49e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-62.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 25,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-63",
+      "name": "Le Puy-en-Velay area",
+      "country": "FR",
+      "bounds": {
+        "south": 44.4130818,
+        "west": 3.6490418,
+        "north": 45.0699654,
+        "east": 4.7286666
+      },
+      "downloadBytes": 59236276,
+      "graphBytes": 148346880,
+      "sha256": "a30c9380de9a5603f214343c9ebcdd237ae0c1f584e92bda650849c5e49c8407",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-63.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 26,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-64",
+      "name": "Valence area",
+      "country": "FR",
+      "bounds": {
+        "south": 44.4130818,
+        "west": 4.7086666,
+        "north": 45.0699654,
+        "east": 5.7882915
+      },
+      "downloadBytes": 71517190,
+      "graphBytes": 182671360,
+      "sha256": "e7e8cb9a7a65ce88f06e6bb227eecf9df18694f870055c4cbb297b7b0511ae1f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-64.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 29,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-65",
+      "name": "Bordeaux area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": -2.7087075,
+        "north": 45.0699654,
+        "east": -0.5694578
+      },
+      "downloadBytes": 40729936,
+      "graphBytes": 107581440,
+      "sha256": "dbfc502325890add8efa0e10f9581bbc9cbdf2c05f5bbda59584154c9cb9e193",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-65.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 29,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-66",
+      "name": "Millau area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": 2.5894169,
+        "north": 45.0699654,
+        "east": 3.6690417
+      },
+      "downloadBytes": 54870876,
+      "graphBytes": 133437440,
+      "sha256": "ff0096524261045c3ddf117b68fc3c0d4f849fe8b274424049c70a3cd11e5106",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-66.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 37,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-67",
+      "name": "Gap area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": 5.7682915,
+        "north": 45.0699654,
+        "east": 7.9075412
+      },
+      "downloadBytes": 66608773,
+      "graphBytes": 162590720,
+      "sha256": "31b3e15b7b635ddaae7893edea7302ee44e97a73c3c3f525ae5e44e0f1706daf",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-67.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 50,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-68",
+      "name": "Mont-de-Marsan area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": -0.5894578,
+        "north": 44.4330818,
+        "east": 0.4901671
+      },
+      "downloadBytes": 40327257,
+      "graphBytes": 106526720,
+      "sha256": "00c24ab40b6c81851be11c62301f8fc8702161289e9809e67f5543f58966dcc6",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-68.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 21,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-69",
+      "name": "Montauban area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": 0.4701671,
+        "north": 44.4330818,
+        "east": 1.549792
+      },
+      "downloadBytes": 48286061,
+      "graphBytes": 126013440,
+      "sha256": "2687e15300ec392b980b0be7cfda18f7904e27441f2a3e813b9b334f289d0a7a",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-69.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 23,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-70",
+      "name": "Albi area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": 1.529792,
+        "north": 44.4330818,
+        "east": 2.6094169
+      },
+      "downloadBytes": 40438686,
+      "graphBytes": 102686720,
+      "sha256": "849ed083a0bf0d37508dff9134b4441662c506d5eb1b59bc961b8918fd2ce721",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-70.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 20,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-71",
+      "name": "N\u00eemes area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": 3.6490418,
+        "north": 44.4330818,
+        "east": 4.7286666
+      },
+      "downloadBytes": 55517965,
+      "graphBytes": 139182080,
+      "sha256": "e49ee45024091d7a1b1687318b3cc753a64124f1db5ce3e3acc7bab28a6257af",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-71.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 21,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-72",
+      "name": "Avignon area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.7761983,
+        "west": 4.7086666,
+        "north": 44.4330818,
+        "east": 5.7882915
+      },
+      "downloadBytes": 62900244,
+      "graphBytes": 161024000,
+      "sha256": "aa71ce6f9351094f02ffc2bdd443fc9739b5139a243ecfa35cdf4a7fe5fe3957",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-72.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 23,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-73",
+      "name": "Toulouse area",
+      "country": "FR",
+      "bounds": {
+        "south": 43.1393147,
+        "west": 0.4701671,
+        "north": 43.7961982,
+        "east": 1.549792
+      },
+      "downloadBytes": 56577675,
+      "graphBytes": 149360640,
+      "sha256": "3fc04753d24c306d61952fd442d3a040366cfa7010e48e8765b5c0842ffe76cc",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-73.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 27,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-74",
+      "name": "Pau area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": -0.5894578,
+        "north": 43.7961982,
+        "east": 0.4901671
+      },
+      "downloadBytes": 49639922,
+      "graphBytes": 128471040,
+      "sha256": "ad17e52cf9c96a84e5bf05493507dfdbf43a28080d15d0042b3b0624e2839bc5",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-74.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 34,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-75",
+      "name": "Carcassonne area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 1.529792,
+        "north": 43.7961982,
+        "east": 2.6094169
+      },
+      "downloadBytes": 53204269,
+      "graphBytes": 131000320,
+      "sha256": "6efd83674c60e0d705ee79809c27a119774fb0c7b764badcba1206cbcbedb0f1",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-75.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-76",
+      "name": "Perpignan area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 2.5894169,
+        "north": 43.7961982,
+        "east": 3.6690417
+      },
+      "downloadBytes": 57608811,
+      "graphBytes": 144261120,
+      "sha256": "5475229d4fc3fe97b553bbfa62c5f0b107498e10eb265b8fba52ace218921ba7",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-76.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 35,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-77",
+      "name": "Montpellier area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 3.6490418,
+        "north": 43.7961982,
+        "east": 4.7286666
+      },
+      "downloadBytes": 53126623,
+      "graphBytes": 137472000,
+      "sha256": "f9dd600c7af03acef3afff9d6020b05f6746d43ba1478c485f053f331a1d4b4d",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-77.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 29,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-78",
+      "name": "Marseille area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 4.7086666,
+        "north": 43.7961982,
+        "east": 5.7882915
+      },
+      "downloadBytes": 74851395,
+      "graphBytes": 195502080,
+      "sha256": "f3ec137a5c12c8ef4aa7ee672d5c4e9db6bd57917f2577ab4e112b286dbaef5f",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-78.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 39,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-79",
+      "name": "Toulon area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 5.7682915,
+        "north": 43.7961982,
+        "east": 6.8479164
+      },
+      "downloadBytes": 48796133,
+      "graphBytes": 123924480,
+      "sha256": "13675bf7a9adfe4a4ff4f7046133f987531ba6928fb9cfe2ffba30891a00b560",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-79.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 33,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-80",
+      "name": "Nice area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 6.8279164,
+        "north": 43.7961982,
+        "east": 7.9075412
+      },
+      "downloadBytes": 28482496,
+      "graphBytes": 72806400,
+      "sha256": "510957b456adbae8ae97237665db7b2be76e6f80211e400086148a1b05632542",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-80.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 30,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-81",
+      "name": "Saint-Gaudens area",
+      "country": "FR",
+      "bounds": {
+        "south": 42.5024311,
+        "west": 0.4701671,
+        "north": 43.1593147,
+        "east": 1.549792
+      },
+      "downloadBytes": 29014611,
+      "graphBytes": 72683520,
+      "sha256": "6c3c9ffab26426b406a5c49a72ab8727ccd3de468e81821c2ea493b2dd09fb9e",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-81.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 22,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-82",
+      "name": "Bayonne area",
+      "country": "FR",
+      "bounds": {
+        "south": 41.228664,
+        "west": -2.7087075,
+        "north": 43.7961982,
+        "east": -0.5694578
+      },
+      "downloadBytes": 29462230,
+      "graphBytes": 75141120,
+      "sha256": "a3b292b5c857b574e4ec3d0e55eb2b438c9014ce2c971411f8f2c29675aeb2c6",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-82.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 28,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-83",
+      "name": "Ajaccio area",
+      "country": "FR",
+      "bounds": {
+        "south": 41.228664,
+        "west": 7.8875412,
+        "north": 43.7961982,
+        "east": 10.026791
+      },
+      "downloadBytes": 23415418,
+      "graphBytes": 57600000,
+      "sha256": "2ec464360aa2aebe576fc928a94725f1539cb31c0331679f0175602380df2068",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-83.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 116,
+      "format": "valhalla-3.9.1"
+    },
+    {
+      "id": "fr-84",
+      "name": "C\u00e9ret area",
+      "country": "FR",
+      "bounds": {
+        "south": 41.228664,
+        "west": 1.529792,
+        "north": 42.5224311,
+        "east": 3.6690417
+      },
+      "downloadBytes": 23924575,
+      "graphBytes": 60426240,
+      "sha256": "f2f348f44ec350ef7b30eefe2ed1694bcdcfb7113879aece9592b5dfe7dfbb81",
+      "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/valhalla-france/fr-84.tar.gz",
+      "rev": "2026-10-25",
+      "tileSet": "france",
+      "tiles": 44,
+      "format": "valhalla-3.9.1"
+    }
+  ]
+}
