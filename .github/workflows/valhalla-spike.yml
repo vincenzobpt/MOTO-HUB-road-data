@@ -1,0 +1,67 @@
+name: Valhalla spike
+
+# One-off trial: build Valhalla routing tiles for one extract with the same Valhalla the app's
+# library ships (valhalla-mobile 0.6.4 = Valhalla 3.9.1), report their size, and publish the tile
+# archive on a release of its own. Nothing here touches index.json or the region releases.
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Extract id from regions.json (e.g. portugal)"
+        default: "portugal"
+
+permissions:
+  contents: write
+
+jobs:
+  tiles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      ID: ${{ inputs.id }}
+      IMAGE: ghcr.io/valhalla/valhalla:3.9.1
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the extract
+        run: |
+          url=$(python3 -c "import json,os; print(next(e['source'] for e in json.load(open('regions.json'))['extracts'] if e['id']==os.environ['ID']))")
+          mkdir -p work
+          curl -fsSL --retry 3 -o "work/$ID.osm.pbf" "$url"
+          ls -l work
+
+      - name: Build the tiles
+        run: |
+          docker pull "$IMAGE"
+          /usr/bin/time -v docker run --rm -v "$PWD/work:/data" -w /data "$IMAGE" bash -c "
+            valhalla_build_config --mjolnir-tile-dir /data/tiles --mjolnir-tile-extract /data/tiles.tar \
+              --mjolnir-admin /data/admins.sqlite > /data/valhalla.json &&
+            valhalla_build_admins -c /data/valhalla.json /data/$ID.osm.pbf &&
+            valhalla_build_tiles -c /data/valhalla.json /data/$ID.osm.pbf &&
+            valhalla_build_extract -c /data/valhalla.json -v --overwrite
+          " 2>&1 | tail -40
+
+      - name: Report
+        run: |
+          sudo chown -R "$USER" work
+          {
+            echo "### Valhalla tiles for $ID"
+            echo '```'
+            du -sh work/tiles/* work/tiles work/tiles.tar work/admins.sqlite 2>/dev/null
+            echo "tiles: $(find work/tiles -name '*.gph' | wc -l)"
+            for level in 0 1 2; do echo "level $level: $(find work/tiles/$level -name '*.gph' 2>/dev/null | wc -l) tiles, $(du -sh work/tiles/$level 2>/dev/null | cut -f1)"; done
+            gzip -c work/tiles.tar | wc -c | awk '{printf "tiles.tar gzip: %.1f MB\n", $1/1e6}'
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish the trial archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="valhalla-spike-$ID"
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" --title "Valhalla trial: $ID" \
+            --notes "Trial Valhalla 3.9.1 tiles for $ID. Not used by the app's region list."
+          cp work/tiles.tar "valhalla-$ID.tar"
+          cp work/valhalla.json "valhalla-$ID.json"
+          gh release upload "$tag" "valhalla-$ID.tar" "valhalla-$ID.json" --clobber
