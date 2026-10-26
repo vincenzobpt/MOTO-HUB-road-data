@@ -10,3 +10,5 @@ index.new.json
 merge.log
 plan-*.json
 part-*.json
+valhalla-index.new.json
+work/

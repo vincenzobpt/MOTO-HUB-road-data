@@ -1,0 +1,146 @@
+name: Valhalla tiles
+
+# Builds Valhalla routing tiles one country (extract) at a time and publishes them as one
+# download per region, listed in valhalla-index.json. Countries are built apart, so the phone
+# routes inside one country at a time: tiles of two builds are never mixed.
+
+on:
+  schedule:
+    # Every three months: each rebuild offers every installed region of a country as an update.
+    - cron: "17 3 5 */3 *"
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Upload and update valhalla-index.json (off = dry run, only reports)"
+        type: boolean
+        default: true
+      only:
+        description: "Extract ids, comma separated (empty = all)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.ids.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: ids
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          only = [x.strip() for x in os.environ.get("ONLY", "").split(",") if x.strip()]
+          ids = [e["id"] for e in json.load(open("regions.json"))["extracts"] if not only or e["id"] in only]
+          print("ids=" + json.dumps(ids))
+          PY
+
+  tiles:
+    needs: list
+    if: needs.list.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.ids) }}
+    env:
+      ID: ${{ matrix.id }}
+      IMAGE: ghcr.io/valhalla/valhalla:3.9.1
+      REPO_URL: https://github.com/${{ github.repository }}
+      PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+    steps:
+      - name: Make room
+        run: |
+          # The large countries need the disk the runner's preinstalled SDKs take.
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          docker image prune -a -f >/dev/null
+          df -h / | tail -1
+
+      - uses: actions/checkout@v4
+
+      - name: Install osmium
+        run: sudo apt-get update && sudo apt-get install -y osmium-tool
+
+      - name: Download the extract
+        run: |
+          url=$(python3 -c "import json,os; print(next(e['source'] for e in json.load(open('regions.json'))['extracts'] if e['id']==os.environ['ID']))")
+          mkdir -p work
+          curl -fsSL --retry 3 -o "work/$ID.osm.pbf" "$url"
+          echo "REV=$(osmium fileinfo -g header.option.osmosis_replication_timestamp work/$ID.osm.pbf | cut -c1-10)" >> "$GITHUB_ENV"
+          ls -l work
+
+      - name: Build the tiles
+        run: |
+          docker run --rm -v "$PWD/work:/data" -w /data "$IMAGE" bash -c "
+            valhalla_build_config --mjolnir-tile-dir /data/tiles --mjolnir-admin /data/admins.sqlite > /data/valhalla.json &&
+            valhalla_build_admins -c /data/valhalla.json /data/$ID.osm.pbf &&
+            valhalla_build_tiles -c /data/valhalla.json /data/$ID.osm.pbf
+          " 2>&1 | grep -vE '\[(DEBUG|INFO)\]' | tail -30
+          sudo chown -R "$USER" work
+          rm -f "work/$ID.osm.pbf"
+          du -sh work/tiles
+
+      - name: Package per region
+        run: python3 scripts/valhalla_regions.py regions.json "$ID" work/tiles dist "$REPO_URL" "$REV" | tail -5
+
+      - name: Publish
+        if: env.PUBLISH == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="valhalla-$ID"
+          gh release view "$tag" >/dev/null 2>&1 || \
+            gh release create "$tag" --title "Valhalla tiles: $ID" --notes "Valhalla 3.9.1 routing tiles for $ID, one file per region, listed in valhalla-index.json."
+          for file in dist/*.tar.gz; do
+            for attempt in 1 2 3; do
+              gh release upload "$tag" "$file" --clobber && break
+              [ "$attempt" = 3 ] && exit 1
+              sleep 20
+            done
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: valhalla-index-${{ matrix.id }}
+          path: dist/index-${{ matrix.id }}.json
+
+  index:
+    needs: [list, tiles]
+    if: ${{ !cancelled() && needs.list.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: valhalla-index-*
+          path: parts
+          merge-multiple: true
+
+      - name: Merge the index
+        run: |
+          mkdir -p parts
+          python3 scripts/merge_valhalla_index.py regions.json valhalla-index.json parts valhalla-index.new.json
+
+      - name: Publish the index
+        if: github.event_name == 'schedule' || inputs.publish
+        run: |
+          cp valhalla-index.new.json valhalla-index.json
+          git add valhalla-index.json
+          if git diff --cached --quiet; then echo "Index unchanged"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update the Valhalla tile index"
+          git pull --rebase -q
+          git push
