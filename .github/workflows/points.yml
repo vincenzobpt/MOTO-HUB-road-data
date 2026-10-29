@@ -78,8 +78,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # Parallel jobs race to create the release; losing that race is fine.
           gh release view points >/dev/null 2>&1 || \
-            gh release create points --title "Speed cameras and passes" --notes "Speed cameras and mountain passes per country from OpenStreetMap, listed in points-index.json."
+            gh release create points --title "Speed cameras and passes" --notes "Speed cameras and mountain passes per country from OpenStreetMap, listed in points-index.json." || \
+            gh release view points >/dev/null
           for file in dist/*-cameras.json dist/*-passes.json; do
             for attempt in 1 2 3; do
               gh release upload points "$file" --clobber && break
