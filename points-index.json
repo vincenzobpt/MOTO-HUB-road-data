@@ -1,0 +1,4659 @@
+{
+  "schema": 1,
+  "extracts": [
+    {
+      "id": "portugal",
+      "rev": "2026-10-28",
+      "countries": [
+        "PT"
+      ],
+      "boxes": [
+        {
+          "south": 40.2788096,
+          "west": -8.7840289,
+          "north": 41.0801544,
+          "east": -8.0891722
+        },
+        {
+          "south": 37.3189368,
+          "west": -8.8195341,
+          "north": 38.3311462,
+          "east": -6.931521
+        },
+        {
+          "south": 41.3187983,
+          "west": -8.8115744,
+          "north": 41.8206312,
+          "east": -7.8106767
+        },
+        {
+          "south": 41.0245423,
+          "west": -7.4318921,
+          "north": 41.9925213,
+          "east": -6.1891593
+        },
+        {
+          "south": 39.5373649,
+          "west": -8.2931234,
+          "north": 40.4161318,
+          "east": -6.8637851
+        },
+        {
+          "south": 39.923791,
+          "west": -8.9092437,
+          "north": 40.5203648,
+          "east": -7.7317555
+        },
+        {
+          "south": 38.1546502,
+          "west": -8.6584679,
+          "north": 39.0269315,
+          "east": -7.1067761
+        },
+        {
+          "south": 36.9599679,
+          "west": -8.9971157,
+          "north": 37.5291307,
+          "east": -7.3948663
+        },
+        {
+          "south": 40.2299187,
+          "west": -7.8492267,
+          "north": 41.1793517,
+          "east": -6.7809607
+        },
+        {
+          "south": 39.2115773,
+          "west": -9.5170291,
+          "north": 40.0897361,
+          "east": -8.1080378
+        },
+        {
+          "south": 38.6731469,
+          "west": -9.5005266,
+          "north": 39.3177287,
+          "east": -8.781861
+        },
+        {
+          "south": 38.7514974,
+          "west": -8.3438699,
+          "north": 39.6636796,
+          "east": -6.9511303
+        },
+        {
+          "south": 41.0013802,
+          "west": -8.7890627,
+          "north": 41.4719715,
+          "east": -7.8755793
+        },
+        {
+          "south": 38.7314904,
+          "west": -9.001574,
+          "north": 39.8387292,
+          "east": -7.8089881
+        },
+        {
+          "south": 37.7493933,
+          "west": -9.2629753,
+          "north": 38.8454231,
+          "east": -8.1296963
+        },
+        {
+          "south": 41.6063807,
+          "west": -8.8809556,
+          "north": 42.1543112,
+          "east": -8.0827652
+        },
+        {
+          "south": 41.1187322,
+          "west": -8.1194651,
+          "north": 41.9270958,
+          "east": -7.1706402
+        },
+        {
+          "south": 40.3226383,
+          "west": -8.3594469,
+          "north": 41.2146579,
+          "east": -7.304573
+        },
+        {
+          "south": 36.9276305,
+          "west": -31.2688154,
+          "north": 39.7261841,
+          "east": -25.0131792
+        },
+        {
+          "south": 30.0287783,
+          "west": -17.2659253,
+          "north": 33.1281603,
+          "east": -15.8536715
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/portugal-cameras.json",
+        "bytes": 34269,
+        "sha256": "414e3984f7423a9ccb0fffc5e574cade89e7954c24ed2c74b9707d8b4601d3e9",
+        "count": 301
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/portugal-passes.json",
+        "bytes": 2249,
+        "sha256": "cbced3ce049e1611634f66082aa4723fe8916068196fb62aa0eae6e9dd8bb8bf",
+        "count": 23
+      }
+    },
+    {
+      "id": "italy",
+      "rev": "2026-10-28",
+      "countries": [
+        "IT"
+      ],
+      "boxes": [
+        {
+          "south": 45.4669522,
+          "west": 6.8015322,
+          "north": 45.9877112,
+          "east": 7.939504
+        },
+        {
+          "south": 37.0844823,
+          "west": 12.8869604,
+          "north": 37.7428334,
+          "east": 14.0386072
+        },
+        {
+          "south": 44.4647191,
+          "west": 8.1093301,
+          "north": 45.2054572,
+          "east": 9.2142404
+        },
+        {
+          "south": 43.2099152,
+          "west": 12.7461961,
+          "north": 43.7505106,
+          "east": 13.6586187
+        },
+        {
+          "south": 42.6871561,
+          "west": 13.1875521,
+          "north": 43.0797782,
+          "east": 13.9163435
+        },
+        {
+          "south": 41.6820382,
+          "west": 13.0189718,
+          "north": 42.5912825,
+          "east": 14.2297358
+        },
+        {
+          "south": 43.1563413,
+          "west": 11.3973824,
+          "north": 43.8778958,
+          "east": 12.3722747
+        },
+        {
+          "south": 44.5189941,
+          "west": 7.8834321,
+          "north": 45.1330048,
+          "east": 8.513625
+        },
+        {
+          "south": 40.706645,
+          "west": 14.5594641,
+          "north": 41.2864497,
+          "east": 15.5723064
+        },
+        {
+          "south": 40.6929782,
+          "west": 16.2024642,
+          "north": 41.2294795,
+          "east": 17.399673
+        },
+        {
+          "south": 45.4221614,
+          "west": 9.4450549,
+          "north": 46.0912367,
+          "east": 10.2627486
+        },
+        {
+          "south": 45.3760887,
+          "west": 7.8814575,
+          "north": 45.7576414,
+          "east": 8.3279084
+        },
+        {
+          "south": 45.8804429,
+          "west": 11.6659608,
+          "north": 46.6806148,
+          "east": 12.7322625
+        },
+        {
+          "south": 41.0088795,
+          "west": 14.3519022,
+          "north": 41.4863874,
+          "east": 15.1491557
+        },
+        {
+          "south": 44.0622266,
+          "west": 10.803589,
+          "north": 44.8053346,
+          "east": 11.8392441
+        },
+        {
+          "south": 40.3795066,
+          "west": 17.295343,
+          "north": 40.8922178,
+          "east": 18.098336
+        },
+        {
+          "south": 45.2042549,
+          "west": 9.8362928,
+          "north": 46.3548531,
+          "east": 10.842675
+        },
+        {
+          "south": 40.8977189,
+          "west": 15.870262,
+          "north": 41.4417111,
+          "east": 16.5422648
+        },
+        {
+          "south": 46.2197712,
+          "west": 10.3818217,
+          "north": 47.0921485,
+          "east": 12.4779748
+        },
+        {
+          "south": 38.8758961,
+          "west": 8.699226,
+          "north": 39.851822,
+          "east": 9.6511525
+        },
+        {
+          "south": 41.3640631,
+          "west": 14.3777332,
+          "north": 42.0702848,
+          "east": 15.1616821
+        },
+        {
+          "south": 40.898783,
+          "west": 13.7623799,
+          "north": 41.5080786,
+          "east": 14.5353095
+        },
+        {
+          "south": 41.7596519,
+          "west": 14.0805053,
+          "north": 42.44511,
+          "east": 14.7838895
+        },
+        {
+          "south": 37.0021336,
+          "west": 13.6507368,
+          "north": 37.7450177,
+          "east": 14.4768137
+        },
+        {
+          "south": 44.0597158,
+          "west": 6.8545067,
+          "north": 44.8566056,
+          "east": 8.2692128
+        },
+        {
+          "south": 45.6393854,
+          "west": 8.8942419,
+          "north": 46.2395703,
+          "east": 9.4406278
+        },
+        {
+          "south": 44.937668,
+          "west": 9.4528532,
+          "north": 45.5041724,
+          "east": 10.5967139
+        },
+        {
+          "south": 39.048701,
+          "west": 15.7564433,
+          "north": 40.1449242,
+          "east": 17.0236705
+        },
+        {
+          "south": 37.050297,
+          "west": 14.3517735,
+          "north": 37.961106,
+          "east": 15.2580859
+        },
+        {
+          "south": 38.4633398,
+          "west": 16.0957104,
+          "north": 39.1942391,
+          "east": 16.9205972
+        },
+        {
+          "south": 37.2907801,
+          "west": 14.0562834,
+          "north": 37.8800379,
+          "east": 14.8298134
+        },
+        {
+          "south": 43.7398521,
+          "west": 11.645047,
+          "north": 44.3306793,
+          "east": 12.4577806
+        },
+        {
+          "south": 44.5466121,
+          "west": 11.2346755,
+          "north": 44.986943,
+          "east": 12.3989637
+        },
+        {
+          "south": 41.0557147,
+          "west": 14.9341858,
+          "north": 41.9503234,
+          "east": 16.1999353
+        },
+        {
+          "south": 43.4515008,
+          "west": 10.7111211,
+          "north": 44.2398101,
+          "east": 11.7530586
+        },
+        {
+          "south": 42.8901647,
+          "west": 13.2160385,
+          "north": 43.2942629,
+          "east": 13.8496502
+        },
+        {
+          "south": 41.301351,
+          "west": 12.9918722,
+          "north": 41.9554478,
+          "east": 14.0276445
+        },
+        {
+          "south": 44.2163249,
+          "west": 8.5715542,
+          "north": 44.6764424,
+          "east": 9.574846
+        },
+        {
+          "south": 45.6739839,
+          "west": 13.2371348,
+          "north": 46.0513351,
+          "east": 13.6430755
+        },
+        {
+          "south": 42.3610306,
+          "west": 10.7062668,
+          "north": 43.1891437,
+          "east": 11.820158
+        },
+        {
+          "south": 43.7756906,
+          "west": 7.4951614,
+          "north": 44.1410201,
+          "east": 8.1353954
+        },
+        {
+          "south": 41.3876719,
+          "west": 13.9410911,
+          "north": 41.9117554,
+          "east": 14.5222524
+        },
+        {
+          "south": 38.8924655,
+          "west": 16.6130213,
+          "north": 39.4824414,
+          "east": 17.2064253
+        },
+        {
+          "south": 45.6493752,
+          "west": 9.2437341,
+          "north": 46.151716,
+          "east": 9.5411056
+        },
+        {
+          "south": 39.7895944,
+          "west": 17.762464,
+          "north": 40.5148674,
+          "east": 18.5205121
+        },
+        {
+          "south": 42.707497,
+          "west": 10.1024963,
+          "north": 43.6346331,
+          "east": 10.7962196
+        },
+        {
+          "south": 45.0526084,
+          "west": 9.3099901,
+          "north": 45.4700243,
+          "east": 9.900973
+        },
+        {
+          "south": 41.2038435,
+          "west": 12.530159,
+          "north": 41.7148329,
+          "east": 13.8948148
+        },
+        {
+          "south": 43.7493355,
+          "west": 10.1433617,
+          "north": 44.2861712,
+          "east": 10.7375739
+        },
+        {
+          "south": 45.5367099,
+          "west": 9.0505698,
+          "north": 45.7424391,
+          "east": 9.4974636
+        },
+        {
+          "south": 42.8318542,
+          "west": 12.8296453,
+          "north": 43.4739419,
+          "east": 13.7432808
+        },
+        {
+          "south": 37.7950379,
+          "west": 14.1834248,
+          "north": 38.3014883,
+          "east": 15.6530796
+        },
+        {
+          "south": 45.2647912,
+          "west": 8.7060961,
+          "north": 45.6434829,
+          "east": 9.551457
+        },
+        {
+          "south": 44.9102742,
+          "west": 10.3090587,
+          "north": 45.4283223,
+          "east": 11.4276477
+        },
+        {
+          "south": 44.114152,
+          "west": 10.4698307,
+          "north": 44.9629506,
+          "east": 11.3689308
+        },
+        {
+          "south": 43.9753156,
+          "west": 9.6867692,
+          "north": 44.4725419,
+          "east": 10.2557058
+        },
+        {
+          "south": 40.0566506,
+          "west": 16.048594,
+          "north": 40.838581,
+          "east": 16.8670356
+        },
+        {
+          "south": 40.5690361,
+          "west": 14.016982,
+          "north": 41.019847,
+          "east": 14.6702478
+        },
+        {
+          "south": 45.2916099,
+          "west": 8.3105682,
+          "north": 45.8767896,
+          "east": 8.8428962
+        },
+        {
+          "south": 39.8222077,
+          "west": 8.6111616,
+          "north": 40.7060029,
+          "east": 9.828852
+        },
+        {
+          "south": 39.5492929,
+          "west": 9.2729036,
+          "north": 40.2249519,
+          "east": 9.7355697
+        },
+        {
+          "south": 39.6270116,
+          "west": 8.3765739,
+          "north": 40.4261074,
+          "east": 9.1729365
+        },
+        {
+          "south": 40.5258328,
+          "west": 8.8025523,
+          "north": 41.2590755,
+          "east": 9.7536755
+        },
+        {
+          "south": 37.5393034,
+          "west": 12.9287426,
+          "north": 38.2245866,
+          "east": 14.2943904
+        },
+        {
+          "south": 44.5558766,
+          "west": 9.1979117,
+          "north": 45.1395001,
+          "east": 10.0831378
+        },
+        {
+          "south": 45.09558,
+          "west": 11.3909429,
+          "north": 45.6872283,
+          "east": 12.2064075
+        },
+        {
+          "south": 42.0740441,
+          "west": 13.7661594,
+          "north": 42.5454921,
+          "east": 14.2539586
+        },
+        {
+          "south": 42.5968383,
+          "west": 11.9123518,
+          "north": 43.6173443,
+          "east": 13.2641895
+        },
+        {
+          "south": 43.1084854,
+          "west": 10.2574977,
+          "north": 43.834394,
+          "east": 11.0140065
+        },
+        {
+          "south": 45.7906045,
+          "west": 12.3213811,
+          "north": 46.412508,
+          "east": 12.9906991
+        },
+        {
+          "south": 43.7586956,
+          "west": 10.9639122,
+          "north": 44.1123682,
+          "east": 11.2097886
+        },
+        {
+          "south": 44.3460313,
+          "west": 9.4381716,
+          "north": 45.0444369,
+          "east": 10.5085422
+        },
+        {
+          "south": 43.7880964,
+          "west": 10.6209226,
+          "north": 44.1601774,
+          "east": 11.0714805
+        },
+        {
+          "south": 43.4165862,
+          "west": 12.1854536,
+          "north": 43.9715999,
+          "east": 13.1723132
+        },
+        {
+          "south": 44.6799091,
+          "west": 8.4978518,
+          "north": 45.393838,
+          "east": 9.5505475
+        },
+        {
+          "south": 39.8958079,
+          "west": 15.3349712,
+          "north": 41.1395383,
+          "east": 16.3995736
+        },
+        {
+          "south": 44.0989959,
+          "west": 11.5248313,
+          "north": 44.6283408,
+          "east": 12.3839715
+        },
+        {
+          "south": 37.9157947,
+          "west": 15.6298439,
+          "north": 38.5738018,
+          "east": 16.5834766
+        },
+        {
+          "south": 44.225466,
+          "west": 10.1424146,
+          "north": 44.9920133,
+          "east": 10.8971498
+        },
+        {
+          "south": 36.6917663,
+          "west": 14.3372464,
+          "north": 37.1393668,
+          "east": 15.0078758
+        },
+        {
+          "south": 42.0889167,
+          "west": 12.4372963,
+          "north": 42.7409686,
+          "east": 13.4099792
+        },
+        {
+          "south": 41.4076117,
+          "west": 11.7336245,
+          "north": 42.2965732,
+          "east": 13.2962768
+        },
+        {
+          "south": 43.7308081,
+          "west": 12.0961656,
+          "north": 44.1622868,
+          "east": 12.7559006
+        },
+        {
+          "south": 44.7922924,
+          "west": 11.173546,
+          "north": 45.1629498,
+          "east": 12.5533113
+        },
+        {
+          "south": 39.9905158,
+          "west": 14.4622617,
+          "north": 40.8487482,
+          "east": 15.8064468
+        },
+        {
+          "south": 42.7857809,
+          "west": 10.9083129,
+          "north": 43.54846,
+          "east": 11.9827957
+        },
+        {
+          "south": 46.0113575,
+          "west": 9.247002,
+          "north": 46.6353532,
+          "east": 10.6327598
+        },
+        {
+          "south": 44.0353855,
+          "west": 9.4657374,
+          "north": 44.441566,
+          "east": 10.0715114
+        },
+        {
+          "south": 36.6467869,
+          "west": 14.7729261,
+          "north": 37.4128826,
+          "east": 15.3367251
+        },
+        {
+          "south": 40.2965476,
+          "west": 8.1308446,
+          "north": 40.972631,
+          "east": 9.2849064
+        },
+        {
+          "south": 38.8640117,
+          "west": 8.3666366,
+          "north": 39.4829916,
+          "east": 8.8531525
+        },
+        {
+          "south": 43.9382354,
+          "west": 7.9772768,
+          "north": 44.528545,
+          "east": 8.6709233
+        },
+        {
+          "south": 40.2944732,
+          "west": 16.6973101,
+          "north": 40.803251,
+          "east": 17.8004172
+        },
+        {
+          "south": 42.4211162,
+          "west": 13.3469322,
+          "north": 42.8950814,
+          "east": 14.1463154
+        },
+        {
+          "south": 45.6728669,
+          "west": 10.4522048,
+          "north": 46.5330375,
+          "east": 11.9628023
+        },
+        {
+          "south": 44.713755,
+          "west": 6.6272658,
+          "north": 45.6023219,
+          "east": 8.1518662
+        },
+        {
+          "south": 37.5594659,
+          "west": 12.4242472,
+          "north": 38.1896376,
+          "east": 13.1001376
+        },
+        {
+          "south": 42.3647769,
+          "west": 11.8920337,
+          "north": 42.9431276,
+          "east": 12.8961982
+        },
+        {
+          "south": 45.5808987,
+          "west": 13.5757991,
+          "north": 45.8081828,
+          "east": 13.9186553
+        },
+        {
+          "south": 45.5304763,
+          "west": 11.7430292,
+          "north": 46.0828957,
+          "east": 12.6853155
+        },
+        {
+          "south": 45.6426241,
+          "west": 12.4930436,
+          "north": 46.6479539,
+          "east": 13.7172972
+        },
+        {
+          "south": 45.5583143,
+          "west": 8.552246,
+          "north": 46.1223113,
+          "east": 9.0662956
+        },
+        {
+          "south": 45.7669327,
+          "west": 7.8684081,
+          "north": 46.4642954,
+          "east": 8.7289666
+        },
+        {
+          "south": 45.1595211,
+          "west": 7.8613734,
+          "north": 45.9507585,
+          "east": 8.5811897
+        },
+        {
+          "south": 45.0556953,
+          "west": 11.9619782,
+          "north": 45.8546002,
+          "east": 13.1020861
+        },
+        {
+          "south": 45.2551958,
+          "west": 11.1361942,
+          "north": 46.0144637,
+          "east": 11.8362709
+        },
+        {
+          "south": 45.0530672,
+          "west": 10.6231032,
+          "north": 45.8318248,
+          "east": 11.491357
+        },
+        {
+          "south": 39.374733,
+          "west": 8.3792773,
+          "north": 39.7829214,
+          "east": 9.0736886
+        },
+        {
+          "south": 42.1471742,
+          "west": 11.4491695,
+          "north": 42.8387328,
+          "east": 12.5198374
+        },
+        {
+          "south": 38.428875,
+          "west": 15.8263159,
+          "north": 38.8244201,
+          "east": 16.4347613
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/italy-cameras.json",
+        "bytes": 535658,
+        "sha256": "8a7a325b6c54ca0532956a27eea01c435ccd8923e31cbff776744ef0aa6fe73c",
+        "count": 5303
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/italy-passes.json",
+        "bytes": 432269,
+        "sha256": "3a0bbb9577a3d5b65d835b0f862cdcd70dd977764ce4f307bab6f924ff80f52d",
+        "count": 4316
+      }
+    },
+    {
+      "id": "andorra",
+      "rev": "2026-10-28",
+      "countries": [
+        "AD"
+      ],
+      "boxes": [
+        {
+          "south": 42.4176,
+          "west": 1.402368,
+          "north": 42.66717,
+          "east": 1.797481
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/andorra-cameras.json",
+        "bytes": 1072,
+        "sha256": "299c6a99fb693afdfa9038fc913e2a4e9e91ec2de069758fa281c98ce284fa72",
+        "count": 11
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/andorra-passes.json",
+        "bytes": 3617,
+        "sha256": "f4d7a80ad1be124fc9ad9dd3036c67c3273058f9fa250a406de48997c2c129e3",
+        "count": 36
+      }
+    },
+    {
+      "id": "liechtenstein",
+      "rev": "2026-10-28",
+      "countries": [
+        "LI"
+      ],
+      "boxes": [
+        {
+          "south": 47.03774,
+          "west": 9.461078,
+          "north": 47.28128,
+          "east": 9.646217
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/liechtenstein-cameras.json",
+        "bytes": 785,
+        "sha256": "c175ec75fcbe1a39a219504b9f0788688ba79eafd372ec495dadca2b47989d1f",
+        "count": 8
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/liechtenstein-passes.json",
+        "bytes": 294,
+        "sha256": "2a991c272493f921ed2cfb3658a9feddd67f27a2d74c122073a70af6d7001bfd",
+        "count": 3
+      }
+    },
+    {
+      "id": "luxembourg",
+      "rev": "2026-10-28",
+      "countries": [
+        "LU"
+      ],
+      "boxes": [
+        {
+          "south": 49.43553,
+          "west": 5.723033,
+          "north": 50.19496,
+          "east": 6.542249
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/luxembourg-cameras.json",
+        "bytes": 4723,
+        "sha256": "cdd2c52b293d2bb75eab3a783f3b1e50ee7679330395c3cd5fac862190ff20fd",
+        "count": 39
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/luxembourg-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "malta",
+      "rev": "2026-10-28",
+      "countries": [
+        "MT"
+      ],
+      "boxes": [
+        {
+          "south": 35.50985,
+          "west": 13.805377,
+          "north": 36.342958,
+          "east": 14.866099
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/malta-cameras.json",
+        "bytes": 2479,
+        "sha256": "417a730bf1fc208b51bf683d5648076f5cf059c3200973ec1166bb50557277a9",
+        "count": 22
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/malta-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "albania",
+      "rev": "2026-10-28",
+      "countries": [
+        "AL"
+      ],
+      "boxes": [
+        {
+          "south": 41.13525,
+          "west": 18.886483,
+          "north": 42.673125,
+          "east": 21.072851
+        },
+        {
+          "south": 39.617375,
+          "west": 18.886483,
+          "north": 41.15525,
+          "east": 21.072851
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/albania-cameras.json",
+        "bytes": 2218,
+        "sha256": "7ecb881036a3751e208723e2a6761a5a1786cb550e314b6cb285dc76c441e9ac",
+        "count": 22
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/albania-passes.json",
+        "bytes": 2117,
+        "sha256": "cc98483c18f359f09745581526d4192a9482c4b3718e6bd2f6fb62152db17ad4",
+        "count": 23
+      }
+    },
+    {
+      "id": "austria",
+      "rev": "2026-10-28",
+      "countries": [
+        "AT"
+      ],
+      "boxes": [
+        {
+          "south": 48.3504708,
+          "west": 13.335429,
+          "north": 49.03403,
+          "east": 15.2647535
+        },
+        {
+          "south": 48.3504708,
+          "west": 15.2447535,
+          "north": 49.03403,
+          "east": 17.174078
+        },
+        {
+          "south": 47.6869115,
+          "west": 9.51678,
+          "north": 49.03403,
+          "east": 13.355429
+        },
+        {
+          "south": 47.6869115,
+          "west": 13.335429,
+          "north": 48.3704708,
+          "east": 14.3100912
+        },
+        {
+          "south": 47.6869115,
+          "west": 14.2900912,
+          "north": 48.3704708,
+          "east": 15.2647535
+        },
+        {
+          "south": 47.6869115,
+          "west": 15.2447535,
+          "north": 48.3704708,
+          "east": 17.174078
+        },
+        {
+          "south": 47.0233523,
+          "west": 13.335429,
+          "north": 47.7069115,
+          "east": 15.2647535
+        },
+        {
+          "south": 47.0233523,
+          "west": 15.2447535,
+          "north": 47.7069115,
+          "east": 17.174078
+        },
+        {
+          "south": 46.359793,
+          "west": 9.51678,
+          "north": 47.7069115,
+          "east": 11.4461045
+        },
+        {
+          "south": 46.359793,
+          "west": 11.4261045,
+          "north": 47.7069115,
+          "east": 13.355429
+        },
+        {
+          "south": 46.359793,
+          "west": 13.335429,
+          "north": 47.0433522,
+          "east": 15.2647535
+        },
+        {
+          "south": 46.359793,
+          "west": 15.2447535,
+          "north": 47.0433522,
+          "east": 17.174078
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/austria-cameras.json",
+        "bytes": 147458,
+        "sha256": "3459a54f686985fb03ce4b0d771dee7f18e8590646019471ee1307a7564892ba",
+        "count": 1441
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/austria-passes.json",
+        "bytes": 109177,
+        "sha256": "7da1ded30999cdfd05645866f931f8758685b3a8f9d00809b8958c2ab198504f",
+        "count": 1123
+      }
+    },
+    {
+      "id": "belarus",
+      "rev": "2026-10-28",
+      "countries": [
+        "BY"
+      ],
+      "boxes": [
+        {
+          "south": 53.694127,
+          "west": 23.164801,
+          "north": 56.183846,
+          "east": 27.9821355
+        },
+        {
+          "south": 53.694127,
+          "west": 27.9621355,
+          "north": 56.183846,
+          "east": 32.77947
+        },
+        {
+          "south": 51.224408,
+          "west": 23.164801,
+          "north": 53.714127,
+          "east": 27.9821355
+        },
+        {
+          "south": 51.224408,
+          "west": 27.9621355,
+          "north": 53.714127,
+          "east": 32.77947
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belarus-cameras.json",
+        "bytes": 63811,
+        "sha256": "e69223eb501d1ac2ef6f08469f9fb6997a176d93533939ff88c6242d19c8004f",
+        "count": 576
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belarus-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "belgium",
+      "rev": "2026-10-28",
+      "countries": [
+        "BE"
+      ],
+      "boxes": [
+        {
+          "south": 51.0625153,
+          "west": 3.34811,
+          "north": 51.60839,
+          "east": 4.385495
+        },
+        {
+          "south": 51.0625153,
+          "west": 4.365495,
+          "north": 51.60839,
+          "east": 5.40288
+        },
+        {
+          "south": 50.5366405,
+          "west": 2.330725,
+          "north": 51.60839,
+          "east": 3.36811
+        },
+        {
+          "south": 50.5366405,
+          "west": 5.38288,
+          "north": 51.60839,
+          "east": 6.420265
+        },
+        {
+          "south": 50.5366405,
+          "west": 3.34811,
+          "north": 51.0825153,
+          "east": 4.385495
+        },
+        {
+          "south": 50.5366405,
+          "west": 4.365495,
+          "north": 51.0825153,
+          "east": 5.40288
+        },
+        {
+          "south": 49.484891,
+          "west": 2.330725,
+          "north": 50.5566405,
+          "east": 4.385495
+        },
+        {
+          "south": 49.484891,
+          "west": 4.365495,
+          "north": 50.5566405,
+          "east": 6.420265
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belgium-cameras.json",
+        "bytes": 165941,
+        "sha256": "6f5e887f1730395bcf5fb84175cc863673204437853663caf3e2af7ede3aeb76",
+        "count": 1628
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belgium-passes.json",
+        "bytes": 5415,
+        "sha256": "f8dd410ae33d1d3650cc5be0527d2d33e2974099caed681e11e04dea1dc1b4aa",
+        "count": 54
+      }
+    },
+    {
+      "id": "bosnia-herzegovina",
+      "rev": "2026-10-28",
+      "countries": [
+        "BA"
+      ],
+      "boxes": [
+        {
+          "south": 43.905206,
+          "west": 15.705599,
+          "north": 45.288027,
+          "east": 16.7032963
+        },
+        {
+          "south": 43.905206,
+          "west": 16.6832962,
+          "north": 45.288027,
+          "east": 17.6809935
+        },
+        {
+          "south": 43.905206,
+          "west": 17.6609935,
+          "north": 45.288027,
+          "east": 18.6586908
+        },
+        {
+          "south": 43.905206,
+          "west": 18.6386907,
+          "north": 45.288027,
+          "east": 19.636388
+        },
+        {
+          "south": 42.542385,
+          "west": 15.705599,
+          "north": 43.925206,
+          "east": 17.6809935
+        },
+        {
+          "south": 42.542385,
+          "west": 17.6609935,
+          "north": 43.925206,
+          "east": 19.636388
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/bosnia-herzegovina-cameras.json",
+        "bytes": 25815,
+        "sha256": "f591e85b5e6f8522d279dc399be4e5de58ba7f445670878abb34b1d98cc262e8",
+        "count": 249
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/bosnia-herzegovina-passes.json",
+        "bytes": 2126,
+        "sha256": "6565e62e7ed203b249b34d8c56ad8cace6e5614438cea39daa313b0a5ae2f960",
+        "count": 24
+      }
+    },
+    {
+      "id": "bulgaria",
+      "rev": "2026-10-28",
+      "countries": [
+        "BG"
+      ],
+      "boxes": [
+        {
+          "south": 42.71229,
+          "west": 22.33875,
+          "north": 44.22777,
+          "east": 25.77847
+        },
+        {
+          "south": 41.21681,
+          "west": 25.75847,
+          "north": 44.22777,
+          "east": 29.19819
+        },
+        {
+          "south": 41.21681,
+          "west": 22.33875,
+          "north": 42.73229,
+          "east": 24.06861
+        },
+        {
+          "south": 41.21681,
+          "west": 24.04861,
+          "north": 42.73229,
+          "east": 25.77847
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/bulgaria-cameras.json",
+        "bytes": 8031,
+        "sha256": "01de5de9b4fc55fcc3bf8a95cc92e3d7e4f67951bc75a872fcfbb88fc81bec69",
+        "count": 77
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/bulgaria-passes.json",
+        "bytes": 3997,
+        "sha256": "9537ce815223e9f5ff8f19cefeed600262c128fc13e999032004cd8f0a63b500",
+        "count": 37
+      }
+    },
+    {
+      "id": "croatia",
+      "rev": "2026-10-28",
+      "countries": [
+        "HR"
+      ],
+      "boxes": [
+        {
+          "south": 45.449379,
+          "west": 14.671862,
+          "north": 46.567562,
+          "east": 16.284564
+        },
+        {
+          "south": 44.351196,
+          "west": 13.07916,
+          "north": 46.567562,
+          "east": 14.691862
+        },
+        {
+          "south": 44.351196,
+          "west": 14.671862,
+          "north": 45.469379,
+          "east": 16.284564
+        },
+        {
+          "south": 42.15483,
+          "west": 16.264564,
+          "north": 46.567562,
+          "east": 19.469968
+        },
+        {
+          "south": 42.15483,
+          "west": 13.07916,
+          "north": 44.371196,
+          "east": 16.284564
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/croatia-cameras.json",
+        "bytes": 115427,
+        "sha256": "db3b9c0334075cc689cb5c4aaff8cd0cd0d3421f3d42837719f7d2d4a8a4b364",
+        "count": 1041
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/croatia-passes.json",
+        "bytes": 4123,
+        "sha256": "60441ad43cfff382e207b88d757a06e582076fd4adbcc93a473310c555323478",
+        "count": 45
+      }
+    },
+    {
+      "id": "cyprus",
+      "rev": "2026-10-28",
+      "countries": [
+        "CY"
+      ],
+      "boxes": [
+        {
+          "south": 34.2237399,
+          "west": 31.94244,
+          "north": 36.01323,
+          "east": 34.97147
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/cyprus-cameras.json",
+        "bytes": 25773,
+        "sha256": "dfad9a6138231a452aa8d48096d1dee19031370a4de83e3faeac85c2724f3c7b",
+        "count": 235
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/cyprus-passes.json",
+        "bytes": 224,
+        "sha256": "bd5bb7107cd25c521e0e4f96e395670bed1723fe70fda353d2eb0adf021982ee",
+        "count": 2
+      }
+    },
+    {
+      "id": "czech-republic",
+      "rev": "2026-10-28",
+      "countries": [
+        "CZ"
+      ],
+      "boxes": [
+        {
+          "south": 50.423925,
+          "west": 13.76938,
+          "north": 51.07426,
+          "east": 15.48399
+        },
+        {
+          "south": 49.79359,
+          "west": 12.07477,
+          "north": 51.07426,
+          "east": 13.78938
+        },
+        {
+          "south": 49.79359,
+          "west": 15.46399,
+          "north": 51.07426,
+          "east": 18.87321
+        },
+        {
+          "south": 49.79359,
+          "west": 13.76938,
+          "north": 50.443925,
+          "east": 15.48399
+        },
+        {
+          "south": 48.53292,
+          "west": 12.07477,
+          "north": 49.81359,
+          "east": 13.78938
+        },
+        {
+          "south": 48.53292,
+          "west": 13.76938,
+          "north": 49.81359,
+          "east": 15.48399
+        },
+        {
+          "south": 48.53292,
+          "west": 15.46399,
+          "north": 49.81359,
+          "east": 17.1786
+        },
+        {
+          "south": 48.53292,
+          "west": 17.1586,
+          "north": 49.81359,
+          "east": 18.87321
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/czech-republic-cameras.json",
+        "bytes": 194485,
+        "sha256": "be0407b03b696e487b1aba6230b4d74d60b06ccec97f6c6c4c45839dddf7a385",
+        "count": 1779
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/czech-republic-passes.json",
+        "bytes": 6272,
+        "sha256": "d5c8351d1addd22e4045db00ef0c7e7670aa0d0d80b04a3f07b546eec07d5fd1",
+        "count": 66
+      }
+    },
+    {
+      "id": "denmark",
+      "rev": "2026-10-28",
+      "countries": [
+        "DK"
+      ],
+      "boxes": [
+        {
+          "south": 56.24152,
+          "west": 7.6911,
+          "north": 58.07239,
+          "east": 9.6994475
+        },
+        {
+          "south": 56.24152,
+          "west": 9.6794475,
+          "north": 58.07239,
+          "east": 11.687795
+        },
+        {
+          "south": 54.43065,
+          "west": 11.667795,
+          "north": 58.07239,
+          "east": 15.66449
+        },
+        {
+          "south": 55.336085,
+          "west": 9.6794475,
+          "north": 56.26152,
+          "east": 11.687795
+        },
+        {
+          "south": 54.43065,
+          "west": 7.6911,
+          "north": 56.26152,
+          "east": 9.6994475
+        },
+        {
+          "south": 54.43065,
+          "west": 9.6794475,
+          "north": 55.356085,
+          "east": 11.687795
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/denmark-cameras.json",
+        "bytes": 2801,
+        "sha256": "e8451d5e98845ea792266e29c411d8a54ce592b191cc29e7cef552460a89eca9",
+        "count": 25
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/denmark-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "estonia",
+      "rev": "2026-10-28",
+      "countries": [
+        "EE"
+      ],
+      "boxes": [
+        {
+          "south": 58.737345,
+          "west": 24.52296,
+          "north": 60.00705,
+          "east": 28.22426
+        },
+        {
+          "south": 57.48764,
+          "west": 20.84166,
+          "north": 60.00705,
+          "east": 24.54296
+        },
+        {
+          "south": 57.48764,
+          "west": 24.52296,
+          "north": 58.757345,
+          "east": 28.22426
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/estonia-cameras.json",
+        "bytes": 9323,
+        "sha256": "f75c1916892c1ebcb71291ba6a6e4263793313d7ff120d2ed2ae0e16940bd8a3",
+        "count": 88
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/estonia-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "faroe-islands",
+      "rev": "2026-10-28",
+      "countries": [
+        "FO"
+      ],
+      "boxes": [
+        {
+          "south": 60.856318,
+          "west": -8.700197,
+          "north": 62.915232,
+          "east": -5.505148
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/faroe-islands-cameras.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/faroe-islands-passes.json",
+        "bytes": 2758,
+        "sha256": "27f8fb565b48b9cc43efb6e99e3632b5cfeb5bb85aaae3ef31695051c639a6b7",
+        "count": 32
+      }
+    },
+    {
+      "id": "finland",
+      "rev": "2026-10-28",
+      "countries": [
+        "FI"
+      ],
+      "boxes": [
+        {
+          "south": 64.68371,
+          "west": 19.01427,
+          "north": 70.10959,
+          "east": 31.625904
+        },
+        {
+          "south": 63.33224,
+          "west": 25.310087,
+          "north": 64.70371,
+          "east": 28.4779955
+        },
+        {
+          "south": 61.98077,
+          "west": 19.01427,
+          "north": 64.70371,
+          "east": 22.1821785
+        },
+        {
+          "south": 61.98077,
+          "west": 22.1621785,
+          "north": 64.70371,
+          "east": 25.330087
+        },
+        {
+          "south": 61.98077,
+          "west": 28.4579955,
+          "north": 64.70371,
+          "east": 31.625904
+        },
+        {
+          "south": 61.98077,
+          "west": 25.310087,
+          "north": 63.35224,
+          "east": 28.4779955
+        },
+        {
+          "south": 60.6293,
+          "west": 22.1621785,
+          "north": 62.00077,
+          "east": 23.7561328
+        },
+        {
+          "south": 60.6293,
+          "west": 23.7361327,
+          "north": 62.00077,
+          "east": 25.330087
+        },
+        {
+          "south": 60.6293,
+          "west": 25.310087,
+          "north": 62.00077,
+          "east": 26.9040413
+        },
+        {
+          "south": 60.6293,
+          "west": 26.8840412,
+          "north": 62.00077,
+          "east": 28.4779955
+        },
+        {
+          "south": 59.27783,
+          "west": 19.01427,
+          "north": 62.00077,
+          "east": 22.1821785
+        },
+        {
+          "south": 59.27783,
+          "west": 28.4579955,
+          "north": 62.00077,
+          "east": 31.625904
+        },
+        {
+          "south": 59.27783,
+          "west": 22.1621785,
+          "north": 60.6493,
+          "east": 23.7561328
+        },
+        {
+          "south": 59.27783,
+          "west": 23.7361327,
+          "north": 60.6493,
+          "east": 25.330087
+        },
+        {
+          "south": 59.27783,
+          "west": 25.310087,
+          "north": 60.6493,
+          "east": 28.4779955
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/finland-cameras.json",
+        "bytes": 97018,
+        "sha256": "d9eb09410f8dab407ff814b4f51c7840f8738df247a2e21f716698e2fabd794c",
+        "count": 931
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/finland-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "france",
+      "rev": "2026-10-28",
+      "countries": [
+        "FR"
+      ],
+      "boxes": [
+        {
+          "south": 50.7819174,
+          "west": 1.529792,
+          "north": 51.438801,
+          "east": 2.6094169
+        },
+        {
+          "south": 50.7819174,
+          "west": 2.5894169,
+          "north": 51.438801,
+          "east": 3.6690417
+        },
+        {
+          "south": 50.1450339,
+          "west": 1.529792,
+          "north": 50.8019174,
+          "east": 2.6094169
+        },
+        {
+          "south": 50.1450339,
+          "west": 2.5894169,
+          "north": 50.8019174,
+          "east": 3.1392293
+        },
+        {
+          "south": 50.1450339,
+          "west": 3.1192293,
+          "north": 50.8019174,
+          "east": 3.6690417
+        },
+        {
+          "south": 48.8712667,
+          "west": -2.7087075,
+          "north": 51.438801,
+          "east": -0.5694578
+        },
+        {
+          "south": 48.8712667,
+          "west": 3.6490418,
+          "north": 51.438801,
+          "east": 5.7882915
+        },
+        {
+          "south": 48.8712667,
+          "west": 5.7682915,
+          "north": 51.438801,
+          "east": 10.026791
+        },
+        {
+          "south": 49.5081503,
+          "west": 1.529792,
+          "north": 50.1650339,
+          "east": 2.6094169
+        },
+        {
+          "south": 48.8712667,
+          "west": -0.5894578,
+          "north": 50.1650339,
+          "east": 0.4901671
+        },
+        {
+          "south": 48.8712667,
+          "west": 0.4701671,
+          "north": 50.1650339,
+          "east": 1.549792
+        },
+        {
+          "south": 48.8712667,
+          "west": 2.5894169,
+          "north": 50.1650339,
+          "east": 3.6690417
+        },
+        {
+          "south": 48.8712667,
+          "west": 1.529792,
+          "north": 49.5281503,
+          "east": 2.0796044
+        },
+        {
+          "south": 48.8712667,
+          "west": 2.0596044,
+          "north": 49.5281503,
+          "east": 2.6094169
+        },
+        {
+          "south": 48.2343832,
+          "west": -3.7683324,
+          "north": 48.8912667,
+          "east": -2.6887075
+        },
+        {
+          "south": 48.2343832,
+          "west": -2.7087075,
+          "north": 48.8912667,
+          "east": -1.6290826
+        },
+        {
+          "south": 48.2343832,
+          "west": -1.6490826,
+          "north": 48.8912667,
+          "east": -0.5694578
+        },
+        {
+          "south": 48.2343832,
+          "west": 1.529792,
+          "north": 48.8912667,
+          "east": 2.0796044
+        },
+        {
+          "south": 48.2343832,
+          "west": 2.0596044,
+          "north": 48.8912667,
+          "east": 2.6094169
+        },
+        {
+          "south": 47.5974996,
+          "west": -4.8279572,
+          "north": 48.8912667,
+          "east": -3.7483324
+        },
+        {
+          "south": 47.5974996,
+          "west": -0.5894578,
+          "north": 48.8912667,
+          "east": 0.4901671
+        },
+        {
+          "south": 47.5974996,
+          "west": 0.4701671,
+          "north": 48.8912667,
+          "east": 1.549792
+        },
+        {
+          "south": 47.5974996,
+          "west": 2.5894169,
+          "north": 48.8912667,
+          "east": 3.6690417
+        },
+        {
+          "south": 47.5974996,
+          "west": 3.6490418,
+          "north": 48.8912667,
+          "east": 5.7882915
+        },
+        {
+          "south": 47.5974996,
+          "west": 5.7682915,
+          "north": 48.8912667,
+          "east": 6.8479164
+        },
+        {
+          "south": 47.5974996,
+          "west": 6.8279164,
+          "north": 48.8912667,
+          "east": 7.9075412
+        },
+        {
+          "south": 47.5974996,
+          "west": -3.7683324,
+          "north": 48.2543832,
+          "east": -2.6887075
+        },
+        {
+          "south": 47.5974996,
+          "west": -2.7087075,
+          "north": 48.2543832,
+          "east": -1.6290826
+        },
+        {
+          "south": 47.5974996,
+          "west": -1.6490826,
+          "north": 48.2543832,
+          "east": -0.5694578
+        },
+        {
+          "south": 47.5974996,
+          "west": 1.529792,
+          "north": 48.2543832,
+          "east": 2.6094169
+        },
+        {
+          "south": 46.3237325,
+          "west": 7.8875412,
+          "north": 48.8912667,
+          "east": 10.026791
+        },
+        {
+          "south": 46.9606161,
+          "west": -1.6490826,
+          "north": 47.6174996,
+          "east": -0.5694578
+        },
+        {
+          "south": 46.9606161,
+          "west": -0.5894578,
+          "north": 47.6174996,
+          "east": 0.4901671
+        },
+        {
+          "south": 46.3237325,
+          "west": -4.8279572,
+          "north": 47.6174996,
+          "east": -2.6887075
+        },
+        {
+          "south": 46.3237325,
+          "west": -2.7087075,
+          "north": 47.6174996,
+          "east": -1.6290826
+        },
+        {
+          "south": 46.3237325,
+          "west": 0.4701671,
+          "north": 47.6174996,
+          "east": 1.549792
+        },
+        {
+          "south": 46.3237325,
+          "west": 1.529792,
+          "north": 47.6174996,
+          "east": 2.6094169
+        },
+        {
+          "south": 46.3237325,
+          "west": 2.5894169,
+          "north": 47.6174996,
+          "east": 3.6690417
+        },
+        {
+          "south": 46.3237325,
+          "west": 3.6490418,
+          "north": 47.6174996,
+          "east": 4.7286666
+        },
+        {
+          "south": 46.3237325,
+          "west": 4.7086666,
+          "north": 47.6174996,
+          "east": 5.7882915
+        },
+        {
+          "south": 46.3237325,
+          "west": 5.7682915,
+          "north": 47.6174996,
+          "east": 7.9075412
+        },
+        {
+          "south": 46.3237325,
+          "west": -1.6490826,
+          "north": 46.9806161,
+          "east": -0.5694578
+        },
+        {
+          "south": 46.3237325,
+          "west": -0.5894578,
+          "north": 46.9806161,
+          "east": 0.4901671
+        },
+        {
+          "south": 45.6868489,
+          "west": -0.5894578,
+          "north": 46.3437325,
+          "east": 0.4901671
+        },
+        {
+          "south": 45.6868489,
+          "west": 2.5894169,
+          "north": 46.3437325,
+          "east": 3.6690417
+        },
+        {
+          "south": 45.6868489,
+          "west": 3.6490418,
+          "north": 46.3437325,
+          "east": 4.7286666
+        },
+        {
+          "south": 45.6868489,
+          "west": 4.7086666,
+          "north": 46.3437325,
+          "east": 5.7882915
+        },
+        {
+          "south": 45.6868489,
+          "west": 5.7682915,
+          "north": 46.3437325,
+          "east": 6.3181039
+        },
+        {
+          "south": 45.6868489,
+          "west": 6.2981039,
+          "north": 46.3437325,
+          "east": 6.8479164
+        },
+        {
+          "south": 45.0499654,
+          "west": -2.7087075,
+          "north": 46.3437325,
+          "east": -0.5694578
+        },
+        {
+          "south": 45.0499654,
+          "west": 0.4701671,
+          "north": 46.3437325,
+          "east": 1.549792
+        },
+        {
+          "south": 45.0499654,
+          "west": 1.529792,
+          "north": 46.3437325,
+          "east": 2.6094169
+        },
+        {
+          "south": 45.0499654,
+          "west": 6.8279164,
+          "north": 46.3437325,
+          "east": 7.9075412
+        },
+        {
+          "south": 45.0499654,
+          "west": -0.5894578,
+          "north": 45.7068489,
+          "east": 0.4901671
+        },
+        {
+          "south": 45.0499654,
+          "west": 2.5894169,
+          "north": 45.7068489,
+          "east": 3.6690417
+        },
+        {
+          "south": 45.0499654,
+          "west": 3.6490418,
+          "north": 45.7068489,
+          "east": 4.7286666
+        },
+        {
+          "south": 45.0499654,
+          "west": 4.7086666,
+          "north": 45.7068489,
+          "east": 5.2584791
+        },
+        {
+          "south": 45.0499654,
+          "west": 5.2384791,
+          "north": 45.7068489,
+          "east": 5.7882915
+        },
+        {
+          "south": 45.0499654,
+          "west": 5.7682915,
+          "north": 45.7068489,
+          "east": 6.8479164
+        },
+        {
+          "south": 44.4130818,
+          "west": -0.5894578,
+          "north": 45.0699654,
+          "east": 0.4901671
+        },
+        {
+          "south": 44.4130818,
+          "west": 0.4701671,
+          "north": 45.0699654,
+          "east": 1.549792
+        },
+        {
+          "south": 44.4130818,
+          "west": 1.529792,
+          "north": 45.0699654,
+          "east": 2.6094169
+        },
+        {
+          "south": 44.4130818,
+          "west": 3.6490418,
+          "north": 45.0699654,
+          "east": 4.7286666
+        },
+        {
+          "south": 44.4130818,
+          "west": 4.7086666,
+          "north": 45.0699654,
+          "east": 5.7882915
+        },
+        {
+          "south": 43.7761983,
+          "west": -2.7087075,
+          "north": 45.0699654,
+          "east": -0.5694578
+        },
+        {
+          "south": 43.7761983,
+          "west": 2.5894169,
+          "north": 45.0699654,
+          "east": 3.6690417
+        },
+        {
+          "south": 43.7761983,
+          "west": 5.7682915,
+          "north": 45.0699654,
+          "east": 7.9075412
+        },
+        {
+          "south": 43.7761983,
+          "west": -0.5894578,
+          "north": 44.4330818,
+          "east": 0.4901671
+        },
+        {
+          "south": 43.7761983,
+          "west": 0.4701671,
+          "north": 44.4330818,
+          "east": 1.549792
+        },
+        {
+          "south": 43.7761983,
+          "west": 1.529792,
+          "north": 44.4330818,
+          "east": 2.6094169
+        },
+        {
+          "south": 43.7761983,
+          "west": 3.6490418,
+          "north": 44.4330818,
+          "east": 4.7286666
+        },
+        {
+          "south": 43.7761983,
+          "west": 4.7086666,
+          "north": 44.4330818,
+          "east": 5.7882915
+        },
+        {
+          "south": 43.1393147,
+          "west": 0.4701671,
+          "north": 43.7961982,
+          "east": 1.549792
+        },
+        {
+          "south": 42.5024311,
+          "west": -0.5894578,
+          "north": 43.7961982,
+          "east": 0.4901671
+        },
+        {
+          "south": 42.5024311,
+          "west": 1.529792,
+          "north": 43.7961982,
+          "east": 2.6094169
+        },
+        {
+          "south": 42.5024311,
+          "west": 2.5894169,
+          "north": 43.7961982,
+          "east": 3.6690417
+        },
+        {
+          "south": 42.5024311,
+          "west": 3.6490418,
+          "north": 43.7961982,
+          "east": 4.7286666
+        },
+        {
+          "south": 42.5024311,
+          "west": 4.7086666,
+          "north": 43.7961982,
+          "east": 5.7882915
+        },
+        {
+          "south": 42.5024311,
+          "west": 5.7682915,
+          "north": 43.7961982,
+          "east": 6.8479164
+        },
+        {
+          "south": 42.5024311,
+          "west": 6.8279164,
+          "north": 43.7961982,
+          "east": 7.9075412
+        },
+        {
+          "south": 42.5024311,
+          "west": 0.4701671,
+          "north": 43.1593147,
+          "east": 1.549792
+        },
+        {
+          "south": 41.228664,
+          "west": -2.7087075,
+          "north": 43.7961982,
+          "east": -0.5694578
+        },
+        {
+          "south": 41.228664,
+          "west": 7.8875412,
+          "north": 43.7961982,
+          "east": 10.026791
+        },
+        {
+          "south": 41.228664,
+          "west": 1.529792,
+          "north": 42.5224311,
+          "east": 3.6690417
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/france-cameras.json",
+        "bytes": 408090,
+        "sha256": "48cbe2ff38728d08261045147a427997b7376864e280727a7f23791e15fd449d",
+        "count": 3930
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/france-passes.json",
+        "bytes": 387866,
+        "sha256": "6fd99107714d217719f6c3b28a674b56d359c3034601705914812eaac13457e9",
+        "count": 3991
+      }
+    },
+    {
+      "id": "germany",
+      "rev": "2026-10-28",
+      "countries": [
+        "DE"
+      ],
+      "boxes": [
+        {
+          "south": 54.1524775,
+          "west": 8.1510077,
+          "north": 55.15777,
+          "east": 10.4675985
+        },
+        {
+          "south": 53.167185,
+          "west": 5.854417,
+          "north": 55.15777,
+          "east": 8.1710077
+        },
+        {
+          "south": 53.167185,
+          "west": 10.4475985,
+          "north": 55.15777,
+          "east": 12.7641892
+        },
+        {
+          "south": 53.167185,
+          "west": 12.7441892,
+          "north": 55.15777,
+          "east": 15.06078
+        },
+        {
+          "south": 53.6598313,
+          "west": 9.2993031,
+          "north": 54.1724775,
+          "east": 10.4675985
+        },
+        {
+          "south": 53.167185,
+          "west": 8.1510077,
+          "north": 54.1724775,
+          "east": 9.3193031
+        },
+        {
+          "south": 53.167185,
+          "west": 9.2993031,
+          "north": 53.6798312,
+          "east": 10.4675985
+        },
+        {
+          "south": 52.6745388,
+          "west": 12.7441892,
+          "north": 53.187185,
+          "east": 13.9124846
+        },
+        {
+          "south": 52.1818925,
+          "west": 5.854417,
+          "north": 53.187185,
+          "east": 8.1710077
+        },
+        {
+          "south": 52.1818925,
+          "west": 8.1510077,
+          "north": 53.187185,
+          "east": 9.3193031
+        },
+        {
+          "south": 52.1818925,
+          "west": 9.2993031,
+          "north": 53.187185,
+          "east": 10.4675985
+        },
+        {
+          "south": 52.1818925,
+          "west": 10.4475985,
+          "north": 53.187185,
+          "east": 12.7641892
+        },
+        {
+          "south": 52.1818925,
+          "west": 13.8924846,
+          "north": 53.187185,
+          "east": 15.06078
+        },
+        {
+          "south": 52.1818925,
+          "west": 12.7441892,
+          "north": 52.6945387,
+          "east": 13.9124846
+        },
+        {
+          "south": 51.6892463,
+          "west": 5.854417,
+          "north": 52.2018925,
+          "east": 7.0227124
+        },
+        {
+          "south": 51.6892463,
+          "west": 7.0027124,
+          "north": 52.2018925,
+          "east": 8.1710077
+        },
+        {
+          "south": 51.6892463,
+          "west": 8.1510077,
+          "north": 52.2018925,
+          "east": 9.3193031
+        },
+        {
+          "south": 51.1966,
+          "west": 9.2993031,
+          "north": 52.2018925,
+          "east": 10.4675985
+        },
+        {
+          "south": 51.1966,
+          "west": 10.4475985,
+          "north": 52.2018925,
+          "east": 11.6158939
+        },
+        {
+          "south": 51.1966,
+          "west": 11.5958939,
+          "north": 52.2018925,
+          "east": 12.7641892
+        },
+        {
+          "south": 51.1966,
+          "west": 12.7441892,
+          "north": 52.2018925,
+          "east": 15.06078
+        },
+        {
+          "south": 51.1966,
+          "west": 5.854417,
+          "north": 51.7092462,
+          "east": 7.0227124
+        },
+        {
+          "south": 51.1966,
+          "west": 7.0027124,
+          "north": 51.7092462,
+          "east": 7.5968601
+        },
+        {
+          "south": 51.1966,
+          "west": 7.5768601,
+          "north": 51.7092462,
+          "east": 8.1710077
+        },
+        {
+          "south": 51.1966,
+          "west": 8.1510077,
+          "north": 51.7092462,
+          "east": 9.3193031
+        },
+        {
+          "south": 50.7039538,
+          "west": 5.854417,
+          "north": 51.2166,
+          "east": 7.0227124
+        },
+        {
+          "south": 50.7039538,
+          "west": 7.0027124,
+          "north": 51.2166,
+          "east": 8.1710077
+        },
+        {
+          "south": 50.2113075,
+          "west": 8.1510077,
+          "north": 51.2166,
+          "east": 9.3193031
+        },
+        {
+          "south": 50.2113075,
+          "west": 9.2993031,
+          "north": 51.2166,
+          "east": 10.4675985
+        },
+        {
+          "south": 50.2113075,
+          "west": 10.4475985,
+          "north": 51.2166,
+          "east": 11.6158939
+        },
+        {
+          "south": 50.2113075,
+          "west": 11.5958939,
+          "north": 51.2166,
+          "east": 12.7641892
+        },
+        {
+          "south": 50.2113075,
+          "west": 12.7441892,
+          "north": 51.2166,
+          "east": 13.9124846
+        },
+        {
+          "south": 50.2113075,
+          "west": 13.8924846,
+          "north": 51.2166,
+          "east": 15.06078
+        },
+        {
+          "south": 50.2113075,
+          "west": 5.854417,
+          "north": 50.7239537,
+          "east": 7.0227124
+        },
+        {
+          "south": 50.2113075,
+          "west": 7.0027124,
+          "north": 50.7239537,
+          "east": 8.1710077
+        },
+        {
+          "south": 49.7186613,
+          "west": 8.1510077,
+          "north": 50.2313075,
+          "east": 9.3193031
+        },
+        {
+          "south": 49.226015,
+          "west": 5.854417,
+          "north": 50.2313075,
+          "east": 7.0227124
+        },
+        {
+          "south": 49.226015,
+          "west": 7.0027124,
+          "north": 50.2313075,
+          "east": 8.1710077
+        },
+        {
+          "south": 49.226015,
+          "west": 9.2993031,
+          "north": 50.2313075,
+          "east": 10.4675985
+        },
+        {
+          "south": 49.226015,
+          "west": 10.4475985,
+          "north": 50.2313075,
+          "east": 11.6158939
+        },
+        {
+          "south": 49.226015,
+          "west": 11.5958939,
+          "north": 50.2313075,
+          "east": 12.7641892
+        },
+        {
+          "south": 49.226015,
+          "west": 12.7441892,
+          "north": 50.2313075,
+          "east": 15.06078
+        },
+        {
+          "south": 49.226015,
+          "west": 8.1510077,
+          "north": 49.7386612,
+          "east": 9.3193031
+        },
+        {
+          "south": 48.7333688,
+          "west": 8.1510077,
+          "north": 49.246015,
+          "east": 9.3193031
+        },
+        {
+          "south": 48.7333688,
+          "west": 9.2993031,
+          "north": 49.246015,
+          "east": 10.4675985
+        },
+        {
+          "south": 48.7333688,
+          "west": 11.5958939,
+          "north": 49.246015,
+          "east": 12.7641892
+        },
+        {
+          "south": 48.2407225,
+          "west": 10.4475985,
+          "north": 49.246015,
+          "east": 11.6158939
+        },
+        {
+          "south": 48.2407225,
+          "west": 8.1510077,
+          "north": 48.7533687,
+          "east": 9.3193031
+        },
+        {
+          "south": 48.2407225,
+          "west": 9.2993031,
+          "north": 48.7533687,
+          "east": 10.4675985
+        },
+        {
+          "south": 48.2407225,
+          "west": 11.5958939,
+          "north": 48.7533687,
+          "east": 12.7641892
+        },
+        {
+          "south": 47.25543,
+          "west": 5.854417,
+          "north": 49.246015,
+          "east": 8.1710077
+        },
+        {
+          "south": 47.25543,
+          "west": 12.7441892,
+          "north": 49.246015,
+          "east": 15.06078
+        },
+        {
+          "south": 47.25543,
+          "west": 8.1510077,
+          "north": 48.2607225,
+          "east": 9.3193031
+        },
+        {
+          "south": 47.25543,
+          "west": 9.2993031,
+          "north": 48.2607225,
+          "east": 10.4675985
+        },
+        {
+          "south": 47.25543,
+          "west": 10.4475985,
+          "north": 48.2607225,
+          "east": 11.6158939
+        },
+        {
+          "south": 47.25543,
+          "west": 11.5958939,
+          "north": 48.2607225,
+          "east": 12.7641892
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/germany-cameras.json",
+        "bytes": 564104,
+        "sha256": "5f0bdd5b9cf7cd850a4aae9c915250876b079be57d4325789306821a5fd5c545",
+        "count": 5206
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/germany-passes.json",
+        "bytes": 30712,
+        "sha256": "051a83bcb1cb71fa4d878639b0cd80a4a254138fc149bc2b3c90936e8c73721a",
+        "count": 323
+      }
+    },
+    {
+      "id": "great-britain",
+      "rev": "2026-10-28",
+      "countries": [
+        "GB"
+      ],
+      "boxes": [
+        {
+          "south": 58.8171858,
+          "west": -6.4215525,
+          "north": 61.93858,
+          "east": 2.523672
+        },
+        {
+          "south": 55.7157915,
+          "west": -15.346777,
+          "north": 61.93858,
+          "east": -6.4015525
+        },
+        {
+          "south": 57.2664886,
+          "west": -6.4215525,
+          "north": 58.8371857,
+          "east": -1.9389402
+        },
+        {
+          "south": 55.7157915,
+          "west": -1.9589402,
+          "north": 58.8371857,
+          "east": 2.523672
+        },
+        {
+          "south": 56.4911401,
+          "west": -4.1902464,
+          "north": 57.2864886,
+          "east": -1.9389402
+        },
+        {
+          "south": 55.7157915,
+          "west": -6.4215525,
+          "north": 57.2864886,
+          "east": -4.1702464
+        },
+        {
+          "south": 55.7157915,
+          "west": -4.1902464,
+          "north": 56.5111401,
+          "east": -1.9389402
+        },
+        {
+          "south": 54.1650944,
+          "west": -6.4215525,
+          "north": 55.7357915,
+          "east": -4.1702464
+        },
+        {
+          "south": 54.1650944,
+          "west": -4.1902464,
+          "north": 55.7357915,
+          "east": -1.9389402
+        },
+        {
+          "south": 54.1650944,
+          "west": -1.9589402,
+          "north": 55.7357915,
+          "east": 2.523672
+        },
+        {
+          "south": 53.7774201,
+          "west": -3.0745933,
+          "north": 54.1850944,
+          "east": -1.9389402
+        },
+        {
+          "south": 53.7774201,
+          "west": -1.9589402,
+          "north": 54.1850944,
+          "east": -0.8232872
+        },
+        {
+          "south": 53.3897458,
+          "west": -4.1902464,
+          "north": 54.1850944,
+          "east": -3.0545933
+        },
+        {
+          "south": 53.3897458,
+          "west": -0.8432872,
+          "north": 54.1850944,
+          "east": 0.2923659
+        },
+        {
+          "south": 53.3897458,
+          "west": -3.0745933,
+          "north": 53.7974201,
+          "east": -2.4967668
+        },
+        {
+          "south": 53.3897458,
+          "west": -2.5167668,
+          "north": 53.7974201,
+          "east": -1.9389402
+        },
+        {
+          "south": 53.3897458,
+          "west": -1.9589402,
+          "north": 53.7974201,
+          "east": -0.8232872
+        },
+        {
+          "south": 52.6143973,
+          "west": -6.4215525,
+          "north": 54.1850944,
+          "east": -4.1702464
+        },
+        {
+          "south": 52.6143973,
+          "west": 0.2723659,
+          "north": 54.1850944,
+          "east": 2.523672
+        },
+        {
+          "south": 53.0020715,
+          "west": -3.0745933,
+          "north": 53.4097458,
+          "east": -1.9389402
+        },
+        {
+          "south": 53.0020715,
+          "west": -1.9589402,
+          "north": 53.4097458,
+          "east": -0.8232872
+        },
+        {
+          "south": 52.6143973,
+          "west": -4.1902464,
+          "north": 53.4097458,
+          "east": -3.0545933
+        },
+        {
+          "south": 52.6143973,
+          "west": -0.8432872,
+          "north": 53.4097458,
+          "east": 0.2923659
+        },
+        {
+          "south": 52.6143973,
+          "west": -3.0745933,
+          "north": 53.0220715,
+          "east": -1.9389402
+        },
+        {
+          "south": 52.6143973,
+          "west": -1.9589402,
+          "north": 53.0220715,
+          "east": -0.8232872
+        },
+        {
+          "south": 52.226723,
+          "west": -1.9589402,
+          "north": 52.6343972,
+          "east": -0.8232872
+        },
+        {
+          "south": 51.8390487,
+          "west": -4.1902464,
+          "north": 52.6343972,
+          "east": -3.0545933
+        },
+        {
+          "south": 51.8390487,
+          "west": -3.0745933,
+          "north": 52.6343972,
+          "east": -1.9389402
+        },
+        {
+          "south": 51.8390487,
+          "west": -0.8432872,
+          "north": 52.6343972,
+          "east": 0.2923659
+        },
+        {
+          "south": 51.8390487,
+          "west": 0.2723659,
+          "north": 52.6343972,
+          "east": 2.523672
+        },
+        {
+          "south": 51.8390487,
+          "west": -1.9589402,
+          "north": 52.246723,
+          "east": -0.8232872
+        },
+        {
+          "south": 51.0637001,
+          "west": -6.4215525,
+          "north": 52.6343972,
+          "east": -4.1702464
+        },
+        {
+          "south": 51.4513744,
+          "west": -3.0745933,
+          "north": 51.8590487,
+          "east": -1.9389402
+        },
+        {
+          "south": 51.4513744,
+          "west": -1.9589402,
+          "north": 51.8590487,
+          "east": -0.8232872
+        },
+        {
+          "south": 51.4513744,
+          "west": -0.8432872,
+          "north": 51.8590487,
+          "east": -0.2654607
+        },
+        {
+          "south": 51.4513744,
+          "west": -0.2854607,
+          "north": 51.8590487,
+          "east": 0.2923659
+        },
+        {
+          "south": 51.0637001,
+          "west": -4.1902464,
+          "north": 51.8590487,
+          "east": -3.0545933
+        },
+        {
+          "south": 51.0637001,
+          "west": 0.2723659,
+          "north": 51.8590487,
+          "east": 2.523672
+        },
+        {
+          "south": 51.0637001,
+          "west": -3.0745933,
+          "north": 51.4713744,
+          "east": -1.9389402
+        },
+        {
+          "south": 51.0637001,
+          "west": -1.9589402,
+          "north": 51.4713744,
+          "east": -0.8232872
+        },
+        {
+          "south": 51.0637001,
+          "west": -0.8432872,
+          "north": 51.4713744,
+          "east": -0.2654607
+        },
+        {
+          "south": 51.0637001,
+          "west": -0.2854607,
+          "north": 51.4713744,
+          "east": 0.2923659
+        },
+        {
+          "south": 50.2883516,
+          "west": -4.1902464,
+          "north": 51.0837001,
+          "east": -3.0545933
+        },
+        {
+          "south": 50.2883516,
+          "west": -3.0745933,
+          "north": 51.0837001,
+          "east": -1.9389402
+        },
+        {
+          "south": 50.2883516,
+          "west": -1.9589402,
+          "north": 51.0837001,
+          "east": -0.8232872
+        },
+        {
+          "south": 50.2883516,
+          "west": -0.8432872,
+          "north": 51.0837001,
+          "east": 0.2923659
+        },
+        {
+          "south": 49.513003,
+          "west": -6.4215525,
+          "north": 51.0837001,
+          "east": -4.1702464
+        },
+        {
+          "south": 49.513003,
+          "west": 0.2723659,
+          "north": 51.0837001,
+          "east": 2.523672
+        },
+        {
+          "south": 49.513003,
+          "west": -4.1902464,
+          "north": 50.3083516,
+          "east": -1.9389402
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/great-britain-cameras.json",
+        "bytes": 366691,
+        "sha256": "3922674a513ffe3a9349b424383f8b8aa8d76a9655649b73ad314a8d86eb7e3e",
+        "count": 3524
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/great-britain-passes.json",
+        "bytes": 8803,
+        "sha256": "b7be93cefc60073d2515ba1e902eb660b34d369a0ec02c8eb9c2cae0cd774775",
+        "count": 94
+      }
+    },
+    {
+      "id": "greece",
+      "rev": "2026-10-28",
+      "countries": [
+        "GR"
+      ],
+      "boxes": [
+        {
+          "south": 39.9499325,
+          "west": 18.960641,
+          "north": 41.75954,
+          "east": 21.6521883
+        },
+        {
+          "south": 39.9499325,
+          "west": 21.6321882,
+          "north": 41.75954,
+          "east": 22.9879619
+        },
+        {
+          "south": 39.9499325,
+          "west": 22.9679619,
+          "north": 41.75954,
+          "east": 24.3237355
+        },
+        {
+          "south": 38.160325,
+          "west": 24.3037355,
+          "north": 41.75954,
+          "east": 29.66683
+        },
+        {
+          "south": 39.0551288,
+          "west": 20.2964146,
+          "north": 39.9699325,
+          "east": 21.6521883
+        },
+        {
+          "south": 39.0551288,
+          "west": 21.6321882,
+          "north": 39.9699325,
+          "east": 22.9879619
+        },
+        {
+          "south": 38.160325,
+          "west": 18.960641,
+          "north": 39.9699325,
+          "east": 20.3164146
+        },
+        {
+          "south": 38.160325,
+          "west": 22.9679619,
+          "north": 39.9699325,
+          "east": 24.3237355
+        },
+        {
+          "south": 38.160325,
+          "west": 20.2964146,
+          "north": 39.0751288,
+          "east": 21.6521883
+        },
+        {
+          "south": 38.160325,
+          "west": 21.6321882,
+          "north": 39.0751288,
+          "east": 22.9879619
+        },
+        {
+          "south": 37.2655213,
+          "west": 21.6321882,
+          "north": 38.180325,
+          "east": 22.3200751
+        },
+        {
+          "south": 37.2655213,
+          "west": 22.3000751,
+          "north": 38.180325,
+          "east": 22.9879619
+        },
+        {
+          "south": 36.3707175,
+          "west": 22.9679619,
+          "north": 38.180325,
+          "east": 24.3237355
+        },
+        {
+          "south": 36.3707175,
+          "west": 24.3037355,
+          "north": 38.180325,
+          "east": 26.9952828
+        },
+        {
+          "south": 36.3707175,
+          "west": 21.6321882,
+          "north": 37.2855213,
+          "east": 22.9879619
+        },
+        {
+          "south": 34.58111,
+          "west": 18.960641,
+          "north": 38.180325,
+          "east": 21.6521883
+        },
+        {
+          "south": 34.58111,
+          "west": 26.9752827,
+          "north": 38.180325,
+          "east": 29.66683
+        },
+        {
+          "south": 34.58111,
+          "west": 21.6321882,
+          "north": 36.3907175,
+          "east": 24.3237355
+        },
+        {
+          "south": 34.58111,
+          "west": 24.3037355,
+          "north": 36.3907175,
+          "east": 26.9952828
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/greece-cameras.json",
+        "bytes": 38935,
+        "sha256": "dcc2a4f06aba3d9533e10a196ca11a533e450b521e916bda9702bf5ded16f6c8",
+        "count": 425
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/greece-passes.json",
+        "bytes": 4303,
+        "sha256": "d6ddf35025afaae06f788994aedbc1b836d479b9cc1d662c0167b2ae16292059",
+        "count": 42
+      }
+    },
+    {
+      "id": "guernsey-jersey",
+      "rev": "2026-10-28",
+      "countries": [
+        "GG"
+      ],
+      "boxes": [
+        {
+          "south": 48.796865,
+          "west": -3.583306,
+          "north": 50.079483,
+          "east": -1.698377
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/guernsey-jersey-cameras.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/guernsey-jersey-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "hungary",
+      "rev": "2026-10-28",
+      "countries": [
+        "HU"
+      ],
+      "boxes": [
+        {
+          "south": 47.1506395,
+          "west": 16.098446,
+          "north": 48.599212,
+          "east": 19.51747
+        },
+        {
+          "south": 45.722067,
+          "west": 19.49747,
+          "north": 48.599212,
+          "east": 22.916494
+        },
+        {
+          "south": 45.722067,
+          "west": 16.098446,
+          "north": 47.1706395,
+          "east": 19.51747
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/hungary-cameras.json",
+        "bytes": 46413,
+        "sha256": "5a7d95d6b191f694265cb2a8b0885b77b1b1cc81e00d58f28d574a0bba5e3abb",
+        "count": 430
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/hungary-passes.json",
+        "bytes": 2293,
+        "sha256": "b25584c686aca37cbcd902b1873c7553c2ab400e3685ee786729be720caa0d6e",
+        "count": 24
+      }
+    },
+    {
+      "id": "iceland",
+      "rev": "2026-10-28",
+      "countries": [
+        "IS"
+      ],
+      "boxes": [
+        {
+          "south": 62.83553,
+          "west": -25.75085,
+          "north": 67.51085,
+          "east": -12.40708
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/iceland-cameras.json",
+        "bytes": 1999,
+        "sha256": "0d39ea733bcb7bc2e967250398798d3cb4f1103bfd8fe7c766aac8868469af53",
+        "count": 19
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/iceland-passes.json",
+        "bytes": 9818,
+        "sha256": "c8d082e173b41ecae6671cd1124621370faeee50c7ccf4eddbaae74477f070f9",
+        "count": 107
+      }
+    },
+    {
+      "id": "isle-of-man",
+      "rev": "2026-10-28",
+      "countries": [
+        "IM"
+      ],
+      "boxes": [
+        {
+          "south": 53.72236,
+          "west": -5.444554,
+          "north": 54.6806,
+          "east": -3.678718
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/isle-of-man-cameras.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/isle-of-man-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "kosovo",
+      "rev": "2026-10-28",
+      "countries": [
+        "XK"
+      ],
+      "boxes": [
+        {
+          "south": 41.844079,
+          "west": 20.00357,
+          "north": 43.287534,
+          "east": 21.80327
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/kosovo-cameras.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/kosovo-passes.json",
+        "bytes": 1029,
+        "sha256": "9ae2f66bc236d349e0c0e5ddfcd44ef26a5593c3329c140b635fab6a3a3099ca",
+        "count": 11
+      }
+    },
+    {
+      "id": "latvia",
+      "rev": "2026-10-28",
+      "countries": [
+        "LV"
+      ],
+      "boxes": [
+        {
+          "south": 56.867895,
+          "west": 23.984245,
+          "north": 58.1047,
+          "east": 28.26501
+        },
+        {
+          "south": 55.65109,
+          "west": 19.72348,
+          "north": 58.1047,
+          "east": 24.004245
+        },
+        {
+          "south": 55.65109,
+          "west": 23.984245,
+          "north": 56.887895,
+          "east": 28.26501
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/latvia-cameras.json",
+        "bytes": 18303,
+        "sha256": "ee70f56afb992090d5a9f669a888fbe551e5c1484b1fd9e3da4f47fa3426b66a",
+        "count": 168
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/latvia-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "lithuania",
+      "rev": "2026-10-28",
+      "countries": [
+        "LT"
+      ],
+      "boxes": [
+        {
+          "south": 55.162748,
+          "west": 23.7186605,
+          "north": 56.46329,
+          "east": 26.84873
+        },
+        {
+          "south": 53.882206,
+          "west": 20.608591,
+          "north": 56.46329,
+          "east": 23.7386605
+        },
+        {
+          "south": 53.882206,
+          "west": 23.7186605,
+          "north": 55.182748,
+          "east": 26.84873
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/lithuania-cameras.json",
+        "bytes": 35623,
+        "sha256": "4d29380e6f39d1d1555c71359e82bc8119453c0b2a4cf7a3d218f0db09a3b6ad",
+        "count": 365
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/lithuania-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "macedonia",
+      "rev": "2026-10-28",
+      "countries": [
+        "MK"
+      ],
+      "boxes": [
+        {
+          "south": 40.83759,
+          "west": 20.43671,
+          "north": 42.38969,
+          "east": 23.05012
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/macedonia-cameras.json",
+        "bytes": 17098,
+        "sha256": "35442d1d08a8d366af4c3eb894378516e4105b4b7e3ae4e22d4e133b985d3d4b",
+        "count": 178
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/macedonia-passes.json",
+        "bytes": 2268,
+        "sha256": "4b7ccbbe77973ffd176489d06cb50963b73994add48459a38aa36a0b4b7700d5",
+        "count": 23
+      }
+    },
+    {
+      "id": "moldova",
+      "rev": "2026-10-28",
+      "countries": [
+        "MD"
+      ],
+      "boxes": [
+        {
+          "south": 46.9678035,
+          "west": 26.60232,
+          "north": 48.503971,
+          "east": 30.202489
+        },
+        {
+          "south": 45.451636,
+          "west": 26.60232,
+          "north": 46.9878035,
+          "east": 30.202489
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/moldova-cameras.json",
+        "bytes": 7543,
+        "sha256": "3db088da4e378a02c23897b7ec7925eae52041922d05d7edc2f9efcfb70fb23a",
+        "count": 81
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/moldova-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "montenegro",
+      "rev": "2026-10-28",
+      "countries": [
+        "ME"
+      ],
+      "boxes": [
+        {
+          "south": 41.60621,
+          "west": 18.16282,
+          "north": 43.572169,
+          "east": 20.368827
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/montenegro-cameras.json",
+        "bytes": 1123,
+        "sha256": "27b3f1439e48da0f5822958ac40e0ab563825f85e1a24e7d24d7e56a52b04e33",
+        "count": 13
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/montenegro-passes.json",
+        "bytes": 2139,
+        "sha256": "a99bbafb9c762c67f60268b2a675d3696b697aceb0a5d67ba1690f2401770029",
+        "count": 23
+      }
+    },
+    {
+      "id": "netherlands",
+      "rev": "2026-10-28",
+      "countries": [
+        "NL"
+      ],
+      "boxes": [
+        {
+          "south": 53.1902775,
+          "west": 5.073275,
+          "north": 54.02786,
+          "east": 7.240455
+        },
+        {
+          "south": 52.372695,
+          "west": 2.926095,
+          "north": 54.02786,
+          "east": 5.093275
+        },
+        {
+          "south": 52.372695,
+          "west": 5.073275,
+          "north": 53.2102775,
+          "east": 6.166865
+        },
+        {
+          "south": 52.372695,
+          "west": 6.146865,
+          "north": 53.2102775,
+          "east": 7.240455
+        },
+        {
+          "south": 51.9639038,
+          "west": 3.999685,
+          "north": 52.392695,
+          "east": 5.093275
+        },
+        {
+          "south": 51.9639038,
+          "west": 5.073275,
+          "north": 52.392695,
+          "east": 6.166865
+        },
+        {
+          "south": 51.5551125,
+          "west": 2.926095,
+          "north": 52.392695,
+          "east": 4.019685
+        },
+        {
+          "south": 51.5551125,
+          "west": 6.146865,
+          "north": 52.392695,
+          "east": 7.240455
+        },
+        {
+          "south": 51.5551125,
+          "west": 3.999685,
+          "north": 51.9839037,
+          "east": 5.093275
+        },
+        {
+          "south": 51.5551125,
+          "west": 5.073275,
+          "north": 51.9839037,
+          "east": 6.166865
+        },
+        {
+          "south": 50.73753,
+          "west": 2.926095,
+          "north": 51.5751125,
+          "east": 5.093275
+        },
+        {
+          "south": 50.73753,
+          "west": 5.073275,
+          "north": 51.5751125,
+          "east": 7.240455
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/netherlands-cameras.json",
+        "bytes": 88623,
+        "sha256": "55d4269f17bed3d947c8b5497cce32782dc66f97cf20fff7fb7b9a47572a882b",
+        "count": 892
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/netherlands-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
+      "id": "norway",
+      "rev": "2026-10-28",
+      "countries": [
+        "NO"
+      ],
+      "boxes": [
+        {
+          "south": 69.29259,
+          "west": -11.37801,
+          "north": 81.06195,
+          "east": 35.53711
+        },
+        {
+          "south": 66.35525,
+          "west": 12.06955,
+          "north": 69.31259,
+          "east": 23.81333
+        },
+        {
+          "south": 63.41791,
+          "west": -11.37801,
+          "north": 69.31259,
+          "east": 12.08955
+        },
+        {
+          "south": 63.41791,
+          "west": 23.79333,
+          "north": 69.31259,
+          "east": 35.53711
+        },
+        {
+          "south": 63.41791,
+          "west": 12.06955,
+          "north": 66.37525,
+          "east": 23.81333
+        },
+        {
+          "south": 61.94924,
+          "west": 6.20766,
+          "north": 63.43791,
+          "east": 9.158605
+        },
+        {
+          "south": 61.94924,
+          "west": 9.138605,
+          "north": 63.43791,
+          "east": 12.08955
+        },
+        {
+          "south": 60.48057,
+          "west": 0.34577,
+          "north": 63.43791,
+          "east": 6.22766
+        },
+        {
+          "south": 61.214905,
+          "west": 9.138605,
+          "north": 61.96924,
+          "east": 12.08955
+        },
+        {
+          "south": 60.48057,
+          "west": 6.20766,
+          "north": 61.96924,
+          "east": 9.158605
+        },
+        {
+          "south": 60.48057,
+          "west": 9.138605,
+          "north": 61.234905,
+          "east": 10.6240775
+        },
+        {
+          "south": 60.48057,
+          "west": 10.6040775,
+          "north": 61.234905,
+          "east": 12.08955
+        },
+        {
+          "south": 57.54323,
+          "west": 12.06955,
+          "north": 63.43791,
+          "east": 35.53711
+        },
+        {
+          "south": 60.1134025,
+          "west": 10.6040775,
+          "north": 60.50057,
+          "east": 12.08955
+        },
+        {
+          "south": 59.746235,
+          "west": 4.7421875,
+          "north": 60.50057,
+          "east": 6.22766
+        },
+        {
+          "south": 59.746235,
+          "west": 9.138605,
+          "north": 60.50057,
+          "east": 10.6240775
+        },
+        {
+          "south": 59.746235,
+          "west": 10.6040775,
+          "north": 60.1334025,
+          "east": 12.08955
+        },
+        {
+          "south": 59.0119,
+          "west": 6.20766,
+          "north": 60.50057,
+          "east": 9.158605
+        },
+        {
+          "south": 59.0119,
+          "west": 4.7421875,
+          "north": 59.766235,
+          "east": 6.22766
+        },
+        {
+          "south": 59.0119,
+          "west": 9.138605,
+          "north": 59.766235,
+          "east": 10.6240775
+        },
+        {
+          "south": 59.0119,
+          "west": 10.6040775,
+          "north": 59.766235,
+          "east": 12.08955
+        },
+        {
+          "south": 57.54323,
+          "west": 3.276715,
+          "north": 59.0319,
+          "east": 6.22766
+        },
+        {
+          "south": 57.54323,
+          "west": 6.20766,
+          "north": 59.0319,
+          "east": 9.158605
+        },
+        {
+          "south": 57.54323,
+          "west": 9.138605,
+          "north": 59.0319,
+          "east": 12.08955
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/norway-cameras.json",
+        "bytes": 37586,
+        "sha256": "be7d7cf9be558113ed81f7e15c5741fa9170ab43ce13d390aaa6aa0f5f01771a",
+        "count": 402
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/norway-passes.json",
+        "bytes": 1905,
+        "sha256": "3dc56840476e7288079d95f5e559515bf5709077f5130d9be741f4c0de1225d9",
+        "count": 21
+      }
+    },
+    {
+      "id": "poland",
+      "rev": "2026-10-28",
+      "countries": [
+        "PL"
+      ],
+      "boxes": [
+        {
+          "south": 53.6577973,
+          "west": 13.980216,
+          "north": 55.238256,
+          "east": 16.5429178
+        },
+        {
+          "south": 53.6577973,
+          "west": 16.5229178,
+          "north": 55.238256,
+          "east": 19.0856195
+        },
+        {
+          "south": 53.6577973,
+          "west": 19.0656195,
+          "north": 55.238256,
+          "east": 24.171023
+        },
+        {
+          "south": 52.8775679,
+          "west": 16.5229178,
+          "north": 53.6777972,
+          "east": 19.0856195
+        },
+        {
+          "south": 52.8775679,
+          "west": 19.0656195,
+          "north": 53.6777972,
+          "east": 21.6283213
+        },
+        {
+          "south": 52.0973385,
+          "west": 13.980216,
+          "north": 53.6777972,
+          "east": 16.5429178
+        },
+        {
+          "south": 52.0973385,
+          "west": 21.6083212,
+          "north": 53.6777972,
+          "east": 24.171023
+        },
+        {
+          "south": 52.0973385,
+          "west": 16.5229178,
+          "north": 52.8975679,
+          "east": 19.0856195
+        },
+        {
+          "south": 52.0973385,
+          "west": 19.0656195,
+          "north": 52.8975679,
+          "east": 20.3569704
+        },
+        {
+          "south": 52.0973385,
+          "west": 20.3369704,
+          "north": 52.8975679,
+          "east": 21.6283213
+        },
+        {
+          "south": 50.5368798,
+          "west": 16.5229178,
+          "north": 52.1173385,
+          "east": 17.8142686
+        },
+        {
+          "south": 50.5368798,
+          "west": 17.7942686,
+          "north": 52.1173385,
+          "east": 19.0856195
+        },
+        {
+          "south": 50.5368798,
+          "west": 19.0656195,
+          "north": 52.1173385,
+          "east": 20.3569704
+        },
+        {
+          "south": 50.5368798,
+          "west": 20.3369704,
+          "north": 52.1173385,
+          "east": 21.6283213
+        },
+        {
+          "south": 50.5368798,
+          "west": 21.6083212,
+          "north": 52.1173385,
+          "east": 22.8996721
+        },
+        {
+          "south": 50.5368798,
+          "west": 22.8796721,
+          "north": 52.1173385,
+          "east": 24.171023
+        },
+        {
+          "south": 48.976421,
+          "west": 13.980216,
+          "north": 52.1173385,
+          "east": 16.5429178
+        },
+        {
+          "south": 49.7566504,
+          "west": 19.0656195,
+          "north": 50.5568798,
+          "east": 19.7212949
+        },
+        {
+          "south": 49.7566504,
+          "west": 19.7012949,
+          "north": 50.5568798,
+          "east": 20.3569704
+        },
+        {
+          "south": 49.7566504,
+          "west": 20.3369704,
+          "north": 50.5568798,
+          "east": 21.6283213
+        },
+        {
+          "south": 49.7566504,
+          "west": 21.6083212,
+          "north": 50.5568798,
+          "east": 22.8996721
+        },
+        {
+          "south": 48.976421,
+          "west": 16.5229178,
+          "north": 50.5568798,
+          "east": 17.8142686
+        },
+        {
+          "south": 48.976421,
+          "west": 17.7942686,
+          "north": 50.5568798,
+          "east": 19.0856195
+        },
+        {
+          "south": 48.976421,
+          "west": 22.8796721,
+          "north": 50.5568798,
+          "east": 24.171023
+        },
+        {
+          "south": 48.976421,
+          "west": 19.0656195,
+          "north": 49.7766504,
+          "east": 20.3569704
+        },
+        {
+          "south": 48.976421,
+          "west": 20.3369704,
+          "north": 49.7766504,
+          "east": 21.6283213
+        },
+        {
+          "south": 48.976421,
+          "west": 21.6083212,
+          "north": 49.7766504,
+          "east": 22.8996721
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/poland-cameras.json",
+        "bytes": 70121,
+        "sha256": "fd6dbba909074f6b596d25fabff3ec2459db9f34e48ad21df480fb4d4afec2dc",
+        "count": 667
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/poland-passes.json",
+        "bytes": 14543,
+        "sha256": "c55eda5f233e7657c0ee81105dacffaad7153e5978ecea36ae36ac69b14f9a54",
+        "count": 143
+      }
+    },
+    {
+      "id": "romania",
+      "rev": "2026-10-28",
+      "countries": [
+        "RO"
+      ],
+      "boxes": [
+        {
+          "south": 47.0952287,
+          "west": 22.7410975,
+          "north": 48.279483,
+          "east": 25.270385
+        },
+        {
+          "south": 47.0952287,
+          "west": 25.250385,
+          "north": 48.279483,
+          "east": 27.7796725
+        },
+        {
+          "south": 45.9309745,
+          "west": 20.23181,
+          "north": 48.279483,
+          "east": 22.7610975
+        },
+        {
+          "south": 45.9309745,
+          "west": 27.7596725,
+          "north": 48.279483,
+          "east": 30.28896
+        },
+        {
+          "south": 45.9309745,
+          "west": 22.7410975,
+          "north": 47.1152287,
+          "east": 25.270385
+        },
+        {
+          "south": 45.9309745,
+          "west": 25.250385,
+          "north": 47.1152287,
+          "east": 27.7796725
+        },
+        {
+          "south": 44.7667202,
+          "west": 22.7410975,
+          "north": 45.9509745,
+          "east": 25.270385
+        },
+        {
+          "south": 44.7667202,
+          "west": 25.250385,
+          "north": 45.9509745,
+          "east": 27.7796725
+        },
+        {
+          "south": 43.602466,
+          "west": 20.23181,
+          "north": 45.9509745,
+          "east": 22.7610975
+        },
+        {
+          "south": 43.602466,
+          "west": 27.7596725,
+          "north": 45.9509745,
+          "east": 30.28896
+        },
+        {
+          "south": 43.602466,
+          "west": 22.7410975,
+          "north": 44.7867202,
+          "east": 25.270385
+        },
+        {
+          "south": 43.602466,
+          "west": 25.250385,
+          "north": 44.7867202,
+          "east": 27.7796725
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/romania-cameras.json",
+        "bytes": 40452,
+        "sha256": "7fae5e0771a82a6e5d1ba85d6086381060e55956d698668a2e918a7eb9f098c3",
+        "count": 355
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/romania-passes.json",
+        "bytes": 8420,
+        "sha256": "289497afaa8bdc2700402f0b7b16d654b185e73df6d897cf4b073436b976bf2a",
+        "count": 89
+      }
+    },
+    {
+      "id": "serbia",
+      "rev": "2026-10-28",
+      "countries": [
+        "RS"
+      ],
+      "boxes": [
+        {
+          "south": 45.1915013,
+          "west": 18.798937,
+          "north": 46.202072,
+          "east": 20.919643
+        },
+        {
+          "south": 44.2009305,
+          "west": 20.899643,
+          "north": 46.202072,
+          "east": 23.020349
+        },
+        {
+          "south": 44.2009305,
+          "west": 18.798937,
+          "north": 45.2115013,
+          "east": 19.86929
+        },
+        {
+          "south": 44.2009305,
+          "west": 19.84929,
+          "north": 45.2115013,
+          "east": 20.919643
+        },
+        {
+          "south": 43.7056451,
+          "west": 19.84929,
+          "north": 44.2209305,
+          "east": 20.919643
+        },
+        {
+          "south": 43.2103598,
+          "west": 18.798937,
+          "north": 44.2209305,
+          "east": 19.86929
+        },
+        {
+          "south": 43.2103598,
+          "west": 20.899643,
+          "north": 44.2209305,
+          "east": 23.020349
+        },
+        {
+          "south": 43.2103598,
+          "west": 19.84929,
+          "north": 43.7256451,
+          "east": 20.919643
+        },
+        {
+          "south": 42.219789,
+          "west": 18.798937,
+          "north": 43.2303597,
+          "east": 20.919643
+        },
+        {
+          "south": 42.219789,
+          "west": 20.899643,
+          "north": 43.2303597,
+          "east": 23.020349
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/serbia-cameras.json",
+        "bytes": 51456,
+        "sha256": "021efe348e29e977c86bfff01c17262b53cb97436e4d793315069319a3bedb7f",
+        "count": 434
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/serbia-passes.json",
+        "bytes": 1615,
+        "sha256": "5579b3ed16eb9876ea8ce071174f863213ce4a5bcfab42a213c886f5fd423bdc",
+        "count": 16
+      }
+    },
+    {
+      "id": "slovakia",
+      "rev": "2026-10-28",
+      "countries": [
+        "SK"
+      ],
+      "boxes": [
+        {
+          "south": 47.71646,
+          "west": 16.820711,
+          "north": 49.6286,
+          "east": 18.2756608
+        },
+        {
+          "south": 47.71646,
+          "west": 18.2556608,
+          "north": 49.6286,
+          "east": 19.7106105
+        },
+        {
+          "south": 47.71646,
+          "west": 19.6906105,
+          "north": 49.6286,
+          "east": 22.58051
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/slovakia-cameras.json",
+        "bytes": 6208,
+        "sha256": "182fa30b1b370b9ba10ebaf2512c07a4999ee04fa7b07376916f684c03f0a6ca",
+        "count": 65
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/slovakia-passes.json",
+        "bytes": 8456,
+        "sha256": "280adfcb9357376f85db237ecde3c4573d28b8e325b25053cfe23ff764e56336",
+        "count": 88
+      }
+    },
+    {
+      "id": "slovenia",
+      "rev": "2026-10-28",
+      "countries": [
+        "SI"
+      ],
+      "boxes": [
+        {
+          "south": 46.14018,
+          "west": 13.295086,
+          "north": 46.889555,
+          "east": 14.962714
+        },
+        {
+          "south": 46.14018,
+          "west": 14.942714,
+          "north": 46.889555,
+          "east": 15.786528
+        },
+        {
+          "south": 46.14018,
+          "west": 15.766528,
+          "north": 46.889555,
+          "east": 16.610342
+        },
+        {
+          "south": 45.410805,
+          "west": 13.295086,
+          "north": 46.16018,
+          "east": 14.962714
+        },
+        {
+          "south": 45.410805,
+          "west": 14.942714,
+          "north": 46.16018,
+          "east": 16.610342
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/slovenia-cameras.json",
+        "bytes": 31567,
+        "sha256": "8af4dcd339578a755d8e8dc17f417eca3012896aebd6057b1dec8098462a7786",
+        "count": 278
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/slovenia-passes.json",
+        "bytes": 11309,
+        "sha256": "9523f57864f5ff59940aeb65b7812e448ab18652be921c7e23cc02ae5cd07def",
+        "count": 117
+      }
+    },
+    {
+      "id": "spain",
+      "rev": "2026-10-28",
+      "countries": [
+        "ES"
+      ],
+      "boxes": [
+        {
+          "south": 43.0142504,
+          "west": -9.789014,
+          "north": 44.15855,
+          "east": -7.9093216
+        },
+        {
+          "south": 43.0142504,
+          "west": -7.9293216,
+          "north": 44.15855,
+          "east": -6.0496293
+        },
+        {
+          "south": 43.0142504,
+          "west": -4.2099369,
+          "north": 44.15855,
+          "east": -3.2600907
+        },
+        {
+          "south": 43.0142504,
+          "west": -3.2800907,
+          "north": 44.15855,
+          "east": -2.3302445
+        },
+        {
+          "south": 41.8899508,
+          "west": -6.0696293,
+          "north": 44.15855,
+          "east": -4.1899369
+        },
+        {
+          "south": 41.8899508,
+          "west": -2.3502445,
+          "north": 44.15855,
+          "east": -0.4705521
+        },
+        {
+          "south": 41.8899508,
+          "west": -0.4905521,
+          "north": 44.15855,
+          "east": 1.3891403
+        },
+        {
+          "south": 41.8899508,
+          "west": 1.3691403,
+          "north": 44.15855,
+          "east": 5.108525
+        },
+        {
+          "south": 42.4521006,
+          "west": -8.8591678,
+          "north": 43.0342504,
+          "east": -7.9093216
+        },
+        {
+          "south": 41.8899508,
+          "west": -9.789014,
+          "north": 43.0342504,
+          "east": -8.8391678
+        },
+        {
+          "south": 41.8899508,
+          "west": -7.9293216,
+          "north": 43.0342504,
+          "east": -6.0496293
+        },
+        {
+          "south": 41.8899508,
+          "west": -4.2099369,
+          "north": 43.0342504,
+          "east": -2.3302445
+        },
+        {
+          "south": 41.8899508,
+          "west": -8.8591678,
+          "north": 42.4721006,
+          "east": -7.9093216
+        },
+        {
+          "south": 40.7656511,
+          "west": -4.2099369,
+          "north": 41.9099508,
+          "east": -2.3302445
+        },
+        {
+          "south": 40.7656511,
+          "west": -0.4905521,
+          "north": 41.9099508,
+          "east": 1.3891403
+        },
+        {
+          "south": 40.7656511,
+          "west": 1.3691403,
+          "north": 41.9099508,
+          "east": 2.3189864
+        },
+        {
+          "south": 40.7656511,
+          "west": 2.2989864,
+          "north": 41.9099508,
+          "east": 3.2488326
+        },
+        {
+          "south": 39.6413515,
+          "west": -9.789014,
+          "north": 41.9099508,
+          "east": -6.0496293
+        },
+        {
+          "south": 39.6413515,
+          "west": -6.0696293,
+          "north": 41.9099508,
+          "east": -4.1899369
+        },
+        {
+          "south": 39.6413515,
+          "west": -2.3502445,
+          "north": 41.9099508,
+          "east": -0.4705521
+        },
+        {
+          "south": 39.6413515,
+          "west": 3.2288326,
+          "north": 41.9099508,
+          "east": 5.108525
+        },
+        {
+          "south": 39.6413515,
+          "west": -4.2099369,
+          "north": 40.7856511,
+          "east": -3.2600907
+        },
+        {
+          "south": 39.6413515,
+          "west": -3.2800907,
+          "north": 40.7856511,
+          "east": -2.3302445
+        },
+        {
+          "south": 39.6413515,
+          "west": -0.4905521,
+          "north": 40.7856511,
+          "east": 1.3891403
+        },
+        {
+          "south": 39.6413515,
+          "west": 1.3691403,
+          "north": 40.7856511,
+          "east": 3.2488326
+        },
+        {
+          "south": 38.5170519,
+          "west": -2.3502445,
+          "north": 39.6613515,
+          "east": -0.4705521
+        },
+        {
+          "south": 37.3927523,
+          "west": -6.0696293,
+          "north": 39.6613515,
+          "east": -4.1899369
+        },
+        {
+          "south": 37.3927523,
+          "west": -4.2099369,
+          "north": 39.6613515,
+          "east": -2.3302445
+        },
+        {
+          "south": 37.3927523,
+          "west": -0.4905521,
+          "north": 39.6613515,
+          "east": 1.3891403
+        },
+        {
+          "south": 37.3927523,
+          "west": -2.3502445,
+          "north": 38.5370519,
+          "east": -1.4003983
+        },
+        {
+          "south": 37.3927523,
+          "west": -1.4203983,
+          "north": 38.5370519,
+          "east": -0.4705521
+        },
+        {
+          "south": 35.144153,
+          "west": -9.789014,
+          "north": 39.6613515,
+          "east": -6.0496293
+        },
+        {
+          "south": 35.144153,
+          "west": 1.3691403,
+          "north": 39.6613515,
+          "east": 5.108525
+        },
+        {
+          "south": 35.144153,
+          "west": -6.0696293,
+          "north": 37.4127523,
+          "east": -4.1899369
+        },
+        {
+          "south": 35.144153,
+          "west": -4.2099369,
+          "north": 37.4127523,
+          "east": -2.3302445
+        },
+        {
+          "south": 35.144153,
+          "west": -2.3502445,
+          "north": 37.4127523,
+          "east": 1.3891403
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/spain-cameras.json",
+        "bytes": 277643,
+        "sha256": "6b5db49e2ca1f8a5e18b0929a251160aef4200fa13cfd26fb0b343ea0b88e030",
+        "count": 2503
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/spain-passes.json",
+        "bytes": 354753,
+        "sha256": "e0a6accb35e6497c7542455d282b2f8d039766cc8209c7cf711e6fff4db632e4",
+        "count": 3649
+      }
+    },
+    {
+      "id": "sweden",
+      "rev": "2026-10-28",
+      "countries": [
+        "SE"
+      ],
+      "boxes": [
+        {
+          "south": 65.5464525,
+          "west": 10.53138,
+          "north": 69.07643,
+          "east": 24.23472
+        },
+        {
+          "south": 62.036475,
+          "west": 10.53138,
+          "north": 65.5664525,
+          "east": 17.39305
+        },
+        {
+          "south": 62.036475,
+          "west": 17.37305,
+          "north": 65.5664525,
+          "east": 24.23472
+        },
+        {
+          "south": 60.2814863,
+          "west": 10.53138,
+          "north": 62.056475,
+          "east": 17.39305
+        },
+        {
+          "south": 60.2814863,
+          "west": 17.37305,
+          "north": 62.056475,
+          "east": 24.23472
+        },
+        {
+          "south": 59.4039919,
+          "west": 10.53138,
+          "north": 60.3014862,
+          "east": 13.972215
+        },
+        {
+          "south": 59.4039919,
+          "west": 13.952215,
+          "north": 60.3014862,
+          "east": 17.39305
+        },
+        {
+          "south": 59.4039919,
+          "west": 17.37305,
+          "north": 60.3014862,
+          "east": 20.813885
+        },
+        {
+          "south": 58.5264975,
+          "west": 10.53138,
+          "north": 59.4239919,
+          "east": 13.972215
+        },
+        {
+          "south": 58.5264975,
+          "west": 13.952215,
+          "north": 59.4239919,
+          "east": 15.6826325
+        },
+        {
+          "south": 58.5264975,
+          "west": 15.6626325,
+          "north": 59.4239919,
+          "east": 17.39305
+        },
+        {
+          "south": 58.5264975,
+          "west": 17.37305,
+          "north": 59.4239919,
+          "east": 20.813885
+        },
+        {
+          "south": 57.6490031,
+          "west": 12.2417975,
+          "north": 58.5464975,
+          "east": 13.972215
+        },
+        {
+          "south": 56.7715088,
+          "west": 10.53138,
+          "north": 58.5464975,
+          "east": 12.2617975
+        },
+        {
+          "south": 56.7715088,
+          "west": 13.952215,
+          "north": 58.5464975,
+          "east": 15.6826325
+        },
+        {
+          "south": 56.7715088,
+          "west": 15.6626325,
+          "north": 58.5464975,
+          "east": 17.39305
+        },
+        {
+          "south": 56.7715088,
+          "west": 12.2417975,
+          "north": 57.6690031,
+          "east": 13.972215
+        },
+        {
+          "south": 55.01652,
+          "west": 17.37305,
+          "north": 58.5464975,
+          "east": 24.23472
+        },
+        {
+          "south": 55.01652,
+          "west": 10.53138,
+          "north": 56.7915087,
+          "east": 13.972215
+        },
+        {
+          "south": 55.01652,
+          "west": 13.952215,
+          "north": 56.7915087,
+          "east": 17.39305
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/sweden-cameras.json",
+        "bytes": 262894,
+        "sha256": "9d755f72649dce9525245e808a03143687d3d56dbb6b56fafcd6454522b25f2c",
+        "count": 2482
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/sweden-passes.json",
+        "bytes": 204,
+        "sha256": "ce10b4905c607b4f8e9a67f5b555d932a62e5083ea2ccb66ecbc45f3d5813dab",
+        "count": 2
+      }
+    },
+    {
+      "id": "switzerland",
+      "rev": "2026-10-28",
+      "countries": [
+        "CH"
+      ],
+      "boxes": [
+        {
+          "south": 47.3025495,
+          "west": 7.0797735,
+          "north": 47.82126,
+          "east": 8.235129
+        },
+        {
+          "south": 47.3025495,
+          "west": 8.215129,
+          "north": 47.82126,
+          "east": 9.3704845
+        },
+        {
+          "south": 46.803839,
+          "west": 5.944418,
+          "north": 47.82126,
+          "east": 7.0997735
+        },
+        {
+          "south": 46.803839,
+          "west": 9.3504845,
+          "north": 47.82126,
+          "east": 10.50584
+        },
+        {
+          "south": 46.803839,
+          "west": 7.0797735,
+          "north": 47.3225495,
+          "east": 8.235129
+        },
+        {
+          "south": 46.803839,
+          "west": 8.215129,
+          "north": 47.3225495,
+          "east": 9.3704845
+        },
+        {
+          "south": 45.806418,
+          "west": 5.944418,
+          "north": 46.823839,
+          "east": 7.0997735
+        },
+        {
+          "south": 45.806418,
+          "west": 7.0797735,
+          "north": 46.823839,
+          "east": 8.235129
+        },
+        {
+          "south": 45.806418,
+          "west": 8.215129,
+          "north": 46.823839,
+          "east": 10.50584
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/switzerland-cameras.json",
+        "bytes": 62700,
+        "sha256": "4fd492bcd8fac01aaaf8e3c5cea7c1dcd6b570ae4bd01590c5f6da24863e2ebf",
+        "count": 611
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/switzerland-passes.json",
+        "bytes": 79333,
+        "sha256": "dd586dfe300a5065780f316f71aaa0a6e80dbd49e44d91b0b12833560002b474",
+        "count": 824
+      }
+    },
+    {
+      "id": "ukraine",
+      "rev": "2026-10-28",
+      "countries": [
+        "UA"
+      ],
+      "boxes": [
+        {
+          "south": 50.2820288,
+          "west": 22.122644,
+          "north": 52.396497,
+          "east": 26.6690113
+        },
+        {
+          "south": 50.2820288,
+          "west": 26.6490112,
+          "north": 52.396497,
+          "east": 31.1953785
+        },
+        {
+          "south": 50.2820288,
+          "west": 31.1753785,
+          "north": 52.396497,
+          "east": 35.7217457
+        },
+        {
+          "south": 48.1875605,
+          "west": 35.7017458,
+          "north": 52.396497,
+          "east": 40.248113
+        },
+        {
+          "south": 49.2347946,
+          "west": 24.3858276,
+          "north": 50.3020287,
+          "east": 26.6690113
+        },
+        {
+          "south": 48.1875605,
+          "west": 22.122644,
+          "north": 50.3020287,
+          "east": 24.4058276
+        },
+        {
+          "south": 48.1875605,
+          "west": 26.6490112,
+          "north": 50.3020287,
+          "east": 28.9321949
+        },
+        {
+          "south": 48.1875605,
+          "west": 28.9121949,
+          "north": 50.3020287,
+          "east": 31.1953785
+        },
+        {
+          "south": 48.1875605,
+          "west": 31.1753785,
+          "north": 50.3020287,
+          "east": 33.4585621
+        },
+        {
+          "south": 48.1875605,
+          "west": 33.4385621,
+          "north": 50.3020287,
+          "east": 35.7217457
+        },
+        {
+          "south": 48.1875605,
+          "west": 24.3858276,
+          "north": 49.2547946,
+          "east": 26.6690113
+        },
+        {
+          "south": 46.0930922,
+          "west": 31.1753785,
+          "north": 48.2075605,
+          "east": 35.7217457
+        },
+        {
+          "south": 43.998624,
+          "west": 22.122644,
+          "north": 48.2075605,
+          "east": 31.1953785
+        },
+        {
+          "south": 43.998624,
+          "west": 35.7017458,
+          "north": 48.2075605,
+          "east": 40.248113
+        },
+        {
+          "south": 43.998624,
+          "west": 31.1753785,
+          "north": 46.1130922,
+          "east": 35.7217457
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/ukraine-cameras.json",
+        "bytes": 78176,
+        "sha256": "d517654d4bd552ad204c311bf6e43cb43395a5e6899969717b4895d685d7b92b",
+        "count": 686
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/ukraine-passes.json",
+        "bytes": 18079,
+        "sha256": "d7c37190b810256bc58d689c79c05cee94e7d2c426edf37fc9a60029567812d6",
+        "count": 176
+      }
+    },
+    {
+      "id": "ireland-and-northern-ireland",
+      "rev": "2026-10-28",
+      "countries": [
+        "GB",
+        "IE"
+      ],
+      "boxes": [
+        {
+          "south": 54.6292775,
+          "west": -10.6937525,
+          "north": 56.87553,
+          "east": -5.049265
+        },
+        {
+          "south": 54.0727144,
+          "west": -7.8815088,
+          "north": 54.6492775,
+          "east": -6.4553869
+        },
+        {
+          "south": 53.5161513,
+          "west": -10.6937525,
+          "north": 54.6492775,
+          "east": -7.8615088
+        },
+        {
+          "south": 53.5161513,
+          "west": -6.4753869,
+          "north": 54.6492775,
+          "east": -5.049265
+        },
+        {
+          "south": 53.5161513,
+          "west": -7.8815088,
+          "north": 54.0927144,
+          "east": -6.4553869
+        },
+        {
+          "south": 52.403025,
+          "west": -10.6937525,
+          "north": 53.5361513,
+          "east": -7.8615088
+        },
+        {
+          "south": 52.403025,
+          "west": -7.8815088,
+          "north": 53.5361513,
+          "east": -6.4553869
+        },
+        {
+          "south": 52.403025,
+          "west": -6.4753869,
+          "north": 53.5361513,
+          "east": -5.049265
+        },
+        {
+          "south": 51.2898988,
+          "west": -10.6937525,
+          "north": 52.423025,
+          "east": -9.2676306
+        },
+        {
+          "south": 51.2898988,
+          "west": -9.2876306,
+          "north": 52.423025,
+          "east": -7.8615088
+        },
+        {
+          "south": 50.1767725,
+          "west": -7.8815088,
+          "north": 52.423025,
+          "east": -5.049265
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/ireland-and-northern-ireland-cameras.json",
+        "bytes": 2852,
+        "sha256": "67cb78e6b7e6638c6e9fa8b66cbe38f476d0be6cb5c34cbca21e1439a07944bb",
+        "count": 26
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/ireland-and-northern-ireland-passes.json",
+        "bytes": 1751,
+        "sha256": "ed8158855ae84ec898977784d4f692afb7a904ab73d4dc3f9115a9aa18c8868e",
+        "count": 20
+      }
+    }
+  ]
+}
