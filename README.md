@@ -17,8 +17,17 @@ are attached to one release per country (`valhalla-<extract>`).
 - Tiles of two builds are never mixed: every region of a country carries the build's `rev`, and
   the phone keeps each build in a folder of its own.
 
+## Speed cameras and mountain passes
+
+[`points-index.json`](points-index.json) lists, per country, two small files in the `points`
+release: `<extract>-cameras.json` and `<extract>-passes.json`. They are shaped like an Overpass
+answer, so the apps read them with the parsers they use for Overpass, and they replace the
+Overpass lookups wherever a country is covered. `points.yml` rebuilds them every month from the
+same Geofabrik extracts (`scripts/points.py`).
+
 ## Data and licence
 
-The tiles are derived from OpenStreetMap data, © OpenStreetMap contributors, and are made
-available under the [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
+The tiles and the point files are derived from OpenStreetMap data, © OpenStreetMap contributors,
+and are made available under the
+[Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
 Source extracts: [Geofabrik](https://download.geofabrik.de/).

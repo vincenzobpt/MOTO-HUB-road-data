@@ -9,3 +9,4 @@ merge.log
 plan-*.json
 valhalla-index.new.json
 work/
+points-index.new.json

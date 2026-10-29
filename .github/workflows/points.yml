@@ -1,0 +1,125 @@
+name: Speed cameras and passes
+
+# Extracts the speed cameras and mountain passes of each country (scripts/points.py) and
+# publishes them as two small files per extract in the `points` release, listed in
+# points-index.json. The apps read these instead of asking the public Overpass instances.
+
+on:
+  schedule:
+    # Monthly: cameras change far more often than roads.
+    - cron: "41 2 2 * *"
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Upload and update points-index.json (off = dry run, only reports)"
+        type: boolean
+        default: true
+      only:
+        description: "Extract ids, comma separated (empty = all)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.ids.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: ids
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          only = [x.strip() for x in os.environ.get("ONLY", "").split(",") if x.strip()]
+          ids = [e["id"] for e in json.load(open("regions.json"))["extracts"] if not only or e["id"] in only]
+          print("ids=" + json.dumps(ids))
+          PY
+
+  points:
+    needs: list
+    if: needs.list.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.ids) }}
+    env:
+      ID: ${{ matrix.id }}
+      REPO_URL: https://github.com/${{ github.repository }}
+      PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install osmium
+        run: sudo apt-get update && sudo apt-get install -y osmium-tool
+
+      - name: Download the extract
+        run: |
+          url=$(python3 -c "import json,os; print(next(e['source'] for e in json.load(open('regions.json'))['extracts'] if e['id']==os.environ['ID']))")
+          mkdir -p work
+          curl -fsSL --retry 3 -o "work/$ID.osm.pbf" "$url"
+          echo "REV=$(osmium fileinfo -g header.option.osmosis_replication_timestamp work/$ID.osm.pbf | cut -c1-10)" >> "$GITHUB_ENV"
+
+      - name: Extract cameras and passes
+        run: python3 scripts/points.py bake regions.json "$ID" "work/$ID.osm.pbf" dist "$REPO_URL" "$REV"
+
+      - name: Publish
+        if: env.PUBLISH == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view points >/dev/null 2>&1 || \
+            gh release create points --title "Speed cameras and passes" --notes "Speed cameras and mountain passes per country from OpenStreetMap, listed in points-index.json."
+          for file in dist/*-cameras.json dist/*-passes.json; do
+            for attempt in 1 2 3; do
+              gh release upload points "$file" --clobber && break
+              [ "$attempt" = 3 ] && exit 1
+              sleep 20
+            done
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: points-${{ matrix.id }}
+          path: dist/points-${{ matrix.id }}.json
+
+  index:
+    needs: [list, points]
+    if: ${{ !cancelled() && needs.list.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: points-*
+          path: parts
+          merge-multiple: true
+
+      - name: Merge the index
+        run: |
+          mkdir -p parts
+          python3 scripts/points.py merge regions.json points-index.json parts points-index.new.json
+
+      - name: Publish the index
+        if: github.event_name == 'schedule' || inputs.publish
+        run: |
+          cp points-index.new.json points-index.json
+          git add points-index.json
+          if git diff --cached --quiet; then echo "Index unchanged"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update the speed camera and pass index"
+          git pull --rebase -q
+          git push
