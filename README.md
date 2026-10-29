@@ -25,6 +25,14 @@ answer, so the apps read them with the parsers they use for Overpass, and they r
 Overpass lookups wherever a country is covered. `points.yml` rebuilds them every month from the
 same Geofabrik extracts (`scripts/points.py`).
 
+## Points of interest
+
+[`pois-index.json`](pois-index.json) lists one gzipped `<region>-pois.json.gz` per region, in the
+`pois-<extract>` releases: fuel, food, stays, viewpoints, water, services and the other
+categories the apps' map offers, from the same extracts and in the same Overpass-shaped JSON.
+Places without a name are kept only where a rider still wants them (water, toilets, a
+viewpoint...). Built by the same monthly `points.yml`.
+
 ## Data and licence
 
 The tiles and the point files are derived from OpenStreetMap data, © OpenStreetMap contributors,
