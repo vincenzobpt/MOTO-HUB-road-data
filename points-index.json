@@ -932,6 +932,33 @@
       }
     },
     {
+      "id": "monaco",
+      "rev": "2026-10-28",
+      "countries": [
+        "MC"
+      ],
+      "boxes": [
+        {
+          "south": 43.473817,
+          "west": 7.398583,
+          "north": 43.76293,
+          "east": 7.605671
+        }
+      ],
+      "cameras": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/monaco-cameras.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      },
+      "passes": {
+        "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/monaco-passes.json",
+        "bytes": 15,
+        "sha256": "a91d7cc1eff74cb5a904d6073dd7724daedc69c4d432de62a1630a2e51bf94a6",
+        "count": 0
+      }
+    },
+    {
       "id": "albania",
       "rev": "2026-10-28",
       "countries": [
