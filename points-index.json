@@ -3,7 +3,7 @@
   "extracts": [
     {
       "id": "portugal",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "PT"
       ],
@@ -144,7 +144,7 @@
     },
     {
       "id": "italy",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "IT"
       ],
@@ -812,20 +812,20 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/italy-cameras.json",
-        "bytes": 535658,
-        "sha256": "8a7a325b6c54ca0532956a27eea01c435ccd8923e31cbff776744ef0aa6fe73c",
-        "count": 5303
+        "bytes": 536002,
+        "sha256": "4e3b6b01dc897ce7f5e59139b31a085fd2b3c85c4994bcf11690adcbe1adc545",
+        "count": 5306
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/italy-passes.json",
-        "bytes": 432269,
-        "sha256": "3a0bbb9577a3d5b65d835b0f862cdcd70dd977764ce4f307bab6f924ff80f52d",
+        "bytes": 432270,
+        "sha256": "eabb23c85cf3b2b5d044733efa891f84df35507975245c494d6e2f96eee81e5e",
         "count": 4316
       }
     },
     {
       "id": "andorra",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "AD"
       ],
@@ -852,7 +852,7 @@
     },
     {
       "id": "liechtenstein",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "LI"
       ],
@@ -879,7 +879,7 @@
     },
     {
       "id": "luxembourg",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "LU"
       ],
@@ -906,7 +906,7 @@
     },
     {
       "id": "malta",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "MT"
       ],
@@ -933,7 +933,7 @@
     },
     {
       "id": "monaco",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "MC"
       ],
@@ -960,7 +960,7 @@
     },
     {
       "id": "albania",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "AL"
       ],
@@ -980,9 +980,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/albania-cameras.json",
-        "bytes": 2218,
-        "sha256": "7ecb881036a3751e208723e2a6761a5a1786cb550e314b6cb285dc76c441e9ac",
-        "count": 22
+        "bytes": 2422,
+        "sha256": "d065ff4fddaf486ac4713cdc6909d3dc7f8c78b49c5646fdd6340cfccbf96818",
+        "count": 24
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/albania-passes.json",
@@ -993,7 +993,7 @@
     },
     {
       "id": "austria",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "AT"
       ],
@@ -1073,20 +1073,20 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/austria-cameras.json",
-        "bytes": 147458,
-        "sha256": "3459a54f686985fb03ce4b0d771dee7f18e8590646019471ee1307a7564892ba",
-        "count": 1441
+        "bytes": 147629,
+        "sha256": "b24200723f7e0e14580e8cd41f6ab5e7bf68a20add10a5d92e05e2e91fde3dd3",
+        "count": 1442
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/austria-passes.json",
-        "bytes": 109177,
-        "sha256": "7da1ded30999cdfd05645866f931f8758685b3a8f9d00809b8958c2ab198504f",
+        "bytes": 109178,
+        "sha256": "28b9933d47476872ed919b08c1b7238af56a61f76f970d2acdd06e5bf28b9465",
         "count": 1123
       }
     },
     {
       "id": "belarus",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "BY"
       ],
@@ -1118,9 +1118,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belarus-cameras.json",
-        "bytes": 63811,
-        "sha256": "e69223eb501d1ac2ef6f08469f9fb6997a176d93533939ff88c6242d19c8004f",
-        "count": 576
+        "bytes": 63690,
+        "sha256": "5d643b52f69d259979c8c76dde24cbade2983f9098864d5065a0d2a3b1689004",
+        "count": 575
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belarus-passes.json",
@@ -1131,7 +1131,7 @@
     },
     {
       "id": "belgium",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "BE"
       ],
@@ -1187,20 +1187,20 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belgium-cameras.json",
-        "bytes": 165941,
-        "sha256": "6f5e887f1730395bcf5fb84175cc863673204437853663caf3e2af7ede3aeb76",
-        "count": 1628
+        "bytes": 166884,
+        "sha256": "53e9b1a16aa13623be8af3083deb0dd0860e88ab48f3508f7d7b85e4fce97e03",
+        "count": 1636
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/belgium-passes.json",
-        "bytes": 5415,
-        "sha256": "f8dd410ae33d1d3650cc5be0527d2d33e2974099caed681e11e04dea1dc1b4aa",
-        "count": 54
+        "bytes": 5509,
+        "sha256": "0d8179e8e30c2c119415f0b5b0319bf081fab915f4b35027f70d936a53628356",
+        "count": 55
       }
     },
     {
       "id": "bosnia-herzegovina",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "BA"
       ],
@@ -1257,7 +1257,7 @@
     },
     {
       "id": "bulgaria",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "BG"
       ],
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "croatia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "HR"
       ],
@@ -1340,9 +1340,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/croatia-cameras.json",
-        "bytes": 115427,
-        "sha256": "db3b9c0334075cc689cb5c4aaff8cd0cd0d3421f3d42837719f7d2d4a8a4b364",
-        "count": 1041
+        "bytes": 115551,
+        "sha256": "697852cc51c741ece031da883f486d90ed191ac7005c7ac1ba9fa7747c5b1e90",
+        "count": 1042
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/croatia-passes.json",
@@ -1353,7 +1353,7 @@
     },
     {
       "id": "cyprus",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "CY"
       ],
@@ -1380,7 +1380,7 @@
     },
     {
       "id": "czech-republic",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "CZ"
       ],
@@ -1449,7 +1449,7 @@
     },
     {
       "id": "denmark",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "DK"
       ],
@@ -1506,7 +1506,7 @@
     },
     {
       "id": "estonia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "EE"
       ],
@@ -1545,7 +1545,7 @@
     },
     {
       "id": "faroe-islands",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "FO"
       ],
@@ -1572,7 +1572,7 @@
     },
     {
       "id": "finland",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "FI"
       ],
@@ -1670,9 +1670,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/finland-cameras.json",
-        "bytes": 97018,
-        "sha256": "d9eb09410f8dab407ff814b4f51c7840f8738df247a2e21f716698e2fabd794c",
-        "count": 931
+        "bytes": 97191,
+        "sha256": "94eef0644e81ab5fc3bc8202de38c64a20b141d4ef42c98804691d08e8c2e269",
+        "count": 933
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/finland-passes.json",
@@ -1683,7 +1683,7 @@
     },
     {
       "id": "france",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "FR"
       ],
@@ -2195,20 +2195,20 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/france-cameras.json",
-        "bytes": 408090,
-        "sha256": "48cbe2ff38728d08261045147a427997b7376864e280727a7f23791e15fd449d",
-        "count": 3930
+        "bytes": 407971,
+        "sha256": "35c8ef8ee8085b0ea39d806fda03fad10a47a8c0f4e9527006e98dffcb645388",
+        "count": 3929
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/france-passes.json",
-        "bytes": 387866,
-        "sha256": "6fd99107714d217719f6c3b28a674b56d359c3034601705914812eaac13457e9",
+        "bytes": 387867,
+        "sha256": "a1561dc1765d62b886424861a71079c1affc5d750b7c805fe954685956c50ee5",
         "count": 3991
       }
     },
     {
       "id": "germany",
-      "rev": "2026-10-28",
+      "rev": "2026-10-31",
       "countries": [
         "DE"
       ],
@@ -2552,20 +2552,20 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/germany-cameras.json",
-        "bytes": 564104,
-        "sha256": "5f0bdd5b9cf7cd850a4aae9c915250876b079be57d4325789306821a5fd5c545",
-        "count": 5206
+        "bytes": 564502,
+        "sha256": "76d3e37c4eb05552f799be2e273498bbabf68b87607b1ea9fe610349176481a9",
+        "count": 5209
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/germany-passes.json",
-        "bytes": 30712,
-        "sha256": "051a83bcb1cb71fa4d878639b0cd80a4a254138fc149bc2b3c90936e8c73721a",
-        "count": 323
+        "bytes": 30601,
+        "sha256": "2762c8fd884c73e7bed472c075e66851944dc423b0112cbbbc72e994bf493ef1",
+        "count": 322
       }
     },
     {
       "id": "great-britain",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "GB"
       ],
@@ -2867,8 +2867,8 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/great-britain-cameras.json",
-        "bytes": 366691,
-        "sha256": "3922674a513ffe3a9349b424383f8b8aa8d76a9655649b73ad314a8d86eb7e3e",
+        "bytes": 366692,
+        "sha256": "b2b188d5a766f2c27ba724e3e515de503f5615ef4c1ff78af1761161297903f0",
         "count": 3524
       },
       "passes": {
@@ -2880,7 +2880,7 @@
     },
     {
       "id": "greece",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "GR"
       ],
@@ -3002,9 +3002,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/greece-cameras.json",
-        "bytes": 38935,
-        "sha256": "dcc2a4f06aba3d9533e10a196ca11a533e450b521e916bda9702bf5ded16f6c8",
-        "count": 425
+        "bytes": 38815,
+        "sha256": "8768ccbcc7eeff353109ce8eee2796894855180f2623f64fcd9eaae17dd779f3",
+        "count": 424
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/greece-passes.json",
@@ -3015,7 +3015,7 @@
     },
     {
       "id": "guernsey-jersey",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "GG"
       ],
@@ -3042,7 +3042,7 @@
     },
     {
       "id": "hungary",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "HU"
       ],
@@ -3068,9 +3068,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/hungary-cameras.json",
-        "bytes": 46413,
-        "sha256": "5a7d95d6b191f694265cb2a8b0885b77b1b1cc81e00d58f28d574a0bba5e3abb",
-        "count": 430
+        "bytes": 47544,
+        "sha256": "91425b421f5bd444df580c50447a9e7306d24aa3d9f8fd2f6c8a04440b2741e0",
+        "count": 428
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/hungary-passes.json",
@@ -3081,7 +3081,7 @@
     },
     {
       "id": "iceland",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "IS"
       ],
@@ -3108,7 +3108,7 @@
     },
     {
       "id": "isle-of-man",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "IM"
       ],
@@ -3135,7 +3135,7 @@
     },
     {
       "id": "kosovo",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "XK"
       ],
@@ -3162,7 +3162,7 @@
     },
     {
       "id": "latvia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "LV"
       ],
@@ -3201,7 +3201,7 @@
     },
     {
       "id": "lithuania",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "LT"
       ],
@@ -3240,7 +3240,7 @@
     },
     {
       "id": "macedonia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "MK"
       ],
@@ -3254,8 +3254,8 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/macedonia-cameras.json",
-        "bytes": 17098,
-        "sha256": "35442d1d08a8d366af4c3eb894378516e4105b4b7e3ae4e22d4e133b985d3d4b",
+        "bytes": 17114,
+        "sha256": "164ba9f70e040101d96983224dd6ceabc1ecd5fc5525d55f80731b378ae5f63c",
         "count": 178
       },
       "passes": {
@@ -3267,7 +3267,7 @@
     },
     {
       "id": "moldova",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "MD"
       ],
@@ -3300,7 +3300,7 @@
     },
     {
       "id": "montenegro",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "ME"
       ],
@@ -3327,7 +3327,7 @@
     },
     {
       "id": "netherlands",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "NL"
       ],
@@ -3407,9 +3407,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/netherlands-cameras.json",
-        "bytes": 88623,
-        "sha256": "55d4269f17bed3d947c8b5497cce32782dc66f97cf20fff7fb7b9a47572a882b",
-        "count": 892
+        "bytes": 89374,
+        "sha256": "572a20ca9a4e6ffc7f127a5629ff407892f55190e3642d4ac78c4e4dcf55552e",
+        "count": 897
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/netherlands-passes.json",
@@ -3420,7 +3420,7 @@
     },
     {
       "id": "norway",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "NO"
       ],
@@ -3585,7 +3585,7 @@
     },
     {
       "id": "poland",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "PL"
       ],
@@ -3755,8 +3755,8 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/poland-cameras.json",
-        "bytes": 70121,
-        "sha256": "fd6dbba909074f6b596d25fabff3ec2459db9f34e48ad21df480fb4d4afec2dc",
+        "bytes": 70143,
+        "sha256": "f8f2c0045458652f6f15b0404f429e266c29539b2a5d63fe6a799f08a427b8b4",
         "count": 667
       },
       "passes": {
@@ -3768,7 +3768,7 @@
     },
     {
       "id": "romania",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "RO"
       ],
@@ -3848,9 +3848,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/romania-cameras.json",
-        "bytes": 40452,
-        "sha256": "7fae5e0771a82a6e5d1ba85d6086381060e55956d698668a2e918a7eb9f098c3",
-        "count": 355
+        "bytes": 40539,
+        "sha256": "3ef6962f7ab03409df7816c5f9ef61502b2cc28d165da78f06ab424e316c58ed",
+        "count": 356
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/romania-passes.json",
@@ -3861,7 +3861,7 @@
     },
     {
       "id": "serbia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "RS"
       ],
@@ -3929,9 +3929,9 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/serbia-cameras.json",
-        "bytes": 51456,
-        "sha256": "021efe348e29e977c86bfff01c17262b53cb97436e4d793315069319a3bedb7f",
-        "count": 434
+        "bytes": 55101,
+        "sha256": "d9bde62c8db963831a1af11dcbe5163e831a91f884cd9ffbda1482f2485a0459",
+        "count": 463
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/serbia-passes.json",
@@ -3942,7 +3942,7 @@
     },
     {
       "id": "slovakia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "SK"
       ],
@@ -3975,13 +3975,13 @@
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/slovakia-passes.json",
         "bytes": 8456,
-        "sha256": "280adfcb9357376f85db237ecde3c4573d28b8e325b25053cfe23ff764e56336",
+        "sha256": "35a985f3559bfe51d9ef522cea5024ecd68391e29c62af1159b23cc3c2df1080",
         "count": 88
       }
     },
     {
       "id": "slovenia",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "SI"
       ],
@@ -4032,7 +4032,7 @@
     },
     {
       "id": "spain",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "ES"
       ],
@@ -4256,20 +4256,20 @@
       ],
       "cameras": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/spain-cameras.json",
-        "bytes": 277643,
-        "sha256": "6b5db49e2ca1f8a5e18b0929a251160aef4200fa13cfd26fb0b343ea0b88e030",
-        "count": 2503
+        "bytes": 277849,
+        "sha256": "4cf4e727d26b6db7099daa8ab9e86a4107ccfd74d262e863f6d6efe3ae54c175",
+        "count": 2505
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/spain-passes.json",
-        "bytes": 354753,
-        "sha256": "e0a6accb35e6497c7542455d282b2f8d039766cc8209c7cf711e6fff4db632e4",
-        "count": 3649
+        "bytes": 354953,
+        "sha256": "33928a9f9d98d256861e88c85465fcc34bafae9a1ed0282f3e7b4e0ccabb0365",
+        "count": 3651
       }
     },
     {
       "id": "sweden",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "SE"
       ],
@@ -4410,7 +4410,7 @@
     },
     {
       "id": "switzerland",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "CH"
       ],
@@ -4478,14 +4478,14 @@
       },
       "passes": {
         "url": "https://github.com/vincenzobpt/MOTO-HUB-road-data/releases/download/points/switzerland-passes.json",
-        "bytes": 79333,
-        "sha256": "dd586dfe300a5065780f316f71aaa0a6e80dbd49e44d91b0b12833560002b474",
+        "bytes": 79334,
+        "sha256": "c2edba73d0f7beb02fe363ad175bd6b39a5dacb3084c1d94a6aa7a2284ef8a46",
         "count": 824
       }
     },
     {
       "id": "ukraine",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "UA"
       ],
@@ -4596,7 +4596,7 @@
     },
     {
       "id": "ireland-and-northern-ireland",
-      "rev": "2026-10-28",
+      "rev": "2026-11-01",
       "countries": [
         "GB",
         "IE"
