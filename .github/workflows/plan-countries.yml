@@ -1,7 +1,9 @@
 name: Plan countries
 
 # Cuts each country into regions of a sensible size (scripts/plan_country.py), records them in
-# regions.json and, when asked, starts the bake that builds and publishes the graphs.
+# regions.json and, when asked, starts the Valhalla build that publishes the tiles. Speed cameras,
+# passes and POIs for the new countries follow on the next monthly points.yml run (or start it by hand).
+# Only one run can wait in the "data" group, so this starts one workflow, not two.
 # Nothing runs on a laptop.
 
 on:
@@ -11,7 +13,7 @@ on:
         description: "Country extract ids from countries.json, comma separated, or 'pending' for those not planned yet"
         default: "pending"
       action:
-        description: "plan = only show the regions (download the plan-* artifacts to review); save = also commit them to regions.json; publish = save, then bake and publish"
+        description: "plan = only show the regions (download the plan-* artifacts to review); save = also commit them to regions.json; publish = save, then build and publish the Valhalla tiles"
         type: choice
         options: [plan, save, publish]
         default: plan
@@ -119,6 +121,6 @@ jobs:
           git pull --rebase -q
           git push
 
-      - name: Start the bake
+      - name: Start the Valhalla build
         if: inputs.action == 'publish' && steps.merge.outputs.ids != ''
-        run: gh workflow run bake.yml -f publish=true -f "only=${{ steps.merge.outputs.ids }}"
+        run: gh workflow run valhalla.yml -f publish=true -f "only=${{ steps.merge.outputs.ids }}"
